@@ -1,4 +1,5 @@
-const TODAY = (() => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); })();
+const midnight = () => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); };
+const TODAY = midnight();   /* for chart geometry only; days() re-reads the clock */
 /* ISO 'YYYY-MM-DD' parses as UTC via new Date(); parse as LOCAL so dots and day-counts agree. */
 const pd = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
 const CATS = [['government','Government'],['state','State / CPRIT'],['institutional','Institutional / BCM'],
@@ -18,7 +19,8 @@ function saveProfile(p){ try { localStorage.setItem(PROFILE_KEY, JSON.stringify(
 let PROFILE = loadProfile();
 
 let DATA = [], CHANGELOG = {entries:[]}, GENERATED = '';
-function days(d){ if(!d) return null; return Math.round((pd(d) - TODAY)/864e5); }
+/* Re-read midnight per call so a tab left open overnight does not keep yesterday's counts. */
+function days(d){ if(!d) return null; return Math.round((pd(d) - midnight())/864e5); }
 function normalize(raw){
   return raw.map((g, idx) => ({
     idx,
@@ -204,9 +206,11 @@ function render(){
   tb.innerHTML = rows.map(r=>{
     const i=r.idx, v=resolve(r), b=band(r.do);
     const stripe={crit:'var(--crit)',soon:'var(--soon)',range:'var(--range)',later:'var(--line-strong)',roll:'var(--ok)',past:'var(--line-strong)'}[b];
+    // readable text colour; the stripe tint above is decorative and fails contrast at 11px
+    const dcol={crit:'var(--crit)',soon:'var(--soon)',range:'var(--range)'}[b] || 'var(--muted)';
     const vpill={eligible:['p-ok','clear'],'needs-check':['p-later','check'],'track-gated':['p-soon','track-gated'],'ruled-out':['p-crit','ruled out']}[v]
       || ['p-later', v||'unknown'];
-    const dl = r.d ? `<div class="dl">${fmt(r.d)}</div><div class="days" style="color:${stripe}">${
+    const dl = r.d ? `<div class="dl">${fmt(r.d)}</div><div class="days" style="color:${dcol}">${
         r.do<0?Math.abs(r.do)+' days ago':r.do===0?'today':'in '+r.do+' days'}${r.loi&&r.loi===r.d?' · LOI':''}</div>`
       : `<div class="dl" style="color:var(--muted)">${r.cy==='rolling'?'rolling':'not posted'}</div>`;
     let html=`<tr class="row" data-i="${i}" tabindex="0" role="button" aria-expanded="${open.has(i)}">
@@ -338,6 +342,8 @@ function boot(){
   document.querySelectorAll('[data-track]').forEach(b=>
     b.setAttribute('aria-pressed', String(b.dataset.track===PROFILE.track)));
   const g=document.getElementById('gen'); if(g) g.textContent=fmt(GENERATED)||GENERATED;
+  document.querySelectorAll('[data-total]').forEach(n=>n.textContent=DATA.length);
+  document.querySelectorAll('[data-generated]').forEach(n=>n.textContent=fmt(GENERATED)||GENERATED);
   syncSort(); redraw(); changelog();
 }
 

@@ -2,6 +2,25 @@
  "entries": [
   {
    "date": "2026-09-03",
+   "kind": "fix",
+   "summary": "Published to GitHub Pages. Front-end defects corrected and four records fixed against the refresh rules.",
+   "added": 0,
+   "changed": 4,
+   "retired": 0,
+   "details": [
+    "cprit-rft: track_gate 'requires NON-tenure-track' cleared; the RFA recruits tenure-track faculty and the record is ruled out on rank, so the gate banner stated the inverse of the truth.",
+    "nih-rse-r50: next_deadline 2026-12-04 to 2026-11-04, its required LOI date, which had overstated lead time by 30 days.",
+    "conquer-cancer-yia-special-competitions: loi_deadline set to 2027-01-28, the first-wave RFP date next_deadline already pointed at but no dated field held.",
+    "hope-funds-postdoctoral-fellowship: url moved from http to https.",
+    "Site: the timeline month filter could not be cleared, so a later search could return zero rows with nothing explaining why; all active filters are now removable tokens.",
+    "Site: clicking the Program column header threw a TypeError and left the table unsorted.",
+    "Site: day counts drifted by one after local noon, moving three records into the wrong urgency tile.",
+    "Site: the timeline window was pinned to Sep 2026 - Oct 2027 and now tracks the current month.",
+    "Five mechanisms remain entered twice, once as a standing program and once as a posted cycle; see the reconciliation task in REFRESH.md."
+   ]
+  },
+  {
+   "date": "2026-09-03",
    "kind": "build",
    "summary": "Initial build. 228 mechanisms compiled across six funder buckets from sponsor pages, program announcement PDFs, and Grants.gov.",
    "added": 228,

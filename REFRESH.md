@@ -75,6 +75,9 @@ Before committing, in `data/grants.json`:
 CI asserts `count == len(grants)` and fails the deploy before the Pages steps run if they
 disagree. This is the single most likely way to break the site.
 
+The site header and footer read their totals from the data, so they need no edit. `README.md`
+states the record count in prose, though — update it there when the count changes.
+
 ## 8. Record the change
 
 **Prepend** one entry to the `entries` array in `data/changelog.json` — newest first. The site
@@ -133,3 +136,11 @@ $450,000 award reads as having no deadline.
 
 Decide per pair: merge into one record keeping both sets of notes, or keep both and make the
 relationship explicit in `notes`. Then update `count` per step 7.
+
+## Open scoring question
+
+`nih-standard-due-dates-reference` is a calendar of NIH standard due dates, not a fundable
+mechanism, but it carries `verdict: "eligible"` and `fit: 91`, which ranks it above most real
+opportunities under the default best-fit sort. It is genuinely useful as a reference, so it
+should not simply be deleted. Either drop its `fit` so it stops competing for the top of the
+table, or give reference rows a category of their own. Left as-is pending that call.

@@ -29,7 +29,7 @@
 }
 @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
   --navy:#8FAEE0; --accent:#7FA0D8; --accent-soft:#5B7BC0;
-  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#78839A;
+  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#8B95AB;
   --ground:#0C1220; --panel:#121A2B; --panel-2:#182238; --panel-3:#1F2B45;
   --line:#26324B; --line-strong:#354461;
   --crit:#E58A8A; --crit-bg:#2C1618; --soon:#DDAE5B; --soon-bg:#2A2114;
@@ -39,7 +39,7 @@
 }}
 :root[data-theme="dark"]{
   --navy:#8FAEE0; --accent:#7FA0D8; --accent-soft:#5B7BC0;
-  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#78839A;
+  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#8B95AB;
   --ground:#0C1220; --panel:#121A2B; --panel-2:#182238; --panel-3:#1F2B45;
   --line:#26324B; --line-strong:#354461;
   --crit:#E58A8A; --crit-bg:#2C1618; --soon:#DDAE5B; --soon-bg:#2A2114;
@@ -147,7 +147,8 @@ select:focus{outline:2px solid var(--accent);outline-offset:-1px}
 #clearall:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 tbody tr.row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 thead th:focus-visible{outline:2px solid #fff;outline-offset:-3px}
-.tablewrap{border:1px solid var(--line);border-radius:3px;overflow-x:auto;background:var(--panel)}
+.tablewrap{border:1px solid var(--line);border-radius:3px;overflow:auto;background:var(--panel);
+  max-height:calc(100vh - 40px);overscroll-behavior:contain}
 table{width:100%;border-collapse:collapse;font-size:13px;min-width:940px}
 thead th{position:sticky;top:0;z-index:2;background:var(--navy);color:#fff;text-align:left;
   font-size:10.5px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;
@@ -183,7 +184,8 @@ td.prog{max-width:400px}
 /* ---------- detail ---------- */
 tr.detail>td{padding:0;background:var(--panel-2);border-top:1px solid var(--line)}
 .dt{padding:18px 22px 20px;display:grid;grid-template-columns:1fr 320px;gap:26px}
-@media(max-width:860px){.dt{grid-template-columns:1fr}}
+@media(max-width:860px){.dt{grid-template-columns:1fr;position:sticky;left:0;
+  max-width:calc(100vw - 34px);padding:16px 16px 18px}}
 .dt h4{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
   color:var(--faint);margin:0 0 6px;font-weight:500}
 .dt p{margin:0 0 15px;font-size:13px;line-height:1.6;max-width:72ch}
@@ -205,10 +207,10 @@ a.src:hover{color:var(--ink);border-color:var(--ink)}
 footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
   font-size:11.5px;color:var(--faint);line-height:1.75;max-width:96ch}
 footer b{color:var(--muted);font-weight:600}
-.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--ground);
+.tip{position:fixed;visibility:hidden;pointer-events:none;background:var(--ink);color:var(--ground);
   padding:7px 10px;border-radius:3px;font-size:11.5px;max-width:270px;z-index:99;
   box-shadow:var(--shadow);opacity:0;transition:opacity .1s;line-height:1.4}
-.tip.on{opacity:1}
+.tip.on{opacity:1;visibility:visible}
 .tip .tm{font-family:var(--mono);font-size:10px;opacity:.7;display:block;margin-top:2px}
 
 .tag.rip{color:var(--crit);border-color:var(--crit)}
@@ -236,7 +238,7 @@ code{font-family:var(--mono);font-size:.92em;background:var(--panel-3);padding:1
   <div class="mast-in">
     <p class="eyebrow">Baylor College of Medicine &middot; Data refreshed <span id="gen">loading…</span></p>
     <h1>Breast cancer grant <em>runway</em></h1>
-    <p class="sub"><b>228 funding mechanisms</b> across foundations, trial funders, professional organizations,
+    <p class="sub"><b><span data-total>228</span> funding mechanisms</b> across foundations, trial funders, professional organizations,
       BCM institutional, CPRIT, and federal sponsors — scored against ER+/HER2+ translational and clinical work,
       screened against your career stage, and dated from each sponsor's own page.</p>
     <div class="profile">
@@ -322,13 +324,13 @@ code{font-family:var(--mono);font-size:.92em;background:var(--panel-3);padding:1
 
   <footer>
     <b>How to read this.</b> Fit weights ER+/HER2+ relevance, overlap with your four research angles, award ceiling, deadline proximity, and eligibility standing. It ranks; it does not decide.
-    <b>Confidence.</b> <span style="font-family:var(--mono)">verified</span> means a date was read on the sponsor's own page, program announcement PDF, or Grants.gov on 3 September 2026. <span style="font-family:var(--mono)">projected</span> means only the prior cycle was found and the date is inferred. <span style="font-family:var(--mono)">unverified</span> means the page could not be reached, usually a login wall — the mechanism is real, the timing is not established. Open every source link before committing effort.
+    <b>Confidence.</b> <span style="font-family:var(--mono)">verified</span> means a date was read on the sponsor's own page, program announcement PDF, or Grants.gov on <span data-generated>3 September 2026</span>. <span style="font-family:var(--mono)">projected</span> means only the prior cycle was found and the date is inferred. <span style="font-family:var(--mono)">unverified</span> means the page could not be reached, usually a login wall — the mechanism is real, the timing is not established. Open every source link before committing effort.
     <b>Two federal corrections.</b> DOD BCRP Breakthrough Levels 3 and 4 show a 30 September 2026 full-application deadline, but the pre-application closed 12 June and entry is shut unless one was filed. FY27 BCRP is not appropriated and has no dates. <b>Your appointment track</b> gates twenty awards in both directions and is the single highest-leverage thing to confirm.
     <b>Programs that stop</b> are marked retired with a date rather than deleted, so a discontinued mechanism is never silently researched again.
     <b>Your eligibility profile</b> is stored in this browser only and is never committed to the repository.
   </footer>
 </main>
-<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<div class="tip" id="tip" aria-hidden="true"></div>
 
 <script src="app.js"></script>
 </body>
