@@ -1,0 +1,19 @@
+{
+ "entries": [
+  {
+   "date": "2026-09-03",
+   "kind": "build",
+   "summary": "Initial build. 228 mechanisms compiled across six funder buckets from sponsor pages, program announcement PDFs, and Grants.gov.",
+   "added": 228,
+   "changed": 0,
+   "retired": 0,
+   "details": [
+    "DOD BCRP Breakthrough L3/L4 marked gated: pre-application closed 2026-06-12.",
+    "BCRP Breakthrough L1/L2 and Clinical Research Extension downgraded to projected, dates unconfirmed.",
+    "FY27 BCRP not appropriated, no dates exist.",
+    "CPRIT FY2027 Cycle 2 confirmed directly from cprit.texas.gov, all due 2026-11-18.",
+    "NCI no longer publishes paylines; NIH Unified Funding Strategy replaced them January 2026."
+   ]
+  }
+ ]
+}

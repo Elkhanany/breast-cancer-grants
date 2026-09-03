@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A continuously refreshed database of breast cancer translational and clinical research funding, with deadlines, eligibility, and source links.">
+<style>html{color-scheme:light dark}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23002060'/%3E%3Cpath d='M9 23 L16 8 L23 23' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='18' r='2.4' fill='%23fff'/%3E%3C/svg%3E">
+<title>Breast Cancer Grant Runway</title>
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --navy:#002060; --accent:#2B4A8A; --accent-soft:#5B7BC0;
+  --ink:#141A26; --body:#1B1B2B; --muted:#5F6775; --faint:#646C7B;
+  --ground:#FBFCFD; --panel:#FFFFFF; --panel-2:#F2F4F8; --panel-3:#E7EBF3;
+  --line:#DCE2EC; --line-strong:#C3CCDB;
+  --crit:#8C2D2D; --crit-bg:#FAEDED; --soon:#8A5A08; --soon-bg:#FBF3E4;
+  --range:#2B4A8A; --range-bg:#EDF1F9; --later:#5F6775; --later-bg:#F1F3F6;
+  --ok:#1F5C3A; --ok-bg:#EAF3EE;
+  --shadow:0 1px 2px rgba(20,26,38,.05), 0 4px 14px rgba(20,26,38,.05);
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --navy:#8FAEE0; --accent:#7FA0D8; --accent-soft:#5B7BC0;
+  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#78839A;
+  --ground:#0C1220; --panel:#121A2B; --panel-2:#182238; --panel-3:#1F2B45;
+  --line:#26324B; --line-strong:#354461;
+  --crit:#E58A8A; --crit-bg:#2C1618; --soon:#DDAE5B; --soon-bg:#2A2114;
+  --range:#8FAEE0; --range-bg:#16223A; --later:#9BA6B8; --later-bg:#182030;
+  --ok:#79C79B; --ok-bg:#12241B;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --navy:#8FAEE0; --accent:#7FA0D8; --accent-soft:#5B7BC0;
+  --ink:#EEF2F8; --body:#DDE4EF; --muted:#9BA6B8; --faint:#78839A;
+  --ground:#0C1220; --panel:#121A2B; --panel-2:#182238; --panel-3:#1F2B45;
+  --line:#26324B; --line-strong:#354461;
+  --crit:#E58A8A; --crit-bg:#2C1618; --soon:#DDAE5B; --soon-bg:#2A2114;
+  --range:#8FAEE0; --range-bg:#16223A; --later:#9BA6B8; --later-bg:#182030;
+  --ok:#79C79B; --ok-bg:#12241B;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--body);font-family:var(--sans);
+  font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1500px;margin:0 auto;padding:0 24px 72px}
+
+/* ---------- masthead ---------- */
+header.mast{border-bottom:1px solid var(--line);background:var(--panel);
+  padding:26px 0 0;margin-bottom:22px}
+.mast-in{max-width:1500px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 8px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.2vw,46px);line-height:1.04;
+  margin:0 0 6px;color:var(--ink);text-wrap:balance;letter-spacing:-.005em}
+h1 em{font-style:italic;color:var(--accent)}
+.sub{color:var(--muted);font-size:14.5px;max-width:70ch;margin:0 0 20px}
+.sub b{color:var(--body);font-weight:600}
+
+/* ---------- profile bar ---------- */
+.profile{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;
+  padding:13px 16px;background:var(--panel-2);border:1px solid var(--line);
+  border-radius:3px;margin-bottom:18px}
+.pf{display:flex;align-items:baseline;gap:8px;font-size:12.5px}
+.pf .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.pf .v{color:var(--body);font-weight:600}
+.trackpick{display:flex;gap:0;border:1px solid var(--line-strong);border-radius:3px;overflow:hidden}
+.trackpick button{font:inherit;font-size:11.5px;font-weight:600;padding:5px 11px;border:0;cursor:pointer;
+  background:var(--panel);color:var(--muted);border-right:1px solid var(--line);transition:.12s}
+.trackpick button:last-child{border-right:0}
+.trackpick button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.trackpick button:hover:not([aria-pressed="true"]){background:var(--panel-3);color:var(--body)}
+.trackpick button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+/* ---------- urgency strip ---------- */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:0;
+  border:1px solid var(--line);border-radius:3px;overflow:hidden;margin-bottom:22px;background:var(--panel)}
+.st{padding:14px 16px;border-right:1px solid var(--line);cursor:pointer;transition:.12s;
+  border-left:3px solid transparent}
+.st:last-child{border-right:0}
+.st:hover{background:var(--panel-2)}
+.st[aria-pressed="true"]{background:var(--panel-2)}
+.st .n{font-family:var(--mono);font-size:27px;font-weight:600;line-height:1;
+  font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.st .l{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.35}
+.st.crit{border-left-color:var(--crit)} .st.crit .n{color:var(--crit)}
+.st.soon{border-left-color:var(--soon)} .st.soon .n{color:var(--soon)}
+.st.range{border-left-color:var(--range)} .st.range .n{color:var(--range)}
+.st.later{border-left-color:var(--later)} .st.later .n{color:var(--later)}
+.st.roll{border-left-color:var(--ok)} .st.roll .n{color:var(--ok)}
+
+/* ---------- runway ---------- */
+.runway{background:var(--panel);border:1px solid var(--line);border-radius:3px;
+  padding:18px 20px 8px;margin-bottom:22px;position:relative}
+.rw-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;gap:16px;flex-wrap:wrap}
+.rw-title{font-family:var(--serif);font-size:19px;color:var(--ink)}
+.rw-note{font-size:11.5px;color:var(--faint);font-family:var(--mono)}
+.rw-scroll{overflow-x:auto;padding-bottom:6px}
+svg.rw{display:block;min-width:900px}
+.rw text{font-family:var(--mono);font-size:9.5px;fill:var(--faint)}
+.rw text.mo{font-size:10px;fill:var(--muted)}
+.rw .gl{stroke:var(--line);stroke-width:1}
+.rw .base{stroke:var(--line-strong);stroke-width:1}
+.rw circle{cursor:pointer;transition:.12s}
+.rw circle:hover{stroke:var(--ink);stroke-width:1.5}
+
+/* ---------- controls ---------- */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.search{flex:1 1 260px;min-width:200px;position:relative}
+.search input{width:100%;font:inherit;font-size:13.5px;padding:9px 12px 9px 32px;
+  border:1px solid var(--line-strong);border-radius:3px;background:var(--panel);color:var(--body)}
+.search input:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:var(--accent)}
+.search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);opacity:.45}
+select{font:inherit;font-size:12.5px;padding:8px 10px;border:1px solid var(--line-strong);
+  border-radius:3px;background:var(--panel);color:var(--body);cursor:pointer}
+select:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.chip{font:inherit;font-size:11.5px;font-weight:500;padding:5px 11px;border-radius:99px;cursor:pointer;
+  border:1px solid var(--line-strong);background:var(--panel);color:var(--muted);transition:.12s}
+.chip:hover{border-color:var(--accent-soft);color:var(--body)}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+:root[data-theme="dark"] .chip[aria-pressed="true"]{color:#0C1220}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip[aria-pressed="true"]{color:#0C1220}}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip .c{font-family:var(--mono);opacity:.6;margin-left:5px;font-size:10.5px}
+
+/* ---------- table ---------- */
+.active{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 14px;
+  padding:9px 12px;background:var(--range-bg);border:1px solid var(--line);border-radius:3px}
+.active .lab{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tok{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:500;
+  background:var(--panel);border:1px solid var(--line-strong);border-radius:99px;padding:3px 6px 3px 11px;color:var(--body)}
+.tok b{font-weight:600}
+.tok button{font:inherit;font-size:13px;line-height:1;cursor:pointer;border:0;background:transparent;
+  color:var(--muted);padding:1px 4px;border-radius:99px}
+.tok button:hover{background:var(--crit-bg);color:var(--crit)}
+.tok button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+#clearall{font:inherit;font-size:11.5px;font-weight:600;cursor:pointer;border:0;background:transparent;
+  color:var(--accent);text-decoration:underline;padding:3px 4px;margin-left:auto}
+#clearall:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+tbody tr.row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+thead th:focus-visible{outline:2px solid #fff;outline-offset:-3px}
+.tablewrap{border:1px solid var(--line);border-radius:3px;overflow-x:auto;background:var(--panel)}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:940px}
+thead th{position:sticky;top:0;z-index:2;background:var(--navy);color:#fff;text-align:left;
+  font-size:10.5px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  font-weight:500;padding:10px 12px;white-space:nowrap;cursor:pointer;user-select:none}
+:root[data-theme="dark"] thead th{background:#1B2740;color:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) thead th{background:#1B2740;color:var(--ink)}}
+thead th:hover{background:var(--accent)}
+thead th .ar{opacity:.5;margin-left:3px}
+tbody tr.row{border-top:1px solid var(--line);cursor:pointer}
+tbody tr.row:hover{background:var(--panel-2)}
+tbody td{padding:11px 12px;vertical-align:top}
+td.prog{max-width:400px}
+.pname{font-weight:600;color:var(--ink);line-height:1.35}
+.psponsor{font-size:11.5px;color:var(--muted);margin-top:2px}
+.dl{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:500}
+.days{font-family:var(--mono);font-size:10.5px;margin-top:2px;white-space:nowrap}
+.amt{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font-size:10px;font-family:var(--mono);letter-spacing:.05em;
+  text-transform:uppercase;padding:2.5px 7px;border-radius:2px;font-weight:500;white-space:nowrap}
+.p-crit{background:var(--crit-bg);color:var(--crit)} .p-soon{background:var(--soon-bg);color:var(--soon)}
+.p-range{background:var(--range-bg);color:var(--range)} .p-later{background:var(--later-bg);color:var(--later)}
+.p-ok{background:var(--ok-bg);color:var(--ok)}
+.stripe{width:3px;padding:0!important}
+.fitbar{display:flex;align-items:center;gap:7px}
+.fitbar .track{width:42px;height:4px;background:var(--panel-3);border-radius:2px;overflow:hidden;flex:none}
+.fitbar .fill{height:100%;background:var(--accent);border-radius:2px}
+.fitbar .num{font-family:var(--mono);font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}
+.tag{font-size:9.5px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase;
+  color:var(--faint);border:1px solid var(--line);padding:1px 5px;border-radius:2px}
+.tag.hi{color:var(--accent);border-color:var(--accent-soft)}
+
+/* ---------- detail ---------- */
+tr.detail>td{padding:0;background:var(--panel-2);border-top:1px solid var(--line)}
+.dt{padding:18px 22px 20px;display:grid;grid-template-columns:1fr 320px;gap:26px}
+@media(max-width:860px){.dt{grid-template-columns:1fr}}
+.dt h4{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 6px;font-weight:500}
+.dt p{margin:0 0 15px;font-size:13px;line-height:1.6;max-width:72ch}
+.dt .ev{font-family:var(--mono);font-size:11.5px;color:var(--muted);border-left:2px solid var(--line-strong);
+  padding-left:11px;line-height:1.55}
+.facts{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:14px 16px;height:fit-content}
+.facts dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:7px 14px;font-size:12px}
+.facts dt{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);white-space:nowrap}
+.facts dd{margin:0;color:var(--body);font-weight:500}
+.warn{background:var(--crit-bg);border-left:3px solid var(--crit);padding:11px 14px;
+  border-radius:2px;margin:0 0 15px;font-size:12.5px;color:var(--body);line-height:1.55}
+.gate{background:var(--soon-bg);border-left:3px solid var(--soon);padding:11px 14px;
+  border-radius:2px;margin:0 0 15px;font-size:12.5px;line-height:1.55}
+a.src{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11.5px;
+  color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft);padding-bottom:1px;word-break:break-all}
+a.src:hover{color:var(--ink);border-color:var(--ink)}
+.empty{padding:56px 20px;text-align:center;color:var(--muted)}
+.empty .big{font-family:var(--serif);font-size:22px;color:var(--ink);margin-bottom:6px}
+footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+  font-size:11.5px;color:var(--faint);line-height:1.75;max-width:96ch}
+footer b{color:var(--muted);font-weight:600}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--ground);
+  padding:7px 10px;border-radius:3px;font-size:11.5px;max-width:270px;z-index:99;
+  box-shadow:var(--shadow);opacity:0;transition:opacity .1s;line-height:1.4}
+.tip.on{opacity:1}
+.tip .tm{font-family:var(--mono);font-size:10px;opacity:.7;display:block;margin-top:2px}
+
+.tag.rip{color:var(--crit);border-color:var(--crit)}
+.clbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:11px 16px;background:var(--panel);border:1px solid var(--line);border-radius:3px;margin-bottom:22px}
+.clbar .lhs{font-size:12.5px;color:var(--muted)}
+.clbar .lhs b{color:var(--body);font-weight:600}
+#changetoggle{font:inherit;font-size:11.5px;font-weight:600;padding:6px 12px;cursor:pointer;
+  border:1px solid var(--line-strong);border-radius:3px;background:var(--panel-2);color:var(--body)}
+#changetoggle:hover{border-color:var(--accent-soft)}
+#changetoggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#changepane{background:var(--panel);border:1px solid var(--line);border-radius:3px;
+  padding:16px 20px;margin:-14px 0 22px}
+.cl{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:11px 0;border-top:1px solid var(--line)}
+.cl:first-child{border-top:0;padding-top:0}
+.cl-d{font-family:var(--mono);font-size:11.5px;color:var(--faint);white-space:nowrap}
+.cl-s{font-size:13px;color:var(--body);line-height:1.55}
+.cl-m{font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-top:3px}
+.cl-l{margin:7px 0 0;padding-left:17px;font-size:12px;color:var(--muted);line-height:1.65}
+code{font-family:var(--mono);font-size:.92em;background:var(--panel-3);padding:1px 5px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <p class="eyebrow">Baylor College of Medicine &middot; Data refreshed <span id="gen">loading…</span></p>
+    <h1>Breast cancer grant <em>runway</em></h1>
+    <p class="sub"><b>228 funding mechanisms</b> across foundations, trial funders, professional organizations,
+      BCM institutional, CPRIT, and federal sponsors — scored against ER+/HER2+ translational and clinical work,
+      screened against your career stage, and dated from each sponsor's own page.</p>
+    <div class="profile">
+      <div class="pf"><span class="k">Faculty year</span><span class="v">7+ &middot; first appt 2020 or earlier</span></div>
+      <div class="pf"><span class="k">Fellowship</span><span class="v">2019–2020</span></div>
+      <div class="pf"><span class="k">BCM track</span>
+        <span class="trackpick" role="group" aria-label="Appointment track">
+          <button data-track="unknown" aria-pressed="true">Unconfirmed</button>
+          <button data-track="tenure" aria-pressed="false">Tenure-track</button>
+          <button data-track="nontenure" aria-pressed="false">Non-tenure</button>
+        </span>
+      </div>
+      <div class="pf"><span class="k">Showing</span><span class="v" id="count">—</span></div>
+      <div class="pf" style="color:var(--faint);font-size:11px">profile saved in this browser only</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="clbar">
+    <div class="lhs">Refreshed Mondays and Thursdays. Every change is committed, so <b>git history is the audit trail</b>. Last update <b id="changecount">—</b>.</div>
+    <button id="changetoggle" aria-expanded="false" aria-controls="changepane">What changed</button>
+  </div>
+  <div id="changepane" hidden></div>
+
+  <div class="strip" id="strip"></div>
+
+  <section class="runway">
+    <div class="rw-head">
+      <div class="rw-title">Deadlines, next thirteen months</div>
+      <div class="rw-note">circle area &prop; award ceiling &middot; click to filter that month</div>
+    </div>
+    <div class="rw-scroll"><svg class="rw" id="rw" role="img" aria-label="Timeline of grant deadlines from September 2026 through September 2027"></svg></div>
+  </section>
+
+  <div class="controls">
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg>
+      <input id="q" type="search" placeholder="Search sponsor, program, eligibility, opportunity number…" aria-label="Search opportunities">
+    </div>
+    <select id="sort" aria-label="Sort by">
+      <option value="fit">Sort: best fit</option>
+      <option value="date">Sort: soonest deadline</option>
+      <option value="amt">Sort: largest award</option>
+      <option value="sponsor">Sort: sponsor A–Z</option>
+    </select>
+    <select id="verd" aria-label="Filter by eligibility">
+      <option value="live">Eligibility: live only</option>
+      <option value="eligible">Eligibility: clear</option>
+      <option value="needs-check">Eligibility: needs a check</option>
+      <option value="track-gated">Eligibility: track-gated</option>
+      <option value="ruled-out">Eligibility: ruled out</option>
+      <option value="retired">Eligibility: retired programs</option>
+      <option value="all">Eligibility: everything</option>
+    </select>
+    <select id="tier" aria-label="Filter by tier">
+      <option value="">Tier: all</option>
+      <option value="early-career">Tier: early career</option>
+      <option value="mid-size">Tier: mid-size investigator</option>
+      <option value="program-large">Tier: program &amp; team science</option>
+    </select>
+  </div>
+
+  <div class="chips" id="cats"></div>
+  <div class="chips" id="focus"></div>
+  <div class="active" id="active" hidden></div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th class="stripe" aria-hidden="true"></th>
+        <th data-sort="fit" tabindex="0" aria-sort="none">Fit<span class="ar">▾</span></th>
+        <th data-sort="sponsor" tabindex="0" aria-sort="none">Program<span class="ar"></span></th>
+        <th data-sort="date" tabindex="0" aria-sort="none">Next deadline<span class="ar"></span></th>
+        <th data-sort="amt" tabindex="0" aria-sort="none">Award<span class="ar"></span></th>
+        <th>Bucket</th>
+        <th>Eligibility</th>
+      </tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+    <div class="empty" id="empty" hidden><div class="big">Nothing matches those filters</div><div>Every filter currently applied is listed above the table &mdash; remove one, or use <b>Clear all</b>.</div></div>
+  </div>
+
+  <footer>
+    <b>How to read this.</b> Fit weights ER+/HER2+ relevance, overlap with your four research angles, award ceiling, deadline proximity, and eligibility standing. It ranks; it does not decide.
+    <b>Confidence.</b> <span style="font-family:var(--mono)">verified</span> means a date was read on the sponsor's own page, program announcement PDF, or Grants.gov on 3 September 2026. <span style="font-family:var(--mono)">projected</span> means only the prior cycle was found and the date is inferred. <span style="font-family:var(--mono)">unverified</span> means the page could not be reached, usually a login wall — the mechanism is real, the timing is not established. Open every source link before committing effort.
+    <b>Two federal corrections.</b> DOD BCRP Breakthrough Levels 3 and 4 show a 30 September 2026 full-application deadline, but the pre-application closed 12 June and entry is shut unless one was filed. FY27 BCRP is not appropriated and has no dates. <b>Your appointment track</b> gates twenty awards in both directions and is the single highest-leverage thing to confirm.
+    <b>Programs that stop</b> are marked retired with a date rather than deleted, so a discontinued mechanism is never silently researched again.
+    <b>Your eligibility profile</b> is stored in this browser only and is never committed to the repository.
+  </footer>
+</main>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
