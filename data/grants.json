@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-04",
- "count": 228,
+ "count": 229,
  "grants": [
   {
    "id": "aacr-astrazeneca-cda-physician-scientists-baselga",
@@ -9289,6 +9289,52 @@
    "confidence": "verified",
    "evidence": "YSC research page describes the Research Agenda & Think Tank as 'a collaboration of breast cancer researchers, healthcare professionals and advocates working to improve the length and quality of life for young women affected by breast cancer', plus advocacy, s…",
    "fit": 50.0
+  },
+  {
+   "id": "merck-misp-sac-tmt-iisp-2026",
+   "sponsor": "Merck",
+   "sponsor_full": "Merck & Co. Investigator Studies Program (MISP) - sacituzumab tirumotecan (sac-TMT/MK-2870) Investigator-Initiated Studies Program",
+   "program": "MISP Investigator-Initiated Studies Program: Sacituzumab Tirumotecan (sac-TMT/MK-2870) Areas of Interest - proposals due November 30, 2026",
+   "url": "https://misp-investigator-studies.com/areas-of-interest/solid-tumor/sacituzumab-tirumotecan-sac-tmt-mk-2870",
+   "status": "active",
+   "first_seen": "2026-09-04",
+   "last_verified": "2026-09-04",
+   "retired_on": null,
+   "retired_reason": null,
+   "category": "trial-funding",
+   "tier": "mid-size",
+   "focus": [
+    "iit",
+    "drug-supply",
+    "adc",
+    "translational",
+    "correlatives"
+   ],
+   "breast_specific": false,
+   "er_her2_fit": "medium",
+   "award_usd": null,
+   "award_text": "Drug supply (sac-TMT) and/or total or partial study funding, negotiated per proposal; a line-item budget is required only if funding is requested",
+   "duration_years": null,
+   "indirects": "unstated",
+   "loi_deadline": null,
+   "full_deadline": "2026-11-30",
+   "next_deadline": "2026-11-30",
+   "deadline_status": "open",
+   "cycle": "one-time call (2026)",
+   "typical_month": "November (proposals due) / April (decisions)",
+   "verdict": "eligible",
+   "flags": [],
+   "track_gate": null,
+   "career_cap": null,
+   "limited_submission": false,
+   "eligibility": "Open to investigators through Merck's MISP submission database; no rank, career-stage or citizenship cap is stated, but proposals will not be accepted from China, Hong Kong, Taiwan or Macau. A proposal must address at least one posted area of interest or it may be rejected without review. Applicants are told to consult their local Merck Research Medical Scientific Director (RMSD) before submitting, to check ClinicalTrials.gov so the study does not duplicate or compete with sac-TMT registration trials, and to supply letters of support for any third-party agent or funding. Less experienced investigators are encouraged to work with a mentor and include the mentor's CV and letter. Only MSD investigational agents named in the areas of interest are available for IIS use.",
+   "notes": "OPEN CALL WITH A HARD DATE: Merck is 'currently accepting proposals for the sac-TMT Investigator-Initiated Studies Program (IISP)' with proposals due to the IIS database by November 30, 2026 and decisions communicated in April 2027. sac-TMT is Merck's TROP2 antibody-drug conjugate, so this is the ADC-resistance and ADC-sequencing question in a sponsor-funded form. The breast areas of interest are (1) monotherapy or combination with pembrolizumab in early disease and (2) monotherapy in metastatic breast cancer in approved biomarker-selected populations, e.g. BRCA, in all breast cancer subtypes; the clinical translational areas are mechanisms of response and resistance to sac-TMT alone or with pembrolizumab, mechanisms to overcome that resistance, and effects on the tumor microenvironment, all in tissue samples, plus preclinical in-vitro and PDX work. Longitudinal sampling and neoadjuvant designs are 'strongly encouraged', which suits a HER2-heterogeneity or ctDNA-tracked correlative design layered on a sac-TMT study. THE TRAPS: safety-only primary endpoints are out of scope; phase I studies, biomarker identification or validation as the primary aim, technology development, vaccines, cell therapy, pediatric and microbiome studies are discouraged; a proposal that duplicates or competes with a sac-TMT registration trial will not be supported; translational primary endpoints must use samples from patients treated with MSD or standard-of-care agents per the AoIs, be adequately powered, and commit to data sharing per Merck's Data Tiers; the program asks how the study will support diversity in enrollment. Review is described as highly competitive on merit, strategic fit and feasibility. WHAT TO DO: consult the Merck RMSD for the region first, then submit the form, a CV dated within two years and, if funding is requested, the budget template through the IIS database before November 30, 2026. The compound list on the MISP solid-tumor page is watched daily; this per-compound page is server-rendered and watched too.",
+   "confidence": "verified",
+   "evidence": "misp-investigator-studies.com, sac-TMT areas of interest page, read 2026-09-04: 'We are currently accepting proposals for the sac-TMT Investigator-Initiated Studies Program (IISP).' 'Critical Timelines: Due Date for Proposal Submissions to IIS Database (Submission Form, CV, budget) November 30, 2026; Decisions Communicated to Investigators April 2027.' Breast: 'Studies of monotherapy or combination therapy with pembrolizumab in early disease'; 'Studies of monotherapy in metastatic breast cancer with approved biomarker-selected populations, i.e., BRCA, etc., in all breast cancer subtypes.' 'Safety-only primary endpoint proposals are out of scope.' 'Proposals will not be accepted from China, Hong Kong, Taiwan and Macau.'",
+   "fit": 88.0,
+   "watch_urls": [
+    "https://misp-investigator-studies.com/areas-of-interest/solid-tumor"
+   ]
   }
  ]
 }
