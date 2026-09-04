@@ -1,0 +1,5 @@
+# Keep line endings LF in the working tree on every platform.
+# tools/*.workflow.js is executed by the Workflow tool, which rejects CR characters.
+* text=auto eol=lf
+*.png binary
+*.pdf binary
