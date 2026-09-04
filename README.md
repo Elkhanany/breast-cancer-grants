@@ -6,7 +6,7 @@ investigator-initiated trials.
 
 **→ [elkhanany.github.io/breast-cancer-grants](https://elkhanany.github.io/breast-cancer-grants/)**
 
-228 mechanisms across six funder buckets: government, state, institutional, foundation,
+229 mechanisms across six funder buckets: government, state, institutional, foundation,
 trial funding, and professional organizations.
 
 ## Why this exists
