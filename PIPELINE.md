@@ -61,8 +61,10 @@ for the definitive pass. `new_federal_opportunity` signals are triaged in one li
 → left for the refresh to record; irrelevant → ignored (the number stays in `fingerprints.json`
 so it is never reported twice).
 
-Pages that block scripts (CPRIT and Komen return 403 to plain fetches) are still watched: the
-signal says so, and the model reads them with its own fetcher.
+Pages that block scripts (CPRIT's landing page, Komen and PCORI return 403 to plain fetches)
+are still watched: the signal says so, and the model reads them in the in-app browser, which
+renders JavaScript and is not refused. When a blocked page becomes readable again the signal is
+`now_readable`, not a diff, so a first full read is never mistaken for a change.
 
 ## 2. Mon/Thu refresh — verify, enrich, promote
 

@@ -218,6 +218,12 @@ def main():
 
         if args.seed or "dates" not in prev:
             continue
+        if prev.get("status") != 200:
+            # Yesterday it was blocked or down; today it reads. That is news, but it is not a diff.
+            signals.append({"kind": "now_readable", "ids": ids, "url": url, "dates": dates,
+                            "detail": f"readable again after {prev.get('fail_streak', '?')} failed run(s); "
+                                      f"{len(dates)} dates on the page, no baseline to compare."})
+            continue
         added = sorted(set(dates) - set(prev["dates"]))
         removed = sorted(set(prev["dates"]) - set(dates))
         if added or removed:

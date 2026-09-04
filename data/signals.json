@@ -1,6 +1,40 @@
 {
- "generated": "2026-09-03",
- "seeded": true,
+ "generated": "2026-09-04",
+ "seeded": false,
  "pages_watched": 66,
- "signals": []
+ "signals": [
+  {
+   "kind": "blocked",
+   "ids": [
+    "cprit-texas-regional-training-award-r272-trta"
+   ],
+   "url": "https://www.cprit.texas.gov/funding-opportunities",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 4 run(s) in a row."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "komen-career-catalyst-research-fy27"
+   ],
+   "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 4 run(s) in a row."
+  },
+  {
+   "kind": "now_readable",
+   "ids": [
+    "pcori-improving-methods-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
+   "dates": [
+    "2026-08-04",
+    "2026-08-19",
+    "2026-09-09",
+    "2026-10-14",
+    "2027-01-12"
+   ],
+   "detail": "readable again after 3 failed run(s); 5 dates on the page, no baseline to compare."
+  }
+ ]
 }

@@ -34,6 +34,10 @@ The dated items above are state, not scripture. When one resolves, rewrite it he
 The sponsor's own page, the program announcement PDF, or Grants.gov. Never an aggregator.
 A landing page often does not carry dates; the announcement PDF usually does.
 
+Some sponsors refuse plain fetches (CPRIT's landing page, Komen, PCORI return 403). Open those in
+the in-app browser — `mcp__Claude_Browser__navigate`, then `get_page_text` — which renders the
+JavaScript tables a fetch never sees. A refused fetch is not a reason to skip a record.
+
 Set `last_verified` on every record you actually checked, whether or not it changed.
 
 ## 4. Detect programs that stopped
