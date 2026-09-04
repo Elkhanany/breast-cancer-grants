@@ -107,6 +107,24 @@ def main():
         err("changelog entries are not newest-first; the site reads entries[0] "
             "as the last update (REFRESH.md step 8)")
 
+    # Optional pipeline files: absent is fine, malformed is not.
+    import os
+    if os.path.exists("data/candidates.json"):
+        with open("data/candidates.json", encoding="utf-8") as fh:
+            cand = json.load(fh)
+        for c in cand.get("candidates", []):
+            if c.get("decision") not in ("pending", "promote", "reject", "promoted"):
+                err(f"candidate {c.get('id')}: decision {c.get('decision')!r}")
+            if not isinstance(c.get("record"), dict) or not c["record"].get("url"):
+                err(f"candidate {c.get('id')}: record missing or has no url")
+            if c.get("decision") in ("pending", "promote") and c.get("id") in ids:
+                warn(f"candidate {c.get('id')}: id already exists in grants.json")
+    if os.path.exists("data/signals.json"):
+        with open("data/signals.json", encoding="utf-8") as fh:
+            sig = json.load(fh)
+        if not isinstance(sig.get("signals"), list):
+            err("signals.json has no signals list")
+
     for w in warnings:
         print(f"warning: {w}")
     for e in errors:

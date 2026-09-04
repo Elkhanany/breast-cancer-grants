@@ -1,15 +1,22 @@
 # Refresh procedure
 
 Runs Mondays and Thursdays. Every step below exists because skipping it has a specific failure mode.
+This is the definitive pass; the daily watcher and the weekly discovery sweep feed it. How the
+three fit together is in [PIPELINE.md](PIPELINE.md).
 
 ## 1. Read current state
 
-Load `data/grants.json` and `data/changelog.json`.
+Load `data/grants.json`, `data/changelog.json`, `data/signals.json` (what the daily crawl
+noticed) and `data/candidates.json` (what the discovery sweep found).
 
 ## 2. Decide what to re-verify
 
 Priority order:
 
+0. Every entry in `data/signals.json`. `dates_changed` means the sponsor page's set of dates
+   moved since the last look — open the page and find out why. `blocked` or `unreachable` means
+   the script could not read the page — read it yourself. `new_federal_opportunity` is a
+   Grants.gov number never seen before — one line of triage each, and record the relevant ones.
 1. Anything with a `next_deadline` inside the next 60 days.
 2. Anything `confidence: "projected"` or `"unverified"` whose `typical_month` has now arrived.
 3. Anything whose `last_verified` is more than 60 days old.
@@ -51,6 +58,25 @@ A new record needs **every field an existing record has** — copy one and fill 
 is today and `status` is `active`. A record missing `fit` renders a blank row rather than an
 error, and a record whose `verdict` is not one of the four known values shows an "unknown"
 eligibility pill, so neither mistake announces itself.
+
+## 5b. Promote what discovery found
+
+For each entry in `data/candidates.json`:
+
+- `decision: "reject"` — leave it. Never promote, never delete; it stops the same find being
+  re-surfaced.
+- `decision: "promote"`, or `"pending"` with `verification.real`, `verification.active` and
+  `verification.eligible_plausible` all true and `record.confidence` not `"unverified"` — open
+  `record.url` yourself once more, then copy `record` into `grants.json` with `first_seen` set to
+  today and `status: "active"`. Set the candidate's `decision` to `"promoted"` and add
+  `promoted_on`. Count it in the changelog's `added`.
+- anything else stays `"pending"` and is re-examined next pass.
+
+Batch the re-verification: split records due for a check into groups and run one agent per group
+against primary sources, returning a structured diff. Any date that moved is re-read by a second,
+independent agent before it is written. While there, capture enrichment the sponsor posts —
+awards made per cycle, success rate, program contact, a recent relevant awardee — into `notes`
+or the optional fields `awards_per_cycle`, `success_rate`, `program_contact`.
 
 ## 6. Keep derived fields in step
 

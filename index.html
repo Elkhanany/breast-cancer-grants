@@ -224,6 +224,18 @@ footer b{color:var(--muted);font-weight:600}
 #changetoggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #changepane{background:var(--panel);border:1px solid var(--line);border-radius:3px;
   padding:16px 20px;margin:-14px 0 22px}
+#newpane{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:6px 20px 10px;margin:-14px 0 22px}
+.cand{display:grid;grid-template-columns:1fr 300px;gap:18px;padding:14px 0;border-top:1px solid var(--line)}
+.cand:first-child{border-top:0}
+@media(max-width:860px){.cand{grid-template-columns:1fr}}
+.cand .lens{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:3px}
+.cand .name{font-weight:600;color:var(--ink);line-height:1.35}
+.cand .who{font-size:11.5px;color:var(--muted);margin:2px 0 7px}
+.cand p{margin:0 0 8px;font-size:12.5px;line-height:1.55;max-width:74ch}
+.cand .facts{padding:11px 13px}
+.cand .facts dl{gap:5px 12px}
+.cand .st{padding:0;border:0;cursor:default}
+.sigline{display:block;margin-top:4px;font-size:11.5px;color:var(--muted)}
 .cl{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:11px 0;border-top:1px solid var(--line)}
 .cl:first-child{border-top:0;padding-top:0}
 .cl-d{font-family:var(--mono);font-size:11.5px;color:var(--faint);white-space:nowrap}
@@ -263,6 +275,12 @@ code{font-family:var(--mono);font-size:.92em;background:var(--panel-3);padding:1
     <button id="changetoggle" aria-expanded="false" aria-controls="changepane">What changed</button>
   </div>
   <div id="changepane" hidden></div>
+
+  <div class="clbar" id="newbar" hidden>
+    <div class="lhs"><b id="newcount">0</b> newly surfaced <span id="newnoun">mechanisms</span> from the weekly discovery sweep, verified on a primary page and awaiting promotion at the next Monday or Thursday pass.<span id="sigline"></span></div>
+    <button id="newtoggle" aria-expanded="false" aria-controls="newpane">Show them</button>
+  </div>
+  <div id="newpane" hidden></div>
 
   <div class="strip" id="strip"></div>
 

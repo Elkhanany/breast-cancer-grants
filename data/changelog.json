@@ -2,6 +2,19 @@
  "entries": [
   {
    "date": "2026-09-03",
+   "kind": "refresh",
+   "summary": "DOD BCRP FY26 Breakthrough L1/L2 and Clinical Research Extension dates confirmed on the CDMRP page and Grants.gov; both move from projected to verified.",
+   "added": 0,
+   "changed": 2,
+   "retired": 0,
+   "details": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round2: confidence projected to verified; CDMRP page updated 2026-09-03 now lists LOI 2026-11-04 and application 2026-11-18, previously inferred from the pre-announcement",
+    "dod-bcrp-clinical-research-extension-fy26-round2: confidence projected to verified; CDMRP page updated 2026-09-03 now lists LOI 2026-11-04 and application 2026-11-18, previously inferred from the pre-announcement",
+    "Found by the first run of the deterministic daily watcher (tools/watch.py), which reads the CDMRP page and the Grants.gov API without a model."
+   ]
+  },
+  {
+   "date": "2026-09-03",
    "kind": "fix",
    "summary": "Published to GitHub Pages. Front-end defects corrected and four records fixed against the refresh rules.",
    "added": 0,

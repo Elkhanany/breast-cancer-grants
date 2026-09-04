@@ -18,7 +18,7 @@ function loadProfile(){
 function saveProfile(p){ try { localStorage.setItem(PROFILE_KEY, JSON.stringify(p)); } catch(e){} }
 let PROFILE = loadProfile();
 
-let DATA = [], CHANGELOG = {entries:[]}, GENERATED = '';
+let DATA = [], CHANGELOG = {entries:[]}, GENERATED = '', CANDIDATES = [], SIGNALS = null;
 /* Re-read midnight per call so a tab left open overnight does not keep yesterday's counts. */
 function days(d){ if(!d) return null; return Math.round((pd(d) - midnight())/864e5); }
 function normalize(raw){
@@ -293,6 +293,10 @@ document.addEventListener('click', e=>{
     else if(k.startsWith('focus:')) foci.delete(k.slice(6));
     redraw(); return; }
   if(e.target.closest('#clearall')){ clearAll(); redraw(); return; }
+  const nt=e.target.closest('#newtoggle');
+  if(nt){ const pane=document.getElementById('newpane');
+    pane.hidden=!pane.hidden; nt.setAttribute('aria-expanded', String(!pane.hidden));
+    nt.textContent = pane.hidden ? 'Show them' : 'Hide'; return; }
 });
 document.addEventListener('keydown', e=>{
   if(e.key!=='Enter' && e.key!==' ') return;
@@ -326,6 +330,37 @@ function wireRunway(){
     document.querySelector('.tablewrap').scrollIntoView({behavior:'smooth',block:'start'});
   });
 }
+/* Discovery finds wait here, visible, until the Mon/Thu pass promotes them into the main set. */
+function newly(){
+  const bar=document.getElementById('newbar'), pane=document.getElementById('newpane');
+  if(!bar||!pane) return;
+  const n=CANDIDATES.length;
+  const pend=SIGNALS && SIGNALS.signals ? SIGNALS.signals.filter(s=>s.kind!=='baseline').length : 0;
+  const sl=document.getElementById('sigline');
+  if(sl) sl.innerHTML = pend ? `<span class="sigline">${pend} watch signal${pend===1?'':'s'} from the daily crawl on ${esc(fmt(SIGNALS.generated)||SIGNALS.generated)} await the same pass.</span>` : '';
+  bar.hidden = !n && !pend;
+  document.getElementById('newcount').textContent=n;
+  document.getElementById('newnoun').textContent = n===1?'mechanism':'mechanisms';
+  if(!n){ pane.innerHTML='<p style="color:var(--muted);font-size:13px;margin:10px 0">Nothing new is waiting.</p>'; return; }
+  pane.innerHTML = CANDIDATES.map(x=>{
+    const r=x.record||{}, v=x.verification||{}, pv=x.provenance||{};
+    const nd = r.next_deadline ? `${fmt(r.next_deadline)} (${days(r.next_deadline)} days)` : (r.deadline_status||'not posted');
+    return `<div class="cand"><div>
+      <div class="lens">${esc(pv.lens||'discovery')} &middot; found ${esc(fmt(pv.found_on)||pv.found_on||'')} &middot; ${esc(r.confidence||'unverified')}</div>
+      <div class="name">${esc(r.program||x.id)}</div>
+      <div class="who">${esc(r.sponsor_full||r.sponsor||'')}</div>
+      ${r.notes?`<p>${esc(r.notes)}</p>`:''}
+      ${r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)} &#8599;</a>`:''}
+    </div><div class="facts"><dl>
+      <dt>Next date</dt><dd>${esc(nd)}</dd>
+      <dt>Award</dt><dd>${esc(r.award_text||money(r.award_usd))}</dd>
+      <dt>Provides</dt><dd>${esc(x.provides||'funding')}</dd>
+      <dt>Bucket</dt><dd>${esc((CATS.find(c=>c[0]===r.category)||[])[1]||r.category||'')}</dd>
+      <dt>Screen</dt><dd>${esc(r.verdict||'needs-check')}</dd>
+      <dt>Verified</dt><dd>${v.real?'real':'?'} &middot; ${v.active?'active':'inactive?'} &middot; ${v.eligible_plausible?'eligible':'eligibility?'}</dd>
+    </dl></div></div>`; }).join('');
+}
+
 function changelog(){
   const el=document.getElementById('changepane'); if(!el) return;
   const e=CHANGELOG.entries||[];
@@ -344,7 +379,7 @@ function boot(){
   const g=document.getElementById('gen'); if(g) g.textContent=fmt(GENERATED)||GENERATED;
   document.querySelectorAll('[data-total]').forEach(n=>n.textContent=DATA.length);
   document.querySelectorAll('[data-generated]').forEach(n=>n.textContent=fmt(GENERATED)||GENERATED);
-  syncSort(); redraw(); changelog();
+  syncSort(); redraw(); changelog(); newly();
 }
 
 /* no-cache forces revalidation, so a refresh lands immediately instead of sitting
@@ -352,9 +387,12 @@ function boot(){
 const GET = u => fetch(u, {cache:'no-cache'}).then(r=>{ if(!r.ok) throw new Error(u+' '+r.status); return r.json(); });
 Promise.all([
   GET('data/grants.json'),
-  GET('data/changelog.json').catch(()=>({entries:[]}))
-]).then(([g,c])=>{
-  DATA=normalize(g.grants); GENERATED=g.generated; CHANGELOG=c; boot();
+  GET('data/changelog.json').catch(()=>({entries:[]})),
+  GET('data/candidates.json').catch(()=>({candidates:[]})),
+  GET('data/signals.json').catch(()=>null)
+]).then(([g,c,k,sg])=>{
+  DATA=normalize(g.grants); GENERATED=g.generated; CHANGELOG=c;
+  CANDIDATES=(k.candidates||[]).filter(x=>x.decision==='pending'||x.decision==='promote'); SIGNALS=sg; boot();
 }).catch(err=>{
   document.getElementById('tb').innerHTML='';
   const e=document.getElementById('empty'); e.hidden=false;

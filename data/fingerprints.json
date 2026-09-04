@@ -1,0 +1,2409 @@
+{
+ "pages": {
+  "https://cdmrp.health.mil/funding/archive/BCRPArchive.aspx": {
+   "ids": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round1",
+    "dod-bcrp-clinical-research-extension-fy26-round1",
+    "dod-bcrp-era-of-hope-scholar-fy26",
+    "dod-bcrp-transformative-consortium-development-fy26"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "fail_streak": 0
+  },
+  "https://cdmrp.health.mil/funding/bcrp": {
+   "ids": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round2",
+    "dod-bcrp-breakthrough-level-3-fy26",
+    "dod-bcrp-breakthrough-level-4-fy26",
+    "dod-bcrp-clinical-research-extension-fy26-round2",
+    "dod-bcrp-fy27-outlook",
+    "dod-bcrp-transformative-consortium-award-fy26"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-05-04",
+    "2026-06-12",
+    "2026-09-03",
+    "2026-09-30",
+    "2026-11-04",
+    "2026-11-18"
+   ],
+   "fail_streak": 0
+  },
+  "https://cprit.texas.gov/media/ai5f5mjk/rfa-r-271-iira_final.pdf": {
+   "ids": [
+    "cprit-iira"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "ecfad0caa70417f2",
+   "bytes": 399652,
+   "fail_streak": 0
+  },
+  "https://cprit.texas.gov/media/ibdar0pu/ifa-r-271-iira-iirap-iiracca-iiract-iiracsbc-iiraeoc_revised.pdf": {
+   "ids": [
+    "cprit-iira-eoc",
+    "cprit-iiracca",
+    "cprit-iirap"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "b13a739541abd8ab",
+   "bytes": 1137350,
+   "fail_streak": 0
+  },
+  "https://cprit.texas.gov/media/qxddzt3x/rfa-r-271-iiract_final.pdf": {
+   "ids": [
+    "cprit-iiract"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "9012ce2aee0fd1fa",
+   "bytes": 407272,
+   "fail_streak": 0
+  },
+  "https://cprit.texas.gov/media/wbvhnu4c/rfa-r-271-iiracsbc_final.pdf": {
+   "ids": [
+    "cprit-iiracsbc"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "bcc29147874ae0f4",
+   "bytes": 385748,
+   "fail_streak": 0
+  },
+  "https://gatewaycr.smapply.org/prog/gfcr_all_grant_programs/": {
+   "ids": [
+    "gateway-ecog-acrin-joint-program",
+    "gateway-nci-spore-p20-program",
+    "gateway-traditional-grant-program"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-11-06"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-24-182.html": {
+   "ids": [
+    "nih-parent-k08"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-09-25",
+    "2025-10-12",
+    "2025-11-12",
+    "2025-11-24",
+    "2026-01-07",
+    "2026-01-22",
+    "2026-01-28",
+    "2026-02-12",
+    "2026-03-12",
+    "2026-05-07",
+    "2026-06-12",
+    "2026-07-12",
+    "2026-10-12",
+    "2026-11-12",
+    "2027-02-12",
+    "2027-03-12",
+    "2027-05-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-24-185.html": {
+   "ids": [
+    "nih-parent-k23"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-09-25",
+    "2025-10-12",
+    "2025-11-12",
+    "2025-11-24",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-12",
+    "2026-03-12",
+    "2026-05-07",
+    "2026-06-12",
+    "2026-07-12",
+    "2026-10-12",
+    "2026-11-12",
+    "2027-02-12",
+    "2027-03-12",
+    "2027-05-07",
+    "2027-05-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-25-172.html": {
+   "ids": [
+    "nci-modular-r01-ccps"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-05",
+    "2025-11-05",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-25-253.html": {
+   "ids": [
+    "nci-exploratory-cancer-control-r21"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-16",
+    "2025-11-16",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-06-16",
+    "2026-07-16",
+    "2026-10-16",
+    "2026-11-16",
+    "2027-06-16",
+    "2027-07-16",
+    "2027-10-16",
+    "2027-11-16",
+    "2028-02-16",
+    "2028-03-16",
+    "2028-06-16",
+    "2028-07-16",
+    "2028-09-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html": {
+   "ids": [
+    "nih-parent-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-01",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-07",
+    "2026-05-27",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-25-302.html": {
+   "ids": [
+    "nih-parent-r03"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-01",
+    "2025-10-16",
+    "2025-11-16",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-10",
+    "2026-02-16",
+    "2026-03-16",
+    "2026-05-07",
+    "2026-06-16",
+    "2026-07-16",
+    "2026-10-16",
+    "2026-11-16",
+    "2027-02-16",
+    "2027-03-16",
+    "2027-06-16",
+    "2027-07-16",
+    "2027-10-16",
+    "2027-11-16",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html": {
+   "ids": [
+    "nih-parent-r21"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-01",
+    "2025-10-16",
+    "2025-11-16",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-16",
+    "2026-03-16",
+    "2026-03-26",
+    "2026-04-06",
+    "2026-04-09",
+    "2026-05-07",
+    "2026-06-16",
+    "2026-07-16",
+    "2026-10-16",
+    "2026-11-16",
+    "2027-02-16",
+    "2027-03-16",
+    "2027-06-16",
+    "2027-07-16",
+    "2027-10-16",
+    "2027-11-16",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-23-284.html": {
+   "ids": [
+    "nci-spore-p50-2024-2026"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-25",
+    "2026-01-25",
+    "2026-05-25",
+    "2026-09-25",
+    "2026-09-26"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-24-272.html": {
+   "ids": [
+    "ncats-ctsa-um1"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-29",
+    "2026-01-28",
+    "2026-03-04",
+    "2026-05-28",
+    "2026-09-28",
+    "2027-01-28",
+    "2027-05-28",
+    "2027-09-28",
+    "2027-09-29"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-24-273.html": {
+   "ids": [
+    "nimhd-older-adults-disparities-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-07",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-24-304.html": {
+   "ids": [
+    "nci-biomarker-assay-revision-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-15",
+    "2026-02-13",
+    "2026-07-10",
+    "2026-10-14",
+    "2026-10-15"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-074.html": {
+   "ids": [
+    "nci-assay-validation-uh2-uh3"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-15",
+    "2026-02-13",
+    "2026-06-10",
+    "2026-07-10",
+    "2026-10-14",
+    "2026-10-15"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-081.html": {
+   "ids": [
+    "nci-iit-early-phase-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-07",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-095.html": {
+   "ids": [
+    "nci-secondary-analysis-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-01",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-28",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-09-08",
+    "2026-10-05",
+    "2026-11-05",
+    "2026-11-06"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-096.html": {
+   "ids": [
+    "nci-secondary-analysis-r21"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-01",
+    "2025-10-16",
+    "2025-11-16",
+    "2026-02-16",
+    "2026-03-16",
+    "2026-05-28",
+    "2026-06-16",
+    "2026-07-16",
+    "2026-09-08",
+    "2026-10-16",
+    "2026-11-16",
+    "2026-11-17"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-104.html": {
+   "ids": [
+    "nci-cpc-planning-r34"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-25",
+    "2026-02-25",
+    "2026-06-25",
+    "2026-10-25",
+    "2027-02-25",
+    "2027-06-25",
+    "2027-10-25",
+    "2027-10-26"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-135.html": {
+   "ids": [
+    "nci-k99-r00"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-15",
+    "2026-02-13",
+    "2026-03-13",
+    "2026-06-15",
+    "2026-10-14",
+    "2027-02-17",
+    "2027-06-15",
+    "2027-10-14",
+    "2027-10-15"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-167.html": {
+   "ids": [
+    "nci-cancer-prevention-control-trials-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-07",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-175.html": {
+   "ids": [
+    "nci-imaging-fluid-tumor-monitoring-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-07",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-05-07",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-243.html": {
+   "ids": [
+    "nci-basic-cancer-health-disparities-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-05",
+    "2025-11-05",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-244.html": {
+   "ids": [
+    "nci-basic-cancer-health-disparities-r21"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-10-16",
+    "2025-11-16",
+    "2026-02-16",
+    "2026-03-16",
+    "2026-06-16",
+    "2026-07-16",
+    "2026-10-16",
+    "2026-11-16",
+    "2027-02-16",
+    "2027-03-16",
+    "2027-06-16",
+    "2027-07-16",
+    "2027-10-16",
+    "2027-11-16",
+    "2027-11-17"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-324.html": {
+   "ids": [
+    "nci-merit-r37-extension"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2028-09-08"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-325.html": {
+   "ids": [
+    "nci-biospecimen-assay-u01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-10",
+    "2026-02-04",
+    "2026-06-04",
+    "2026-09-10",
+    "2027-02-04",
+    "2027-06-04",
+    "2027-09-10",
+    "2027-09-11"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html": {
+   "ids": [
+    "nih-rse-r50"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-12-04",
+    "2026-06-04",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/how-to-apply-application-guide/due-dates-and-submission-policies/due-dates.htm": {
+   "ids": [
+    "nih-standard-due-dates-reference"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-03-24"
+   ],
+   "fail_streak": 0
+  },
+  "https://searlescholars.org/application-information/award-information/process-and-eligibility/": {
+   "ids": [
+    "searle-scholars-program"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-06-01",
+    "2026-09-30",
+    "2027-07-01"
+   ],
+   "fail_streak": 0
+  },
+  "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a": {
+   "ids": [
+    "nci-spore-p50-2027-2029"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2025-09-09",
+    "2025-10-31",
+    "2026-05-13",
+    "2027-01-25",
+    "2027-06-04",
+    "2027-06-11"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.aacr.org/grants/aacr-lbca-invasive-lobular-carcinoma-research-challenge-grants/": {
+   "ids": [
+    "aacr-lbca-ilc-research-challenge-grants"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-09-10",
+    "2027-01-01"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.asco.org/career-development/grants-awards/funding-opportunities/career-development-award": {
+   "ids": [
+    "conquer-cancer-career-development-award"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-07-01",
+    "2026-08-21",
+    "2026-10-08",
+    "2027-07-01",
+    "2030-07-01"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award": {
+   "ids": [
+    "conquer-cancer-young-investigator-award"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-07-01",
+    "2026-08-21",
+    "2026-09-11",
+    "2027-07-01",
+    "2028-07-01"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.bcrfa.org/fueling-innovation-breast-cancer-research-foundation-of-alabama-call-for-proposals/": {
+   "ids": [
+    "breast-cancer-research-foundation-alabama"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-07-16",
+    "2026-09-01",
+    "2026-10-01",
+    "2026-12-01",
+    "2026-12-15"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/": {
+   "ids": [
+    "bwf-career-awards-medical-scientists"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-07-30",
+    "2026-09-15",
+    "2026-09-30",
+    "2027-05-28",
+    "2027-09-01",
+    "2032-08-31"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.cancer.gov/grants-training/grants-funding/funding-opportunities/r50": {
+   "ids": [
+    "nci-r50-research-specialist"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-05-04"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.cancerresearch.org/technology-impact-award": {
+   "ids": [
+    "cri-technology-impact-award"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-11-16",
+    "2027-03-12"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/funding-opportunities": {
+   "ids": [
+    "cprit-texas-regional-training-award-r272-trta"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 403,
+   "dates": [],
+   "fail_streak": 2
+  },
+  "https://www.cprit.texas.gov/media/1t0l5niq/rfa-r-272-trec_final_2nd_revision.pdf": {
+   "ids": [
+    "cprit-trec"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "7732620bf1385e42",
+   "bytes": 395096,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/ay0h4vrs/rfa-r-271-rrs_final.pdf": {
+   "ids": [
+    "cprit-rrs"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "ef5c1a0c3b3be81e",
+   "bytes": 639532,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/bqxdbzbx/rfa-r-272-cia-_final.pdf": {
+   "ids": [
+    "cprit-cia"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "b6b6f9506c6ecfaa",
+   "bytes": 374619,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/fdlkwz4l/rfa-r-272-cpra_final.pdf": {
+   "ids": [
+    "cprit-cpra"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "4375e3c12f41945d",
+   "bytes": 360115,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/rydlbycq/rfa-r-272-rtawd_final.pdf": {
+   "ids": [
+    "cprit-rtawd"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "faeb928132189618",
+   "bytes": 367784,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/sh0phplm/rfa-r-272-ctna_final_revised.pdf": {
+   "ids": [
+    "cprit-ctna"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "0f3d11d2a8c97361",
+   "bytes": 375867,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/u10azwz1/rfa-r-271-rft_final.pdf": {
+   "ids": [
+    "cprit-rft"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "775138f01290e69f",
+   "bytes": 525945,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/ui4lhtt1/rfa-r-271-rei_final.pdf": {
+   "ids": [
+    "cprit-rei"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "008a1c5c399fd702",
+   "bytes": 1207461,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/wp0jmagd/rfa-r-272-rrcta_final.pdf": {
+   "ids": [
+    "cprit-rrcta"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "6176450976d91364",
+   "bytes": 455383,
+   "fail_streak": 0
+  },
+  "https://www.cprit.texas.gov/media/xkhbnulg/rfa-r-272-cfsa_final.pdf": {
+   "ids": [
+    "cprit-cfsa"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "sha": "558f29bcc8586661",
+   "bytes": 391715,
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359004": {
+   "ids": [
+    "nlm-clinical-informatics-r01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-02-11",
+    "2029-03-05",
+    "2029-05-04"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359725": {
+   "ids": [
+    "nci-metnet-u01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-02-04",
+    "2028-11-22",
+    "2029-01-22"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359853": {
+   "ids": [
+    "nci-itcr-u24-sustained"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-05-21",
+    "2026-10-19",
+    "2026-12-19"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359855": {
+   "ids": [
+    "nci-itcr-u24-advanced"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-05-21",
+    "2026-10-19",
+    "2026-12-19"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359892": {
+   "ids": [
+    "nci-itcr-u01-early-stage"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-05-21",
+    "2027-10-19",
+    "2027-12-19"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/359940": {
+   "ids": [
+    "nia-gemsstar-r03"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-09-01",
+    "2028-07-16",
+    "2028-09-14"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/360534": {
+   "ids": [
+    "nci-imat-r33-advanced"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-06-03",
+    "2026-11-10",
+    "2027-01-09"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/360536": {
+   "ids": [
+    "nci-imat-r61-early-stage"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-06-03",
+    "2026-11-10",
+    "2027-01-09"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/361279": {
+   "ids": [
+    "nih-parent-p01"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-02-11",
+    "2026-04-25",
+    "2026-06-29",
+    "2026-09-25",
+    "2027-07-01"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.hope-funds.org/grants/eligibility-and-application/": {
+   "ids": [
+    "hope-funds-postdoctoral-fellowship"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [
+    "2026-09-24",
+    "2027-01-25"
+   ],
+   "fail_streak": 0
+  },
+  "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf": {
+   "ids": [
+    "komen-career-catalyst-research-fy27"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 403,
+   "dates": [],
+   "fail_streak": 2
+  },
+  "https://www.pcori.org/funding-opportunities": {
+   "ids": [
+    "pcori-engagement-capacity-building-fall-2026"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 200,
+   "dates": [],
+   "fail_streak": 0
+  },
+  "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026": {
+   "ids": [
+    "pcori-broad-pragmatic-studies-cycle3-2026"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 403,
+   "dates": [],
+   "fail_streak": 2
+  },
+  "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026": {
+   "ids": [
+    "pcori-improving-methods-cycle3-2026"
+   ],
+   "checked": "2026-09-03T23:14:42",
+   "status": 403,
+   "dates": [],
+   "fail_streak": 2
+  }
+ },
+ "grantsgov_seen": {
+  "HT942526BCRPTBCCA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Breast Cancer, Transformative Breast Cancer Consortium Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "09/30/2026",
+   "url": "https://www.grants.gov/search-results-detail/362210"
+  },
+  "HT942526BCRPCREA2": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Breast Cancer, Clinical Research Extension Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "09/03/2026",
+   "close": "11/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/363671"
+  },
+  "HT942526BCRPBTA3": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Breast Cancer, Breakthrough Award Level 3",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "09/30/2026",
+   "url": "https://www.grants.gov/search-results-detail/362203"
+  },
+  "HT942526BCRPBTA4": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Breast Cancer, Breakthrough Award Level 4",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "09/30/2026",
+   "url": "https://www.grants.gov/search-results-detail/362205"
+  },
+  "HT942526BCRPBTA122": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Breast Cancer, Breakthrough Award Levels 1 and 2",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "09/03/2026",
+   "close": "11/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/363670"
+  },
+  "PAR-25-325": {
+   "first_seen": "2026-09-03",
+   "title": "Integrating Biospecimen Science Approaches into Clinical Assay Development (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/13/2024",
+   "close": "09/10/2027",
+   "url": "https://www.grants.gov/search-results-detail/357712"
+  },
+  "HT942526PRCRPIA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Peer Reviewed Cancer, Idea Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/06/2026",
+   "close": "10/05/2026",
+   "url": "https://www.grants.gov/search-results-detail/362265"
+  },
+  "HT942526PRCRPIPA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW, Peer Reviewed Cancer, Impact Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/06/2026",
+   "close": "10/05/2026",
+   "url": "https://www.grants.gov/search-results-detail/362267"
+  },
+  "PAR-27-073": {
+   "first_seen": "2026-09-03",
+   "title": "Research Opportunities in Cancer Epidemiology Cohort Studies (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "07/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/359091"
+  },
+  "HT942526PRCRPCTA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Peer Reviewed Cancer, Clinical Trial Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/06/2026",
+   "close": "10/05/2026",
+   "url": "https://www.grants.gov/search-results-detail/362268"
+  },
+  "RFA-CA-27-020": {
+   "first_seen": "2026-09-03",
+   "title": "Advanced Development of Informatics Technologies for Cancer Research and Management (U24 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/19/2026",
+   "url": "https://www.grants.gov/search-results-detail/359855"
+  },
+  "RFA-CA-27-019": {
+   "first_seen": "2026-09-03",
+   "title": "Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/19/2027",
+   "url": "https://www.grants.gov/search-results-detail/359892"
+  },
+  "PAR-25-444": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Center Support Grants (CCSGs) for NCI-designated Cancer Centers (P30 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/26/2025",
+   "close": "09/25/2028",
+   "url": "https://www.grants.gov/search-results-detail/360918"
+  },
+  "RFA-CA-27-021": {
+   "first_seen": "2026-09-03",
+   "title": "Sustained Support for Informatics Technologies for Cancer Research and Management (U24 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/19/2026",
+   "url": "https://www.grants.gov/search-results-detail/359853"
+  },
+  "HT942526KCRPAKCIECSA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Kidney Cancer, Academy of Kidney Cancer Investigators &ndash; Early-Career Scholar Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/18/2026",
+   "close": "09/28/2026",
+   "url": "https://www.grants.gov/search-results-detail/362853"
+  },
+  "PAR-26-149": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Center Support Grants (CCSGs) for NCI-designated Cancer Centers (P30 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/10/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361439"
+  },
+  "RFA-CA-27-006": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Community Oncology Research Program (NCORP) Research Bases (UG1 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "09/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/358963"
+  },
+  "PAR-23-284": {
+   "first_seen": "2026-09-03",
+   "title": "Specialized Programs of Research Excellence (SPOREs) in Human Cancers for Years 2024, 2025, and 2026 (P50 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "09/22/2023",
+   "close": "09/25/2026",
+   "url": "https://www.grants.gov/search-results-detail/350299"
+  },
+  "PAR-26-064": {
+   "first_seen": "2026-09-03",
+   "title": "Specialized Programs of Research Excellence (SPOREs) in Human Cancers for Years 2027, 2028, and 2029 (P50 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "09/09/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/360541"
+  },
+  "FOR-FD-26-004": {
+   "first_seen": "2026-09-03",
+   "title": "Novel approaches to support therapeutic development in ultra-rare cancers",
+   "agency": "HHS-FDA",
+   "status": "forecasted",
+   "open": "08/04/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/360223"
+  },
+  "PAR-26-091": {
+   "first_seen": "2026-09-03",
+   "title": "Assay Validation of High Quality Markers for Clinical Studies in Cancer (UH2/UH3 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "12/08/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/360946"
+  },
+  "RFA-CA-26-010": {
+   "first_seen": "2026-09-03",
+   "title": "Canine Cancer Immunotherapy Network (K9CIN; U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/18/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361532"
+  },
+  "HT942526OCRPOCCTAECI": {
+   "first_seen": "2026-09-03",
+   "title": "DoW, Ovarian Cancer, Ovarian Cancer Clinical Trial Academy &ndash; Early-Career Investigator Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/362207"
+  },
+  "RFA-CA-25-035": {
+   "first_seen": "2026-09-03",
+   "title": "Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "01/13/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361134"
+  },
+  "PAR-24-311": {
+   "first_seen": "2026-09-03",
+   "title": "Molecular Imaging of Inflammation in Cancer (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357002"
+  },
+  "PAR-25-243": {
+   "first_seen": "2026-09-03",
+   "title": "Basic Research in Cancer Health Disparities (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357192"
+  },
+  "PAR-25-244": {
+   "first_seen": "2026-09-03",
+   "title": "Basic Research in Cancer Health Disparities (R21 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "11/16/2027",
+   "url": "https://www.grants.gov/search-results-detail/357193"
+  },
+  "RFA-CA-26-011": {
+   "first_seen": "2026-09-03",
+   "title": "Single source: Childhood Cancer Survivor Study (U24 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/18/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361534"
+  },
+  "RFA-CA-27-007": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Community Oncology Research Program (NCORP) Community Sites (UG1 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "09/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/358964"
+  },
+  "RFA-CA-27-008": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Community Oncology Research Program (NCORP) Academic Community Sites (UG1 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "09/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/359132"
+  },
+  "HT942526PCARPTRPA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Pancreatic Cancer Research Program, Translational Research Partnership Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/07/2026",
+   "url": "https://www.grants.gov/search-results-detail/362191"
+  },
+  "RFA-CA-27-002": {
+   "first_seen": "2026-09-03",
+   "title": "Advanced Development and Validation of Emerging Technologies for Basic and Clinical Cancer Research (R33 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/03/2026",
+   "close": "11/10/2026",
+   "url": "https://www.grants.gov/search-results-detail/360534"
+  },
+  "PAR-25-167": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Prevention and Control Clinical Trials Grant Program (R01 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/12/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357074"
+  },
+  "FOR-CA-25-077": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Publish a Funding Opportunity Announcement for Cancer Epidemiology Cohorts: Building the Next Generation of Research Cohorts (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/16/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359090"
+  },
+  "PA-25-253": {
+   "first_seen": "2026-09-03",
+   "title": "Exploratory Grants in Cancer Control (R21 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/12/2024",
+   "close": "09/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357067"
+  },
+  "PAR-25-074": {
+   "first_seen": "2026-09-03",
+   "title": "Assay Validation of High Quality Markers for Clinical Studies in Cancer (UH2/UH3 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "10/15/2024",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/356718"
+  },
+  "RFA-CA-28-002": {
+   "first_seen": "2026-09-03",
+   "title": "Advanced Development and Validation of Emerging Technologies for Basic and Clinical Cancer Research (R33 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/14/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363168"
+  },
+  "RFA-CA-28-001": {
+   "first_seen": "2026-09-03",
+   "title": "Early-Stage Innovative Technology Development for Basic and Clinical Cancer Research (R61 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/14/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363169"
+  },
+  "RFA-CA-28-003": {
+   "first_seen": "2026-09-03",
+   "title": "Advanced Development and Sustainment of Informatics Technologies for Cancer Research and Management (U24 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/28/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363350"
+  },
+  "PAR-25-081": {
+   "first_seen": "2026-09-03",
+   "title": "National Cancer Institute's Investigator-Initiated Early Phase Clinical Trials for Cancer Treatment and Diagnosis (R01 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/12/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357075"
+  },
+  "HT942526RCRPRCDA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Rare Cancers Resource and Community Development Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/17/2026",
+   "close": "11/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/362850"
+  },
+  "PAR-28-062": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Advancement through Partnerships in Research and Infrastructure (CAPRI) (U54 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "08/31/2026",
+   "close": "01/25/2027",
+   "url": "https://www.grants.gov/search-results-detail/360393"
+  },
+  "HT942526OCRPOCAECI": {
+   "first_seen": "2026-09-03",
+   "title": "DoW, Ovarian Cancer, Ovarian Cancer Academy &ndash; Early-Career Investigator Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/362204"
+  },
+  "PAR-26-129": {
+   "first_seen": "2026-09-03",
+   "title": "Systematic Testing of Radionuclides in Preclinical Experiments (STRIPE, RP1 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/11/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361447"
+  },
+  "RFA-CA-24-026": {
+   "first_seen": "2026-09-03",
+   "title": "National Cancer Institute Youth Enjoy Science Research Education Program (R25 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "07/09/2024",
+   "close": "09/28/2026",
+   "url": "https://www.grants.gov/search-results-detail/355297"
+  },
+  "PAR-25-248": {
+   "first_seen": "2026-09-03",
+   "title": "Utilizing the PLCO Biospecimens Resource to Bridge Gaps in Cancer Etiology and Early Detection Research (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/21/2024",
+   "close": "10/08/2027",
+   "url": "https://www.grants.gov/search-results-detail/357307"
+  },
+  "PAR-25-336": {
+   "first_seen": "2026-09-03",
+   "title": "Toward Translation of Nanotechnology Cancer Interventions (TTNCI; R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/16/2024",
+   "close": "11/15/2027",
+   "url": "https://www.grants.gov/search-results-detail/357748"
+  },
+  "PAR-26-126": {
+   "first_seen": "2026-09-03",
+   "title": "Pancreatic Cancer Detection Consortium: Management and Data Coordination Unit (U24 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "02/11/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361276"
+  },
+  "PAR-26-150": {
+   "first_seen": "2026-09-03",
+   "title": "Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/10/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361438"
+  },
+  "PAR-25-096": {
+   "first_seen": "2026-09-03",
+   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "11/17/2026",
+   "url": "https://www.grants.gov/search-results-detail/357205"
+  },
+  "PAR-25-095": {
+   "first_seen": "2026-09-03",
+   "title": "Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "11/06/2026",
+   "url": "https://www.grants.gov/search-results-detail/357204"
+  },
+  "HT942526PCARPIDA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Pancreatic Cancer Research Program, Idea Development Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/07/2026",
+   "url": "https://www.grants.gov/search-results-detail/362190"
+  },
+  "HT942526RCRPIDA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Rare Cancers Idea Development Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/17/2026",
+   "close": "11/18/2026",
+   "url": "https://www.grants.gov/search-results-detail/362849"
+  },
+  "HT942526KCRPIDA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Kidney Cancer, Idea Development Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/18/2026",
+   "close": "09/28/2026",
+   "url": "https://www.grants.gov/search-results-detail/362865"
+  },
+  "HT942526RCRPCA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Rare Cancers Concept Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/17/2026",
+   "close": "09/30/2026",
+   "url": "https://www.grants.gov/search-results-detail/362847"
+  },
+  "HT942526OCRPPA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW, Ovarian Cancer, Pilot Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/362209"
+  },
+  "PAR-27-071": {
+   "first_seen": "2026-09-03",
+   "title": "Discovery of the Genetic Basis of Childhood Cancers and of Congenital Anomalies: Gabriella Miller Kids First Pediatric Research Program (X01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/18/2026",
+   "close": "01/11/2027",
+   "url": "https://www.grants.gov/search-results-detail/361164"
+  },
+  "RFA-CA-27-001": {
+   "first_seen": "2026-09-03",
+   "title": "Early-Stage Innovative Technology Development for Basic and Clinical Cancer Research (R61 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/03/2026",
+   "close": "11/10/2026",
+   "url": "https://www.grants.gov/search-results-detail/360536"
+  },
+  "NOT-CA-25-105": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Publish a Notice of Funding Opportunity for Paul Calabresi Career Development Award in Clinical Oncology (K12 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/01/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359889"
+  },
+  "RFA-CA-26-006": {
+   "first_seen": "2026-09-03",
+   "title": "Carcinogen Hazard Assessment Monographs Program (CHAMP) (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "11/21/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/360905"
+  },
+  "PAR-27-088": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Research Specialist Award for Core and Laboratory-based Scientists (R50 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/06/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/362276"
+  },
+  "RFA-CA-27-003": {
+   "first_seen": "2026-09-03",
+   "title": "Radiation Oncology-Biology Integration Network (ROBIN) Centers (U54 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/02/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/362647"
+  },
+  "PAR-25-221": {
+   "first_seen": "2026-09-03",
+   "title": "Population Approaches to Reducing Alcohol-related Cancer Risk (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357021"
+  },
+  "PAR-25-043": {
+   "first_seen": "2026-09-03",
+   "title": "Mechanisms that Impact Cancer Risk after Bariatric Surgery (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "09/05/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/356341"
+  },
+  "PAR-25-075": {
+   "first_seen": "2026-09-03",
+   "title": "Assay Validation of High Quality Markers for Clinical Studies in Cancer (UH3 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "10/15/2024",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/356717"
+  },
+  "PA-25-172": {
+   "first_seen": "2026-09-03",
+   "title": "Modular R01s in Cancer Control and Population Sciences (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/07/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357030"
+  },
+  "PAR-25-069": {
+   "first_seen": "2026-09-03",
+   "title": "Mechanisms that Impact Cancer Risk with Use of Incretin Mimetics (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357202"
+  },
+  "PAR-25-044": {
+   "first_seen": "2026-09-03",
+   "title": "Mechanisms that Impact Cancer Risk after Bariatric Surgery (R21 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "09/05/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/356342"
+  },
+  "PAR-25-070": {
+   "first_seen": "2026-09-03",
+   "title": "Mechanisms that Impact Cancer Risk with Use of Incretin Mimetics (R21 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/18/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357203"
+  },
+  "PAR-26-120": {
+   "first_seen": "2026-09-03",
+   "title": "Pancreatic Cancer Detection Consortium: Research Units (U01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "02/11/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361275"
+  },
+  "PAR-27-009": {
+   "first_seen": "2026-09-03",
+   "title": "Single Source: Coordinating Center (CC) for the Small Cell Lung Cancer (SCLC) Consortium (U24 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/24/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361606"
+  },
+  "RFA-MD-27-001": {
+   "first_seen": "2026-09-03",
+   "title": "Limited Competition: NIMHD Initiative for Improving American Indian and Alaska Native Cancer Outcomes (U19 - Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/16/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363217"
+  },
+  "RFA-CA-27-012": {
+   "first_seen": "2026-09-03",
+   "title": "Metastasis Research Network (U54 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/04/2026",
+   "close": "09/25/2026",
+   "url": "https://www.grants.gov/search-results-detail/360881"
+  },
+  "HT942526OCRPIIRA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW, Ovarian Cancer, Investigator-Initiated Research Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/362202"
+  },
+  "HT942526PCARPFPTA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Pancreatic Cancer Research Program, Focused Pilot Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/07/2026",
+   "url": "https://www.grants.gov/search-results-detail/362193"
+  },
+  "PAR-23-287": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Pathway to Independence Award for Early-Stage Postdoctoral Researchers (K99/R00 - Independent Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/08/2023",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/350944"
+  },
+  "PAR-24-306": {
+   "first_seen": "2026-09-03",
+   "title": "Research Projects to Enhance Applicability of Mammalian Models for Translational Research (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "09/07/2026",
+   "url": "https://www.grants.gov/search-results-detail/357005"
+  },
+  "PAR-23-286": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Pathway to Independence Award for Early-Stage Postdoctoral Researchers (K99/R00 - Independent Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/08/2023",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/350943"
+  },
+  "PAR-25-103": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Prevention and Control Clinical Trials Planning Grant Program (U34 Clinical Trials Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/05/2024",
+   "close": "10/25/2027",
+   "url": "https://www.grants.gov/search-results-detail/356978"
+  },
+  "PAR-25-104": {
+   "first_seen": "2026-09-03",
+   "title": "Cancer Prevention and Control Clinical Trials Planning Grant Program (R34 Clinical Trials Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/05/2024",
+   "close": "10/25/2027",
+   "url": "https://www.grants.gov/search-results-detail/356979"
+  },
+  "PAR-25-175": {
+   "first_seen": "2026-09-03",
+   "title": "Integration of Imaging and Fluid-Based Tumor Monitoring in Cancer Therapy (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357003"
+  },
+  "PAR-27-025": {
+   "first_seen": "2026-09-03",
+   "title": "Paul Calabresi Career Development Award for Clinical Oncology (K12 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/03/2026",
+   "close": "03/12/2029",
+   "url": "https://www.grants.gov/search-results-detail/356197"
+  },
+  "HT942526OCRPCTA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Ovarian Cancer, Clinical Trial Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/362200"
+  },
+  "NOT-RM-25-034": {
+   "first_seen": "2026-09-03",
+   "title": "Genome Sequencing Center for the Gabriella Miller Kids First Pediatric Research Program (U24 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/14/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/358954"
+  },
+  "PAR-24-304": {
+   "first_seen": "2026-09-03",
+   "title": "Revision Applications for Validation of Biomarker Assays Developed Through NIH-Supported Research Grants (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "10/10/2024",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/356680"
+  },
+  "PAR-25-079": {
+   "first_seen": "2026-09-03",
+   "title": "Academic-Industrial Partnerships (AIP) to Translate and Validate In Vivo Imaging Systems (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/357018"
+  },
+  "PAR-26-152": {
+   "first_seen": "2026-09-03",
+   "title": "Precision Approaches in Radiation Synthetic Combinations (PAIRS, RP1 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "03/03/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361399"
+  },
+  "PAR-25-098": {
+   "first_seen": "2026-09-03",
+   "title": "Interventions to expand cancer screening and preventive services to ADVANCE health in populations that experience health disparities (R01, Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "10/10/2024",
+   "close": "01/07/2027",
+   "url": "https://www.grants.gov/search-results-detail/356690"
+  },
+  "PAR-25-145": {
+   "first_seen": "2026-09-03",
+   "title": "Clinical Characterization of Cancer Therapy-induced Adverse Sequelae and Mechanism-based Interventional Strategies (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357015"
+  },
+  "PAR-25-299": {
+   "first_seen": "2026-09-03",
+   "title": "Interventions to Address Disparities in Liver Diseases and Liver Cancer (R01 - Clinical Trials Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/05/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357550"
+  },
+  "PAR-26-134": {
+   "first_seen": "2026-09-03",
+   "title": "The Metastasis Research Network (MetNet): MetNet Research Projects (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "02/04/2026",
+   "close": "11/22/2028",
+   "url": "https://www.grants.gov/search-results-detail/359725"
+  },
+  "RFA-CA-27-005": {
+   "first_seen": "2026-09-03",
+   "title": "Glioblastoma Therapeutics Network (GTN) (U19 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "08/31/2026",
+   "close": "10/01/2026",
+   "url": "https://www.grants.gov/search-results-detail/360606"
+  },
+  "W81XWH-22-DHAPP": {
+   "first_seen": "2026-09-03",
+   "title": "Department of Defense HIV/AIDS Prevention Program",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "09/19/2022",
+   "close": "09/18/2027",
+   "url": "https://www.grants.gov/search-results-detail/343653"
+  },
+  "NOT-AI-25-032": {
+   "first_seen": "2026-09-03",
+   "title": "Limited Competition: International epidemiology Databases to Evaluate AIDS (IeDEA) (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/27/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359142"
+  },
+  "NOT-RM-25-019": {
+   "first_seen": "2026-09-03",
+   "title": "Cellular Senescence Network (SenNet): SenNet Data Coordination, Integration and Organizational Center (U24 or UM1)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/28/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359169"
+  },
+  "NOT-RM-25-018": {
+   "first_seen": "2026-09-03",
+   "title": "Cellular Senescence Network (SenNet):Technology Projects (UG3/UH3 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/28/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359168"
+  },
+  "FOR-CA-25-086": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Publish a Notice of Funding Opportunity for SBIR Phase IIB Bridge Awards to Accelerate the Development of Cancer-Relevant Technologies Toward Commercialization (R44 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/16/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359726"
+  },
+  "NOT-CA-25-102": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Publish a Notice of Funding Opportunity for Academic Career Excellence (ACE) Award (K32 - Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "07/01/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359894"
+  },
+  "NOT-RM-25-035": {
+   "first_seen": "2026-09-03",
+   "title": "Continued Development of the Gabriella Miller Kids First Pediatric Data Resource Center (U2C Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/14/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/358959"
+  },
+  "NOT-RM-25-036": {
+   "first_seen": "2026-09-03",
+   "title": "Gabriella Miller Kids First Training and Outreach Core (U24 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/14/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/358960"
+  },
+  "FOR-EB-26-001": {
+   "first_seen": "2026-09-03",
+   "title": "Notice of Intent to Publish a Funding Opportunity Announcement for Trailblazer Award for New and Early-Stage Investigators (R21 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/11/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/358886"
+  },
+  "FOR-CA-25-087": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Publish a Notice of Funding Opportunity for Small Business Transition Grant For Early Career Scientists (R41/R42 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/16/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359724"
+  },
+  "FOR-MD-25-002": {
+   "first_seen": "2026-09-03",
+   "title": "Forecast to Renew the Notice of Funding Opportunity Announcement for the Multiple Chronic Disease Research Centers",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/12/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/358870"
+  },
+  "NOT-HD-25-006": {
+   "first_seen": "2026-09-03",
+   "title": "Notice of Intent to Publish a Funding Opportunity Announcement for ClinGen Genomic Curation Expert Panels",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "06/25/2025",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/359827"
+  },
+  "PAR-25-153": {
+   "first_seen": "2026-09-03",
+   "title": "Assay development and screening for discovery of chemical probes, drugs or immunomodulators (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/06/2024",
+   "close": "09/07/2026",
+   "url": "https://www.grants.gov/search-results-detail/357014"
+  },
+  "PAR-25-271": {
+   "first_seen": "2026-09-03",
+   "title": "NCCIH Natural Product Mid Phase Clinical Trial (R01 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/02/2024",
+   "close": "11/13/2026",
+   "url": "https://www.grants.gov/search-results-detail/357493"
+  },
+  "PAR-25-337": {
+   "first_seen": "2026-09-03",
+   "title": "Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment (R01 - Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/31/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357963"
+  },
+  "PAR-25-321": {
+   "first_seen": "2026-09-03",
+   "title": "Exploratory/Developmental Bioengineering Research Grants (EBRG) (R21 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/10/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357627"
+  },
+  "PAR-25-346": {
+   "first_seen": "2026-09-03",
+   "title": "Exploratory/Developmental Bioengineering Research Grants (EBRG) (R21 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/11/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357651"
+  },
+  "PAR-25-324": {
+   "first_seen": "2026-09-03",
+   "title": "Method to Extend Research in Time (MERIT) Award Extension Request (Type 4 eSubmission Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "01/06/2025",
+   "close": "09/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/358024"
+  },
+  "PAR-25-338": {
+   "first_seen": "2026-09-03",
+   "title": "Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment (R01 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/31/2024",
+   "close": "01/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/357962"
+  },
+  "RFA-HG-26-002": {
+   "first_seen": "2026-09-03",
+   "title": "Genomic Community Resources (U24 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "02/09/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/361263"
+  },
+  "PAR-27-089": {
+   "first_seen": "2026-09-03",
+   "title": "NCI Research Specialist (Clinician Scientist) Award (R50 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "05/06/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/362277"
+  },
+  "RFA-RM-28-009": {
+   "first_seen": "2026-09-03",
+   "title": "Partnership with Common Fund Data Ecosystem Resources",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "08/06/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363488"
+  },
+  "RFA-MD-27-004": {
+   "first_seen": "2026-09-03",
+   "title": "Innovative Research to Improve Native Hawaiian and Pacific Islander (NHPI) Health Outcomes (R34 - Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "forecasted",
+   "open": "08/25/2026",
+   "close": "",
+   "url": "https://www.grants.gov/search-results-detail/363713"
+  },
+  "RFA-OD-27-003": {
+   "first_seen": "2026-09-03",
+   "title": "INCLUDE Project: Exploratory/Developmental Research Awards for Down syndrome (R21 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/12/2026",
+   "close": "06/15/2028",
+   "url": "https://www.grants.gov/search-results-detail/360653"
+  },
+  "RFA-OD-27-004": {
+   "first_seen": "2026-09-03",
+   "title": "INCLUDE Project: Transformative Research Awards for Down syndrome (R01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/12/2026",
+   "close": "06/15/2028",
+   "url": "https://www.grants.gov/search-results-detail/360654"
+  },
+  "RFA-OD-27-005": {
+   "first_seen": "2026-09-03",
+   "title": "INCLUDE Project: Clinical Trials Phased Awards for Down syndrome Research (R61/R33 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/13/2026",
+   "close": "06/15/2028",
+   "url": "https://www.grants.gov/search-results-detail/360655"
+  },
+  "PAR-27-072": {
+   "first_seen": "2026-09-03",
+   "title": "Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/04/2026",
+   "close": "07/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/360543"
+  },
+  "HT942526MRPIA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Melanoma Research Program Idea Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362240"
+  },
+  "HT942526MRPTSA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Melanoma Research Program Team Science Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362242"
+  },
+  "HT942526MRPMASA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Melanoma Research Program Melanoma Academy Scholar Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362245"
+  },
+  "HT942526MRPSRA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Melanoma Research Program Survivorship Research Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362246"
+  },
+  "HT942526MRPFPARM": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Melanoma Research Program Focused Program Award &ndash; Rare Melanomas",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "05/21/2026",
+   "close": "10/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362244"
+  },
+  "PAR-27-057": {
+   "first_seen": "2026-09-03",
+   "title": "Causal Hypotheses on the Oral-Systemic Health Impacts of Human Behaviors among People with Chronic Conditions (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/04/2026",
+   "close": "07/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/360160"
+  },
+  "PAR-27-062": {
+   "first_seen": "2026-09-03",
+   "title": "Academic Career Excellence (ACE) Award (K32 Independent Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/27/2026",
+   "close": "07/12/2029",
+   "url": "https://www.grants.gov/search-results-detail/362581"
+  },
+  "PAR-26-116": {
+   "first_seen": "2026-09-03",
+   "title": "Opportunities for Collaborative Research at the NIH Clinical Center (U01 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/08/2025",
+   "close": "03/06/2027",
+   "url": "https://www.grants.gov/search-results-detail/359659"
+  },
+  "PA-27-034": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Research Education Program - Courses, Curriculum &amp; Methods (Parent R25 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/08/2026",
+   "close": "05/25/2029",
+   "url": "https://www.grants.gov/search-results-detail/359703"
+  },
+  "PAR-27-051": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Brain Development Cohorts (NBDC) and&nbsp;Population Assessment of Tobacco and Health (PATH) Study&nbsp;Biospecimen Access (X01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "09/01/2026",
+   "close": "04/17/2029",
+   "url": "https://www.grants.gov/search-results-detail/360554"
+  },
+  "PA-27-037": {
+   "first_seen": "2026-09-03",
+   "title": "Predoctoral to Postdoctoral Transition Award (Parent F99/K00 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/16/2026",
+   "close": "04/08/2029",
+   "url": "https://www.grants.gov/search-results-detail/359702"
+  },
+  "PAR-27-058": {
+   "first_seen": "2026-09-03",
+   "title": "NIDCR Prospective Observational or Biomarker Validation Study Cooperative Agreement (U01 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/16/2026",
+   "close": "07/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/359946"
+  },
+  "PAR-27-078": {
+   "first_seen": "2026-09-03",
+   "title": "Research Enhancement Award Program (REAP) for Health Professional Schools and Graduate Schools (R15 Clinical Trial Required)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/29/2026",
+   "close": "10/25/2027",
+   "url": "https://www.grants.gov/search-results-detail/359733"
+  },
+  "PA-27-036": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Research Education Program - Research Experiences (Parent R25 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/08/2026",
+   "close": "05/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/361159"
+  },
+  "PA-27-035": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Research Educational Program - Mentoring Activities &amp; Networks (Parent R25/UE5 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/08/2026",
+   "close": "05/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/361160"
+  },
+  "RFA-NS-27-007": {
+   "first_seen": "2026-09-03",
+   "title": "HEAL Initiative: Non-addictive Analgesic Therapeutics Development [Small Molecules and Biologics] to Treat Pain (UG3/UH3 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/16/2026",
+   "close": "02/20/2029",
+   "url": "https://www.grants.gov/search-results-detail/359161"
+  },
+  "PAR-27-076": {
+   "first_seen": "2026-09-03",
+   "title": "Lasker Clinical Research Scholar's Program (Si2/R00 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "08/31/2026",
+   "close": "07/07/2028",
+   "url": "https://www.grants.gov/search-results-detail/361187"
+  },
+  "HT942526NFRPNFRALA": {
+   "first_seen": "2026-09-03",
+   "title": "DoW Neurofibromatosis Research Academy &ndash; Leadership Award",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "06/23/2026",
+   "close": "09/14/2026",
+   "url": "https://www.grants.gov/search-results-detail/362917"
+  },
+  "PA-27-102": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Small Business Technology Transfer Grant (Parent STTR [R41/R42] Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/28/2026",
+   "close": "04/05/2027",
+   "url": "https://www.grants.gov/search-results-detail/359757"
+  },
+  "PA-27-101": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Small Business Innovation Research (SBIR) Phase IIB Strategic Breakthrough Award (Parent [R44] Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/28/2026",
+   "close": "04/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/359758"
+  },
+  "PA-27-100": {
+   "first_seen": "2026-09-03",
+   "title": "NIH, CDC and FDA Small Business Innovation Research Grant (Parent SBIR [R43/R44] Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/28/2026",
+   "close": "04/05/2027",
+   "url": "https://www.grants.gov/search-results-detail/359671"
+  },
+  "RFA-OD-25-010": {
+   "first_seen": "2026-09-03",
+   "title": "Resource-Related Research Projects for Development of Models and Related Materials for Studying Human Health and Diseases (R24 Clinical Trials Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/05/2025",
+   "close": "09/28/2028",
+   "url": "https://www.grants.gov/search-results-detail/359648"
+  },
+  "PAR-27-098": {
+   "first_seen": "2026-09-03",
+   "title": "SBIR/STTR Commercialization Readiness Pilot (CRP) Program (Parent SB1 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "05/28/2026",
+   "close": "04/05/2029",
+   "url": "https://www.grants.gov/search-results-detail/359669"
+  },
+  "RFA-RM-27-012": {
+   "first_seen": "2026-09-03",
+   "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/30/2026",
+   "close": "10/19/2026",
+   "url": "https://www.grants.gov/search-results-detail/359270"
+  },
+  "PA-26-001": {
+   "first_seen": "2026-09-03",
+   "title": "Administrative Supplements to Existing NIH Grants and Cooperative Agreements (Parent Admin Supp Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/26/2025",
+   "close": "11/30/2028",
+   "url": "https://www.grants.gov/search-results-detail/360368"
+  },
+  "PAR-27-015": {
+   "first_seen": "2026-09-03",
+   "title": "Community-Based Participatory Research to Advance Data and Practice Transformation (ADAPT) for Optimizing Oral Health for All (UG3/UH3 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "04/27/2026",
+   "close": "11/16/2028",
+   "url": "https://www.grants.gov/search-results-detail/358864"
+  },
+  "RFA-OD-25-011": {
+   "first_seen": "2026-09-03",
+   "title": "Animal and Biological Material Resource Centers (P40 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "12/05/2025",
+   "close": "09/26/2028",
+   "url": "https://www.grants.gov/search-results-detail/359646"
+  },
+  "RFA-NS-27-011": {
+   "first_seen": "2026-09-03",
+   "title": "Single Source: Post-Stroke Vascular Contributions to Cognitive Impairment and Dementia (VCID) in the United States (U19 - Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "06/30/2026",
+   "close": "09/28/2026",
+   "url": "https://www.grants.gov/search-results-detail/360547"
+  },
+  "PA-26-002": {
+   "first_seen": "2026-09-03",
+   "title": "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "01/20/2026",
+   "close": "05/07/2029",
+   "url": "https://www.grants.gov/search-results-detail/360581"
+  },
+  "HT9425-23-S-SOC1": {
+   "first_seen": "2026-09-03",
+   "title": "BROAD AGENCY ANNOUNCEMENT (BAA) for Extramural Biomedical and Human Performance Research and Development Department of Defense",
+   "agency": "DOD-AMRAA",
+   "status": "posted",
+   "open": "07/27/2023",
+   "close": "07/31/2028",
+   "url": "https://www.grants.gov/search-results-detail/349586"
+  }
+ },
+ "updated": "2026-09-03T23:14:42"
+}
