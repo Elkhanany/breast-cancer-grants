@@ -41,6 +41,19 @@ Some sponsors refuse plain fetches (CPRIT's landing page, Komen, PCORI return 40
 the in-app browser — `mcp__Claude_Browser__navigate`, then `get_page_text` — which renders the
 JavaScript tables a fetch never sees. A refused fetch is not a reason to skip a record.
 
+Sponsor quirks worth knowing before you conclude a page is empty:
+
+- **Merck MISP** (`misp-investigator-studies.com/areas-of-interest`) forces a country selection
+  before it renders anything. In the browser choose United States and continue, then open the
+  Oncology therapeutic area; the compound and areas-of-interest list only appears after that. A
+  plain fetch sees navigation labels and nothing else, so the crawler's RFP-line diff on this page
+  detects new server-rendered text only; the list itself is a browser read.
+- **Gilead** (`.../oncology-rfp-opportunities`) prints "No current opportunities" under both
+  "RFP Programs" and "RFP Topics of Interest" when nothing is open. That sentence disappearing is
+  the signal that an oncology RFP has been posted.
+- **Pfizer Competitive Grants** lists calls in a paginated table on the page itself; the ISR page
+  carries only areas of interest and an alert sign-up.
+
 Set `last_verified` on every record you actually checked, whether or not it changed.
 
 ## 4. Detect programs that stopped
