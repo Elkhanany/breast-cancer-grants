@@ -41,10 +41,20 @@ ALWAYS_WATCH_SPONSORS = ("DOD CDMRP BCRP", "CPRIT")
 # Their pages change when a sponsor posts an asset-specific RFP; that is what the RFP-line
 # fingerprint below is for.
 ALWAYS_WATCH_CATEGORIES = ("trial-funding",)
+# Compounds and topics this portfolio cares about. A sponsor listing one of these on a watched
+# page is worth a look even when no RFP wording surrounds it.
+WATCH_TERMS = (
+    "sacituzumab", "tirumotecan", "sac-TMT", "MK-2870", "Trodelvy", "Enhertu", "trastuzumab deruxtecan",
+    "Dato-DXd", "datopotamab", "tucatinib", "imlunestrant", "camizestrant", "vepdegestrant",
+    "giredestrant", "elacestrant", "palazestrant", "ribociclib", "abemaciclib", "atirmociclib",
+    "zanidatamab", "breast", "HER2", "TROP-2", "TROP2", "antibody-drug conjugate", "ctDNA",
+    "minimal residual disease", "real-world",
+)
 RFP_RE = re.compile(
     r"(request for proposals?|RFPs?|call for proposals?|areas? of (?:research )?interest|"
-    r"funding opportunit\w*|now accepting|submission (?:deadline|window)|competitive grant|"
-    r"research grant program|letter of intent|applications? (?:open|close|due))", re.I)
+    r"funding opportunit\w*|now accepting|actively accepting|accepting submissions|"
+    r"submission (?:deadline|window)|competitive grant|research grant program|letter of intent|"
+    r"applications? (?:open|close|due)|" + "|".join(re.escape(t) for t in WATCH_TERMS) + r")", re.I)
 GRANTSGOV_KEYWORDS = ("breast cancer", "metastatic breast")
 GRANTSGOV_AGENCY_PREFIXES = ("DOD-AMRAA", "HHS-NIH", "HHS-AHRQ", "HHS-FDA", "NSF")
 

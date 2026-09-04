@@ -5604,6 +5604,7 @@
    "evidence": "MISP site: Merck offers 'drug/vaccine and/or total/partial funding' to support 'high-quality research that is initiated, designed, implemented, and sponsored by external investigators'; users 'Search by therapeutic area' to view compounds 'actively accepting s…",
    "fit": 65.0,
    "watch_urls": [
+    "https://misp-investigator-studies.com/areas-of-interest/solid-tumor",
     "https://misp-investigator-studies.com/areas-of-interest"
    ]
   },

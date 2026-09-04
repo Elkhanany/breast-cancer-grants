@@ -1,8 +1,196 @@
 {
  "generated": "2026-09-04",
  "seeded": false,
- "pages_watched": 90,
+ "pages_watched": 91,
  "signals": [
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round1",
+    "dod-bcrp-clinical-research-extension-fy26-round1",
+    "dod-bcrp-era-of-hope-scholar-fy26",
+    "dod-bcrp-transformative-consortium-development-fy26"
+   ],
+   "url": "https://cdmrp.health.mil/funding/archive/BCRPArchive.aspx",
+   "lines_added": [
+    "Breast Cancer Research Program Funding Opportunities Archives, Congressionally Directed Medical",
+    "cer Research Program Program Funding Opportunities Archives Breast Cancer Research Program The following Program Funding Opportunities are downloadable in A",
+    "ch Extension Award Era of Hope Scholar Award Transformative Breast Cancer Consortium Development Award Reference Table of Award Mechanisms General Applicati",
+    "phic Lateral Sclerosis Arthritis Autism Bone Marrow Failure Breast Cancer Combat Readiness-Medical Duchenne Muscular Dystrophy Epilepsy Hearing Restoration",
+    "unding Opportunities Program Funding Opportunities Archives Breast Cancer Research Program Program Funding Opportunities Archives Breast Cancer Research Pro"
+   ],
+   "lines_removed": [],
+   "detail": "+5 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round2",
+    "dod-bcrp-breakthrough-level-3-fy26",
+    "dod-bcrp-breakthrough-level-4-fy26",
+    "dod-bcrp-clinical-research-extension-fy26-round2",
+    "dod-bcrp-fy27-outlook",
+    "dod-bcrp-transformative-consortium-award-fy26"
+   ],
+   "url": "https://cdmrp.health.mil/funding/bcrp",
+   "lines_added": [
+    ": September 30, 2026 11:59 p.m. Eastern Time Transformative Breast Cancer Consortium Award May 4, 2026 Program Announcement Application Instructions Pre-App",
+    "Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research Program (BCRP) To view past Program Funding Opportunities, please visit t",
+    "Funding Opportunities - FY26 Breast Cancer Research Program, Congressionally Directed Medical Research Programs (CDMRP), US D",
+    "phic Lateral Sclerosis Arthritis Autism Bone Marrow Failure Breast Cancer Combat Readiness-Medical Duchenne Muscular Dystrophy Epilepsy Hearing Restoration",
+    "ss Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research Program"
+   ],
+   "lines_removed": [],
+   "detail": "+5 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "nci-spore-p50-2024-2026"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-23-284.html",
+   "lines_added": [
+    "and who are not representative of the target population for breast cancer screening would not fit the definition of population science in a SPORE project. 3",
+    "ncer that uses a sampling frame of women undergoing routine breast cancer screening drawn from clinical practice. However, a project focused on biomarker di",
+    "sa Janakiram, Ph.D. Program Director (Ovarian, Endometrial, Breast, Cervical SPOREs) National Cancer Institute (NCI) Telephone: 240-276-5892 Email: [email p",
+    "ted to focus on a particular organ-specific cancer, such as breast or prostate, or a group of related cancers that belong to a common organ system, for exam"
+   ],
+   "lines_removed": [],
+   "detail": "+4 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "ncats-ctsa-um1"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-24-272.html",
+   "lines_added": [
+    "able clinical and/or public health data sources) to support Real-World Evidence AI/ML algorithm validation and quality control tools Statistical, graph and netw",
+    "is of existing data (e.g., real-world data sets to discover real-world evidence, projects using the National COVID Cohort Collaborative (N3C) Data Enclave). Val",
+    "linical informatics methodology to encompass biological and Real-world observations). Novel research and resources that can be disseminated to a variety of stak",
+    "lth records (EHRs) for research; data transparency/release; real-world data integration as novel clinical evidence; digital health and its impact on clinical re",
+    "ons to collect and validate DHT-derived data for its use as Real-World Data and subsequent linking to other sources (e.g., other reliable clinical and/or public",
+    "re CTS projects. Secondary analysis of existing data (e.g., real-world data sets to discover real-world evidence, projects using the National COVID Cohort Colla"
+   ],
+   "lines_removed": [],
+   "detail": "+6 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "nci-biospecimen-assay-u01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-325.html",
+   "lines_added": [
+    "-assay delay affect CTC enumeration and characterization of breast cancer patient samples using the high-definition single-cell analysis assay (HD-SCA). CTC",
+    "aspirates, feces, or bodily fluids like sweat, urine, CSF, breast milk and saliva. Investigator-designed experiments will explore how different biospecimen",
+    "dramatic influence on assay results is companion diagnostic HER2 assays that guide the therapeutic use of trastuzumab, a targeted therapy for breast cance",
+    "east cancer. Recommendations for the reliable assessment of HER2 status in patient biospecimens were established 14 years after the initiation of phase 1",
+    "measures were developed in response to multiple issues with HER2 reproducibility including preanalytical variability. For example, one study showed that t",
+    "of tissue processing, and time in fixative could influence HER2 assay results. A major issue for such guidelines is that there is often a lack of fundame",
+    "secretions, esophageal aspirates, feces, sweat, urine, CSF, breast milk, BAL and/or saliva Potential preanalytical issues to address in solid tumors (FNA, C",
+    "secretions, pleural and esophageal aspirates, feces, sweat, breast milk and saliva have potential application in clinical biomarker research and are include",
+    "showed that the number of patients reported to overexpress HER2 differed by approximately 20% between specimens processed in local pathology departments",
+    "the therapeutic use of trastuzumab, a targeted therapy for breast cancer. Recommendations for the reliable assessment of HER2 status in patient biospecimen"
+   ],
+   "lines_removed": [],
+   "detail": "+10 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "arvinas-investigator-sponsored-research"
+   ],
+   "url": "https://ir.arvinas.com/",
+   "lines_added": [
+    "s Scientific Advisory Board Patients Overview Patients with Breast Cancer Clinical Trials Expanded Access Policy Careers and Culture Life at Arvinas Join Us"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "menarini-stemline-iss"
+   ],
+   "url": "https://medical.menarinistemline.com/",
+   "lines_added": [
+    "&reg; (MBCC) Posters Elacestrant vs standard-of-care in ER+/HER2- advanced or metastatic breast cancer (mBC) with ESR1 mutation: Key biomarkers and clinic",
+    "(ER+), HER2-negative (HER2-) locally advanced or metastatic breast cancer (mBC) Product: Orserdu Rugo HS, Bardia A, Hamilton E, et al Miami Breast Cancer Co",
+    "(pts) with estrogen receptor-positive (ER+), HER2-negative (HER2-) locally advanced or metastatic breast cancer (mBC) Product: Orserdu Rugo HS, Bardia A,",
+    ", vs investigator’s choice of endocrine monotherapy for ER+/HER2- advanced/metastatic breast cancer (mBC) following progression on prior endocrine and CDK",
+    "- advanced or metastatic breast cancer (mBC) comparing oral elacestrant vs standard of care (SoC) endocrine therapy Product: Orserdu Cortes J, Bidard FC, Bardia",
+    "40 View Miami Breast Cancer Conference&reg; (MBCC) Posters Elacestrant, an oral selective estrogen receptor degrader (SERD), vs investigator’s choice of endocri",
+    "BC) Product: Orserdu Ibrahim N, Kim SB, Lin NU, et al Miami Breast Cancer Conference&reg; (MBCC) March 2024 Poster 25 View ELEVATE: A phase 1b/2, open-label",
+    "CTRA Trial is An Open-label Multicenter Phase 1b/2 Study of Elacestrant in Combination with Abemaciclib in Women and Men with Brain Metastasis from Estrogen Rece",
+    "Contacts Miami Breast Cancer Conference&reg; (MBCC) Posters Elacestrant vs standard-of-care in ER+/HER2- advanced or metastatic breast cancer (mBC) with ESR1 mut",
+    "ER+/HER2- metastatic breast cancer. The study investigates elacestrant as single agent without prior CDK4/6i exposure. Proposed Mechanism of Action SERD (ER) Ad",
+    "LEVATE: A phase 1b/2, open-label, umbrella study evaluating elacestrant in various combinations in patients (pts) with estrogen receptor-positive (ER+), HER2-neg",
+    "Metastasis from Estrogen Receptor positive, HER-2 Negative Breast Cancer. ELECTRA is a Global Study with the aim of determining the activity of elacestrant"
+   ],
+   "lines_removed": [],
+   "detail": "+54 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "merck-investigator-studies-program"
+   ],
+   "url": "https://misp-investigator-studies.com/",
+   "lines_added": [
+    "ull list of areas of interest (AOIs) and compounds that are actively accepting submissions. Get started --> Review critical activities and timelines Check the submissio"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "olema-oncology-iss"
+   ],
+   "url": "https://olema.com/clinical-trials/",
+   "lines_added": [
+    ") in Combination with Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer Please visit OPERA01study.com for more information about part",
+    ". Standard of Care for the Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-01) Please visit OPERA01study.com for more information about participation",
+    ".com for more information. Palazestrant in Combination with Ribociclib for the First-line Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-02) Please visit",
+    "Clinical Trials | Advancing Breast Cancer Care at Olema Who We Are About Leadership What We Do Science Pipeline Publications",
+    "Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer Please visit OPERA01study.com for more information about participation in",
+    "alazestrant) vs. Standard of Care for the Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-01) Please visit OPERA01study.com for more information abo",
+    "hase 1b Study of OP-1250 (Palazestrant) in Combination with Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer Please visit OPERA01s",
+    "he trial. Link to Clinical Trial Phase 1b Study of OP-1250 (Palazestrant) in Combination with Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Bre",
+    "iclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer Please visit OPERA01study.com for more information about participation in the tria",
+    "in the trial. Visit OPERA01study.com for more information. Palazestrant in Combination with Ribociclib for the First-line Treatment of ER+/​HER2- Advanced Breast",
+    "n/interactions/pause circle@2x Our Clinical Trials OP-1250 (Palazestrant) vs. Standard of Care for the Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-01) P",
+    "nation with Ribociclib for the First-line Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-02) Please visit OPERA01study.com for more information abo"
+   ],
+   "lines_removed": [],
+   "detail": "+13 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "puma-biotechnology-ist"
+   ],
+   "url": "https://pumabiotechnology.com/clinical-trials/clinincal-trials.html",
+   "lines_added": [
+    "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Data Sharing Extended Access Program News Latest News Release Archives Investor",
+    "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Trial Data Sharing Extended Access Program Sponsored Trials By clicking on the"
+   ],
+   "lines_removed": [],
+   "detail": "+2 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "sermonix-pharmaceuticals-collaboration"
+   ],
+   "url": "https://sermonixpharma.com/partners-collaborations/",
+   "lines_added": [
+    "r RSS About Company Overview Partners &#038; Collaborations Breast Cancer Pipeline Lasofoxifene ELAINE Studies The Elaine-3 Study The ELAINE-2 Study The ELA"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +198,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 3 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +207,25 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 3 run(s) in a row."
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "aacr-lbca-ilc-research-challenge-grants"
+   ],
+   "url": "https://www.aacr.org/grants/aacr-lbca-invasive-lobular-carcinoma-research-challenge-grants/",
+   "lines_added": [
+    "AACR-Lobular Breast Cancer Alliance Invasive Lobular Carcinoma Research Challenge Grants | Grants | AACR × Ad",
+    "LC) that have the potential to advance knowledge of lobular breast cancer detection, diagnosis, pathology, treatment, recurrence prevention, or surveillance",
+    "ar Targets and Cancer Therapeutics Liver Cancer San Antonio Breast Cancer Symposium Cancer Biology-informed Radioligand Therapy Lung Cancer Targeting RAS AA",
+    "ips Stand Up To Cancer Research Funding Impact AACR-Lobular Breast Cancer Alliance Invasive Lobular Carcinoma Research Challenge Grants Grant Amount $50,000",
+    "ment, surveillance, and prevention of recurrence in lobular breast cancer. Eligibility Criteria At the start of the grant term (January 1, 2027), applicants",
+    "of the submitted application. Description The AACR-Lobular Breast Cancer Alliance Invasive Lobular Carcinoma Research Challenge Grants is a joint effort to",
+    "re Professionals > Research Funding > Grants > AACR-Lobular Breast Cancer Alliance Invasive Lobular Carcinoma Research Challenge Grants In This Section Curr"
+   ],
+   "lines_removed": [],
+   "detail": "+7 / -0 RFP-related passages since 2026-09-04"
   },
   {
    "kind": "blocked",
@@ -28,7 +234,102 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 3 run(s) in a row."
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "conquer-cancer-career-development-award"
+   ],
+   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/career-development-award",
+   "lines_added": [
+    "onfirmed. CDA in Palliative and Supportive Care in Oncology Breast cancers Eligibility Applicants must meet the following criteria: A physician (MD, DO, or"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "conquer-cancer-young-investigator-award"
+   ],
+   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award",
+   "lines_added": [
+    "petition . ALK (anaplastic lymphoma kinase) related cancers Breast cancers Colon cancer Genomics Therapeutics Pancreatic cancer Pediatric cancers Prostate c"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "astrazeneca-esr"
+   ],
+   "url": "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html",
+   "lines_added": [
+    "/ Computational path) to approach patient ID, spanning the HER2 spectrum Explore approaches to maximize patient response Breast Indication Non-specific N",
+    "/ Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug Conjugate (ADC) HER2+ Breast Cancer Optimal treatment approaches",
+    "AE management Across BC Capivasertib combination with Dato, Enhertu, Imfinzi and focus on late-stage development AZ molecules to align with LCM strategy* Vol",
+    "C Outcomes &amp; safety profile of durvalumab in LS-SCLC in real-world practice Durvalumab in patients excluded from ADRIATIC or in conjunction with alternative",
+    "C expression levels and rare gynecologic cancer histologies HER2 overlap with other biomarkers in gynecologic cancers Real-world outcomes of HER2-expressi",
+    "D) and complete ER antagonist HR+ aBC Pre- and post-launch: Camizestrant in fast progressing patients Novel combinations for launched compounds Clinical benefit i",
+    "HC 2+ NSCLC T-DXd as the backbone for novel combinations in HER2-altered 1L, exploring T-DXd safety and dosing T-DXd central nervous system brain metastas",
+    "HER2-expressing disease, including combinations with T-DXd HER2 dynamics and prevalence over time in response to different treatment combinations/monothe",
+    "R1m testing* HR+ eBC Pre- and post-launch: Combination with ribociclib (via NVS partnership) Definitions of intermediate-/high-risk populations Use of innovativ",
+    "R2 spectrum Explore approaches to maximize patient response Breast Indication Non-specific Novel combinations, translational or clinical approaches to delay",
+    "RD) Post-launch: RW experience with camizestrant Datroway / Datopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed Antibody Drug Conjugate (",
+    "SERENA-4 and/or SERENA-6) Characterisation of HR-positive, HER2-negative patient outcomes in a RW setting Understanding predictive biomarkers ESR1m preva"
+   ],
+   "lines_removed": [],
+   "detail": "+64 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "breast-cancer-research-foundation-alabama"
+   ],
+   "url": "https://www.bcrfa.org/fueling-innovation-breast-cancer-research-foundation-of-alabama-call-for-proposals/",
+   "lines_added": [
+    "5 with an impressive $1,200,000 investment. BCRFA funds two breast cancer research grants at UAB’s O’Neal Comprehensive Cancer Center The Breast Cancer Rese",
+    "Cancer Research Foundation of Alabama Call for Proposals | Breast Cancer Research Foundation of Alabama Skip to content NEWSLETTER SIGN UP Twitter Facebook",
+    "Fueling Innovation: Breast Cancer Research Foundation of Alabama Call for Proposals | Breast Cancer Research Foundat",
+    "Research Foundation of Alabama (BCRFA) seeks to accelerate breast cancer research in&hellip; FOLLOW US Twitter (deprecated) Facebook Instagram LinkedIn QUI",
+    "abama (BCRFA) announces a continued commitment to advancing breast cancer research in 2025 with an impressive $1,200,000 investment. BCRFA funds two breast",
+    "arch grants at UAB’s O’Neal Comprehensive Cancer Center The Breast Cancer Research Foundation of Alabama (BCRFA) is proud to announce the funding approval o",
+    "ct projects, the BCRFA seeks to deepen our understanding of breast cancer and advance novel strategies for prevention, diagnosis, and treatment. We welcome",
+    "is a nonprofit organization raising funds and awareness for breast cancer research in Alabama. Since its founding in 1996, the organization has invested ove",
+    "lated Posts $1.2 Million Investment Will Advance Lifesaving Breast Cancer Research The Breast Cancer Research Foundation of Alabama (BCRFA) announces a cont",
+    "ls $130,000. BCRFA Announces 2025 Funding Opportunities The Breast Cancer Research Foundation of Alabama (BCRFA) seeks to accelerate breast cancer research",
+    "mobile menu Close mobile menu Cart Blog Fueling Innovation: Breast Cancer Research Foundation of Alabama Call for Proposals July 16, 2026 BCRFA Newsroom Ann",
+    "o Top × Marketing services powered by Superpath &copy; 2026 Breast Cancer Research Foundation of Alabama Privacy Policy We use cookies to ensure that we giv"
+   ],
+   "lines_removed": [],
+   "detail": "+16 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "bwf-career-awards-medical-scientists"
+   ],
+   "url": "https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/",
+   "lines_added": [
+    "ins University Elucidating the role of K14+ leader cells in breast cancer invasion and metastasis Ethan Michael Goldberg, M.D., Ph.D. University of Pennsylv",
+    "orial Sloan-Kettering Cancer Center DNA Damage Responses in Breast Cancer Pathogenesis Andrew Caleb Hsieh, M.D. University of California-San Francisco Eluci"
+   ],
+   "lines_removed": [],
+   "detail": "+2 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "cri-technology-impact-award"
+   ],
+   "url": "https://www.cancerresearch.org/technology-impact-award",
+   "lines_added": [
+    "dge the gap between conceptual technological innovation and real-world clinical application. By encouraging collaboration between technology developers and clin"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
   },
   {
    "kind": "blocked",
@@ -37,7 +338,7 @@
    ],
    "url": "https://www.cprit.texas.gov/funding-opportunities",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -46,7 +347,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -55,22 +356,67 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 3 run(s) in a row."
   },
   {
-   "kind": "now_readable",
+   "kind": "rfp_changed",
+   "ids": [
+    "novartis-investigator-initiated-trials"
+   ],
+   "url": "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical",
+   "lines_added": [
+    "IIT US Areas of Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing re",
+    "Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD)",
+    "atric indications Ribociclib (Kisqali) HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring ribociclib with novel/eme",
+    "autoimmune diseases on patients; comorbidities; studies of real-world treatment patterns (incl. e.g. overuse of corticosteroids, delays in systemic therapies i",
+    "clib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD) and/or digital health techn",
+    "er Exploring data on CDK4/6 inhibitor rechallenge Exploring ribociclib with novel/emergent compounds Utilizing real world data and/or digital health technologie",
+    "erience of patients Out of Scope Any area outside HR+/HER2- breast cancer Any study in overlap with ongoing Novartis-sponsored/supported studies 177LuDOTATA",
+    "erm safety and tolerability Clinical efficacy and safety in real-world setting Treatment sequencing Patient-reported outcomes (PROs) and Quality of Life (QoL) P",
+    "ethods of preventing and/or managing RLT-induced xerostomia Real-world evidence in prostate cancer for 225Ac-PSMA-617 Health disparities in advanced prostate ca",
+    "ew clinical outcome measures or PROs for clinical trials or real-world practice use across autoimmune diseases Studies employing digital or AI based technologie",
+    "ging studies Pediatric indications Ribociclib (Kisqali) HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring riboci",
+    "impact of urticaria on patients; comorbidities; studies of real-world treatment patterns (incl. e.g. overuse of corticosteroids, impact on sleep) Studies inves"
+   ],
+   "lines_removed": [],
+   "detail": "+22 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "pcori-engagement-capacity-building-fall-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities",
+   "lines_added": [
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "pcori-broad-pragmatic-studies-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026",
+   "lines_added": [
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
+   ],
+   "lines_removed": [],
+   "detail": "+1 / -0 RFP-related passages since 2026-09-04"
+  },
+  {
+   "kind": "rfp_changed",
    "ids": [
     "pcori-improving-methods-cycle3-2026"
    ],
    "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
-   "dates": [
-    "2026-08-04",
-    "2026-08-19",
-    "2026-09-09",
-    "2026-10-14",
-    "2027-01-12"
+   "lines_added": [
+    "ement in Patient-Centered CER Methods To Support the Use of Real-World Data (RWD) in Multi-Site Patient-Centered CER Methods To Improve the Use of Artificial In",
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
    ],
-   "detail": "readable again after 2 failed run(s); 5 dates on the page, no baseline to compare."
+   "lines_removed": [],
+   "detail": "+2 / -0 RFP-related passages since 2026-09-04"
   }
  ]
 }
