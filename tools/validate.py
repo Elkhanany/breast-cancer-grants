@@ -87,6 +87,10 @@ def main():
         if not url.startswith(("http://", "https://")):
             err(f"{gid}: url is not absolute: {url!r}")
 
+        for extra in g.get("watch_urls") or []:
+            if not str(extra).startswith("https://"):
+                err(f"{gid}: watch_urls entry is not https: {extra!r}")
+
         if g.get("status") == "retired" and not g.get("retired_on"):
             err(f"{gid}: retired without retired_on")
 

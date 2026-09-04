@@ -37,6 +37,14 @@ UA = "Mozilla/5.0 (compatible; bc-grants-watch/1.0; +https://github.com/Elkhanan
 TIMEOUT = 25
 WATCH_HORIZON_DAYS = 75
 ALWAYS_WATCH_SPONSORS = ("DOD CDMRP BCRP", "CPRIT")
+# Industry portals are rolling, so they never carry a deadline and would never be watched.
+# Their pages change when a sponsor posts an asset-specific RFP; that is what the RFP-line
+# fingerprint below is for.
+ALWAYS_WATCH_CATEGORIES = ("trial-funding",)
+RFP_RE = re.compile(
+    r"(request for proposals?|RFPs?|call for proposals?|areas? of (?:research )?interest|"
+    r"funding opportunit\w*|now accepting|submission (?:deadline|window)|competitive grant|"
+    r"research grant program|letter of intent|applications? (?:open|close|due))", re.I)
 GRANTSGOV_KEYWORDS = ("breast cancer", "metastatic breast")
 GRANTSGOV_AGENCY_PREFIXES = ("DOD-AMRAA", "HHS-NIH", "HHS-AHRQ", "HHS-FDA", "NSF")
 
@@ -106,6 +114,17 @@ def grantsgov_opportunity(opp_id):
     return text, (syn.get("responseDate") or syn.get("closeDate") or syn.get("forecastedCloseDate"))
 
 
+def rfp_lines(text):
+    """Short windows of text around RFP-ish phrases. A new window means the page now says
+    something about a call it did not say before; that is the signal for rolling portals."""
+    out = set()
+    for m in RFP_RE.finditer(text):
+        a = max(0, m.start() - 60)
+        w = re.sub(r"\s+", " ", text[a:m.end() + 90]).strip()
+        out.add(w)
+    return sorted(out)
+
+
 def watchlist(grants, today):
     """Which records earn a daily look. Dedupe by URL; many records share a landing page."""
     horizon = (today + timedelta(days=WATCH_HORIZON_DAYS)).isoformat()
@@ -114,11 +133,16 @@ def watchlist(grants, today):
         if g.get("status") != "active" or not g.get("url"):
             continue
         near = g.get("next_deadline") and today.isoformat() <= g["next_deadline"] <= horizon
-        always = g.get("sponsor") in ALWAYS_WATCH_SPONSORS
+        always = (g.get("sponsor") in ALWAYS_WATCH_SPONSORS
+                  or g.get("category") in ALWAYS_WATCH_CATEGORIES)
         shaky = (g.get("confidence") in ("projected", "unverified")
                  and g.get("category") in ("government", "state"))
         if near or always or shaky:
             by_url.setdefault(g["url"], []).append(g["id"])
+            # A record may name extra pages worth watching: the RFP list behind a portal's
+            # landing page, an announcement PDF, a sponsor's "areas of interest" page.
+            for extra in g.get("watch_urls") or []:
+                by_url.setdefault(extra, []).append(g["id"])
     return by_url
 
 
@@ -212,9 +236,10 @@ def main():
         floor = (today - timedelta(days=365)).isoformat()
         dates = [d for d in dates if d >= floor]
         entry["dates"] = dates
+        entry["rfp"] = rfp_lines(text)
         entry["fail_streak"] = 0
         pages[url] = entry
-        print(f"  200  {url}  ({len(dates)} dates)")
+        print(f"  200  {url}  ({len(dates)} dates, {len(entry['rfp'])} rfp lines)")
 
         if args.seed or "dates" not in prev:
             continue
@@ -230,6 +255,15 @@ def main():
             signals.append({"kind": "dates_changed", "ids": ids, "url": url,
                             "dates_added": added, "dates_removed": removed,
                             "detail": f"+{len(added)} / -{len(removed)} dates since {prev.get('checked', '?')[:10]}"})
+        # RFP text is compared only once a baseline exists, so an upgraded crawler never
+        # reports every page as changed on its first run.
+        if "rfp" in prev:
+            r_added = sorted(set(entry["rfp"]) - set(prev["rfp"]))
+            r_removed = sorted(set(prev["rfp"]) - set(entry["rfp"]))
+            if r_added or r_removed:
+                signals.append({"kind": "rfp_changed", "ids": ids, "url": url,
+                                "lines_added": r_added[:12], "lines_removed": r_removed[:12],
+                                "detail": f"+{len(r_added)} / -{len(r_removed)} RFP-related passages since {prev.get('checked', '?')[:10]}"})
 
     seen = fp.setdefault("grantsgov_seen", {})
     current = grantsgov()

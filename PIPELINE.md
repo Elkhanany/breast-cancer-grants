@@ -46,9 +46,13 @@ code notices change; a model interprets change and decides; a human sees every d
 ## 1. Daily watch — notice, do not decide
 
 `tools/watch.py` fetches the pages of records that earn a daily look (deadline within 75 days,
-every DOD BCRP and CPRIT record, anything still projected or unverified in the federal or state
-buckets), reduces each page to the set of calendar dates on it, and diffs that set against
-yesterday's. It also asks the Grants.gov `search2` API for federal opportunities mentioning
+every DOD BCRP and CPRIT record, every industry portal in the trial-funding bucket, anything
+still projected or unverified in the federal or state buckets), reduces each page to the set of
+calendar dates on it, and diffs that set against yesterday's. Industry portals are rolling and
+carry no deadline, so for every page it also keeps the set of short passages around RFP-ish
+phrases — "request for proposals", "areas of interest", "now accepting", a drug name in a call —
+and reports a new passage as `rfp_changed`. That is how a Merck sac-TMT call or a Gilead
+Trodelvy RFP surfaces the day it is posted. It also asks the Grants.gov `search2` API for federal opportunities mentioning
 breast cancer and reports any opportunity number it has never seen. No model runs for a page
 whose dates did not change.
 

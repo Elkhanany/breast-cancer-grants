@@ -141,6 +141,24 @@ already held (six PCORI records exist — check them first), NSF programs beyond
 Cancer Moonshot Scholars, NCI K-to-R transition supplements, NCI diversity supplements the PI
 could sponsor. Use Grants.gov (api.grants.gov search2, or the site) as the source of truth for
 anything federal; NIH stopped posting to the NIH Guide in FY2026.` },
+
+  { key: 'pharma-rfp', cap: 8, prompt: `${RULES}
+
+LENS: PHARMA AND DIAGNOSTICS REQUESTS FOR PROPOSALS THAT ARE OPEN NOW. Investigator-initiated
+study portals are already held for most sponsors; this lens is about the time-limited, asset-
+specific calls those sponsors post on top of the standing portal and rarely advertise: Merck's
+MISP areas of interest and any sacituzumab tirumotecan (sac-TMT, MK-2870) or Keytruda breast
+RFP; Gilead's periodic oncology RFPs (Trodelvy / sacituzumab govitecan, Research Scholars);
+Pfizer Competitive Grants Program calls and ISR oncology areas of interest (tucatinib,
+vepdegestrant, atirmociclib); AstraZeneca ESR calls (Enhertu, Dato-DXd, camizestrant, Truqap);
+Daiichi Sankyo; Lilly (imlunestrant, Verzenio); Novartis (Kisqali); Roche/Genentech
+(giredestrant, Phesgo); Menarini/Stemline (Orserdu); Arvinas; Olema; Zymeworks; BMS; Jazz; Eisai;
+and diagnostics/data RFPs (Exact Sciences, Agendia, Guardant, Natera, Tempus, Caris, Foundation
+Medicine). For each, return ONLY a call that is open or announced with a window — not the standing
+portal — with its exact scope, submission window, and what it provides (funding, drug, data).
+Fetch the sponsor's own RFP page; many portals are JavaScript applications that return little to
+a plain fetch — if WebFetch shows nothing, say so in lens_notes rather than guessing.
+Never write any file inside ${ROOT}; use only your scratch directory.` },
 ]
 
 const FINDS_SCHEMA = {
@@ -254,6 +272,7 @@ CANDIDATE (from lens "${L.key}"):
   proven:       ${c.proven}
   overlaps held id: ${c.overlaps_existing_id || 'none'}
 
+Never write any file inside ${ROOT}; use only your scratch directory.
 Fill every field of the schema from what you can establish. Dates as YYYY-MM-DD or null; never
 guess a date the page does not state — use deadline_status "not-posted" and typical_month instead.
 Write notes and eligibility in neutral third person ("the PI"). Never name the investigator.`,

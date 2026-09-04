@@ -14,7 +14,10 @@ noticed) and `data/candidates.json` (what the discovery sweep found).
 Priority order:
 
 0. Every entry in `data/signals.json`. `dates_changed` means the sponsor page's set of dates
-   moved since the last look — open the page and find out why. `blocked` or `unreachable` means
+   moved since the last look — open the page and find out why. `rfp_changed` means an industry
+   portal now says something new about a call for proposals; read the added passages, and if a
+   time-limited RFP is open, record it as its own record (posted-cycle style) rather than
+   editing the standing portal record. `blocked` or `unreachable` means
    the script could not read the page — read it yourself. `new_federal_opportunity` is a
    Grants.gov number never seen before — one line of triage each, and record the relevant ones.
 1. Anything with a `next_deadline` inside the next 60 days.

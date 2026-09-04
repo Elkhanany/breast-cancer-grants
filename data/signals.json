@@ -1,8 +1,51 @@
 {
  "generated": "2026-09-04",
  "seeded": false,
- "pages_watched": 66,
+ "pages_watched": 88,
  "signals": [
+  {
+   "kind": "now_readable",
+   "ids": [
+    "nci-spore-p50-2027-2029"
+   ],
+   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
+   "dates": [
+    "2025-09-09",
+    "2025-10-31",
+    "2026-05-13",
+    "2027-01-25",
+    "2027-06-04",
+    "2027-06-11"
+   ],
+   "detail": "readable again after 1 failed run(s); 6 dates on the page, no baseline to compare."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "stand-up-to-cancer-team-and-catalyst"
+   ],
+   "url": "https://standuptocancer.org/science/grant-opportunities/",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "su2c-catalyst"
+   ],
+   "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "abbvie-investigator-initiated-studies"
+   ],
+   "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +53,7 @@
    ],
    "url": "https://www.cprit.texas.gov/funding-opportunities",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 4 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 6 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,22 +62,40 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 4 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 6 run(s) in a row."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "lilly-investigator-initiated-research"
+   ],
+   "url": "https://www.lillyinvestigatorresearch.com/",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "now_readable",
    "ids": [
-    "pcori-improving-methods-cycle3-2026"
+    "pcori-broad-pragmatic-studies-cycle3-2026"
    ],
-   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
+   "url": "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026",
    "dates": [
     "2026-08-04",
-    "2026-08-19",
+    "2026-08-13",
     "2026-09-09",
     "2026-10-14",
     "2027-01-12"
    ],
-   "detail": "readable again after 3 failed run(s); 5 dates on the page, no baseline to compare."
+   "detail": "readable again after 1 failed run(s); 5 dates on the page, no baseline to compare."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "pcori-improving-methods-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
   }
  ]
 }
