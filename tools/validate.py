@@ -125,6 +125,17 @@ def main():
         if not isinstance(sig.get("signals"), list):
             err("signals.json has no signals list")
 
+    # Agents sometimes leave scratch files inside the repository. Refuse to publish with any
+    # untracked file present, so `git add -A` in a scheduled run cannot sweep one in.
+    import subprocess
+    try:
+        untracked = subprocess.run(["git", "ls-files", "--others", "--exclude-standard"],
+                                   capture_output=True, text=True, check=True).stdout.split()
+    except Exception:
+        untracked = []   # not a git checkout (CI artifact); nothing to guard
+    for f in untracked:
+        err(f"untracked file {f}: delete it or add it deliberately with a .gitignore rule")
+
     for w in warnings:
         print(f"warning: {w}")
     for e in errors:
