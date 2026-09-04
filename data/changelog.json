@@ -1,6 +1,19 @@
 {
  "entries": [
   {
+   "date": "2026-09-04",
+   "kind": "watch",
+   "summary": "Industry portals are now watched daily; Merck MISP confirmed to list sacituzumab tirumotecan (sac-TMT/MK-2870) among compounds accepting proposals.",
+   "added": 0,
+   "changed": 1,
+   "retired": 0,
+   "details": [
+    "merck-investigator-studies-program: solid-tumor areas of interest read on the primary page; belzutifan, calderasib and sac-TMT actively accepting; watch_urls added so the compound list is diffed daily.",
+    "Gilead oncology RFP page read in the browser: 'No current opportunities' under both RFP Programs and RFP Topics of Interest; that sentence is now the watched sentinel.",
+    "PCORI Cycle 3 2026 and Fall 2026 dates re-read after the pages became reachable; all three held records unchanged."
+   ]
+  },
+  {
    "date": "2026-09-03",
    "kind": "refresh",
    "summary": "DOD BCRP FY26 Breakthrough L1/L2 and Clinical Research Extension dates confirmed on the CDMRP page and Grants.gov; both move from projected to verified.",

@@ -50,6 +50,9 @@ WATCH_TERMS = (
     "zanidatamab", "breast", "HER2", "TROP-2", "TROP2", "antibody-drug conjugate", "ctDNA",
     "minimal residual disease", "real-world",
 )
+# Bump when RFP_RE or WATCH_TERMS change: the first run after a change re-baselines every page
+# instead of reporting the whole watchlist as changed.
+RFP_VERSION = 2
 RFP_RE = re.compile(
     r"(request for proposals?|RFPs?|call for proposals?|areas? of (?:research )?interest|"
     r"funding opportunit\w*|now accepting|actively accepting|accepting submissions|"
@@ -247,6 +250,7 @@ def main():
         dates = [d for d in dates if d >= floor]
         entry["dates"] = dates
         entry["rfp"] = rfp_lines(text)
+        entry["rfp_v"] = RFP_VERSION
         entry["fail_streak"] = 0
         pages[url] = entry
         print(f"  200  {url}  ({len(dates)} dates, {len(entry['rfp'])} rfp lines)")
@@ -267,7 +271,7 @@ def main():
                             "detail": f"+{len(added)} / -{len(removed)} dates since {prev.get('checked', '?')[:10]}"})
         # RFP text is compared only once a baseline exists, so an upgraded crawler never
         # reports every page as changed on its first run.
-        if "rfp" in prev:
+        if "rfp" in prev and prev.get("rfp_v") == RFP_VERSION:
             r_added = sorted(set(entry["rfp"]) - set(prev["rfp"]))
             r_removed = sorted(set(prev["rfp"]) - set(entry["rfp"]))
             if r_added or r_removed:

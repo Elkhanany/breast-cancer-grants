@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03",
+ "generated": "2026-09-04",
  "count": 228,
  "grants": [
   {
@@ -5571,7 +5571,7 @@
    "url": "https://misp-investigator-studies.com/",
    "status": "active",
    "first_seen": "2026-09-03",
-   "last_verified": "2026-09-03",
+   "last_verified": "2026-09-04",
    "retired_on": null,
    "retired_reason": null,
    "category": "trial-funding",
@@ -5599,9 +5599,9 @@
    "career_cap": "none",
    "limited_submission": false,
    "eligibility": "External investigators who initiate, design, implement and sponsor the research. Submissions must map to a listed therapeutic area and compound that is 'actively accepting submissions' at the time of application.",
-   "notes": "DIRECTLY RELEVANT TO THE TNBC CONCEPT - pembrolizumab (Keytruda) is the immunotherapy backbone of neoadjuvant chemo-immunotherapy in TNBC (KEYNOTE-522), so the oral L-malate + neoadjuvant chemo-immunotherapy study is a natural MISP submission. PROVIDES DRUG AND/OR FUNDING: MISP supports research with 'drug/vaccine and/or total/partial funding,' including total funding - one of the more generous industry programs on this list. Oncology areas listed are 'Solid tumor,' 'Hematological malignancies' and 'Alliance'; breast cancer is not broken out as a distinct sub-area on the public areas-of-interest page, so the compound-level view inside the portal governs. IMPORTANT MECHANIC: MISP gates by com…",
+   "notes": "DIRECTLY RELEVANT TO THE TNBC CONCEPT - pembrolizumab (Keytruda) is the immunotherapy backbone of neoadjuvant chemo-immunotherapy in TNBC (KEYNOTE-522), so the oral L-malate + neoadjuvant chemo-immunotherapy study is a natural MISP submission. PROVIDES DRUG AND/OR FUNDING: MISP supports research with 'drug/vaccine and/or total/partial funding,' including total funding - one of the more generous industry programs on this list. Oncology areas listed are 'Solid tumor,' 'Hematological malignancies' and 'Alliance'; breast cancer is not broken out as a distinct sub-area on the public areas-of-interest page, so the compound-level view inside the portal governs. IMPORTANT MECHANIC: MISP gates by com… // MISP AREAS OF INTEREST, READ 2026-09-04: the solid-tumor page (misp-investigator-studies.com/areas-of-interest/solid-tumor) lists three compounds actively accepting investigator study proposals - belzutifan (MK-6482), calderasib (MK-1084) and sacituzumab tirumotecan (sac-TMT/MK-2870), the TROP2 ADC. Indication-level areas of interest and the submission materials render only after selecting the compound in a browser (the site forces a country selection first); the compound list itself is server-rendered and is watched daily. A sac-TMT breast cancer proposal goes through the standard MISP submission route, not a separate RFP.",
    "confidence": "verified",
-   "evidence": "MISP site: Merck offers 'drug/vaccine and/or total/partial funding' to support 'high-quality research that is initiated, designed, implemented, and sponsored by external investigators'; users 'Search by therapeutic area' to view compounds 'actively accepting s…",
+   "evidence": "MISP site: Merck offers 'drug/vaccine and/or total/partial funding' to support 'high-quality research that is initiated, designed, implemented, and sponsored by external investigators'; users 'Search by therapeutic area' to view compounds 'actively accepting s… | 2026-09-04, misp-investigator-studies.com/areas-of-interest/solid-tumor: 'Solid tumor Areas of Interest - Select a compound to review and get submission materials: Belzutifan (MK-6482); Calderasib (MK-1084); Sacituzumab Tirumotecan (sac-TMT/MK-2870)'.",
    "fit": 65.0,
    "watch_urls": [
     "https://misp-investigator-studies.com/areas-of-interest/solid-tumor",

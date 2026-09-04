@@ -7,7 +7,7 @@
     "dod-bcrp-era-of-hope-scholar-fy26",
     "dod-bcrp-transformative-consortium-development-fy26"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -28,6 +28,7 @@
     "unding Opportunities Program Funding Opportunities Archives Breast Cancer Research Program Program Funding Opportunities Archives Breast Cancer Research Pro",
     "wo Tiered Review Process Home Funding Opportunities Program Funding Opportunities Archives Breast Cancer Research Program Program Funding Opportunities Archives Breast Can"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://cdmrp.health.mil/funding/bcrp": {
@@ -39,7 +40,7 @@
     "dod-bcrp-fy27-outlook",
     "dod-bcrp-transformative-consortium-award-fy26"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-04",
@@ -76,13 +77,14 @@
     "wo Tiered Review Process Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research",
     "you received an invitation to submit an application or if a Letter of Intent was required and it was submitted by the pre-application due date deadline. Synopsis of F"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://cprit.texas.gov/media/ai5f5mjk/rfa-r-271-iira_final.pdf": {
    "ids": [
     "cprit-iira"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "ecfad0caa70417f2",
@@ -95,7 +97,7 @@
     "cprit-iiracca",
     "cprit-iirap"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "b13a739541abd8ab",
@@ -106,7 +108,7 @@
    "ids": [
     "cprit-iiract"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "9012ce2aee0fd1fa",
@@ -117,7 +119,7 @@
    "ids": [
     "cprit-iiracsbc"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "bcc29147874ae0f4",
@@ -130,19 +132,20 @@
     "gateway-nci-spore-p20-program",
     "gateway-traditional-grant-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-11-06"
    ],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-24-182.html": {
    "ids": [
     "nih-parent-k08"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -191,13 +194,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 04, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-24-185.html": {
    "ids": [
     "nih-parent-k23"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -246,13 +250,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "y and Integrative Health ( NCCIH ) All applications to this funding opportunity announcement should fall within the mission of the Institutes/Centers. The following NIH"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-25-172.html": {
    "ids": [
     "nci-modular-r01-ccps"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -293,13 +298,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-25-253.html": {
    "ids": [
     "nci-exploratory-cancer-control-r21"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -347,13 +353,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html": {
    "ids": [
     "nih-parent-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -404,13 +411,14 @@
     "y May 27, 2026 - Notice of NCATS Participation in Notice of Funding Opportunity (NOFO) PA-25-301 NIH Research Project Grant (Parent R01 Clinical Trial Not Allowed). See",
     "y does not accept applications proposing clinical trial(s). Funding Opportunity Goal(s) The goals are: to foster fundamental creative discoveries, innovative research st"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-25-302.html": {
    "ids": [
     "nih-parent-r03"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -468,13 +476,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "y does not accept applications proposing clinical trial(s). Funding Opportunity Goal(s) The goals are: to foster fundamental creative discoveries, innovative research st"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html": {
    "ids": [
     "nih-parent-r21"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -530,13 +539,14 @@
     "well-established fields are better suited for the NIH Small Research Grant Program . This Notice of Funding Opportunity does not accept applications proposing clinical tria",
     "y does not accept applications proposing clinical trial(s). Funding Opportunity Goal(s) The goals of NIH are: to foster fundamental creative discoveries, innovative rese"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-23-284.html": {
    "ids": [
     "nci-spore-p50-2024-2026"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-25",
@@ -578,13 +588,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "yed or not accepted for review. Letter of Intent Although a letter of intent is not required, is not binding, and does not enter into the review of a subsequent appli"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-24-272.html": {
    "ids": [
     "ncats-ctsa-um1"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-29",
@@ -627,13 +638,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. January 17, 2025"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-24-273.html": {
    "ids": [
     "nimhd-older-adults-disparities-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -685,13 +697,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-24-304.html": {
    "ids": [
     "nci-biomarker-assay-revision-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -721,13 +734,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-074.html": {
    "ids": [
     "nci-assay-validation-uh2-uh3"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -761,13 +775,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-081.html": {
    "ids": [
     "nci-iit-early-phase-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -808,13 +823,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-095.html": {
    "ids": [
     "nci-secondary-analysis-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -852,13 +868,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-096.html": {
    "ids": [
     "nci-secondary-analysis-r21"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -896,13 +913,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-104.html": {
    "ids": [
     "nci-cpc-planning-r34"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-25",
@@ -936,13 +954,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. December 17, 202",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-135.html": {
    "ids": [
     "nci-k99-r00"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -978,13 +997,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-167.html": {
    "ids": [
     "nci-cancer-prevention-control-trials-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -1027,13 +1047,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "y Description Purpose and Background Through this notice of funding opportunity (NOFO), the National Cancer Institute (NCI) invites applications for support of investiga"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-175.html": {
    "ids": [
     "nci-imaging-fluid-tumor-monitoring-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-07",
@@ -1078,13 +1099,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-243.html": {
    "ids": [
     "nci-basic-cancer-health-disparities-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -1126,13 +1148,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-244.html": {
    "ids": [
     "nci-basic-cancer-health-disparities-r21"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-10-16",
@@ -1174,13 +1197,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 4, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-324.html": {
    "ids": [
     "nci-merit-r37-extension"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2028-09-08"
@@ -1209,13 +1233,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Funding Opportun",
     "zation. All types of non-AIDS applications allowed for this funding opportunity announcement are due on the listed date(s). Applicants are encouraged to apply early to a"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/pa-files/PAR-25-325.html": {
    "ids": [
     "nci-biospecimen-assay-u01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-10",
@@ -1260,13 +1285,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
     "vidence-based standardization of biopsy handling practices. Funding Opportunity Goal(s) The overall goals of this NOFO are to identify cancer risks and risk reduction st"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html": {
    "ids": [
     "nih-rse-r50"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-12-04",
@@ -1299,13 +1325,14 @@
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. April 04, 2024 -",
     "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://grants.nih.gov/grants/how-to-apply-application-guide/due-dates-and-submission-policies/due-dates.htm": {
    "ids": [
     "nih-standard-due-dates-reference"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-03-24"
@@ -1320,13 +1347,14 @@
     "ion Guide eRA Service Desk Application Due Dates Check your funding opportunity for opportunity-specific due dates. Not all opportunities or programs use standard due da",
     "y, Contacts, and Due Dates Types of Applications Understand Funding Opportunities Follow NIH Application Policies and Requirements Organize Your Time to Complete the Appli"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://searlescholars.org/application-information/award-information/process-and-eligibility/": {
    "ids": [
     "searle-scholars-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-06-01",
@@ -1336,13 +1364,14 @@
    "rfp": [
     "elected individuals once nomination has been placed and the submission deadline will be September 30, 2026. Submissions are restricted to selected candidates from partic"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a": {
    "ids": [
     "nci-spore-p50-2027-2029"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2025-09-09",
@@ -1357,13 +1386,14 @@
     "ding 12 Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-26-064 Cost sharing or matching requirement : No Funding instrument type : G",
     "on history on Grants.gov Description Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications for P50 Research Center"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.aacr.org/grants/aacr-lbca-invasive-lobular-carcinoma-research-challenge-grants/": {
    "ids": [
     "aacr-lbca-ilc-research-challenge-grants"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-09-10",
@@ -1383,13 +1413,14 @@
     "re Professionals > Research Funding > Grants > AACR-Lobular Breast Cancer Alliance Invasive Lobular Carcinoma Research Challenge Grants In This Section Curr",
     "rent grant ends before the start of the grant term for this funding opportunity (i.e., January 1, 2027). Also, the terms of their current grant must stipulate that the f"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.asco.org/career-development/grants-awards/funding-opportunities/career-development-award": {
    "ids": [
     "conquer-cancer-career-development-award"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-07-01",
@@ -1405,13 +1436,14 @@
     "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Career Development Award OPEN Key Dates Application Open: July 1, 2026 Application Dead",
     "t the Sunshine Act and CMS Open Payments program. Key Dates Application Open: July 1, 2026 Application Deadline: October 8, 2026 Award Term: July 1, 2027 - July 1, 20"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award": {
    "ids": [
     "conquer-cancer-young-investigator-award"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-07-01",
@@ -1427,13 +1459,14 @@
     "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Young Investigator Award OPEN Key Dates Application Open: July 1, 2026 Application Dead",
     "t the Sunshine Act and CMS Open Payments program. Key Dates Application Open: July 1, 2026 Application Deadline: September 11, 2026 Award Term: July 1, 2027 - July 1,"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.bcrfa.org/fueling-innovation-breast-cancer-research-foundation-of-alabama-call-for-proposals/": {
    "ids": [
     "breast-cancer-research-foundation-alabama"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-07-16",
@@ -1465,13 +1498,14 @@
     "uly 16, 2026 BCRFA Newsroom Announcements , Grantmaking The Breast Cancer Research Foundation of Alabama (BCRFA) is pleased to announce its annual grant cyc",
     "vestment Will Advance Lifesaving Breast Cancer Research The Breast Cancer Research Foundation of Alabama (BCRFA) announces a continued commitment to advanci"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/": {
    "ids": [
     "bwf-career-awards-medical-scientists"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-07-30",
@@ -1488,13 +1522,14 @@
     "lity and residency requirements for the CAMS program at the submission deadline. An application is not considered complete without the Institutional Certification form.",
     "orial Sloan-Kettering Cancer Center DNA Damage Responses in Breast Cancer Pathogenesis Andrew Caleb Hsieh, M.D. University of California-San Francisco Eluci"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.cancer.gov/grants-training/grants-funding/funding-opportunities/r50": {
    "ids": [
     "nci-r50-research-specialist"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-04"
@@ -1504,13 +1539,14 @@
     "ement The R50 program currently has two forecasts of future funding opportunities. PAR-27-088 : NCI Research Specialist Award for Core and Laboratory-based Scientists (R50",
     "out NCI Home Grants &amp; Training Research Grants Research Funding Opportunities NCI Research Specialist Award (R50) Print Email Research Grants Research Funding Opportun"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.cancerresearch.org/technology-impact-award": {
    "ids": [
     "cri-technology-impact-award"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-11-16",
@@ -1521,22 +1557,23 @@
     "ent Invited Application The deadline for the receipt of the Letter of Intent is November 16. Candidates will be notified by mid-February whether they have been invite",
     "ng for a CRI Technology Impact Award consists of two parts: Letter of Intent Invited Application The deadline for the receipt of the Letter of Intent is November 16."
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.cprit.texas.gov/funding-opportunities": {
    "ids": [
     "cprit-texas-regional-training-award-r272-trta"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 8
+   "fail_streak": 9
   },
   "https://www.cprit.texas.gov/media/1t0l5niq/rfa-r-272-trec_final_2nd_revision.pdf": {
    "ids": [
     "cprit-trec"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "7732620bf1385e42",
@@ -1547,7 +1584,7 @@
    "ids": [
     "cprit-rrs"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "ef5c1a0c3b3be81e",
@@ -1558,7 +1595,7 @@
    "ids": [
     "cprit-cia"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "b6b6f9506c6ecfaa",
@@ -1569,7 +1606,7 @@
    "ids": [
     "cprit-cpra"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "4375e3c12f41945d",
@@ -1580,7 +1617,7 @@
    "ids": [
     "cprit-rtawd"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "faeb928132189618",
@@ -1591,7 +1628,7 @@
    "ids": [
     "cprit-ctna"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "0f3d11d2a8c97361",
@@ -1602,7 +1639,7 @@
    "ids": [
     "cprit-rft"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "775138f01290e69f",
@@ -1613,7 +1650,7 @@
    "ids": [
     "cprit-rei"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "008a1c5c399fd702",
@@ -1624,7 +1661,7 @@
    "ids": [
     "cprit-rrcta"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "6176450976d91364",
@@ -1635,7 +1672,7 @@
    "ids": [
     "cprit-cfsa"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "sha": "558f29bcc8586661",
@@ -1646,7 +1683,7 @@
    "ids": [
     "nlm-clinical-informatics-r01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-02-11",
@@ -1654,13 +1691,14 @@
     "2029-05-04"
    ],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/359725": {
    "ids": [
     "nci-metnet-u01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-02-04",
@@ -1670,13 +1708,14 @@
    "rfp": [
     "e picture of the processes involved. Through this Notice of Funding Opportunity (NOFO), the NCI invites applications for MetNet Research Projects. These Research Project"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/359853": {
    "ids": [
     "nci-itcr-u24-sustained"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1686,13 +1725,14 @@
    "rfp": [
     "ov nciitcr@mail.nih.gov juli.klemm@gmail.com This Notice of Funding Opportunity (NOFO) solicits applications for the continued development and sustainment of high value"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/359855": {
    "ids": [
     "nci-itcr-u24-advanced"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1702,13 +1742,14 @@
    "rfp": [
     "ov nciitcr@mail.nih.gov nciitcr@mail.nih.gov This Notice of Funding Opportunity (NOFO) invites applications for advanced development and enhancement of emerging informat"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/359892": {
    "ids": [
     "nci-itcr-u01-early-stage"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1718,13 +1759,14 @@
    "rfp": [
     "ov nciitcr@mail.nih.gov nciitcr@mail.nih.gov This Notice of Funding Opportunity (NOFO) solicits applications for the development of enabling informatics technologies to"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/359940": {
    "ids": [
     "nia-gemsstar-r03"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-09-01",
@@ -1734,13 +1776,14 @@
    "rfp": [
     ". In support of the program's goal, this GEMSSTAR Notice of Funding Opportunity (NOFO) invites applications that propose to conduct transdisciplinary aging research that"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/360534": {
    "ids": [
     "nci-imat-r33-advanced"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1751,13 +1794,14 @@
     "ov NCI-IMAT@nih.gov NCI-IMAT@nih.gov Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites grant applications proposing explorat",
     "sponsive to this solicitation and will not be reviewed.This funding opportunity is part of a broader NCI-sponsored Innovative Molecular Analysis Technologies (IMAT) Prog"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/360536": {
    "ids": [
     "nci-imat-r61-early-stage"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1768,13 +1812,14 @@
     ".crotty@nih.gov Kelly.crotty@nih.gov Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits grant applications proposing to deve",
     "sponsive to this solicitation and will not be reviewed.This funding opportunity is part of a broader NCI-sponsored Innovative Molecular Analysis Technologies (IMAT) Prog"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.grants.gov/search-results-detail/361279": {
    "ids": [
     "nih-parent-p01"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-02-11",
@@ -1786,13 +1831,14 @@
    "rfp": [
     "61279 4 Feb 11, 2026 12:00:00 AM EST Through this Notice of Funding Opportunity (NOFO), the participating NIH Institutes, Centers, and offices (ICOs) invite applications"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.hope-funds.org/grants/eligibility-and-application/": {
    "ids": [
     "hope-funds-postdoctoral-fellowship"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-09-24",
@@ -1801,23 +1847,24 @@
    "rfp": [
     "year. DO NOT send reference letters for the Abstract Round/Letter of Intent Round. The Grants Review Committee of the Hope Funds for Cancer Research will review thes"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf": {
    "ids": [
     "komen-career-catalyst-research-fy27"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 8
+   "fail_streak": 9
   },
   "https://www.pcori.org/funding-opportunities": {
    "ids": [
     "pcori-engagement-capacity-building-fall-2026"
    ],
-   "checked": "2026-09-04T12:51:25",
-   "status": 200,
+   "checked": "2026-09-04T12:52:42",
+   "status": 403,
    "dates": [
     "2026-04-28",
     "2026-09-01",
@@ -1830,26 +1877,14 @@
     "2027-01-12",
     "2027-05-04"
    ],
-   "rfp": [
-    "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
-    "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "ch findings. Use the search/filters below to find available funding opportunities and take advantage of the following resources: What You Need To Know To Apply Funding Ann",
-    "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
-    "pril 28, 2026 Sept. 1, 2026 Applications Under Review PCORI Call for Proposals for HSII Implementation Projects -- 2026 (HSII Participants Only) Cycle: One-time Opportu"
-   ],
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026": {
    "ids": [
     "pcori-broad-pragmatic-studies-cycle3-2026"
    ],
-   "checked": "2026-09-04T12:51:25",
-   "status": 200,
+   "checked": "2026-09-04T12:52:42",
+   "status": 403,
    "dates": [
     "2026-08-04",
     "2026-08-13",
@@ -1857,36 +1892,14 @@
     "2026-10-14",
     "2027-01-12"
    ],
-   "rfp": [
-    "2 will be required to provide additional information in the Letter of Intent (LOI) and application to justify the size and scope of the proposed research projects and",
-    "CORI has launched a new portal, PCORI Connect, to apply for funding opportunities. Apply Here This PCORI Funding Announcement (PFA) invites applications for high-impact pa",
-    "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2026 Research Project Agenda Topic Themes 2025 Research Project Agenda Topic Themes PCORn",
-    "d FAQs . Use the Application Readiness Checklist . Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
-    "da includes a set of Topic Themes that are included in this funding opportunity and further detailed below. Applicants have the option to choose up to three Topic Themes",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "ess Procurement Opportunities Provide Input Leadership Home Funding Opportunities Broad Pragmatic Studies PCORI Funding Announcement -- Cycle 3 2026 Open Broad Pragmatic S",
-    "ew Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Application Deadline Jan. 12, 2027, 5 pm (ET) Merit Rev",
-    "he following Special Areas of Emphasis (SAE) within the BPS funding opportunity. The purpose of identifying these SAEs is to encourage submissions to these areas, not to",
-    "lion in direct costs through this funding opportunity. This funding opportunity contains three categories for funding: Category 1 Category 1 will support research projec",
-    "nt Town Hall Aug. 13, 2026; 11:30 am - 1 pm (ET) View Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Appl",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
-    "pens Aug. 4, 2026 Applicant Town Hall View recording/slides Letter of Intent (LOI) Deadline Sept. 9, 2026; 5 pm (ET) LOI Status Notification Oct. 14, 2026 Application",
-    "s in Research PCORI’s Portfolio of Funded Research Upcoming Funding Opportunities Population Insights Reports Powered by PCORnet ® Download Full Announcement Key Dates Onl",
-    "will commit up to $120 million in direct costs through this funding opportunity. This funding opportunity contains three categories for funding: Category 1 Category 1 wi",
-    "ycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inform Focused Funding Opport"
-   ],
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026": {
    "ids": [
     "pcori-improving-methods-cycle3-2026"
    ],
-   "checked": "2026-09-04T12:51:25",
-   "status": 200,
+   "checked": "2026-09-04T12:52:42",
+   "status": 403,
    "dates": [
     "2026-08-04",
     "2026-08-19",
@@ -1894,34 +1907,13 @@
     "2026-10-14",
     "2027-01-12"
    ],
-   "rfp": [
-    "A and FAQs Use the Application Readiness Checklist Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
-    "Agenda comprises a set of Topic Themes that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
-    "Applicant Town Hall Aug. 19, 2026; 1 - 2 pm (ET) View Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Appl",
-    "CORI has launched a new portal, PCORI Connect, to apply for funding opportunities. Apply Here With this PCORI Funding Announcement (PFA), PCORI aims to fund studies that a",
-    "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2026 Research Project Agenda Topic Themes 2025 Research Project Agenda Topic Themes PCORn",
-    "conditions faced by the U.S. population that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ement in Patient-Centered CER Methods To Support the Use of Real-World Data (RWD) in Multi-Site Patient-Centered CER Methods To Improve the Use of Artificial In",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "ess Procurement Opportunities Provide Input Leadership Home Funding Opportunities Improving Methods for Conducting Patient-Centered Comparative Clinical Effectiveness Rese",
-    "ew Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Application Deadline Jan. 12, 2027, 5 pm (ET) Merit Rev",
-    "l Policy This policy allows applicants who have submitted a Letter of Intent (LOI) and are invited to submit a full application to defer their application submission",
-    "ns Aug. 4, 2026 Applicant Town Hall Aug. 19, 2026; 1pm (ET) Letter of Intent (LOI) Deadline Sept. 9, 2026; 5 pm (ET) LOI Status Notification Oct. 14, 2026 Application",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
-    "s in Research PCORI’s Portfolio of Funded Research Upcoming Funding Opportunities Population Insights Reports Powered by PCORnet ® Download Full Announcement Key Dates Onl",
-    "ycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inform Focused Funding Opport"
-   ],
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://ir.arvinas.com/": {
    "ids": [
     "arvinas-investigator-sponsored-research"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-08-04",
@@ -1930,13 +1922,14 @@
    "rfp": [
     "s Scientific Advisory Board Patients Overview Patients with Breast Cancer Clinical Trials Expanded Access Policy Careers and Culture Life at Arvinas Join Us"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://medical.menarinistemline.com/": {
    "ids": [
     "menarini-stemline-iss"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1995,13 +1988,14 @@
     "ty of elacestrant in combination with Abemaciclib in BC EH+/HER2- with brain metastases. Proposed Mechanism of Action SERD (ER) Additional Detail ELEVATE",
     "uipment Administration Components and Vendor Contacts Miami Breast Cancer Conference&reg; (MBCC) Posters Elacestrant vs standard-of-care in ER+/HER2- advanc"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://misp-investigator-studies.com/": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2011,13 +2005,14 @@
     "s you need? Explore areas of interest View the full list of areas of interest (AOIs) and compounds that are actively accepting submissions. Get started --> Review crit",
     "ull list of areas of interest (AOIs) and compounds that are actively accepting submissions. Get started --> Review critical activities and timelines Check the submissio"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://olema.com/clinical-trials/": {
    "ids": [
     "olema-oncology-iss"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2035,110 +2030,117 @@
     "nation with Ribociclib for the First-line Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-02) Please visit OPERA01study.com for more information abo",
     "ociclib for the First-line Treatment of ER+/​HER2- Advanced Breast Cancer (OPERA-02) Please visit OPERA01study.com for more information about participation"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://pro.boehringer-ingelheim.com/funding/external-research-studies": {
    "ids": [
     "boehringer-ingelheim-iis"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://pumabiotechnology.com/clinical-trials/clinincal-trials.html": {
    "ids": [
     "puma-biotechnology-ist"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
     "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Data Sharing Extended Access Program News Latest News Release Archives Investor",
     "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Trial Data Sharing Extended Access Program Sponsored Trials By clicking on the"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://sermonixpharma.com/partners-collaborations/": {
    "ids": [
     "sermonix-pharmaceuticals-collaboration"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
     "r RSS About Company Overview Partners &#038; Collaborations Breast Cancer Pipeline Lasofoxifene ELAINE Studies The Elaine-3 Study The ELAINE-2 Study The ELA"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://standuptocancer.org/science/grant-opportunities/": {
    "ids": [
     "stand-up-to-cancer-team-and-catalyst"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://standuptocancer.org/what-we-do/scientific-initiatives/": {
    "ids": [
     "su2c-catalyst"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://thehopefoundation.org/funding-opportunities/": {
    "ids": [
     "hope-foundation-swog-trial-support"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://thehopefoundation.org/funding-opportunities/swog-early-exploration-development-seed-fund/": {
    "ids": [
     "hope-foundation-swog-seed-fund"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-07-01"
    ],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://thehopefoundation.org/funding-opportunities/swog-hope-foundation-impact-award/": {
    "ids": [
     "hope-foundation-swog-impact-award"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
     "issions that were assigned an Impact Score of less than 40. Letter of Intent Instructions STEP 2: If invited, submit a full application Not required for resubmissions",
     "nts. Key Dates 2026 LOI due date: January 15 at 5pm ET Full application due date will be communicated upon invitation to submit Application Procedure STEP 1: Complet"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html": {
    "ids": [
     "abbvie-investigator-initiated-studies"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html": {
    "ids": [
     "astrazeneca-esr"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2220,31 +2222,34 @@
     "valuate peri-operative strategies with T-DXd in eBC HER2low Breast Cancer Exploration of benefit of T-DXd in subpopulations with high unmet need Clinical ap",
     "y disease: Unmet need, outcomes by geographic location, and HER2 expression In advanced disease: Real-world outcomes, treatment patterns and sequencing su"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.cancerresearch.org/clinical-innovator": {
    "ids": [
     "cri-clinical-innovator"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-12-01",
     "2027-04-09"
    ],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.daiichisankyo-esr.com/": {
    "ids": [
     "daiichi-sankyo-esr-iis"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-09-04"
    ],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.gene.com/medical-professionals/investigator-initiated-studies": {
@@ -2252,17 +2257,18 @@
     "genentech-investigator-initiated-studies",
     "genentech-roche-iss"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.gilead.com/science/research/research-funding-programs/external-sponsored-research": {
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2274,22 +2280,23 @@
     "sted in applying to an RFP Program , select the Therapeutic Area of interest, review the selected research question and follow the instructions within the program des",
     "submission portal, Gilead OPTICS. If you are applying to a Request for Proposal (RFP) Program or RFP Topics of Interest, see below for more details and start with a Lett"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.lillyinvestigatorresearch.com/": {
    "ids": [
     "lilly-investigator-initiated-research"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 403,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical": {
    "ids": [
     "novartis-investigator-initiated-trials"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2329,13 +2336,14 @@
     "vestigating the impact of urticaria on patients; studies of real-world treatment patterns (including, for example, overuse of corticosteroids and impact on slee",
     "xploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD) and/or digital health technologies Enhances the treatment experience of patien"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.pfizer.com/about/programs-policies/grants/competitive-grants": {
    "ids": [
     "pfizer-competitive-grants-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [
     "2026-05-26",
@@ -2364,13 +2372,14 @@
     "izer’s competitive grant program involves a publicly posted Request for Proposal (RFP) that provides detail regarding a specific area of interest and sets timelines for r",
     "or Proposal (RFP) that provides detail regarding a specific area of interest and sets timelines for review and approval. Organizations are invited to submit an applic"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research": {
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2385,37 +2394,40 @@
     "ti-Infectives Areas of Interest Button previous Button next Competitive Grant Program Learn about our Competitive Grant Program and view open RFPs Details The Grant Sy",
     "vious Button next Competitive Grant Program Learn about our Competitive Grant Program and view open RFPs Details The Grant System The link to submit Unsolicited Resear"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://misp-investigator-studies.com/areas-of-interest": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
     "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Ready to prepare your submission materials? Select a therapeutic a"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://www.gilead.com/science/research/research-funding-programs/external-sponsored-research/oncology-rfp-opportunities": {
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
     "Oncology RFP Programs and Topics of Interest We offer both Request for Proposal (RFP) Programs and RFP Topics of Interest. An RFP Program specifically describes the rese"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   },
   "https://misp-investigator-studies.com/areas-of-interest/solid-tumor": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-09-04T12:51:25",
+   "checked": "2026-09-04T12:52:42",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2426,6 +2438,7 @@
     "rials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences",
     "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get"
    ],
+   "rfp_v": 2,
    "fail_streak": 0
   }
  },
@@ -3772,5 +3785,5 @@
    "url": "https://www.grants.gov/search-results-detail/349586"
   }
  },
- "updated": "2026-09-04T12:51:25"
+ "updated": "2026-09-04T12:52:42"
 }
