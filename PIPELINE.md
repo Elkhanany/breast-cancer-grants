@@ -52,7 +52,9 @@ calendar dates on it, and diffs that set against yesterday's. Industry portals a
 carry no deadline, so for every page it also keeps the set of short passages around RFP-ish
 phrases — "request for proposals", "areas of interest", "now accepting", a drug name in a call —
 and reports a new passage as `rfp_changed`. That is how a Merck sac-TMT call or a Gilead
-Trodelvy RFP surfaces the day it is posted. It also asks the Grants.gov `search2` API for federal opportunities mentioning
+Trodelvy RFP surfaces the day it is posted. A record may list extra pages in `watch_urls` — the
+Merck record watches its areas-of-interest list, the Gilead record its oncology RFP page —
+because the list behind a portal's landing page is where a call actually appears. It also asks the Grants.gov `search2` API for federal opportunities mentioning
 breast cancer and reports any opportunity number it has never seen. No model runs for a page
 whose dates did not change.
 

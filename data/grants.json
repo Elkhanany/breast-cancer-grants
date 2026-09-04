@@ -4746,7 +4746,10 @@
    "notes": "PROVIDES FUNDING AND/OR DRUG: Gilead 'provides funding and/or study drug support for research efforts conducted by third parties on Gilead products or therapeutic areas.' Relevance here is sacituzumab govitecan (Trodelvy), now approved 1L for metastatic TNBC and studied in HR+/HER2-, so it is a fit for the TNBC concept and for post-ADC sequencing questions, but NOT for the ER+/HER2+ or HER2-mutant concepts. VERIFIED NEGATIVE AS OF 2026-09-03: the Oncology RFP Opportunities page shows 'No current opportunities' under both 'RFP Programs' and 'RFP Topics of Interest.' Two-track structure worth knowing: RFP PROGRAMS are 'highly competitive and typically have a submission window of only a few wee…",
    "confidence": "verified",
    "evidence": "Gilead ESR page: 'funding and/or study drug support for research efforts conducted by third parties on Gilead products or therapeutic areas'; portal 'Access Gilead OPTICS Portal'; 'RFP Programs' are 'highly competitive and typically have a submission window of…",
-   "fit": 47.0
+   "fit": 47.0,
+   "watch_urls": [
+    "https://www.gilead.com/science/research/research-funding-programs/external-sponsored-research/oncology-rfp-opportunities"
+   ]
   },
   {
    "id": "golfers-against-cancer-houston",
@@ -5599,7 +5602,10 @@
    "notes": "DIRECTLY RELEVANT TO THE TNBC CONCEPT - pembrolizumab (Keytruda) is the immunotherapy backbone of neoadjuvant chemo-immunotherapy in TNBC (KEYNOTE-522), so the oral L-malate + neoadjuvant chemo-immunotherapy study is a natural MISP submission. PROVIDES DRUG AND/OR FUNDING: MISP supports research with 'drug/vaccine and/or total/partial funding,' including total funding - one of the more generous industry programs on this list. Oncology areas listed are 'Solid tumor,' 'Hematological malignancies' and 'Alliance'; breast cancer is not broken out as a distinct sub-area on the public areas-of-interest page, so the compound-level view inside the portal governs. IMPORTANT MECHANIC: MISP gates by com…",
    "confidence": "verified",
    "evidence": "MISP site: Merck offers 'drug/vaccine and/or total/partial funding' to support 'high-quality research that is initiated, designed, implemented, and sponsored by external investigators'; users 'Search by therapeutic area' to view compounds 'actively accepting s…",
-   "fit": 65.0
+   "fit": 65.0,
+   "watch_urls": [
+    "https://misp-investigator-studies.com/areas-of-interest"
+   ]
   },
   {
    "id": "metavivor-early-career-investigator-award",
