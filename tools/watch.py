@@ -58,6 +58,42 @@ RFP_RE = re.compile(
     r"funding opportunit\w*|now accepting|actively accepting|accepting submissions|"
     r"submission (?:deadline|window)|competitive grant|research grant program|letter of intent|"
     r"applications? (?:open|close|due)|" + "|".join(re.escape(t) for t in WATCH_TERMS) + r")", re.I)
+# Companies whose assets touch this portfolio. The routine checks that each is represented by at
+# least one record and raises coverage_gap for any that is not, because industry programs come and
+# go: a company with no record today may have opened a portal since anyone last looked. Matching is
+# by URL domain, so a foundation award bearing a company's name never counts as coverage of its
+# investigator-research programme. Re-reported at most every COVERAGE_GAP_DAYS.
+COVERAGE_GAP_DAYS = 30
+PHARMA_WATCHLIST = (
+    ("AstraZeneca", ("astrazeneca.com",), "Enhertu, Dato-DXd, camizestrant, Truqap"),
+    ("Daiichi Sankyo", ("daiichisankyo-esr.com", "daiichisankyo.com"), "Enhertu, Dato-DXd"),
+    ("Merck", ("misp-investigator-studies.com", "merck.com"), "sac-TMT (MK-2870), pembrolizumab"),
+    ("Gilead", ("gilead.com",), "Trodelvy"),
+    ("Pfizer / Seagen", ("pfizer.com",), "tucatinib, vepdegestrant, atirmociclib"),
+    ("Lilly", ("lilly.com", "lillyinvestigatorresearch.com"), "Verzenio, imlunestrant"),
+    ("Novartis", ("novartis.com",), "Kisqali"),
+    ("Genentech / Roche", ("gene.com", "roche.com"), "giredestrant, Phesgo, Kadcyla"),
+    ("Menarini / Stemline", ("menarinistemline.com",), "Orserdu (elacestrant)"),
+    ("AbbVie", ("abbvie.com",), "ADC platform"),
+    ("Boehringer Ingelheim", ("boehringer-ingelheim.com",), "HER2 programme"),
+    ("Puma Biotechnology", ("pumabiotechnology.com",), "neratinib, HER2-mutant"),
+    ("Olema", ("olema.com",), "palazestrant"),
+    ("Arvinas", ("arvinas.com",), "vepdegestrant"),
+    ("Sermonix", ("sermonixpharma.com",), "lasofoxifene, ESR1-mutant"),
+    ("Bristol Myers Squibb", ("bms.com",), "ISR programme, moved to RFP cycles"),
+    ("Eisai", ("eisaigrants.com", "eisai.com"), "eribulin (Halaven)"),
+    ("Zymeworks", ("zymeworks.com",), "zanidatamab, HER2 bispecific"),
+    ("Jazz Pharmaceuticals", ("jazzpharmaceuticals.com", "jazzpharma.com"), "Ziihera (zanidatamab)"),
+    ("Bayer", ("bayer.com",), "elinzanetant, endocrine-therapy supportive care"),
+    ("Exact Sciences", ("exactsciences.com",), "Oncotype DX, OncoExTra"),
+    ("Agendia", ("agendia.com",), "MammaPrint, BluePrint, FLEX registry"),
+    ("Guardant Health", ("guardanthealth.com",), "ctDNA"),
+    ("Natera", ("natera.com",), "Signatera MRD"),
+    ("Tempus", ("tempus.com",), "real-world data, sequencing"),
+    ("Caris Life Sciences", ("carislifesciences.com",), "Precision Oncology Alliance"),
+    ("Foundation Medicine", ("foundationmedicine.com",), "CGP, real-world data"),
+)
+
 GRANTSGOV_KEYWORDS = ("breast cancer", "metastatic breast")
 GRANTSGOV_AGENCY_PREFIXES = ("DOD-AMRAA", "HHS-NIH", "HHS-AHRQ", "HHS-FDA", "NSF")
 
@@ -219,7 +255,14 @@ def main():
             status, body, raw, ctype = fetch(url)
         entry = {"ids": ids, "checked": now, "status": status}
         if status != 200:
-            kind = "blocked" if status in (401, 403, 429) else "unreachable"
+            if status in (401, 403, 429):
+                kind = "blocked"
+            elif status in (404, 410):
+                # A rolling portal that has gone is how an industry programme ends: there is no
+                # closing date to observe, the page simply stops existing.
+                kind = "not_found"
+            else:
+                kind = "unreachable"
             entry["dates"] = prev.get("dates", [])
             entry["fail_streak"] = prev.get("fail_streak", 0) + 1
             pages[url] = entry
@@ -278,6 +321,27 @@ def main():
                 signals.append({"kind": "rfp_changed", "ids": ids, "url": url,
                                 "lines_added": r_added[:12], "lines_removed": r_removed[:12],
                                 "detail": f"+{len(r_added)} / -{len(r_removed)} RFP-related passages since {prev.get('checked', '?')[:10]}"})
+
+    # Coverage: is every company on the pharma watchlist represented at all?
+    urls = " ".join((g.get("url") or "") + " " + " ".join(g.get("watch_urls") or [])
+                    for g in grants if g.get("status") == "active").lower()
+    reported = fp.setdefault("coverage_reported", {})
+    stale = (today - timedelta(days=COVERAGE_GAP_DAYS)).isoformat()
+    gaps = 0
+    for company, domains, why in PHARMA_WATCHLIST:
+        if any(d in urls for d in domains):
+            reported.pop(company, None)
+            continue
+        gaps += 1
+        if args.seed or reported.get(company, "") > stale:
+            continue
+        reported[company] = today.isoformat()
+        signals.append({"kind": "coverage_gap", "ids": [], "url": "",
+                        "company": company, "domains": list(domains), "why": why,
+                        "detail": f"no record cites {' or '.join(domains)}; {company} is relevant for "
+                                  f"{why}. Check whether it runs an investigator-research or RFP "
+                                  f"programme now, and record it or note that it does not."})
+    print(f"pharma coverage: {len(PHARMA_WATCHLIST) - gaps}/{len(PHARMA_WATCHLIST)} companies represented")
 
     seen = fp.setdefault("grantsgov_seen", {})
     current = grantsgov()

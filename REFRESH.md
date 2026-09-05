@@ -17,7 +17,11 @@ Priority order:
    moved since the last look — open the page and find out why. `rfp_changed` means an industry
    portal now says something new about a call for proposals; read the added passages, and if a
    time-limited RFP is open, record it as its own record (posted-cycle style) rather than
-   editing the standing portal record. `blocked` or `unreachable` means
+   editing the standing portal record. `coverage_gap` names a company on the pharma watchlist
+   that no record cites — go and find out whether it runs an investigator-research programme
+   now; if it does, add it, and if it plainly does not, add a record anyway with
+   `confidence: "unverified"` and a note saying so, so the question is not reasked from scratch
+   every month. `not_found` is a page returning 404 or 410; see step 4. `blocked` or `unreachable` means
    the script could not read the page — read it yourself. `new_federal_opportunity` is a
    Grants.gov number never seen before — one line of triage each, and record the relevant ones.
 1. Anything with a `next_deadline` inside the next 60 days.
@@ -67,6 +71,13 @@ two consecutive cycles pass with no announcement. Do not delete it. Set:
 
 A page that merely fails to load is **not** evidence a program stopped. Mark it
 `confidence: "unverified"` and try again next run.
+
+**Rolling industry portals need their own rule.** They have no cycle to miss, so "two consecutive
+cycles with no announcement" can never fire. Retire one when its page has returned 404 or 410 on
+three consecutive daily runs (the `not_found` signal carries the streak, and
+`data/fingerprints.json` records it) *and* a search finds no successor page. A 403 is not a 404 —
+blocked is not gone. Companies are acquired and programmes get folded into the acquirer's, so
+before retiring, check the acquirer: Seagen's programme now sits inside Pfizer's, for example.
 
 ## 5. Look for new opportunities
 

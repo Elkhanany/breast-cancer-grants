@@ -6,8 +6,12 @@ investigator-initiated trials.
 
 **→ [elkhanany.github.io/breast-cancer-grants](https://elkhanany.github.io/breast-cancer-grants/)**
 
-229 mechanisms across six funder buckets: government, state, institutional, foundation,
+233 mechanisms across six funder buckets: government, state, institutional, foundation,
 trial funding, and professional organizations.
+
+Industry portals are the awkward case: most are rolling, carry no deadline, and appear and
+disappear without notice. Every one of them is re-read daily, and the crawler also audits whether
+each company on a 27-name pharma and diagnostics watchlist is represented at all.
 
 ## Why this exists
 

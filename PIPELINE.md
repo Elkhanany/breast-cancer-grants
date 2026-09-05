@@ -67,6 +67,14 @@ for the definitive pass. `new_federal_opportunity` signals are triaged in one li
 → left for the refresh to record; irrelevant → ignored (the number stays in `fingerprints.json`
 so it is never reported twice).
 
+**Coverage audit.** Industry programmes come and go, and a company with no record raises no
+signal simply by being absent. So the crawler also carries a watchlist of pharma and diagnostics
+companies whose assets touch this portfolio, matches each against the URLs of active records by
+domain, and raises `coverage_gap` for any company nothing cites — at most once every 30 days, so
+a known absence is a monthly question rather than daily noise. Matching is by domain on purpose:
+a foundation award carrying a company's name never counts as coverage of its investigator-research
+programme. Companies represented today: 19 of 27.
+
 Pages that block scripts (CPRIT's landing page, Komen and PCORI return 403 to plain fetches)
 are still watched: the signal says so, and the model reads them in the in-app browser, which
 renders JavaScript and is not refused. When a blocked page becomes readable again the signal is
@@ -114,6 +122,8 @@ The lenses, in the order they matter to this profile:
    little marketing.
 4. **Industry investigator-initiated and data partners** — HER2/ADC/endocrine-therapy sponsors and
    the ctDNA/MRD and real-world-data companies whose research programs are rarely listed anywhere.
+8. **Pharma RFPs open now** — the time-limited, asset-specific calls sponsors post on top of their
+   standing portal, which are the ones with a real deadline and the ones nobody advertises.
 5. **Cooperative groups and consortia** — TBCRC, ECOG-ACRIN, SWOG/Hope, NRG, Alliance, I-SPY, and
    whether BCM is a member site where membership is by site.
 6. **Physician-scientist career awards** — built for an MD with clinical duties at year 7+, including
