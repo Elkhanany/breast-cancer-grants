@@ -27,12 +27,15 @@ Priority order:
 1. Anything with a `next_deadline` inside the next 60 days.
 2. Anything `confidence: "projected"` or `"unverified"` whose `typical_month` has now arrived.
 3. Anything whose `last_verified` is more than 60 days old.
-4. **DOD CDMRP BCRP** every run. As of 2026-09-03 FY27 was unappropriated, and the FY26
-   Breakthrough L1/L2 and Clinical Research Extension announcements
-   (`HT942526BCRPBTA122`, `HT942526BCRPCREA2`) had unconfirmed dates.
-   Check `cdmrp.health.mil/funding/bcrp` and Grants.gov.
-5. **CPRIT** every run at `cprit.texas.gov/funding-opportunities`. The FY2028 IIRA cycle is
-   expected around January 2027 with an April deadline.
+4. **DOD CDMRP BCRP** every run. As of 2026-09-10 FY27 is still unappropriated (no FY27
+   number on Grants.gov). The FY26 Breakthrough L1/L2 and Clinical Research Extension
+   round-2 dates (LOI 2026-11-04, application 2026-11-18) are confirmed on the CDMRP page
+   and Grants.gov. Check `cdmrp.health.mil/funding/bcrp` and Grants.gov.
+5. **CPRIT** every run at `cprit.texas.gov/funding-opportunities`. FY27 Cycle 2
+   academic-research RFAs accept applications 2026-09-16 to 2026-11-18 in the new grants
+   management platform; recruitment RFAs close monthly on the 20th (next 2026-10-20). No
+   IIRA cycle is posted; the FY2028 IIRA cycle is expected around January 2027 with an April
+   deadline.
 
 The dated items above are state, not scripture. When one resolves, rewrite it here.
 
