@@ -1,8 +1,154 @@
 {
- "generated": "2026-09-04",
+ "generated": "2026-09-10",
  "seeded": false,
- "pages_watched": 96,
+ "pages_watched": 95,
  "signals": [
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nih-parent-k08"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-182.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nih-parent-k23"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-185.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nci-exploratory-cancer-control-r21"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-253.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nih-parent-r01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nih-parent-r03"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-302.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nih-parent-r21"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nimhd-older-adults-disparities-r01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-24-273.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nci-iit-early-phase-r01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-081.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nci-cancer-prevention-control-trials-r01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-167.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nci-imaging-fluid-tumor-monitoring-r01"
+   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-175.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "arvinas-investigator-sponsored-research"
+   ],
+   "url": "https://ir.arvinas.com/",
+   "dates_added": [
+    "2026-09-16"
+   ],
+   "dates_removed": [
+    "2026-08-04"
+   ],
+   "detail": "+1 / -1 dates since 2026-09-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "nci-spore-p50-2027-2029"
+   ],
+   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-09-09"
+   ],
+   "detail": "+0 / -1 dates since 2026-09-05"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +156,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +165,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,7 +174,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -37,7 +183,21 @@
    ],
    "url": "https://www.cprit.texas.gov/funding-opportunities",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "daiichi-sankyo-esr-iis"
+   ],
+   "url": "https://www.daiichisankyo-esr.com/",
+   "dates_added": [
+    "2026-09-10"
+   ],
+   "dates_removed": [
+    "2026-09-05"
+   ],
+   "detail": "+1 / -1 dates since 2026-09-05"
   },
   {
    "kind": "blocked",
@@ -46,7 +206,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -55,123 +215,19 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
-   "kind": "now_readable",
+   "kind": "dates_changed",
    "ids": [
-    "pcori-engagement-capacity-building-fall-2026"
+    "pfizer-competitive-grants-program"
    ],
-   "url": "https://www.pcori.org/funding-opportunities",
-   "dates": [],
-   "detail": "readable again after 1 failed run(s); 0 dates on the page, no baseline to compare."
-  },
-  {
-   "kind": "blocked",
-   "ids": [
-    "pcori-broad-pragmatic-studies-cycle3-2026"
+   "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
+   "dates_added": [],
+   "dates_removed": [
+    "2026-09-10"
    ],
-   "url": "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026",
-   "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
-  },
-  {
-   "kind": "blocked",
-   "ids": [
-    "pcori-improving-methods-cycle3-2026"
-   ],
-   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
-   "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Zymeworks",
-   "domains": [
-    "zymeworks.com"
-   ],
-   "why": "zanidatamab, HER2 bispecific",
-   "detail": "no record cites zymeworks.com; Zymeworks is relevant for zanidatamab, HER2 bispecific. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Jazz Pharmaceuticals",
-   "domains": [
-    "jazzpharmaceuticals.com",
-    "jazzpharma.com"
-   ],
-   "why": "Ziihera (zanidatamab)",
-   "detail": "no record cites jazzpharmaceuticals.com or jazzpharma.com; Jazz Pharmaceuticals is relevant for Ziihera (zanidatamab). Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Bayer",
-   "domains": [
-    "bayer.com"
-   ],
-   "why": "elinzanetant, endocrine-therapy supportive care",
-   "detail": "no record cites bayer.com; Bayer is relevant for elinzanetant, endocrine-therapy supportive care. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Guardant Health",
-   "domains": [
-    "guardanthealth.com"
-   ],
-   "why": "ctDNA",
-   "detail": "no record cites guardanthealth.com; Guardant Health is relevant for ctDNA. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Natera",
-   "domains": [
-    "natera.com"
-   ],
-   "why": "Signatera MRD",
-   "detail": "no record cites natera.com; Natera is relevant for Signatera MRD. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Tempus",
-   "domains": [
-    "tempus.com"
-   ],
-   "why": "real-world data, sequencing",
-   "detail": "no record cites tempus.com; Tempus is relevant for real-world data, sequencing. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Caris Life Sciences",
-   "domains": [
-    "carislifesciences.com"
-   ],
-   "why": "Precision Oncology Alliance",
-   "detail": "no record cites carislifesciences.com; Caris Life Sciences is relevant for Precision Oncology Alliance. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Foundation Medicine",
-   "domains": [
-    "foundationmedicine.com"
-   ],
-   "why": "CGP, real-world data",
-   "detail": "no record cites foundationmedicine.com; Foundation Medicine is relevant for CGP, real-world data. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
+   "detail": "+0 / -1 dates since 2026-09-05"
   }
  ]
 }
