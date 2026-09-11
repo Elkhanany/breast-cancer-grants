@@ -68,7 +68,15 @@ BCM CTSA) pilot awards and KL2, Caroline Wiess Law Fund, McNair Medical Institut
 Doris K. Hankamer Foundation awards, DeBakey awards, department-level (Medicine, Hematology-
 Oncology) research awards, precision-medicine or data-science pilots, and BCM's limited-
 submission portal (InfoReady) where institutionally-nominated external awards are competed.
-Search bcm.edu deliberately; institutional pages are poorly indexed.` },
+Search bcm.edu deliberately; institutional pages are poorly indexed.
+
+ALWAYS READ FIRST, every run: the Duncan Cancer Center's own curated list of external
+opportunities, https://www.bcm.edu/academic-centers/dan-l-duncan-comprehensive-cancer-center/new-funding-opportunities
+— the cancer center's grants office posts what it wants its members to apply for, with
+deadlines and a named office contact. Treat every listing there that is not held as a
+candidate (still fetch the sponsor's own page before returning it, and skip listings whose
+disease scope excludes breast cancer). In the record say "listed by the DLDCCC grants office"
+and never copy a staff member's name or email — the repository is public.` },
 
   { key: 'tmc-local', cap: 8, prompt: `${RULES}
 
@@ -301,8 +309,10 @@ bcm, baylor, duncan, smith, cprit, rice, anderson, houston, tmc, gulf coast, cul
 
 You are the completeness critic. What obvious BCM, Duncan Cancer Center, Rice, MD Anderson, or
 Houston-philanthropy funding routes are missing from BOTH lists? Search for them and WebFetch a
-primary page for each before naming it. Return only what you confirmed exists. Same schema and
-same 8-candidate cap.`, { label: 'critic:local-gaps', phase: 'Critique', schema: FINDS_SCHEMA })
+primary page for each before naming it. Start with the Duncan Cancer Center's curated list,
+https://www.bcm.edu/academic-centers/dan-l-duncan-comprehensive-cancer-center/new-funding-opportunities
+— any breast-relevant listing there that is neither held nor in the list above is a miss.
+Return only what you confirmed exists. Same schema and same 8-candidate cap.`, { label: 'critic:local-gaps', phase: 'Critique', schema: FINDS_SCHEMA })
 
 let extra = []
 if (critique && critique.candidates.length) {

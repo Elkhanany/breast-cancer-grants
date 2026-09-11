@@ -114,7 +114,9 @@ The lenses, in the order they matter to this profile:
 
 1. **BCM intramural** — Duncan Cancer Center pilots, Smith Breast Center SPORE DRP/CEP, ICTR/CTSA
    pilots and KL2, Office of Research seed and bridge funds, named institutional awards, the
-   InfoReady limited-submission portal.
+   InfoReady limited-submission portal. It always starts with the cancer center's own curated
+   list of external opportunities (`bcm.edu/.../dan-l-duncan-comprehensive-cancer-center/new-funding-opportunities`),
+   which the DLDCCC grants office keeps current with deadlines; the critic checks it too.
 2. **Texas Medical Center and Houston** — Rice seed funds and institutes, MD Anderson programs with
    an external-collaborator route, TMC Innovation and Health Policy, Gulf Coast Consortia,
    UTHealth and Methodist joint programs, Houston philanthropy that funds investigators.
