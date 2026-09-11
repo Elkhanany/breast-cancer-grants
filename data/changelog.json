@@ -1,6 +1,19 @@
 {
  "entries": [
   {
+   "date": "2026-09-11",
+   "kind": "watch",
+   "summary": "Puma's clinical-trials page moved to a correctly spelled URL; the record now points at it. The Conquer Cancer YIA closed on its posted deadline today and is left for the Monday pass.",
+   "added": 0,
+   "changed": 1,
+   "retired": 0,
+   "details": [
+    "puma-biotechnology-ist: url https://pumabiotechnology.com/clinical-trials/clinincal-trials.html (404 since today) to https://pumabiotechnology.com/clinical-trials/clinical-trials.html; the page still links out to an external investigator-sponsored-trial listing with no application process or deadline, so confidence stays unverified.",
+    "conquer-cancer-young-investigator-award: the page now reads 'Young Investigator Award CLOSED' on its posted 2026-09-11 deadline; no date moved, status roll-over deferred to the refresh.",
+    "pcori-engagement-capacity-building-fall-2026: PCORI funding table re-read in the browser; 'Engagement Award: Capacity Building -- Fall 2026 Cycle ... Oct. 1, 2026 Jan. 11, 2027' unchanged."
+   ]
+  },
+  {
    "date": "2026-09-10",
    "kind": "refresh",
    "summary": "107 records re-verified against primary sources; ten dates moved on two independent reads, two programmes retired, eight lapsed next-deadlines rolled forward, and every note rewritten to neutral third person.",

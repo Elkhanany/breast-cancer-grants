@@ -1,153 +1,16 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "seeded": false,
  "pages_watched": 95,
  "signals": [
   {
-   "kind": "dates_changed",
+   "kind": "not_found",
    "ids": [
-    "nih-parent-k08"
+    "puma-biotechnology-ist"
    ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-182.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nih-parent-k23"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-185.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-exploratory-cancer-control-r21"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-253.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nih-parent-r01"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nih-parent-r03"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-302.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nih-parent-r21"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nimhd-older-adults-disparities-r01"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-24-273.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-iit-early-phase-r01"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-081.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-cancer-prevention-control-trials-r01"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-167.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-imaging-fluid-tumor-monitoring-r01"
-   ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-175.html",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-07"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "arvinas-investigator-sponsored-research"
-   ],
-   "url": "https://ir.arvinas.com/",
-   "dates_added": [
-    "2026-09-16"
-   ],
-   "dates_removed": [
-    "2026-08-04"
-   ],
-   "detail": "+1 / -1 dates since 2026-09-05"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-spore-p50-2027-2029"
-   ],
-   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
-   "dates_added": [],
-   "dates_removed": [
-    "2025-09-09"
-   ],
-   "detail": "+0 / -1 dates since 2026-09-05"
+   "url": "https://pumabiotechnology.com/clinical-trials/clinincal-trials.html",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -156,7 +19,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -165,7 +28,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -174,16 +37,37 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
-   "kind": "blocked",
+   "kind": "dates_changed",
    "ids": [
-    "cprit-texas-regional-training-award-r272-trta"
+    "conquer-cancer-young-investigator-award"
    ],
-   "url": "https://www.cprit.texas.gov/funding-opportunities",
-   "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
+   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award",
+   "dates_added": [],
+   "dates_removed": [
+    "2026-09-11",
+    "2027-07-01",
+    "2028-07-01"
+   ],
+   "detail": "+0 / -3 dates since 2026-09-10"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "conquer-cancer-young-investigator-award"
+   ],
+   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award",
+   "lines_added": [
+    "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Young Investigator Award CLOSED Submit your application on Application Portal arrow_for"
+   ],
+   "lines_removed": [
+    "ing Opportunities / Young Investigator Award OPEN Key Dates Application Open: July 1, 2026 Application Deadline: September 11, 2026 Award Term: July 1, 2027 - July 1,",
+    "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Young Investigator Award OPEN Key Dates Application Open: July 1, 2026 Application Dead",
+    "t the Sunshine Act and CMS Open Payments program. Key Dates Application Open: July 1, 2026 Application Deadline: September 11, 2026 Award Term: July 1, 2027 - July 1,"
+   ],
+   "detail": "+1 / -3 RFP-related passages since 2026-09-10"
   },
   {
    "kind": "dates_changed",
@@ -192,12 +76,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-10"
+    "2026-09-11"
    ],
    "dates_removed": [
-    "2026-09-05"
+    "2026-09-10"
    ],
-   "detail": "+1 / -1 dates since 2026-09-05"
+   "detail": "+1 / -1 dates since 2026-09-10"
   },
   {
    "kind": "blocked",
@@ -206,7 +90,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 13 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -215,19 +99,48 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "dates_changed",
    "ids": [
-    "pfizer-competitive-grants-program"
+    "pcori-engagement-capacity-building-fall-2026"
    ],
-   "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
-   "dates_added": [],
-   "dates_removed": [
-    "2026-09-10"
+   "url": "https://www.pcori.org/funding-opportunities",
+   "dates_added": [
+    "2026-04-28",
+    "2026-09-01",
+    "2026-09-09",
+    "2026-10-01",
+    "2026-10-14",
+    "2026-11-17",
+    "2027-01-06",
+    "2027-01-11",
+    "2027-01-12",
+    "2027-05-04"
    ],
-   "detail": "+0 / -1 dates since 2026-09-05"
+   "dates_removed": [],
+   "detail": "+10 / -0 dates since 2026-09-10"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "pcori-engagement-capacity-building-fall-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities",
+   "lines_added": [
+    "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
+    "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
+    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
+    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
+    "ch findings. Use the search/filters below to find available funding opportunities and take advantage of the following resources: What You Need To Know To Apply Funding Ann",
+    "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
+    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
+    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
+   ],
+   "lines_removed": [],
+   "detail": "+9 / -0 RFP-related passages since 2026-09-10"
   }
  ]
 }

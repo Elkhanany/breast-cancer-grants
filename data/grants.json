@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "count": 233,
  "grants": [
   {
@@ -8175,10 +8175,10 @@
    "sponsor": "Puma",
    "sponsor_full": "Puma Biotechnology, Inc.",
    "program": "Investigator-sponsored trials / drug supply (neratinib, alisertib)",
-   "url": "https://pumabiotechnology.com/clinical-trials/clinincal-trials.html",
+   "url": "https://pumabiotechnology.com/clinical-trials/clinical-trials.html",
    "status": "active",
    "first_seen": "2026-09-03",
-   "last_verified": "2026-09-03",
+   "last_verified": "2026-09-11",
    "retired_on": null,
    "retired_reason": null,
    "category": "trial-funding",
@@ -8209,7 +8209,7 @@
    "eligibility": "Not published. Puma has historically supported external neratinib research through direct medical affairs arrangements and an Extended Access Program.",
    "notes": "HIGH SCIENTIFIC RELEVANCE, LOW PROCESS TRANSPARENCY. Puma owns neratinib (NERLYNX), the reference HER2-directed TKI in HER2-MUTANT breast cancer (the SUMMIT basket trial), which makes it both the natural comparator and the natural combination partner for the zongertinib + fulvestrant + trastuzumab HER2-mutant concept - and note that neratinib + fulvestrant + trastuzumab is precisely the SUMMIT triplet, so the proposed study is a direct successor question. Puma also holds alisertib (ALISCA program) with an active IND in HER2-negative HR+ metastatic breast cancer. NO PUBLIC INVESTIGATOR-SPONSORED-TRIAL PORTAL, SUBMISSION PROCESS OR DEADLINE COULD BE VERIFIED - the site publishes clinical trial…",
    "confidence": "unverified",
-   "evidence": "pumabiotechnology.com publishes Clinical Trials and an Extended Access Program page (pumabiotechnology.com/clinical-trials/eap.html) but no investigator-sponsored-trial program, portal, submission process or deadline. Alisertib development in HER2-negative HR+…",
+   "evidence": "pumabiotechnology.com publishes Clinical Trials and an Extended Access Program page (pumabiotechnology.com/clinical-trials/eap.html) but no investigator-sponsored-trial program, portal, submission process or deadline. Alisertib development in HER2-negative HR+… 2026-09-11: the previously recorded URL (clinincal-trials.html) now returns 404; the correctly spelled page states 'INVESTIGATOR SPONSORED TRIALS CLICK HERE TO VIEW', a link to an external trial listing, still with no application process or deadline.",
    "fit": 60.0
   },
   {
