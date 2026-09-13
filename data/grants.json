@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11",
+ "generated": "2026-09-12",
  "count": 233,
  "grants": [
   {
@@ -3249,7 +3249,7 @@
    "url": "https://www.cancerresearch.org/clinical-innovator",
    "status": "active",
    "first_seen": "2026-09-03",
-   "last_verified": "2026-09-03",
+   "last_verified": "2026-09-12",
    "retired_on": null,
    "retired_reason": null,
    "category": "trial-funding",
@@ -3265,7 +3265,7 @@
    "duration_years": 3,
    "indirects": "10%",
    "loi_deadline": "2026-12-01",
-   "full_deadline": "2027-04-09",
+   "full_deadline": "2027-04-01",
    "next_deadline": "2026-12-01",
    "deadline_status": "upcoming",
    "cycle": "annual",
@@ -3278,7 +3278,7 @@
    "eligibility": "Must be the Principal Investigator of the proposed study at a nonprofit medical school or research center, in the US or abroad. No citizenship restrictions. For-profit institutions excluded. No stated career-stage cap.",
    "notes": "ONE OF THE FEW FOUNDATION MECHANISMS THAT ACTUALLY PAYS FOR TRIAL CONDUCT. Funds can cover 'investigator salary, patient costs, supplies, correlative assays, and data analyses' - meaning it can carry an investigator-initiated trial end to end, correlatives included, which almost no other award on this list will do. No career-stage cap and no nomination requirement. The constraint is scope: it funds 'pioneering immunotherapy clinical trials,' so an ER+/HER2+ IIT needs a genuine immunotherapy component (for example an ADC plus immune checkpoint or immune-agonist combination in HER2-heterogeneous disease, with ctDNA/MRD and immune correlatives as the translational engine). Two-stage: protocol C…",
    "confidence": "verified",
-   "evidence": "Sponsor page: 'Protocol Concept Deadline: December 1, 2026; Invited Full Proposal Deadline: April 9, 2027'; 'Up to $1 million per trial'; funds usable for 'investigator salary, patient costs, supplies, correlative assays, and data analyses'; indirect costs 'up…",
+   "evidence": "Sponsor page: 'Protocol Concept Deadline: December 1, 2026; Invited Full Proposal Deadline: April 1, 2027'; 'Up to $1 million per trial'; funds usable for 'investigator salary, patient costs, supplies, correlative assays, and data analyses'; indirect costs 'up… Re-read 2026-09-12: 'Protocol Concept Deadline: December 1, 2026'; 'Invited Full Proposal Deadline: April 1, 2027'; 'Invited applications are due April 1.'",
    "fit": 83.0
   },
   {
@@ -3367,7 +3367,7 @@
    "url": "https://www.cancerresearch.org/technology-impact-award",
    "status": "active",
    "first_seen": "2026-09-03",
-   "last_verified": "2026-09-03",
+   "last_verified": "2026-09-12",
    "retired_on": null,
    "retired_reason": null,
    "category": "foundation",
@@ -3382,9 +3382,9 @@
    "award_text": "Up to $600,000 over 2-4 yrs, plus indirect costs up to 10% of the total paid on top",
    "duration_years": 3,
    "indirects": "10%",
-   "loi_deadline": "2026-11-16",
-   "full_deadline": "2027-03-12",
-   "next_deadline": "2026-11-16",
+   "loi_deadline": "2026-11-15",
+   "full_deadline": "2027-03-01",
+   "next_deadline": "2026-11-15",
    "deadline_status": "upcoming",
    "cycle": "annual",
    "typical_month": "November (LOI) / March (invited full proposal)",
@@ -3394,9 +3394,9 @@
    "career_cap": "none",
    "limited_submission": false,
    "eligibility": "Tenure-track position at a nonprofit research center or institution. Co-PIs permitted, and collaboration between technology developers and clinical cancer immunologists is encouraged. No stated career-stage cap.",
-   "notes": "PLAUSIBLE ONLY AS A CO-PI WITH A TECHNOLOGY DEVELOPER. Competitive areas explicitly include 'computational systems biology' and 'advanced cancer profiling,' which touches the PI's computational analytics interest, and the program encourages exactly the pairing of a technology developer with a clinical cancer immunologist. BUT two hard filters: the award 'does not support clinical trials,' and proposals built on existing technology 'without substantial instrumentation, device, or algorithm development' are ruled non-responsive - so applying a published spatial or ctDNA assay to a HER2 cohort would not qualify; a new algorithm or assay would. The nearest CRI deadline of the four (LOI 2026-11-16), b…",
+   "notes": "PLAUSIBLE ONLY AS A CO-PI WITH A TECHNOLOGY DEVELOPER. Competitive areas explicitly include 'computational systems biology' and 'advanced cancer profiling,' which touches the PI's computational analytics interest, and the program encourages exactly the pairing of a technology developer with a clinical cancer immunologist. BUT two hard filters: the award 'does not support clinical trials,' and proposals built on existing technology 'without substantial instrumentation, device, or algorithm development' are ruled non-responsive - so applying a published spatial or ctDNA assay to a HER2 cohort would not qualify; a new algorithm or assay would. The nearest CRI deadline of the four (LOI 2026-11-15), b…",
    "confidence": "verified",
-   "evidence": "Sponsor page: 'Letter of Intent (LOI): November 16, 2026; Full Proposal: March 12, 2027 (by invitation only)'; 'Up to $600,000 over 2-4 years'; applicants must hold 'a tenure-track position at a not for profit research center or institution'; the program 'does…",
+   "evidence": "Sponsor page: 'LOI Deadline: November 15, 2026; Invited Full Proposal Deadline: March 1, 2027'; 'Up to $600,000 over 2-4 years'; applicants must hold 'a tenure-track position at a not for profit research center or institution'; the program 'does… Re-read 2026-09-12: 'LOI Deadline: November 15, 2026'; 'Invited Full Proposal Deadline: March 1, 2027'; 'The deadline for the receipt of the Letter of Intent is November 15.'",
    "fit": 47.0
   },
   {

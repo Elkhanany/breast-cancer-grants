@@ -1,6 +1,19 @@
 {
  "entries": [
   {
+   "date": "2026-09-12",
+   "kind": "watch",
+   "summary": "Cancer Research Institute moved both of its posted cycle dates by a few days; applied from the sponsor pages. Fit unchanged: the LOI dates shifted by one day, which does not alter deadline proximity.",
+   "added": 0,
+   "changed": 2,
+   "retired": 0,
+   "details": [
+    "cri-clinical-innovator: full_deadline 2027-04-09 to 2027-04-01 ('Invited Full Proposal Deadline: April 1, 2027'; 'Invited applications are due April 1.'); protocol-concept deadline 2026-12-01 unchanged, next_deadline unchanged.",
+    "cri-technology-impact-award: loi_deadline 2026-11-16 to 2026-11-15 ('LOI Deadline: November 15, 2026'), full_deadline 2027-03-12 to 2027-03-01 ('Invited Full Proposal Deadline: March 1, 2027'); next_deadline 2026-11-16 to 2026-11-15.",
+    "daiichi-sankyo-esr-iis: the only date on the portal is the page's own current-date stamp; ignored."
+   ]
+  },
+  {
    "date": "2026-09-11",
    "kind": "watch",
    "summary": "Puma's clinical-trials page moved to a correctly spelled URL; the record now points at it. The Conquer Cancer YIA closed on its posted deadline today and is left for the Monday pass.",
