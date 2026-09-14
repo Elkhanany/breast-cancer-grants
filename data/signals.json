@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12",
+ "generated": "2026-09-14",
  "seeded": false,
  "pages_watched": 94,
  "signals": [
@@ -10,7 +10,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +19,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,53 +28,21 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "cri-clinical-innovator"
-   ],
-   "url": "https://www.cancerresearch.org/clinical-innovator",
-   "dates_added": [
-    "2027-04-01"
-   ],
-   "dates_removed": [
-    "2027-04-09"
-   ],
-   "detail": "+1 / -1 dates since 2026-09-11"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "cri-technology-impact-award"
-   ],
-   "url": "https://www.cancerresearch.org/technology-impact-award",
-   "dates_added": [
-    "2026-11-15",
-    "2027-03-01"
-   ],
-   "dates_removed": [
-    "2026-11-16",
-    "2027-03-12"
-   ],
-   "detail": "+2 / -2 dates since 2026-09-11"
+   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
   },
   {
    "kind": "rfp_changed",
    "ids": [
-    "cri-technology-impact-award"
+    "astrazeneca-esr"
    ],
-   "url": "https://www.cancerresearch.org/technology-impact-award",
+   "url": "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html",
    "lines_added": [
-    "ent Invited Application The deadline for the receipt of the Letter of Intent is November 15. Candidates will be notified by mid-February whether they have been invite",
-    "ng for a CRI Technology Impact Award consists of two parts: Letter of Intent Invited Application The deadline for the receipt of the Letter of Intent is November 15."
+    "es. Infectious Diseases Substance Mechanism of action ESR - Areas of interest Fluenz / FluMist (LAIV) Make a submission Live Attenuated Influenza Vaccine Areas of inte"
    ],
    "lines_removed": [
-    "ent Invited Application The deadline for the receipt of the Letter of Intent is November 16. Candidates will be notified by mid-February whether they have been invite",
-    "ng for a CRI Technology Impact Award consists of two parts: Letter of Intent Invited Application The deadline for the receipt of the Letter of Intent is November 16."
+    "&amp; Immune Therapies Substance Mechanism of action ESR - Areas of interest Fluenz / FluMist (LAIV) Make a submission Live Attenuated Influenza Vaccine Areas of inte"
    ],
-   "detail": "+2 / -2 RFP-related passages since 2026-09-11"
+   "detail": "+1 / -1 RFP-related passages since 2026-09-12"
   },
   {
    "kind": "dates_changed",
@@ -83,12 +51,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-12"
+    "2026-09-14"
    ],
    "dates_removed": [
-    "2026-09-11"
+    "2026-09-12"
    ],
-   "detail": "+1 / -1 dates since 2026-09-11"
+   "detail": "+1 / -1 dates since 2026-09-12"
   },
   {
    "kind": "blocked",
@@ -97,7 +65,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 15 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -106,7 +74,7 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
   }
  ]
 }
