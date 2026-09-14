@@ -169,6 +169,25 @@ a plain fetch — if WebFetch shows nothing, say so in lens_notes rather than gu
 Never write any file inside ${ROOT}; use only your scratch directory.` },
 ]
 
+// Optional ninth lens: a pasted funding digest (e.g. the BCM Office of Research FOA Weekly
+// Digest). Supplied as args.digest; absent on scheduled runs, so cached lens prompts are unchanged.
+if (typeof args.digest === 'string' && args.digest.trim()) {
+  LENSES.push({ key: 'bcm-digest', cap: 8, prompt: `${RULES}
+
+LENS: A FUNDING DIGEST THE USER PASTED. The text below is a weekly funding-opportunity digest
+(internal awards, limited submissions and foundation calls). Most items are outside this
+profile's disease scope — skip anything whose scope excludes breast cancer or oncology, anything
+postdoctoral, and anything the database already holds. For every remaining item, find and
+WebFetch the sponsor's own primary page (for BCM internal awards and limited submissions, the
+BCM Awards Hub or Office of Research page; for foundations, the foundation's program page) and
+return it only if the page confirms it. Where the digest states an internal deadline, keep it
+in dates_text and mark limited-submission items as such. Never copy a staff member's name or
+email into any field — the repository is public.
+
+DIGEST TEXT:
+${args.digest}` })
+}
+
 const FINDS_SCHEMA = {
   type: 'object',
   properties: {
