@@ -2576,7 +2576,7 @@
   },
   {
    "id": "cures-within-reach-ai-drug-repurposing-trials",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -2642,11 +2642,12 @@
     "confidence": "verified",
     "evidence": "Sponsor page (2026-09-14): \"Clinical Trials to Validate AI-Driven Drug Repurposing\" listed under currently available 2026 RFPs with \"LOI deadline closed; submissions under review.\" — establishes the cycle is closed and pending. 2026 RFP PDF: \"The LOI submission deadline is 11:59pm US Eastern Time on June 26, 2026.\" — establishes the past deadline. \"CWR is accepting budgets of up to $100,000 for clinical repurposing trials, which includes the required 10% institutional match. CWR will provide 90% of the total funding amount submitted to CWR\" — establishes award and match. \"For budgets of up to $100,000, CWR allows for up to 30% of the total funding amount submitted to be used for indirect costs.\" — indirects. \"Have a timeline of no longer than 36 months\" — duration. \"Be led either by a previously funded investigator or by an early-stage investigator who has received little or no extramural research funding to date\" — no career cap. \"Submissions can come from accredited academic and nonprofit research institutions and/or health systems significantly involved with medical research located anywhere in the world.\" — institutional eligibility. \"There is a treatment that is effective, but many patients develop resistance to the therapy\" — unsolved-disease definition covering endocrine resistance. \"While CWR is accepting submissions in any disease area, CWR has a preference for clinical trials addressing rare diseases.\" and \"CWR has a preference for off-patent therapies.\" — preferences. \"The total funding amount submitted to CWR must be sole, late or final funding required to accomplish the specific aims listed in the LOI.\" — funding-position trap. \"CWR will not consider LOI or full proposal applications that are substantially written, either in whole or in part, by natural language processors, large language models or other generative AI technologies.\" — LLM rule. \"During our 2025 AI Validation RFP, we learned that there are well over 50 eligible models\" — prior cycle, supports annual recurrence. 2025 RFP PDF: \"The LOI submission deadline is 6:59pm U.S. Eastern Time on August 25, 2025.\" — establishes prior-cycle timing.",
     "fit": 68
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "helis-foundation-bcm-project-funding",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -2708,7 +2709,8 @@
     "confidence": "projected",
     "evidence": "BCM DLDCCC page (fetched 2026-09-14), section \"Helis Medical Research Foundation\": \"View a listing of Helis Medical Research Foundation Active Projects.\" linking to /sites/default/files/2011-2022_Helis_Projects.pdf — establishes BCM lists it as a funding source with no posted deadline, award, or eligibility. PDF (fetched): header \"HELIS MEDICAL RESEARCH FOUNDATION ACTIVE PROJECTS\"; rows include \"Foulds, Charles | Breast Center | New Kinase-based Therapy for ESR1 Fusion-driven Cancer | 10/01/20 - 09/30/23 | Transferred to Dr. Foulds after Dr. Ellis left\" and \"Hodges, H. Courtney | Molecular & Cellular Biology | SWI/SNF Inhibition as Precision Medicine Against AML | 07/01/22 - 06/30/25 | NEW\" — establishes 3-year terms, July 1 starts, breast-center precedent, and about two new awards in 2022.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "rice-enrich-digital-health-equity-seed",
@@ -2845,7 +2847,7 @@
   },
   {
    "id": "donaghue-greater-value-portfolio",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -2908,11 +2910,12 @@
     "confidence": "verified",
     "evidence": "\"fund research projects for two years with a maximum amount of $500,000 per award (plus a 10% indirect cost rate) to advance promising approaches to achieving a higher-value healthcare system\" (establishes award, duration, indirects, purpose). \"LOI Deadline: April 30, 2026; Application Deadline: August 20, 2026; Grant Term Begins: January 1, 2027\" and status \"Closed!\" (establishes the 2026 cycle is closed; no 2027 dates posted). \"PhD, MD, or equivalent\" investigators at \"tax-exempt research institutions in the United States\"; applicants must \"partner with an organization that delivers healthcare services or be a researcher based in a research unit embedded in a healthcare organization\" (establishes eligibility and partnership requirement; no career-stage or clinical-duty restriction stated). Projects must \"test approaches and tools that organizations can readily use to improve the value of the healthcare they provide\" (establishes scope). Awardee cohort lists shown for 2015 through 2025 (establishes annual recurrence).",
     "fit": 68
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "aacr-novocure-cancer-research-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -2973,11 +2976,12 @@
     "confidence": "verified",
     "evidence": "Program page and 2026 guidelines PDF (aacr.org/wp-content/uploads/2026/04/2026-Novocure-Research-Grant-PGs-Final-1.pdf): \"This grant provides $350,000 over three years\" (award, duration). \"Submission Deadline June 4, 2026 at 1:00 p.m. U.S. Eastern Time / Award Notification August 2026 / Start of Grant Term December 1, 2026\" (dates; deadline passed). \"Research proposals must incorporate the Inovitro® and/or inovivo® systems into the experimental design\" and \"Research projects should examine the use of TTFields as a therapeutic modality for cancer\" (topic lock). \"Be independent investigators. Applicants must hold a faculty position (i.e., professor, assistant professor, research assistant professor, instructor, or equivalent)\" and \"Have a doctoral degree (PhD, MD, MD/PhD, or equivalent)\" (eligibility). \"There are no citizenship or geographic requirements\" (no geographic gate). \"A maximum of 10% of total direct costs may be allocated from the grant for indirect costs\" (indirects). \"Be a current or past recipient of an AACR-Novocure Tumor Treating Fields Research Grant\" listed as an exclusion (establishes prior cycles exist). AACR current-opportunities page as of 2026-09-14 does not list the award; under-development page does not list it either.",
     "fit": 22
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "aacr-mbcga-male-breast-cancer-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -3039,11 +3043,12 @@
     "confidence": "projected",
     "evidence": "AACR 'Upcoming Funding Opportunities' page (2026-09-14) lists under Independent Research Grants: 'AACR-Male Breast Cancer Global Alliance-Daryl and Christine Soneral Innovation and Discovery Grant for Male Breast Cancer Research' (establishes the program exists and is under development). Page states: 'Program guidelines and application instructions will be available on the opening date. AACR membership is required.' and 'While the AACR offers grants year-round, most opportunities become available in the Fall' (establishes no dates/amounts posted; membership requirement). Sibling AACR-Hope Scarves page (2025 cycle) states: '$50,000 USD', '1 Year', 'Have a doctoral degree (PhD, MD, MD/PhD, or equivalent)', 'Postdoctoral or clinical research fellows ... are not eligible', 'Applicants must be AACR Active Members in good standing', 'Indirect costs are not allowed' (establishes the projected template). A guessed program-page URL returned 404; mbcglobalalliance.org has no mention of the grant.",
     "fit": 54
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "epic-cosmos-research-access",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "industry-data",
@@ -3103,11 +3108,12 @@
     "confidence": "verified",
     "evidence": "About page (https://cosmos.epic.com/about/): \"Direct access to Cosmos is available for those affiliated with and approved by a Cosmos participating organization.\" and \"Access to Cosmos and Cosmos data cannot be purchased.\" (establishes access route and no-cost/no-purchase status); counts \"310 Million\" patients, \"22.6 Billion\" encounters, \"2,358\" hospitals, \"52.5K\" clinics. Request Access page: \"If you are affiliated with a health system or academic medical center, use the form below to let us know a bit more about your interest\" and \"If you are not eligible for direct access, but are interested in answering questions with Cosmos, you can find a collaborator at a participating organization or submit ideas for study on Epic Research\" (establishes affiliation gate and collaborator route). Governance page: \"Cosmos is governed by an elected council of 15 members from the Cosmos community.\"; \"No user can access Cosmos data without attesting to their use and disclosing funding sources.\"; \"Users can access only fully deidentified data, and all actions in Cosmos are audited to ensure appropriate use.\"; \"Cosmos data cannot be sold, and line-level data never leaves the secure Cosmos portal.\" (establishes use rules; council lists no BCM or Houston member). Publications page lists Cosmos-based papers including \"Gender-Based Differences in Mental Health Outcomes Following Breast Surgery: Insights from Epic Cosmos\" and \"Cancer-associated arterial thromboembolism: real-world burden from a nationwide electronic health record database\" (establishes oncology research use). Community page: 387 organizations across 4 countries; no public roster of participants.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "vivli-clinical-trial-data-requests",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "industry-data",
@@ -3168,11 +3174,12 @@
     "confidence": "verified",
     "evidence": "Request page (vivli.org/resources/requestdata/): \"Ensure all required fields of the data request form are completed and that a qualified statistician is part of the team\" (administrator check; establishes the statistician requirement); \"Check feasibility of fulfilling request\" (Data Contributor Review); \"Reviews based upon the merits of the research proposal\" (Independent Review Panel or Scientific Committee); \"not all three steps will be completed\" depending on studies requested; \"complete the data access training and execute the Data Use Agreement (DUA)\"; \"The DUA is the product of extensive negotiation with the organizations that contribute data to Vivli, and as such, the agreement is non-negotiable\"; Standard Research Environment \"No charge, 365 days $12/day after 365 days\" (2025 pricing, up to $275/day for memory-optimized). Members page (vivli.org/members/ourmembers/): Daiichi Sankyo, AstraZeneca, Pfizer, Novartis Pharma AG and Lilly are listed as members (establishes that the relevant HER2 ADC and HR+ trial sponsors contribute). DUA page: \"any research team members from a different institution than the Lead Investigator will also need to complete and execute a DUA\".",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nci-nctn-biospecimen-data-access",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "consortia",
@@ -3235,11 +3242,12 @@
     "confidence": "verified",
     "evidence": "nctnbanks.cancer.gov/about/policy.html: \"Requests for NCTN Biospecimens from completed NCTN clinical trials may be submitted by investigators in the research community, not only members of the NCTN Groups.\" (open to non-members); \"investigators will be provided with a feasibility assessment and cost estimate upon review of the request\" (no funding provided); \"based on a review and approval by the NCTN Core Correlative Sciences Committee (NCTN-CCSC)\" (review body). dctd.cancer.gov/research/networks/nctn/ccsc: \"Cancer Therapy Evaluation Program (CTEP)-registered investigators may submit proposals\" for \"Banked, non-reserved biospecimens from phase 2/3 or phase 3 NCTN clinical trials\" (eligibility and scope). .../ccsc/review: \"All submission formats require that the proposal PI be a CTEP-registered investigator.\"; \"Proposals received and accepted by PIO ≥ 6 weeks before the standing CCSC review date will be scheduled for the call 6 weeks hence, pending review slot availability.\" (rolling cycle); decision \"within 2 weeks of Committee proposal review\". .../ccsc/approval: \"Documentation of funding\" covering \"NCTN Network Group biospecimen processing and shipping fees\" and \"NCTN Network Group data collection and processing fees\" must arrive \"within 12 months of the date of the approval letter\" (investigator pays; 12-month clock). .../ccsc/evaluation: \"Priority is given to studies validating fully specified (locked) prediction models and/or validation of pre-specified biomarkers\"; \"Predictive biomarkers are preferred over prognostic biomarkers.\"",
     "fit": 72
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "ecog-acrin-young-investigator-symposium",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "travel+mentorship (no research funding)",
    "provenance": {
     "lens": "consortia",
@@ -3302,7 +3310,8 @@
     "confidence": "verified",
     "evidence": "Program page (read 2026-09-14): \"The Young Investigator Symposium is a professional mentoring event that takes place annually at the Fall Group Meeting of the ECOG-ACRIN Cancer Research Group.\" (establishes annual cycle, mentorship not funding). Eligibility: \"Currently in post-graduate training, or has completed post-graduate training within the last 10 years\" and \"at, or working under a mentor at, an institution that is a member of any research group addressing cancer in adults in the National Cancer Institute's National Clinical Trials Network\" (establishes the 10-year cap and NCTN-any-group institutional test). Deadline: \"Thursday, September 17, 2026, at 11:59 PM (Eastern Time)\" (establishes the open 2026 deadline). Support: \"ECOG-ACRIN covers travel and lodging costs associated with meeting attendance.\" and \"Two presenters receive awards of distinction annually.\" (establishes no research funding). Abstract: \"The abstract section must not exceed 2800 characters (approximately 400 words), including spaces\"; \"research that is not entirely duplicative of work already published in the medical literature or presented at a major scientific meeting\"; \"Attach the completed form to an email... Address the email to the Mentoring Program Administrator\" (establishes submission method and novelty requirement).",
     "fit": 42
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "asci-young-physician-scientist-award",
@@ -3370,7 +3379,7 @@
   },
   {
    "id": "nih-lrp-focus-l70-fy2027",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "physician-scientist",
@@ -3433,11 +3442,12 @@
     "confidence": "verified",
     "evidence": "NOT-OD-26-083 (release date \"July 13, 2026\"): \"This Notice replaces NOT-OD-25-094\" establishes currency and that FOCUS succeeds REACH; \"Extramural LRP applications will be accepted from September 1 until November 19, 2026\" by \"11:59 p.m. EST\" establishes the open window and deadline; \"The Extramural LRP repays up to $50,000 annually of a researcher's qualified educational debt\" and \"for an average of at least 20 hours each week for at least two years, initially\" establish award size, effort gate and duration; \"The NIH intends to commit approximately $20 million annually to fund LRP-FOCUS awards\" establishes program budget; \"total qualifying educational debt equal to or in excess of 20 percent of their institutional annual base salary\" establishes the debt gate; \"Research funding from NIH is not required to participate in the Extramural LRP\" establishes no funding prerequisite; \"Each IC will determine which focus areas of research fit with their IC's research priorities\" establishes IC-specific scope; ineligibility includes \"Individuals who receive any research funding support or salary from a for-profit institution\" and \"No individual may submit more than one LRP application to the NIH in any fiscal year\"; repayment \"no earlier than July 1 and no later than September 30 annually\"; companion notices NOT-OD-26-081 (LRP-CR) and NOT-OD-26-082 (LRP-PR). NIH FOCUS Research Areas page (grants.nih.gov/funding/funding-categories/lrp/extramural-lrp/reach-priority-statements), \"Application Deadline is November 19, 2026 (Fiscal Year 2027)\": NCI entry reads \"data science, computational biology, informatics, prevention, cancer control and population sciences, and new approaches emphasizing human-based research and models for cancer biology, diagnosis, and treatment\", establishing that NCI participates and that computational oncology is an NCI FOCUS area.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nih-primed-ai-d2m-aip-rfa-rm-27-012",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -3500,11 +3510,12 @@
     "confidence": "verified",
     "evidence": "Grants.gov API (oppId 359270): \"opportunityNumber\":\"RFA-RM-27-012\" ... \"responseDate\":\"Oct 19, 2026\" ... \"postingDate\":\"Jun 30, 2026\" ... \"archiveDate\":\"Dec 18, 2026\" ... \"numberOfAwards\":\"8\",\"awardCeiling\":\"none\" — establishes the opportunity, due date, and posted status. Full NOFO (files.simpler.grants.gov RFA-RM-27-012-Full-Announcement.html): \"Application Due Dates ... October 19, 2026 ... Scientific Merit Review March 2027 Advisory Council Review May 2027 Earliest Start Date July 2027 ... Expiration Date October 20, 2026\" — establishes single receipt date and expiry, no LOI section present. \"The NIH Common Fund intends to commit funds for approximately 6-8 UG3/UH3 awards ... not to exceed $450,000 in direct costs per year for UG3 and $800,000 for UH3 phases ... The total project period for a UG3/UH3 award may not exceed 5 years.\" — establishes budget and duration. \"Any individual(s) with the skills, knowledge, and resources necessary to carry out the proposed research ... is invited\" — no career-stage gate. \"D2M-AIP applications must include A designated MPI from at least one academic institution and A designated MPI from at least one industrial partner, a for-profit organization of any size ... Note: Non-profit organizations ... do not fulfill the requirement for the primary industrial partner\" — establishes mandatory industry MPI. \"Applicant organizations may submit more than one application, provided that each application is scientifically distinct.\" — not limited submission. Nonresponsive list: \"Applications proposing Phase III clinical trials as the primary scope of work ... Projects that do not propose the development or validation of an AI-powered, image-centered, multimodal PRIMED-AI CDS tool ... Applications that do not include substantive academic-industrial partnership(s)\". Example use case: \"Development of novel digital twins CDS tools leveraging clinical imaging, genomic profiling, and real-world patient-level data (e.g., lab tests ... semi-structured electronic medical record data, and patient reported outcomes)\". \"The NOFO will be administered by the National Cancer Institute on behalf of the NIH.\" Common Fund funding-opportunities page lists all five NOFOs (RFA-RM-27-011 through -015) released June 30, 2026 with due dates Oct 2, Oct 9, and Oct 19, 2026.",
     "fit": 78
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nci-early-onset-cancers-par-26-150",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -3567,11 +3578,12 @@
     "confidence": "projected",
     "evidence": "Grants.gov API record for opportunity 361438: \"opportunityNumber\": \"PAR-26-150\", \"opportunityTitle\": \"Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)\", \"docType\": \"forecast\", \"ost\": \"FORECASTED\" (establishes the program exists and is still a forecast). \"estSynopsisPostingDate\": \"Jun 30, 2026\", \"estApplicationResponseDate\": \"Oct 05, 2026\", \"estAwardDate\": \"Jul 01, 2027\", \"synPostDateInPast\": true, \"opportunityPkgs\": [] (establishes the estimated dates and that the NOFO has not posted despite the passed estimate). Forecast description: \"invites applications that investigate the etiology of sporadic non-hereditary early-onset cancers (EOCs: ages 18 to 49 years)... (iii) how can those at increased risk for developing EOCs be identified more effectively?\" and \"Applicants have the option of submitting either an exploratory/developmental research project with a project period of up to 2 years or a research project with a project period of 4 to 5 years\" (establishes scope and duration). \"costSharing\": false; applicant types include \"Private institutions of higher education\" and \"Public and State controlled institutions of higher education\" (establishes eligibility). Simpler.grants.gov mirror: \"Opportunity Status: Forecasted\", \"Award amounts not yet specified\". NIH Guide URL grants.nih.gov/grants/guide/pa-files/PAR-26-150.html returned HTTP 404 on 2026-09-14.",
     "fit": 60
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nih-advance-cancer-screening-par-25-098",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -3632,11 +3644,12 @@
     "confidence": "verified",
     "evidence": "NIH Guide PAR-25-098 (fetched 2026-09-14): title \"Interventions to expand cancer screening and preventive services to ADVANCE health in populations that experience health disparities (R01, Clinical Trial Required)\"; \"Interventions should address barriers and facilitators at two or more of the following levels: patient, clinician, healthcare setting, and neighborhood/community.\"; \"Application budgets are not limited but need to reflect the actual needs of the proposed project.\"; maximum project period 5 years; final application due date \"October 05, 2026\"; \"Expiration Date: January 08, 2027\"; reissue of PAR-23-170; no Letter of Intent requested; \"Interventions should include screening, preventive services, or other healthcare processes, including timely follow-up of abnormal findings, and referral to accessible care.\" The text does not mention breast cancer or mammography; areas of interest cited include lung, colorectal, oral and oropharyngeal cancers.",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nlm-bioinformatics-r01-par-26-040",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -3696,11 +3709,12 @@
     "confidence": "verified",
     "evidence": "Grants.gov API record 359003: opportunityNumber \"PAR-26-040\"; agencyContactDesc \"NLM Extramural Programs NLMProgram@nih.gov\"; postingDate \"Feb 11, 2026\"; responseDate \"Mar 05, 2029\"; archiveDate \"May 04, 2029\"; numberOfAwards \"10\"; estimatedFunding \"2500000\"; awardCeiling \"250000\"; costSharing false; forecast estAwardDate \"Dec 04, 2026\" (establishes sponsor, dates, and Grants.gov award figures). PAR-26-040 full announcement: Application Due Dates \"June 05, 2026, October 05, 2026, February 05, 2027 ... February 05, 2029\"; Expiration Date \"March 06, 2029\"; \"$250,000 per year in direct costs\"; \"The maximum project period is 4 years\"; \"Any individual(s) with the skills, knowledge, and resources necessary to carry out the proposed research ... is invited\"; Application Types \"New, Renewal, Resubmission, Revision\"; non-responsive: \"narrowly focused on specific diseases and with limited potential to yield broadly applicable tools\", \"that do not produce open-access datasets, methods, resources or tools\", \"with most of the effort devoted to experimental research\"; areas of interest include \"Biomarker discovery\", \"Single cell informatics\", \"Studies that use artificial intelligence (AI) and machine learning (ML) applications\" (establishes deadlines, budget, eligibility, and responsiveness limits). No LOI date listed; no ESI or career-stage language; no EHR/clinical-data language.",
     "fit": 76
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "nci-egrp-cohort-studies-par-27-073",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+data",
    "provenance": {
     "lens": "federal-adjacent",
@@ -3764,7 +3778,8 @@
     "confidence": "verified",
     "evidence": "Grants.gov REST record 359091: \"opportunityNumber\":\"PAR-27-073\", title \"Research Opportunities in Cancer Epidemiology Cohort Studies (U01 Clinical Trial Not Allowed)\", \"postingDate\":\"May 04, 2026\", \"responseDate\":\"Jul 05, 2029\", \"archiveDate\":\"Sep 04, 2029\", \"awardCeiling\":\"none\",\"awardFloor\":\"none\", package \"openingDate\":\"Sep 05, 2026\", \"ost\":\"POSTED\" (establishes the program is real, posted and open). Full announcement (simpler.grants.gov copy): \"Announcement Type Reissue of PAR-25-275\"; \"Companion Funding Opportunity None\"; \"Open Date (Earliest Submission Date) September 05, 2026 ... October 05, 2026 * November 05, 2026 * ... February 05, 2027 * March 05, 2027 * ... June 05, 2027 * July 05, 2027 *\"; \"Expiration Date July 06, 2029\" (establishes deadlines and cycle, no LOI listed). \"Application budgets are not limited but need to reflect the actual needs of the proposed project.\" \"The maximum project period is 5 years.\" (award). \"Any individual designated as a PD/PI must commit a minimum of 1.8 person-months effort per year to the project (MPIs must commit a minimum of 1.2 person-months per NCI policy).\" (eligibility/effort). \"Applications ... that propose any of the following will not be reviewed, including: Use of an existing cohort that is comprised only of electronic health record, registry, or claims data without an established track record of participant-/patient contact and follow-up\" (trap). \"The NOFO also supports applications for the establishment of a new cancer epidemiology cohort or an expansion of a recently formed cancer epidemiology cohort.\" (new-cohort track). Grants.gov REST record 359090: \"FOR-CA-25-077 ... FORECASTED\", estSynopsisPostingDate Aug 01, 2025, estApplicationResponseDate Nov 05, 2025 (companion forecast is stale).",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "aim-ahead-research-fellowship",
@@ -3903,7 +3918,7 @@
   },
   {
    "id": "pershing-square-sohn-cancer-prize-2027",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-digest",
@@ -3967,11 +3982,12 @@
     "confidence": "verified",
     "evidence": "\"Prize winners each receive $250,000 a year for three years, totaling $750,000\" (award); \"An MD, PhD, or MD-PhD degree (or equivalent) is required\" and \"Assistant or Associate Professor (or equivalent)\" with \"faculty appointments at academic research institutions (or equivalent) in the United States\" (degree, rank, national scope); \"at least two (2) years of experience running their own laboratories but no more than six (6) years\" (career cap); \"Applicants may only apply to the Prize a total of two (2) times\" (lifetime limit); \"Investigators need not be specifically trained in cancer research\"; \"since 2026, applicants and winners will now represent institutions from across the United States\" (geographic expansion); timeline: LOI portal opens \"Monday, September 21st, 2026\", LOI deadline \"October 26, 2026\" by 5pm ET, finalist notification \"Late February 2027\", presentations \"April 13 & 14, 2027\" in NYC, winners announced \"Late April 2027\", start \"July 1, 2027\"; program page: \"2026 Pershing Square Sohn Cancer Prize Now Open to All Institutions in the USA\".",
     "fit": 84
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "blavatnik-national-awards-young-scientists",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-digest",
@@ -4032,11 +4048,12 @@
     "confidence": "verified",
     "evidence": "Sponsor page (nomination-guidelines, fetched 2026-09-14): \"Nominations for the 2027 Blavatnik National Awards will open on October 7, 2026. The nominations period will run from October 7 through December 2.\" (window). \"The nominee must: Have been born in or after 1985.\" (age gate). \"Hold a doctorate degree (PhD, DPhil, MD, DDS, DVM, etc.).\" (MD admitted). \"Currently hold a tenured or tenure-track academic faculty position, or equivalent, at an eligible institution in the United States.\" (track gate). \"Currently conduct research as a principal investigator in one of the disciplinary categories...\" (PI status). \"Each institution may submit up to three nominations, one in each disciplinary category.\" (limited submission). \"One Blavatnik National Awards Laureate in each disciplinary category will receive $250,000 in unrestricted funds, and additional nominees will be recognized as Finalists, and will receive $15,000 in unrestricted funds.\" (award). \"Self-nominations are not allowed.\" and nominations \"must be submitted by the institution's official nominator—the institution's President, Provost, Director, or equivalent (or their official designee).\" (institutional nomination). \"Age limit exceptions will be considered ... received by The New York Academy of Sciences by November 11, 2026.\" Institutions page: \"Baylor College of Medicine\" listed under Texas with an institutional contact (BCM eligible).",
     "fit": 40
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "ctph-rdar-real-world-data-analysis",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "critic",
@@ -4095,11 +4112,12 @@
     "confidence": "verified",
     "evidence": "Page states the resource \"supports CTPH investigators in leveraging local and external data sources to generate actionable information on human health, particularly for use as preliminary data in grant proposals\" (purpose and eligible population). \"Applications for unfunded, in-kind support are accepted through a competitive request for applications process conducted in cycles\" (in-kind, no cash, competitive cycles). \"Investigators who already have funding to support analysis, or who plan to include RDAR in their grant applications, should submit an RDAR consultation request\" (second pathway). \"RFA opening and closing dates will be posted on the CTPH website and distributed through each organization's research mailing lists\" (no dates on the page). Contact: ctph@bcm.edu. The CTPH home page on 2026-09-14 lists news through September 11, 2026 and events through October 6, 2026 with no RDAR RFA notice.",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-09-17"
   },
   {
    "id": "mark-foundation-waxman-aging-cancer-award",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "critic",
@@ -4162,7 +4180,8 @@
     "confidence": "projected",
     "evidence": "Page heading \"2026 Request for Proposals for Aging & Cancer Grants\" (establishes the program and cycle year). \"up to $500,000 to a team of two investigators for a term of three years, with $200,000 provided in Years 1 and 2 and $100,000 in Year 3\" (award and duration). \"indirect costs allowed up to 10% of the direct costs and included in the total grant amount\" (indirects). Key dates: portal opens May 4, 2026; \"Letters of Intent must be submitted through the online application system no later than 5 PM Eastern Time on June 15, 2026\"; full applications due September 18, 2026; award notification October 2026; project start January 1, 2027 (deadlines). \"Invitations for full applications and funding decisions will be based on peer review by a committee\" (full stage is invitation-only). \"an independent faculty appointment (tenure-track or equivalent)\" and \"both lead established laboratories currently supported by multi-year independent funding. For example, for US-based applicants, this should be at least one R01 or R01-equivalent grant\" (track and funding gates). \"one principal investigator (PI) at the host institution and one co-principal investigator (co-PI) at a different institution\" (team structure). \"Investigators who currently hold 'Aging and Cancer' awards from the Mark Foundation are not permitted to apply\" (exclusion applies to current holders, not all prior awardees). \"Research supported by this program will advance our understanding of the rising incidence of cancer due to aging, with a special emphasis on the role of inflammaging and immunosenescence as common drivers of aging and cancer\" (scope). \"Awards from previous years can be found here\" linking to themarkfoundation.org/waxmaninstitute/ (recurring program). Inquiries to grants@themarkfoundation.org.",
     "fit": 44
-   }
+   },
+   "promoted_on": "2026-09-17"
   }
  ]
 }
