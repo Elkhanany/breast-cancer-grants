@@ -1,6 +1,18 @@
 {
  "entries": [
   {
+   "date": "2026-09-17",
+   "kind": "watch",
+   "summary": "CPRIT reissued all eight FY2027 Cycle 2 academic research RFAs (R-27.2) on 2026-09-16 under new filenames; the old PDFs now return 404, so the eight record urls were moved to the revised PDFs. Application receipt windows on CPRIT's funding-opportunities page are unchanged (2026-11-18 for CPRA, CIA, CTNA, CFSA, RTAWD, TREC, TRTA; first RRCTA cycle 2026-11-20). Notes on eight records reworded to neutral third person.",
+   "added": 0,
+   "changed": 8,
+   "retired": 0,
+   "details": [
+    "cprit-cpra, cprit-cia, cprit-ctna, cprit-cfsa, cprit-rrcta, cprit-rtawd, cprit-trec, cprit-texas-regional-training-award-r272-trta: url moved from the *_final.pdf RFA to the *_rev_9-16-26.pdf RFA (CPRIT lists each as 'Revised: 09/16/2026', status Open); no dates changed.",
+    "Signals deferred: merck MISP rfp_changed is a navigation-menu change (Opevesostat/MK-5684 added to the solid-tumor list, no breast RFP); daiichi-sankyo-esr-iis dates_changed is the page's own date stamp; afar.org/grants/beeson newly blocked (403, streak 1); SU2C x2, AbbVie, Komen FY27 CCR PDF and Lilly remain blocked as known."
+   ]
+  },
+  {
    "date": "2026-09-14",
    "kind": "refresh",
    "summary": "84 records re-verified against primary sources (79 by the workflow, 5 blocked pages in the browser); two dates moved on two independent reads, two lapsed cycles closed, two DOD first-round records confirmed, and 30 discovery candidates promoted after their primary pages were re-opened. Enrichment (contacts, award counts, success rates) stored on 76 records.",

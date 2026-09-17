@@ -7,7 +7,7 @@
     "dod-bcrp-era-of-hope-scholar-fy26",
     "dod-bcrp-transformative-consortium-development-fy26"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -40,7 +40,7 @@
     "dod-bcrp-fy27-outlook",
     "dod-bcrp-transformative-consortium-award-fy26"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-04",
@@ -84,7 +84,7 @@
    "ids": [
     "cprit-iira"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "ecfad0caa70417f2",
@@ -97,7 +97,7 @@
     "cprit-iiracca",
     "cprit-iirap"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "b13a739541abd8ab",
@@ -108,7 +108,7 @@
    "ids": [
     "cprit-iiract"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "9012ce2aee0fd1fa",
@@ -119,7 +119,7 @@
    "ids": [
     "cprit-iiracsbc"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "bcc29147874ae0f4",
@@ -132,7 +132,7 @@
     "gateway-nci-spore-p20-program",
     "gateway-traditional-grant-program"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-11-06"
@@ -145,7 +145,7 @@
    "ids": [
     "nih-parent-k08"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-09-25",
@@ -200,7 +200,7 @@
    "ids": [
     "nih-parent-k23"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-09-25",
@@ -255,7 +255,7 @@
    "ids": [
     "nci-modular-r01-ccps"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -303,7 +303,7 @@
    "ids": [
     "nci-exploratory-cancer-control-r21"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-16",
@@ -357,7 +357,7 @@
    "ids": [
     "nih-parent-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -414,7 +414,7 @@
    "ids": [
     "nih-parent-r03"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -478,7 +478,7 @@
    "ids": [
     "nih-parent-r21"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -540,7 +540,7 @@
    "ids": [
     "nci-spore-p50-2024-2026"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-09-25",
@@ -589,7 +589,7 @@
    "ids": [
     "ncats-ctsa-um1"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-09-29",
@@ -639,7 +639,7 @@
    "ids": [
     "nimhd-older-adults-disparities-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -697,7 +697,7 @@
    "ids": [
     "nci-biomarker-assay-revision-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -734,7 +734,7 @@
    "ids": [
     "nci-assay-validation-uh2-uh3"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -775,7 +775,7 @@
    "ids": [
     "nci-iit-early-phase-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -822,7 +822,7 @@
    "ids": [
     "nci-secondary-analysis-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -867,7 +867,7 @@
    "ids": [
     "nci-secondary-analysis-r21"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-01",
@@ -912,7 +912,7 @@
    "ids": [
     "nci-cpc-planning-r34"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-25",
@@ -953,7 +953,7 @@
    "ids": [
     "nci-k99-r00"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-15",
@@ -996,7 +996,7 @@
    "ids": [
     "nci-cancer-prevention-control-trials-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -1045,7 +1045,7 @@
    "ids": [
     "nci-imaging-fluid-tumor-monitoring-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -1096,7 +1096,7 @@
    "ids": [
     "nci-basic-cancer-health-disparities-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-05",
@@ -1145,7 +1145,7 @@
    "ids": [
     "nci-basic-cancer-health-disparities-r21"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-16",
@@ -1194,7 +1194,7 @@
    "ids": [
     "nci-merit-r37-extension"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2028-09-08"
@@ -1282,7 +1282,7 @@
    "ids": [
     "nih-rse-r50"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-12-04",
@@ -1322,7 +1322,7 @@
    "ids": [
     "nih-standard-due-dates-reference"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-03-24"
@@ -1344,7 +1344,7 @@
    "ids": [
     "searle-scholars-program"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-06-01",
@@ -1361,7 +1361,7 @@
    "ids": [
     "nci-spore-p50-2027-2029"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2025-10-31",
@@ -1409,7 +1409,7 @@
    "ids": [
     "conquer-cancer-career-development-award"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-07-01",
@@ -1450,7 +1450,7 @@
    "ids": [
     "breast-cancer-research-foundation-alabama"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-07-16",
@@ -1489,7 +1489,7 @@
    "ids": [
     "bwf-career-awards-medical-scientists"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-07-30",
@@ -1513,7 +1513,7 @@
    "ids": [
     "nci-r50-research-specialist"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-04"
@@ -1530,7 +1530,7 @@
    "ids": [
     "cri-technology-impact-award"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-11-15",
@@ -1557,18 +1557,16 @@
    "ids": [
     "cprit-trec"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "7732620bf1385e42",
-   "bytes": 395096,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/ay0h4vrs/rfa-r-271-rrs_final.pdf": {
    "ids": [
     "cprit-rrs"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "ef5c1a0c3b3be81e",
@@ -1579,51 +1577,43 @@
    "ids": [
     "cprit-cia"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "b6b6f9506c6ecfaa",
-   "bytes": 374619,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/fdlkwz4l/rfa-r-272-cpra_final.pdf": {
    "ids": [
     "cprit-cpra"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "4375e3c12f41945d",
-   "bytes": 360115,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/rydlbycq/rfa-r-272-rtawd_final.pdf": {
    "ids": [
     "cprit-rtawd"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "faeb928132189618",
-   "bytes": 367784,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/sh0phplm/rfa-r-272-ctna_final_revised.pdf": {
    "ids": [
     "cprit-ctna"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "0f3d11d2a8c97361",
-   "bytes": 375867,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/u10azwz1/rfa-r-271-rft_final.pdf": {
    "ids": [
     "cprit-rft"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "775138f01290e69f",
@@ -1634,7 +1624,7 @@
    "ids": [
     "cprit-rei"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "sha": "008a1c5c399fd702",
@@ -1645,29 +1635,25 @@
    "ids": [
     "cprit-rrcta"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "6176450976d91364",
-   "bytes": 455383,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.cprit.texas.gov/media/xkhbnulg/rfa-r-272-cfsa_final.pdf": {
    "ids": [
     "cprit-cfsa"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "558f29bcc8586661",
-   "bytes": 391715,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.grants.gov/search-results-detail/359004": {
    "ids": [
     "nlm-clinical-informatics-r01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-02-11",
@@ -1682,7 +1668,7 @@
    "ids": [
     "nci-metnet-u01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-02-04",
@@ -1699,7 +1685,7 @@
    "ids": [
     "nci-itcr-u24-sustained"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1716,7 +1702,7 @@
    "ids": [
     "nci-itcr-u24-advanced"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1733,7 +1719,7 @@
    "ids": [
     "nci-itcr-u01-early-stage"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-21",
@@ -1750,7 +1736,7 @@
    "ids": [
     "nia-gemsstar-r03"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-09-01",
@@ -1767,7 +1753,7 @@
    "ids": [
     "nci-imat-r33-advanced"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1785,7 +1771,7 @@
    "ids": [
     "nci-imat-r61-early-stage"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1803,7 +1789,7 @@
    "ids": [
     "nih-parent-p01"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-02-11",
@@ -1822,7 +1808,7 @@
    "ids": [
     "hope-funds-postdoctoral-fellowship"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-09-24",
@@ -1838,16 +1824,16 @@
    "ids": [
     "komen-career-catalyst-research-fy27"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 403,
    "dates": [],
-   "fail_streak": 15
+   "fail_streak": 16
   },
   "https://www.pcori.org/funding-opportunities": {
    "ids": [
     "pcori-engagement-capacity-building-fall-2026"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-04-28",
@@ -1909,7 +1895,7 @@
    "ids": [
     "arvinas-investigator-sponsored-research"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-09-03",
@@ -1925,7 +1911,7 @@
    "ids": [
     "menarini-stemline-iss"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1991,7 +1977,7 @@
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2008,7 +1994,7 @@
    "ids": [
     "olema-oncology-iss"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2033,7 +2019,7 @@
    "ids": [
     "boehringer-ingelheim-iis"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2053,7 +2039,7 @@
    "ids": [
     "sermonix-pharmaceuticals-collaboration"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2066,25 +2052,25 @@
    "ids": [
     "stand-up-to-cancer-team-and-catalyst"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 403,
    "dates": [],
-   "fail_streak": 10
+   "fail_streak": 11
   },
   "https://standuptocancer.org/what-we-do/scientific-initiatives/": {
    "ids": [
     "su2c-catalyst"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 403,
    "dates": [],
-   "fail_streak": 10
+   "fail_streak": 11
   },
   "https://thehopefoundation.org/funding-opportunities/": {
    "ids": [
     "hope-foundation-swog-trial-support"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2095,7 +2081,7 @@
    "ids": [
     "hope-foundation-swog-seed-fund"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-07-01"
@@ -2108,7 +2094,7 @@
    "ids": [
     "hope-foundation-swog-impact-award"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2122,16 +2108,16 @@
    "ids": [
     "abbvie-investigator-initiated-studies"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 403,
    "dates": [],
-   "fail_streak": 10
+   "fail_streak": 11
   },
   "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html": {
    "ids": [
     "astrazeneca-esr"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2220,7 +2206,7 @@
    "ids": [
     "cri-clinical-innovator"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2234,10 +2220,10 @@
    "ids": [
     "daiichi-sankyo-esr-iis"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
-    "2026-09-14"
+    "2026-09-17"
    ],
    "rfp": [],
    "rfp_v": 2,
@@ -2248,7 +2234,7 @@
     "genentech-investigator-initiated-studies",
     "genentech-roche-iss"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2259,7 +2245,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2278,16 +2264,16 @@
    "ids": [
     "lilly-investigator-initiated-research"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 403,
    "dates": [],
-   "fail_streak": 10
+   "fail_streak": 11
   },
   "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical": {
    "ids": [
     "novartis-investigator-initiated-trials"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2334,7 +2320,7 @@
    "ids": [
     "pfizer-competitive-grants-program"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-26",
@@ -2369,7 +2355,7 @@
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2391,7 +2377,7 @@
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2404,7 +2390,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2418,16 +2404,16 @@
     "merck-investigator-studies-program",
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
-    "6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibility Cou",
-    "fan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibi",
-    "mission materials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie",
+    "084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibility Cou",
+    "482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences",
+    "ib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibi",
     "peutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get submission materials Belzutifan (MK-6482) Calderasib",
-    "rials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences",
-    "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get"
+    "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get",
+    "utifan (MK-6482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie"
    ],
    "rfp_v": 2,
    "fail_streak": 0
@@ -2436,7 +2422,7 @@
    "ids": [
     "agendia-flex-registry-substudies"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2481,13 +2467,14 @@
    "ids": [
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-11-30"
    ],
    "rfp": [
-    "6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are",
+    "084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are",
+    "482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT",
     "A analysis should be conducted with a validated, commercial ctDNA assay vendor (can also be research-use only (RUO). ctDNA can be used to detect mutations",
     "A assays run in CLIA/CAP (or equivalent) facilities. Use of ctDNA for clinical decision making must have a regulatory path forward and the investigator ass",
     "A to predict or confirm surgical outcomes Studies utilizing ctDNA to support clinical data to guide initiation or adjust treatment in alignment with one of",
@@ -2506,9 +2493,9 @@
     "eatment decisions, studies should use commercial, validated ctDNA assays run in CLIA/CAP (or equivalent) facilities. Use of ctDNA for clinical decision mak",
     "ed biomarker-selected populations, i.e., BRCA, etc., in all breast cancer subtypes Gynecological Studies of combination with pembrolizumab or bevacizumab in",
     "ent… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are currently accepting proposals for the sac-TMT Investigator-Initiated Studies Prog",
-    "fan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870)",
     "from any Company sponsored trials will not be accepted. All ctDNA analysis should be conducted with a validated, commercial ctDNA assay vendor (can also be",
     "h primary/co-primary translational endpoints. MISP Clinical Areas of Interest by Tumor Type Bladder Studies of combination therapy with pembrolizumab in muscle-invasiv",
+    "ib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870)",
     "icroenvironment Preclinical In vitro treatment studies with sac-TMT to study biomarkers and mechanisms associated with response and/or resistance Studies uti",
     "identify combination partners to overcome the resistance to sac-TMT Note: Low/No interest in efficacy studies ctDNA-Specific AOIs Studies of retrospective or",
     "ies in development. Proposals duplicating or competing with sac-TMT registration trials will not be supported. Letters of Support are required for use of thi",
@@ -2518,20 +2505,19 @@
     "inhibitor efficacy in selected tumor types known to express TROP2 Prostate Studies of monotherapy or combination therapy with ARPI in metastatic hormone se",
     "interest performed in a CLIA/CAP environment or equivalent. ctDNA may be used to complement clinical data for on-treatment decisions if the proposal docume",
     "ments an assessment of patient risk and a rationale for how ctDNA findings will be weighted in decision-making; for on-treatment decisions, studies should",
-    "mission materials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumote",
     "mples only. Studies of mechanisms to overcome resistance to sac-TMT either alone or in combination with pembrolizumab. Studies should focus on sac-TMT effect",
     "of response and/or resistance to approved, standard-of-care antibody-drug conjugates (ADCs). Note: On a per project basis, these should be focused on a single tumor type rat",
     "on, MRD) for study inclusion decisions; in these cases, the ctDNA assay must be a commercial validated assay for the biomarker(s) of interest performed in",
     "onal Studies of mechanisms of response and/or resistance to sac-TMT either alone or in combination with pembrolizumab. Studies should focus on sac-TMT effect",
     "osimertinib for the treatment of EGFRm in early-stage NSCLC Sac-TMT in combination with pembrolizumab for the treatment of early-stage NSCLC Studies of monot",
     "peutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get submission materials Belzutifan (MK-6482) Calderasib",
-    "rials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT",
     "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get",
     "s into possible mechanisms of response and/or resistance to sac-TMT Studies utilizing preclinical mouse/patient-derived xenograft (PDX) models, to identify c",
     "se or as an early predictor of recurrence Studies utilizing ctDNA as a tool to investigate tumor genetics, biology, or evolution, including potential for a",
     "stance to sac-TMT Note: Low/No interest in efficacy studies ctDNA-Specific AOIs Studies of retrospective or temporal analyses of ctDNA for monitoring of mi",
     "timelines. Kelun-Biotech retains rights for commercializing sac-TMT in China, Hong Kong, Taiwan and Macau. Therefore, we will not be able to accept MISP prop",
     "trospective or temporal analyses of ctDNA for monitoring of minimal residual disease burden in the neoadjuvant or adjuvant setting, e.g. to monitor response or as an early pr",
+    "utifan (MK-6482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumote",
     "zumab in early disease Studies of monotherapy in metastatic breast cancer with approved biomarker-selected populations, i.e., BRCA, etc., in all breast canc"
    ],
    "rfp_v": 2,
@@ -2541,7 +2527,7 @@
    "ids": [
     "bms-independent-research-isr"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2562,7 +2548,7 @@
    "ids": [
     "eisai-investigator-initiated-studies"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2576,7 +2562,7 @@
    "ids": [
     "exact-sciences-research-grants"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2598,7 +2584,7 @@
    "ids": [
     "rising-tide-ccr-open-call"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-11-23",
@@ -2615,7 +2601,7 @@
    "ids": [
     "arpah-active-programs-fit-check"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2633,7 +2619,7 @@
    "ids": [
     "dod-prcrp-fy26-breast-excluded"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [
     "2026-05-06",
@@ -2669,23 +2655,446 @@
    "ids": [
     "cprit-texas-regional-training-award-r272-trta"
    ],
-   "checked": "2026-09-14T13:55:57",
-   "status": 200,
+   "checked": "2026-09-17T07:49:48",
+   "status": 404,
    "dates": [],
-   "sha": "eceb9187931efd57",
-   "bytes": 387625,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://pumabiotechnology.com/clinical-trials/clinical-trials.html": {
    "ids": [
     "puma-biotechnology-ist"
    ],
-   "checked": "2026-09-14T13:55:57",
+   "checked": "2026-09-17T07:49:48",
    "status": 200,
    "dates": [],
    "rfp": [
     "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Data Sharing Extended Access Program News Latest News Release Archives Investor",
     "ALISCA&reg; ALISCA&reg;-Lung1 ALISCA&reg;-Lung2 ALISCA&reg;-Breast1 Clinical Trial Data Sharing Extended Access Program Sponsored Trials By clicking on the"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-081.html": {
+   "ids": [
+    "nih-lrp-clinical-research-l30-fy2027"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2025-12-02",
+    "2026-01-25",
+    "2026-07-01",
+    "2026-07-13",
+    "2026-11-19"
+   ],
+   "rfp": [
+    "P scientific liaison . Weekly TOC for this Announcement NIH Funding Opportunities and Notices Department of Health and Human Services (HHS) NIH... Turning Discovery Into H",
+    "ertain types of application materials after the application submission deadline if they result from unforeseen administrative issues or events. These materials must be r",
+    "f Institution A change of institution after the application submission deadline may be permissible, pending approval from the Institute or Center reviewing the applicati"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-144.html": {
+   "ids": [
+    "nih-dissemination-implementation-r01-par-25-144"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2025-10-01",
+    "2025-10-05",
+    "2025-11-05",
+    "2026-01-07",
+    "2026-01-28",
+    "2026-02-05",
+    "2026-03-05",
+    "2026-04-06",
+    "2026-05-07",
+    "2026-06-05",
+    "2026-07-05",
+    "2026-10-05",
+    "2026-11-05",
+    "2027-02-05",
+    "2027-03-05",
+    "2027-06-05",
+    "2027-07-05",
+    "2027-10-05",
+    "2027-11-05",
+    "2028-01-08"
+   ],
+   "rfp": [
+    "189 . Funding Opportunity Number (FON) PAR-25-144 Companion Funding Opportunity PAR-25-233 , R03 Small Research Grants PAR-25-143 , R21 Exploratory/Developmental Grants",
+    "2 Funding Opportunity Purpose The purpose of this Notice of Funding Opportunity (NOFO) is to support studies that will identify, develop, and/or test strategies for over",
+    "52 and 2 CFR Part 200. Weekly TOC for this Announcement NIH Funding Opportunities and Notices Department of Health and Human Services (HHS) NIH... Turning Discovery Into H",
+    "846, 93.310, 93.273, 93.853, 93.307, 93.847, 93.113, 93.172 Funding Opportunity Purpose The purpose of this Notice of Funding Opportunity (NOFO) is to support studies th",
+    "Application Guide except where instructed in this notice of funding opportunity to do otherwise. Conformance to the requirements in the Application Guide is required and",
+    "NIDCD will only accept low-risk clinical trials under this funding opportunity. NIDCD addresses risks in terms of safety, complexity, fiscal investment, and direct scie",
+    "Notice NOT-OD-26-067 . January 28, 2026 - NIH Removing AIDS Application Due Dates from NOFOs. See Notice NOT-OD-26-029 . March 31, 2025 - This funding opportunity wa",
+    "Office of Behavioral and Social Sciences Research ( OBSSR ) Funding Opportunity Title Dissemination and Implementation Research in Health (R01 Clinical Trial Optional) A",
+    "VII. Agency Contacts We encourage inquiries concerning this funding opportunity and welcome the opportunity to answer questions from potential applicants. Application Su",
+    "a Management and Sharing Policy. See Notice NOT-OD-22-189 . Funding Opportunity Number (FON) PAR-25-144 Companion Funding Opportunity PAR-25-233 , R03 Small Research Gra",
+    "al Health Research Office ( THRO ) All applications to this funding opportunity announcement should fall within the mission of the Institutes/Centers. The following NIH",
+    "ates Part 2. Full Text of Announcement Section I. Notice of Funding Opportunity Description Section II. Award Information Section III. Eligibility Information Section IV",
+    "ation science projects across the cancer control continuum. Areas of interest include prevention, detection, and in areas less represented in the NCI-funded portfolio,",
+    "characterize how and in what contexts they work best. Other areas of interest include studies designed to understand implementation costs, incorporation of behavioral",
+    "clinical trials that are greater than minimal risk on this funding opportunity. Minimal risk is defined as the probability and magnitude of harm or discomfort anticipat",
+    "emination and Implementation Research in Health\" Notices of Funding Opportunity PAR-25-143 and PAR-25-144. See Notice NOT-CA-25-001 . April 4, 2024 - Overview of Grant A",
+    "fic priority (see also NCCIH Research Framework ). Specific areas of interest include, but are not limited to, trials to evaluate implementation strategies that facili",
+    "h for all through dissemination and implementation science. Areas of interest include projects that promote effective reach, delivery, and implementation of evidence-b",
+    "in Health (R01 Clinical Trial Optional) March 31, 2025 This funding opportunity was updated to align with agency priorities. Carefully reread the full funding opportunit",
+    "le includes NIH standard due dates marked with an asterisk. Application Due Dates Review and Award Cycles New Renewal / Resubmission / Revision (as allowed) AIDS - N",
+    "licants must complete all required registrations before the application due date. Section III. Eligibility Information contains information about registration. For a",
+    "otices See Notices of Special Interest associated with this funding opportunity April 06, 2026 - Implementation of Changes for Basic Experimental Studies with Humans. Se",
+    "ough implementation science and community-engaged research. Areas of interest include projects that promote effective reach, delivery, and implementation of HLBS-focus",
+    "portunity Description Purpose The purpose of this Notice of Funding Opportunity (NOFO) is to support studies that will identify, develop, and/or test strategies for over",
+    "pplication must be submitted to Grants.gov on or before the application due date and time. If a Changed/Corrected application is submitted after the deadline, the ap",
+    "rom NOFOs. See Notice NOT-OD-26-029 . March 31, 2025 - This funding opportunity was updated to align with agency priorities. Carefully reread the full funding opportunit",
+    "tation Changes for Genomic Data Sharing Plans Included with Applications Due on or after January 25, 2023. See Notice NOT-OD-22-198 . August 5, 2022 - Implementation",
+    "the mission of one of the Institutes/Centers listed above. Funding Opportunity Goal(s) The overall goals of this NOFO is to reduce cancer risk, incidence, morbidity, an",
+    "tion Part 2. Full Text of Announcement Section I. Notice of Funding Opportunity Description Purpose The purpose of this Notice of Funding Opportunity (NOFO) is to suppor",
+    "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. December 20, 202",
+    "to align with agency priorities. Carefully reread the full funding opportunity and make any needed adjustments to your application prior to submission. Department of He",
+    "ts/investigator-initiated-clinical-trial-resources Specific areas of interest for the Division of AIDS include but are not limited to: Research that facilitates the sc"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://grants.nih.gov/grants/guide/pa-files/PAR-25-322.html": {
+   "ids": [
+    "nih-katz-esi-r01-par-25-322"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2025-09-26",
+    "2025-10-28",
+    "2025-12-29",
+    "2026-01-27",
+    "2026-01-28",
+    "2026-02-26",
+    "2026-04-27",
+    "2026-05-27",
+    "2026-06-26",
+    "2026-09-28",
+    "2026-10-27",
+    "2027-01-26",
+    "2027-02-26",
+    "2027-05-28",
+    "2027-06-28",
+    "2027-09-28",
+    "2027-10-28",
+    "2028-01-26",
+    "2028-02-24",
+    "2028-05-26",
+    "2028-06-27",
+    "2028-08-26"
+   ],
+   "rfp": [
+    ", 2025 Open Date (Earliest Submission Date) August 25, 2025 Application Due Dates Review and Award Cycles New Renewal / Resubmission / Revision (as allowed) AIDS - N",
+    "189 . Funding Opportunity Number (FON) PAR-25-322 Companion Funding Opportunity PAR-25-323 , R01 Research Project Number of Applications See Section III. 3. Additional I",
+    "393, 93.307, 93.398, 93.351, 93.172, 93.313, 93.286, 93.879 Funding Opportunity Purpose The Stephen I. Katz Early Stage Investigator Research Project Grant supports an i",
+    "52 and 2 CFR Part 200. Weekly TOC for this Announcement NIH Funding Opportunities and Notices Department of Health and Human Services (HHS) NIH... Turning Discovery Into H",
+    "AMS) Director, Stephen I. Katz, M.D., Ph.D., this notice of funding opportunity (NOFO) is open to a broad range of scientific research relevant to the mission of the par",
+    "Application Guide except where instructed in this notice of funding opportunity to do otherwise. Conformance to the requirements in the Application Guide is required and",
+    "National Cancer Institute ( NCI ) All applications to this funding opportunity announcement should fall within the mission of the Institutes/Centers. The following NIH",
+    "VII. Agency Contacts We encourage inquiries concerning this funding opportunity and welcome the opportunity to answer questions from potential applicants. Application Su",
+    "a Management and Sharing Policy. See Notice NOT-OD-22-189 . Funding Opportunity Number (FON) PAR-25-322 Companion Funding Opportunity PAR-25-323 , R01 Research Project N",
+    "ates Part 2. Full Text of Announcement Section I. Notice of Funding Opportunity Description Section II. Award Information Section III. Eligibility Information Section IV",
+    "ion IV, SF424(R&amp;R) Other Project Information). For this funding opportunity, applications including preliminary data will be considered noncompliant with the NOFO in",
+    "is funding opportunity January 28, 2026 - NIH Removing AIDS Application Due Dates from NOFOs. See Notice NOT-OD-26-029 . April 4, 2024 - Overview of Grant Applicatio",
+    "ity does not accept applications proposing clinical trials. Funding Opportunity Goal(s) The mission of NIH is to seek fundamental knowledge about the nature and behavior",
+    "licants must complete all required registrations before the application due date. Section III. Eligibility Information contains information about registration. For a",
+    "minary data exist. Applications submitted to this notice of funding opportunity (NOFO) must not include preliminary data. Applications must include a separate attachment",
+    "otices See Notices of Special Interest associated with this funding opportunity January 28, 2026 - NIH Removing AIDS Application Due Dates from NOFOs. See Notice NOT-OD-",
+    "porting the proposed research project. Note: This Notice of Funding Opportunity (NOFO) does not accept applications proposing clinical trials. Special Note: Because of t",
+    "pplication must be submitted to Grants.gov on or before the application due date and time. If a Changed/Corrected application is submitted after the deadline, the ap",
+    "rs (ICs) based on their scientific missions. This notice of funding opportunity does not accept applications proposing clinical trials. Funding Opportunity Goal(s) The m",
+    "tation Changes for Genomic Data Sharing Plans Included with Applications Due on or after January 25, 2023. See Notice NOT-OD-22-198 . August 5, 2022 - Implementation",
+    "this program and makes the application unsuitable for this funding opportunity. Publication in the proposed new research direction is an indication that the proposed wo",
+    "tion Part 2. Full Text of Announcement Section I. Notice of Funding Opportunity Description The purpose of the Stephen I. Katz Early Stage Investigator Research Project",
+    "utes/Centers. Office of Research on Women's Health ( ORWH ) Funding Opportunity Title Stephen I. Katz Early Stage Investigator Research Project Grant (R01 Clinical Trial"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://hologiced.com/hologic-grant-program/": {
+   "ids": [
+    "hologic-grant-program"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "Breast Health Education &#038; Training Accredited Webinars Breast Screening CME Only CME/CE CE Only Breast Biopsy Breast Surgery Solutions Breast Ultrasoun",
+    "Breast Ultrasound Non-accredited Learning Breast Screening Breast Biopsy Breast Surgery Solutions Breast Ultrasound Clinical Library Bibliographies Summary",
+    "Clinical Library White Papers Resources Product Information Breast Oncology Education &#038; Training On-Demand Videos Upcoming Events Clinical Library Vali",
+    "Only CME/CE CE Only Breast Biopsy Breast Surgery Solutions Breast Ultrasound Non-accredited Learning Breast Screening Breast Biopsy Breast Surgery Solution",
+    "Product Information Continuing Education for Laboratorians Breast Health Education &#038; Training Accredited Webinars Breast Screening CME Only CME/CE CE",
+    "Surgery Solutions Breast Ultrasound Non-accredited Learning Breast Screening Breast Biopsy Breast Surgery Solutions Breast Ultrasound Clinical Library Bibli",
+    "ccredited Webinars Breast Screening CME Only CME/CE CE Only Breast Biopsy Breast Surgery Solutions Breast Ultrasound Non-accredited Learning Breast Screenin",
+    "ing Breast Screening Breast Biopsy Breast Surgery Solutions Breast Ultrasound Clinical Library Bibliographies Summary Cards White Papers Resources Presentat",
+    "nars Breast Screening CME Only CME/CE CE Only Breast Biopsy Breast Surgery Solutions Breast Ultrasound Non-accredited Learning Breast Screening Breast Biops",
+    "ound Non-accredited Learning Breast Screening Breast Biopsy Breast Surgery Solutions Breast Ultrasound Clinical Library Bibliographies Summary Cards White P"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://orit.research.bcm.edu/r5t80if3wh2/bslmcresearchfund/default.aspx": {
+   "ids": [
+    "bslmc-macdonald-research-fund"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2026-08-07",
+    "2026-11-09"
+   ],
+   "rfp": [],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://pardeefoundation.org/how-to-apply/": {
+   "ids": [
+    "elsa-pardee-foundation-grant"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://researchscholars.gilead.com/solid_tumors_us/program-specifics/overview": {
+   "ids": [
+    "gilead-research-scholars-solid-tumors-us"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2026-07-14",
+    "2026-11-13",
+    "2027-03-10"
+   ],
+   "rfp": [
+    "edical need in the field of Oncology Solid Tumors. Timeline Submission Deadlines Round 1, One-Page Specific Aims Deadline: November 13, 2026 11:59 PM PT No applications",
+    "signed to support any basic or clinical research limited to breast, endometrial, ovarian, or small cell lung cancer that addreses any unmet medical need in"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://simpler.grants.gov/opportunity/106cd2d3-4fa8-4b20-a519-4eed2b256b3c": {
+   "ids": [
+    "nih-pragmatic-trials-health-care-systems-par-28-010"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2026-04-29",
+    "2026-05-13",
+    "2026-11-24",
+    "2027-02-23",
+    "2027-12-01"
+   ],
+   "rfp": [
+    "ational Institutes of Health intends to publish a Notice of Funding Opportunity (NOFO), Pragmatic and Implementation Trials Conducted in Health Care Settings This fundin",
+    "ding -- Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-28-010 Cost sharing or matching requirement : No Funding instrument type : C",
+    "mplementation Trials Conducted in Health Care Settings This funding opportunity will support large-scale pragmatic trials that test intervention effectiveness in routine",
+    "orecasted Estimated Post Date : November 24, 2026 Estimated Application Due Date : February 23, 2027 Estimated Due Date Description : Not available Estimated Award D",
+    "risks of biomedical or behavioral interventions. To enhance real-world relevance and generalizability, applicants are encouraged to: 1) Select care settings whe"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://thehopefoundation.org/funding-opportunities/career-engagement-award/": {
+   "ids": [
+    "hope-foundation-swog-career-engagement-award"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "otected for research in the clinic or laboratory. Key Dates Applications due March 15 Application Procedure 2026 Request for Applications Hope Grant Budget Template A"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://thehopefoundation.org/programs/dr-charles-a-coltman-jr-fellowship-program/": {
+   "ids": [
+    "hope-foundation-coltman-fellowship"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "ations (below) for full details and how to apply. Key Dates Applications due March 15 Application Procedure 2026 Request for Applications Hope Fellowship Budget Templ"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.afar.org/grants/beeson": {
+   "ids": [
+    "nia-beeson-k76-par-27-112"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 403,
+   "dates": [],
+   "fail_streak": 1
+  },
+  "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html": {
+   "ids": [
+    "acs-clinician-scientist-development-grant"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "thcare Professionals ACS Fundraisers Making Strides Against Breast Cancer Walks Relay For Life Events American Cancer Society on Campus Coaches vs. Cancer G"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/mission-boost-grants.html": {
+   "ids": [
+    "acs-mission-boost-grant"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "thcare Professionals ACS Fundraisers Making Strides Against Breast Cancer Walks Relay For Life Events American Cancer Society on Campus Coaches vs. Cancer G"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-scholar-grants.html": {
+   "ids": [
+    "acs-research-scholar-grant"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "thcare Professionals ACS Fundraisers Making Strides Against Breast Cancer Walks Relay For Life Events American Cancer Society on Campus Coaches vs. Cancer G"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.cancerresearch.org/clip": {
+   "ids": [
+    "cri-clip-grant"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2026-12-01",
+    "2027-03-01"
+   ],
+   "rfp": [
+    "Intent Invited Application The deadline for receipt of the Letter of Intent is December 1 . Candidates will be notified by the end of January whether they have been",
+    "ot, documentation from their institution must accompany the Letter of Intent indicating they will hold the position of assistant professor (or higher rank) by the tim",
+    "ss for applying for a CRI CLIP Grant consists of two parts: Letter of Intent Invited Application The deadline for receipt of the Letter of Intent is December 1 . Cand"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.damonrunyon.org/for-scientists/application-guidelines/physician-scientist": {
+   "ids": [
+    "damon-runyon-physician-scientist-training-award"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2026-12-01"
+   ],
+   "rfp": [
+    "ience to be competitive with MD/PhD scientists for existing funding opportunities. In an effort to confront the crisis arising from a growing dearth of physician-scientist"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.grants.gov/search-results-detail/357015": {
+   "ids": [
+    "nci-therapy-induced-adverse-sequelae-r01-par-25-145"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [
+    "2028-01-07",
+    "2028-02-12"
+   ],
+   "rfp": [
+    "ty announcement for all other inquires. The purpose of this Funding Opportunity Announcement (FOA) is to support collaborative research projects designed to address adve"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.jazzpharma.com/science/independent-scientific-research": {
+   "ids": [
+    "jazz-investigator-sponsored-trials"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "antee approval. Areas of Research Interest A summary of the areas of research interest for Jazz can be found at our online portal (please click HERE ). How to Submit a Proposal",
+    "mission of a proposal does not imply or guarantee approval. Areas of Research Interest A summary of the areas of research interest for Jazz can be found at our online portal (p"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.klebergfoundation.org/grant-guidelines/medical-research/": {
+   "ids": [
+    "kleberg-foundation-medical-research"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "11; Reducing Osteolytic Bone Destruction in Bone Metastatic Breast Cancer &#8211; 3 Years $1,246,824 University of California, San Francisco, CA D. Fujimori",
+    "1; Interrogating intercellular signaling in triple-negative breast cancer &#8211; 3 Years $1,000,000 Texas A&amp;M Foundation, College Station, TX J. Hyde &",
+    "e University, Houston, TX R. Richards-Kortum &#8211; Access BreastDX to Expand Breast Cancer Diagnosis &#8211; 3 Years $1,560,108 Stanford University, Stanf",
+    "on, TX R. Richards-Kortum &#8211; Access BreastDX to Expand Breast Cancer Diagnosis &#8211; 3 Years $1,560,108 Stanford University, Stanford, CA J. Wu &#821"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.neogenomics.com/providers/support-resources": {
+   "ids": [
+    "neogenomics-investigator-initiated-collaborations"
+   ],
+   "checked": "2026-09-17T07:49:48",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "logy solutions RaDaR ST MRD PanTracer portfolio Lung cancer Breast cancer Colorectal cancer Gastric cancer Gynecologic cancer Hematologic cancer Pathology s"
    ],
    "rfp_v": 2,
    "fail_streak": 0
@@ -4034,14 +4443,12 @@
    "url": "https://www.grants.gov/search-results-detail/349586"
   }
  },
- "updated": "2026-09-14T13:55:57",
+ "updated": "2026-09-17T07:49:48",
  "coverage_reported": {
   "Zymeworks": "2026-09-04",
-  "Jazz Pharmaceuticals": "2026-09-04",
   "Bayer": "2026-09-04",
   "Guardant Health": "2026-09-04",
   "Natera": "2026-09-04",
-  "Tempus": "2026-09-04",
   "Caris Life Sciences": "2026-09-04",
   "Foundation Medicine": "2026-09-04"
  }

@@ -1,8 +1,49 @@
 {
- "generated": "2026-09-14",
+ "generated": "2026-09-17",
  "seeded": false,
- "pages_watched": 94,
+ "pages_watched": 114,
  "signals": [
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "merck-investigator-studies-program",
+    "merck-misp-sac-tmt-iisp-2026"
+   ],
+   "url": "https://misp-investigator-studies.com/areas-of-interest/solid-tumor",
+   "lines_added": [
+    "084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibility Cou",
+    "482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences",
+    "ib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibi",
+    "utifan (MK-6482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie"
+   ],
+   "lines_removed": [
+    "6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibility Cou",
+    "fan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences Accessibi",
+    "mission materials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie",
+    "rials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Privacy Terms of use Cookie policy Cookie preferences"
+   ],
+   "detail": "+4 / -4 RFP-related passages since 2026-09-14"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "merck-misp-sac-tmt-iisp-2026"
+   ],
+   "url": "https://misp-investigator-studies.com/areas-of-interest/solid-tumor/sacituzumab-tirumotecan-sac-tmt-mk-2870",
+   "lines_added": [
+    "084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are",
+    "482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT",
+    "ib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870)",
+    "utifan (MK-6482) Calderasib (MK-1084) Opevesostat (MK-5684) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumote"
+   ],
+   "lines_removed": [
+    "6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are",
+    "fan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870)",
+    "mission materials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumote",
+    "rials Belzutifan (MK-6482) Calderasib (MK-1084) Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT"
+   ],
+   "detail": "+4 / -4 RFP-related passages since 2026-09-14"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +51,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +60,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,21 +69,88 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   },
   {
-   "kind": "rfp_changed",
+   "kind": "blocked",
    "ids": [
-    "astrazeneca-esr"
+    "nia-beeson-k76-par-27-112"
    ],
-   "url": "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html",
-   "lines_added": [
-    "es. Infectious Diseases Substance Mechanism of action ESR - Areas of interest Fluenz / FluMist (LAIV) Make a submission Live Attenuated Influenza Vaccine Areas of inte"
+   "url": "https://www.afar.org/grants/beeson",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-texas-regional-training-award-r272-trta"
    ],
-   "lines_removed": [
-    "&amp; Immune Therapies Substance Mechanism of action ESR - Areas of interest Fluenz / FluMist (LAIV) Make a submission Live Attenuated Influenza Vaccine Areas of inte"
+   "url": "https://www.cprit.texas.gov/media/00ccopff/rfa-r-272-trta_final_revised.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-trec"
    ],
-   "detail": "+1 / -1 RFP-related passages since 2026-09-12"
+   "url": "https://www.cprit.texas.gov/media/1t0l5niq/rfa-r-272-trec_final_2nd_revision.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-cia"
+   ],
+   "url": "https://www.cprit.texas.gov/media/bqxdbzbx/rfa-r-272-cia-_final.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-cpra"
+   ],
+   "url": "https://www.cprit.texas.gov/media/fdlkwz4l/rfa-r-272-cpra_final.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-rtawd"
+   ],
+   "url": "https://www.cprit.texas.gov/media/rydlbycq/rfa-r-272-rtawd_final.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-ctna"
+   ],
+   "url": "https://www.cprit.texas.gov/media/sh0phplm/rfa-r-272-ctna_final_revised.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-rrcta"
+   ],
+   "url": "https://www.cprit.texas.gov/media/wp0jmagd/rfa-r-272-rrcta_final.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "cprit-cfsa"
+   ],
+   "url": "https://www.cprit.texas.gov/media/xkhbnulg/rfa-r-272-cfsa_final.pdf",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -51,12 +159,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-14"
+    "2026-09-17"
    ],
    "dates_removed": [
-    "2026-09-12"
+    "2026-09-14"
    ],
-   "detail": "+1 / -1 dates since 2026-09-12"
+   "detail": "+1 / -1 dates since 2026-09-14"
   },
   {
    "kind": "blocked",
@@ -65,7 +173,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 15 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 16 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -74,7 +182,7 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   }
  ]
 }
