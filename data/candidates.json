@@ -4185,7 +4185,7 @@
   },
   {
    "id": "ctph-element-e-ctsr-program",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -4249,11 +4249,12 @@
     "confidence": "verified",
     "evidence": "Program page (fetched 2026-09-17): \"Element E supports discrete research projects that address a significant challenge in clinical and translational science\" and projects should \"generate generalizable clinical and translational science innovations or insights\" (scope); \"Element E opportunities are released every two to three years\" (cadence); \"The Letter of Intent (LOI) cycle has closed\" (2026 cycle closed); \"No-cost extensions are not permitted\"; \"All Concept Proposals and Full Proposals will be submitted through InfoReady\"; 2024 awardee \"Tools & Methods for Automated Cleaning, Annotating and Summarizing EHR Data ... Baylor College of Medicine and University of Houston\". 2026 RFA PDF (linked from the page, dated March 27, 2026): \"RFA Release Date March 30, 2026 / Letter of Intent Due April 26, 2026 / Invitations to Submit Full Proposal May 19, 2026 / Application Due Date June 29, 2026 / Notice of Intent to Fund July 31, 2026 / Funding Period Start Date October 1, 2026\" (key dates); \"Funding available through this mechanism is up to $150,000/year in direct costs for 2-3 years given appropriate budget justification\" and, in the budget section, \"The total project budget should not exceed $150,000 in direct costs only\" (award and contradiction); \"The single PD/PI (or contact PD/PI for a multiple PI application) must be employed by BCM or UH\" (eligibility); \"Show a well-integrated partnership between BCM and UH\" and \"Advance the science of how AI, digital/data innovations, or multi-modal decision support approaches are integrated, implemented, trusted, and scaled\" (priority areas); \"an approved protocol must be available by the time of grant review\"; \"If funded, this award will be held within the CTPH organization\"; unallowable costs list includes \"Indirect costs\".",
     "fit": 52
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "dldccc-btpv-rfa",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -4314,11 +4315,12 @@
     "confidence": "projected",
     "evidence": "RFA PDF (bcm.edu, spring 2025): \"Have a primary project leader that is a laboratory scientist (required); a second (optional) co-leader is allowed only if he/she is an SR director.\" and \"All leaders must be DLDCCC members.\" and \"A clinical collaborator is required.\" establish the PI can only be the clinical collaborator. \"Proposals from current breast or lymphoma SPORE key personnel will not be supported as they have other mechanisms for translational support.\" establishes the SPORE exclusion. \"Budgets of up to $100K for one year may be requested, with feasibility of extension by an additional $50K based on progress at the end of year. We anticipate 2 solicitations of this RFA in 2025 (May 1st and October 1st).\" establishes award and cycle. \"Applications should be submitted through the DLDCCC Proposal Submission Portal by May 1st 2025, with funding expected to be provided by July 2025.\" establishes the only stated deadline (past). \"we encourage those that target our catchment area: breast, prostate, lung, colorectal, liver, cervical, and pediatric cancers.\" establishes breast encouragement. DLDCCC proposal-submission page (2026-09-17): \"We are now accepting all submissions through the BCM Awards Hub platform\" (bcm.infoready4.com) establishes where any current round would be posted.",
     "fit": 42
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "worldwide-cancer-research-project-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -4380,11 +4382,12 @@
     "confidence": "verified",
     "evidence": "Application-process page (fetched 2026-09-17): \"We currently accept applications for funding once a year.\" and \"Our next Grant Round will be in 2027.\" For-researchers landing page: \"We have now reached our cap of 500 applications.\" (establishes 2026 round closed, 2027 round pending, no dates). Application handbook 2026 (last updated 12/02/2026): \"The 2026 grant round will open on Monday 23rd February 2026... Completed applications can only be submitted during the submission period, Thursday 5th March until the 500-application cap is reached or Thursday 2nd April 2026, whichever is first.\" (cycle timing); \"Successful applications submitted to the March 2026 grant round will be offered a grant starting from 1 January 2027.\" (start date); \"2.5 The PI is usually a PhD-qualified, tenured or tenure-track research group leader with at least three years of post-doctoral research experience. Other suitably qualified persons, e.g., medical doctors, with appropriate research experience may also apply as the PI.\" (MD eligibility, no hard track gate); \"4.2 The Host Institution must cover all indirect and overhead costs. This is not negotiable\" (indirects); \"4.3 The maximum budget permitted is £275,000, but it should be noted that most of our 3-year grants have a budget of between £200,000 and £250,000.\" (award); \"4.1 Worldwide Cancer Research offers grants for 1-3 year research projects.\" (duration); \"1.3 We do not support clinical research, including clinical trials, patient care, nursing or healthcare delivery research. Neither do we support other types of applied cancer research, such as policy, public health or psychosocial research.\" (exclusions); \"Projects that rely upon a large number of human samples or extensive clinical data must have this resource available through existing biobanks, databases or cohorts.\" (samples rule); \"The salary of the PI cannot usually be requested.\" and \"Scientists from commercial organisations cannot be co-applicants.\" Funding-criteria page: PI must be \"a suitably qualified researcher (minimum of PhD followed by three years research experience, or equivalent qualification or research experience)\" and \"based at any not-for-profit research institution anywhere in the world.\"",
     "fit": 68
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "ici-fund-cancer-informatics-grants",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -4446,11 +4449,12 @@
     "confidence": "verified",
     "evidence": "Deadlines page: \"Fall Round 2026: LOI Deadline: September 11th ... Invited Proposals Due: October 30th ... Projects start: January, 2027\"; \"Spring Round 2027: LOI Deadline: March 12th ... Return Decisions: April 2nd ... Invited Proposals Due: April 30th ... Decisions: Early June ... Projects start: July, 2027\"; \"Application materials must be received by 5:00 PM ET on the due date\" (establishes two rounds and the next actionable dates). Grants page: \"Awards may be up to $100,000 per year (direct costs), plus 12% allowable indirect costs\" for \"investigator-initiated projects for up to 2 years\"; \"Two-year grant submissions should include mid-grant milestones (at approximately 12-months)\" (award size, duration, milestone contingency). Eligibility page: \"Applications must be submitted by a team that includes at least one cancer researcher and one bioinformatics researcher\"; team should include \"junior faculty, postdoctoral investigators, or doctoral candidates\"; researchers at \"an NCI-designated Cancer Center, Comprehensive Cancer Center, Basic Laboratory Cancer Center, or their associated educational institutions\"; \"Funding will be awarded to a U.S. institution\" recognized \"under sections 501(c)(3) or 509(a)(1), (2), or (3)\"; \"there is NO limit to the percentage of the grant that can go toward the work of the international researcher\" (team and institutional rules). Topics page: \"Data analysis of electronic medical records or other health systems records\"; \"Liquid biopsies to track the temporal evolution of a patient's disease ... cell-free tumor DNA (mutations, methylation, fragmentation)\"; \"creation of AI-ready data resources and methods\" (thematic fit). FAQ: \"The 12% cap on indirects applies to each year\"; NIH salary cap guidelines followed. Apply page: LOI \"Up to 2 pages, plus one optional conceptual figure\"; \"Fill out the online form\" then \"Submit your LOI by email\".",
     "fit": 96
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "aicr-investigator-initiated-research-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -4512,11 +4516,12 @@
     "confidence": "projected",
     "evidence": "Program page (https://www.aicr.org/research/grant-programs/investigator-initiated/, fetched 2026-09-17): \"Letter of Intent Submission Opens: December 6, 2024 ... Letter of Intent Submission Closes: January 17, 2025 ... Full Application Opens: March 7, 2025 ... Full Application Closes: May 16, 2025 ... Applicants Notified of Funding Decision: October 2025\" and a button \"2025 Grant Application Package\" -- establishes the page still carries the 2025 cycle and no 2026-27 dates. Also: \"funding research on cancer prevention, treatment, and survival related to modifiable lifestyle factors including diet, nutrition, body composition, and physical activity but also additional modifiable lifestyle exposures, such as sleep and stress\" -- establishes scope. 2025 Application Package PDF (AICR2025_Grant_Application-Package_final.pdf): \"Individual grants offer a maximum funding of $150,000 plus 10 percent indirect costs provided over a two-year term. A limited number of three-year term Investigator-Initiated Research Grants (maximum of $225,000 plus 10 percent indirect costs) may be funded. The three-year grants are only awarded to support the conduct of epidemiologic or intervention studies\" -- establishes award and indirects; \"with a limit of $75,000 direct costs for any one-year\" -- annual cap; \"the Principal Investigator must have a PhD, MD, or equivalent degree and be research staff or a faculty member at a non-profit academic or research institution at the level of Assistant Professor (or its equivalent) or higher. For the Early Career Investigator sub-category ... the applicant must apply within 36 months of their first academic appointment\" -- establishes eligibility and the Early Career cap; \"Principal Investigators working at an institution in the United States must be a citizen of the United States or foreign national with either permanent residence status or a visa that is valid for the duration of the grant award\" -- citizenship condition; \"Only one Letter of Intent per Principal Investigator per grant cycle is permitted\"; \"AICR Grants may not be renewed\"; timeline \"January 1, 2026 Funding begins\". Projects listing (project_year=2026) shows six funded projects, consistent with the 2025 cycle's January 2026 start.",
     "fit": 52
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "nci-nctn-ncorp-data-archive",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "industry-data",
@@ -4579,11 +4584,12 @@
     "confidence": "verified",
     "evidence": "Data Archive page (fetched 2026-09-17): \"NCI's NCTN/NCORP Data Archive was established to make high-quality NCTN and NCORP trial data available to the broader research community for secondary studies.\" and \"Researchers should seek access to NCTN and NCORP data in the NCI database of Genotypes and Phenotypes (dbGaP).\" establish the mechanism and route. \"As of September 14, 2026, data representing the experience of 47,019 patients from 39 trials submitted to the NCTN/NCORP Data Archive are available in dbGaP.\" establishes scale and currency. \"Prior to May 2, 2025, datasets submitted to the Data Archive were shared on a separate Data Archive webpage. These datasets are being released through dbGaP on an ongoing basis.\" establishes rolling release. \"Data are not available immediately upon publication.\" establishes lag. Page lists \"Breast Neoplasm (9 Trials)\"; the linked data-archive-trials.xlsx (downloaded) lists the nine breast trials with dbGaP accessions phs004244, phs004260, phs004261, phs004234, phs004264, phs004236, phs004248, phs004250, phs004252. dbGaP Authorized Access login page: \"Extramural Investigators must be permanent employees of their institution at a level equivalent to a tenure-track professor or senior scientist\" and \"Laboratory staff and trainees such as graduate students and postdoctoral fellows are not permitted to submit project requests\" establish requester standing. dbGaP study phs004260: \"Submitted in collaboration with the NCTN/NCORP Data Archive\" and a \"Data Use Certification (DUC) Agreement\" must be approved before access.",
     "fit": 66
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "myriad-precise-mrd-research-collaboration",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+data (assay testing, scientific research support; funding case-by-case)",
    "provenance": {
     "lens": "industry-data",
@@ -4646,11 +4652,12 @@
     "confidence": "verified",
     "evidence": "investor.myriad.com/news-releases/news-release-detail/25596/ (read 2026-09-17): title \"Myriad Genetics Announces Five Research Collaborations to Study the Use of MRD Testing in Breast Cancer\", dated October 8, 2024, naming MD Anderson (Bora Lim), University of Rochester (Anna Weiss), MONITOR-breast (650 patients), National Cancer Center Hospital East JBCRG-C11/CREA (Yoichi Naito) and Aptitude Health; states \"The Precise MRD test is available for use in research studies pursued jointly by Myriad and academic or pharmaceutical investigators.\" and that the assay \"tracks up to 1,000 tumor-specific variants identified via whole-genome sequencing\" — establishes the open research-collaboration statement, the breast focus and the assay design; no dollar amounts, application process or eligibility criteria appear, only investor and media contacts. investor.myriad.com/news-releases/news-release-detail/26916/ (Jan 27, 2026): limited clinical launch of Precise MRD in March 2026 starting with breast cancer; MONITOR-Breast \"93% baseline sensitivity in Stage I-III breast cancer patients\" — establishes the program is active. investor.myriad.com/news-releases/news-release-detail/27031/ (Mar 2, 2026): test \"available to community oncologists whose patients have been diagnosed with breast cancer\"; no research-collaboration route mentioned. investor.myriad.com/news-releases/news-release-detail/27436/ (Jun 23, 2026): expanded availability for colorectal, renal and breast cancers; MONITOR-Breast published in Future Oncology (154 patients, 949 plasma samples, \"ctDNA was detected in 93% of patients at baseline\"); \"no references to MD Anderson, research collaborations, study funding mechanisms\" — establishes no formal research-access pathway is published. Myriad newsroom index (read 2026-09-17) lists no MD Anderson or strategic-alliance headline; myriad.com/precise-mrd/ and myriad.com/research-collaborations/ return 404.",
     "fit": 60
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "natera-signatera-iit-collaboration",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data (Signatera testing for IITs; funding not stated)",
    "provenance": {
     "lens": "industry-data",
@@ -4713,11 +4720,12 @@
     "confidence": "verified",
     "evidence": "biopharma.natera.com (fetched 2026-09-17): the page presents two partnership pillars, \"Real World Molecular Intelligence & AI\" and \"Trial Design & Patient Identification\", and a \"Partner With Us\" form collecting name, email, phone, zip, country, role (options include \"Academic Researcher\", \"Physician\") and \"how Natera can assist\"; the form notice reads \"Natera would like to send you information about our products and services.\" The page does not state any funding program, eligibility criteria, deadline or program name. natera.com/info/onctrials/ lists BESPOKE Pan Cancer, SCORE and SIGNAL and a form for \"Participation in a Natera sponsored clinical trial\" and \"Real world evidence generation\"; it states \"Together we can generate real-world clinical evidence that matters\" and has no breast-specific or IIT program language. The Signatera product page links \"Biopharma Partnerships\" to biopharma.natera.com, confirming it is the designated collaboration entry point.",
     "fit": 68
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "hope-foundation-leap-course",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "career program (fully funded travel, mentorship, coursework)",
    "provenance": {
     "lens": "consortia",
@@ -4781,7 +4789,8 @@
     "confidence": "projected",
     "evidence": "Program page: \"The SWOG Leadership and Project Development Course gives investigators the opportunity to work one-on-one with SWOG's most experienced leaders to develop a rigorous, relevant, and feasible SWOG trial concept.\" (establishes purpose). \"Participants are expected to have previous experience within SWOG or make a future commitment to do so.\" and applicant type \"Early Career Investigators, Physicians, Scientists & Biostatisticians\" (eligibility). \"All costs for the workshop including travel, meals, lodging, materials, and the workshop itself will be free of charge\" and \"intensive mentorship and an online course and culminates in a three-day workshop\" (what is provided). \"4 to 6 investigators are selected each year.\" (selectivity). \"Applications for this program are coming soon.\" with deadline \"June 1\" and opens \"January 1\"; \"2026 course dates: September 16-18\" (cycle and status). \"In the past, these attendees have taken on leadership roles and have gone on to launch dozens of SWOG trials.\" (track record). Programs archive listing: \"Leadership and Project Development Course - Type: Career Development / Mentorship / Travel Support - Applicant Type: Early Career Investigators, Physicians, Scientists & Biostatisticians - Deadline: June 1 - Award: Travel funding and mentorship - Status: Coming Soon\" (corroborates annual cycle and current closed status).",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "alliance-ccp-pilot-project-award",
@@ -4853,7 +4862,7 @@
   },
   {
    "id": "hope-foundation-next-generation-fund",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "consortia",
@@ -4914,11 +4923,12 @@
     "confidence": "verified",
     "evidence": "2026 page (posted May 19, 2025): \"The form below will close at 5 pm ET on Friday, 8/1.\" and submissions \"will be reviewed and considered for 2026 funding as part of The Hope Foundation's annual budgeting process\" — establishes the candidate URL is the 2025 call for the 2026 budget year. \"SWOG members and their collaborators\" ... \"SWOG and Hope Foundation staff are welcome to apply.\" — eligibility. \"All funded proposals are approved by the Foundation's Board of Directors at its fall meeting in October.\" / \"Applicants will be notified of funding status by early October.\" — timeline. \"This is also the application to request renewal of funding previously granted through this mechanism.\" — renewals. 2027 call page (May 26, 2026, \"Annual Call for Funding Requests Open for 2027\"): supports \"infrastructure improvements, workforce initiatives, education programs, and network-wide efforts\"; applications due \"by 5:00 pm ET on Tuesday, September 1\"; \"Applicants will be notified of funding status by or before December 31.\"; \"Sorry. This form is no longer available.\" — establishes the current cycle closed 2026-09-01 and the mechanism's scope.",
     "fit": 38
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "nci-academic-industrial-partnerships-r01-par-25-337",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -4980,11 +4990,12 @@
     "confidence": "verified",
     "evidence": "PAR-25-337 page (grants.nih.gov): \"Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment (R01 - Clinical Trial Optional)\"; \"Participating ICs: National Cancer Institute (NCI)\"; \"Reissue of PAR-21-206\" — establishes program identity and NCI as sole IC. \"Open Date: January 05, 2025\" ... due dates \"February 05, 2025 ... October 05, 2026 ... October 05, 2027\"; \"Expiration Date: January 08, 2028\"; LOI \"Not applicable\" — establishes cycle, next deadline, and no LOI. \"Application budgets are limited to $499,000 (direct costs) per year\"; \"Maximum 5 years\" — establishes award size and duration. \"Each partnership should include at least one academic and one industrial organization\" — establishes the mandatory industry partner. \"Any individual(s) with the skills, knowledge, and resources necessary to carry out the proposed research\" — establishes open PI eligibility with no degree, career, or track gate. \"Liquid biopsy-based multiomic analysis platforms\" and \"Minimal residual disease\" listed among NCI interests — establishes ctDNA/MRD relevance. \"Applications that propose phase III clinical trials are not sought by and will not be supported\"; does \"not propose to support commercial production or basic research projects\" — establishes scope limits.",
     "fit": 72
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "nih-all-of-us-biospecimens-x01-par-27-069",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "federal-adjacent",
@@ -5046,11 +5057,12 @@
     "confidence": "verified",
     "evidence": "grants.gov listing (fetched 2026-09-17): title \"Accelerating Discovery through Partnered Research with All of Us to Analyze Participant Biospecimens (X01 Clinical Trial Not Allowed)\", \"PAR-27-069\", \"Posted Date: May 19, 2026\", \"Closing Date: March 1, 2027\" -- establishes existence, activity code and deadline. \"The purpose of this Program Announcement ... is to solicit applications to access stored blood plasma, blood serum, and extracted DNA from the All of Us Research Program supported Biobank\" -- establishes that the award is resource access, not funding; award ceiling/floor shown as \"$--\". \"All of Us partnered research studies are collaborative initiatives funded by a study sponsor external to All of Us\" -- establishes the external-funding requirement. High-priority areas: \"integrated multiomics analyses, early disease detection, biomarker discovery or validation, novel risk models for incident disease, and/or novel disease stratification\" -- establishes topical fit. \"Non-domestic (non-U.S.) Entities (Foreign Organizations) are eligible to apply\" with educational institutions and nonprofits listed -- establishes institutional eligibility. researchallofus.org/prs-info: \"Partnered Research Studies are collaborative initiatives funded by a study sponsor external to the All of Us Research Program to collect and integrate new data into the All of Us data ecosystem\" and names \"PAR-27-069\" as the X01 Resource Access Award for biospecimen access -- corroborates the mechanism.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "nih-new-innovator-dp2-rfa-rm-28-002",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -5113,11 +5125,12 @@
     "confidence": "verified",
     "evidence": "Common Fund page (https://commonfund.nih.gov/newinnovator, last reviewed September 14, 2026): \"No open funding announcements. Check the funding opportunities page for past announcements\"; \"$475,000/year for 5 years\"; \"Must have Early Stage Investigator status (completed doctoral degree or postgraduate clinical training within last 10 years and never received a substantial NIH independent research award)\"; \"Single PI only\"; \"No preliminary data required\"; \"Minimum of 25% research effort\". Program FAQ: \"if you were ever the Principal Investigator (PI) or one of multiple PIs of an awarded R01 (or other substantial NIH grant) that was reviewed with you as a PI, you are not eligible to apply\"; \"If you spend 50 percent of your time doing research, you would be required to devote at least 25 percent of your research time, or 12.5 percent of your total time\"; \"There is no limit to the number of applications that an institution can submit\"; \"indirect costs are allowed, are separate from direct costs\". Grants.gov API forecast oppId 363799: number RFA-RM-28-002, \"oppStatus\":\"forecasted\", postingDate Sep 03, 2026, estSynopsisPostingDate Mar 15, 2027, estApplicationResponseDate Aug 19, 2027, estAwardDate Aug 30, 2028, awardCeiling 475000, numberOfAwards 30, estimatedFunding 22700000. Grants.gov synopsis oppId 360987 (RFA-RM-27-002): postingDate Jun 26, 2026, responseDate Aug 17, 2026, oppStatus closed, \"Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.\"",
     "fit": 72
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "caris-loi-codeai-database-access",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "pharma-rfp",
@@ -5179,11 +5192,12 @@
     "confidence": "verified",
     "evidence": "LOI page: \"The program is open to academic and community-based physicians and researchers worldwide who are interested in pursuing independent scientific studies.\" (establishes eligibility beyond POA membership). \"Research proposal inquiries submitted between September 2nd, 2026 to Jan 31st, 2027 will not be reviewed till February 2027.\" (establishes the review pause). ASCO 2027 timeline on the page: research proposal inquiry deadline September 1, 2026; background slides due October 1, 2026 if requested; fully executed contract by January 8, 2027 (establishes the cycle dates, all now past or contingent). \"All proposals are assessed by the Caris Scientific Review Committee.\" and \"Caris is committed to supporting high-quality research and expects all approved studies to result in publication.\" (establishes review and publication expectation). Review criteria: \"data availability, test-ability of the hypothesis and lack of overlap with other approved projects.\" POA page: \"more than 100 leading cancer institutions\" with \"over 45 NCI-designated comprehensive cancer centers\"; CODEai \"delivers value through a growing database with over 484,000 clinical outcomes paired with matched molecular data\" (establishes resource scale); Texas members listed are Mays Cancer Center (UT Health San Antonio) and UT Southwestern Simmons, with no BCM or Houston institution listed.",
     "fit": 52
-   }
+   },
+   "promoted_on": "2026-09-21"
   },
   {
    "id": "texas-cancer-registry-research-data",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "critic",
@@ -5244,7 +5258,8 @@
     "confidence": "verified",
     "evidence": "Research Data page: TCR provides \"customized incidence datasets and data linkages for research related to cancer etiology, prevention, and control\" (establishes the resource and that it is data, not money). Requests involving personal identifiers or sub-county geography require approval from \"the Department of State Health Services (DSHS) Institutional Review Board (IRB) or the department's designated IRB\" (establishes the IRB gate). Confidential Data Request and DSHS IRB Approval Process page: \"Complete and submit TCR's Feasibility Screening Form\"; \"new IRB applications must also be reviewed and approved by the DSHS Research Executive Steering Committee (R-ESC)\"; \"Once the MOU is executed, TCR will provide the data\"; approvals expire \"1-3 years after review depending on the risk level\" and renewal reports are due \"at least 10 weeks before the expiration date\" (establishes the process steps and renewal rules). Deidentified Data page: \"The SEER Research Data only require registration forms and a signed SEER Data Use Agreement\"; \"The CiNA Public Use Dataset is a publicly accessible and limited incidence dataset requiring only a signed Data Assurance Agreement for access\" (establishes the de-identified routes). Data Release Policy page is dated \"March 2025\". No page fetched states a fee, a deadline, a review schedule, or an eligibility restriction by degree, rank, or institution.",
     "fit": 60
-   }
+   },
+   "promoted_on": "2026-09-21"
   }
  ]
 }
