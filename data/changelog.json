@@ -1,6 +1,29 @@
 {
  "entries": [
   {
+   "date": "2026-09-24",
+   "kind": "refresh",
+   "summary": "133 records re-verified against primary sources plus 7 blocked or signalled pages read in the browser; no open deadline moved and nothing disputed; closed-cycle dates filled on four CPRIT IIRA records and Pew-Stewart; AACR-MPM Transformative Cancer Research Grants retired after two missed cycles; the Komen Career Catalyst track gate removed on the sponsor's own eligibility text; 11 discovery candidates promoted (count 297 to 308).",
+   "added": 11,
+   "changed": 41,
+   "retired": 1,
+   "details": [
+    "Signals: the six blocked pages were read in the browser and are unchanged - SU2C (both pages) still lists only the PNOC DMG and Lung Early Detection challenges; AbbVie and Lilly remain rolling IIS portals; the afar.org Beeson page still states November 10, 2026; the Komen FY27 CCR PDF is download-only, so the Komen Current Funding Opportunities page was read instead (LOI July 29, 2026, application October 5, 2026). The pcori.org dates_changed/rfp_changed was a failed crawl: the page read in the browser still shows the Fall 2026 Engagement Awards at LOI 2026-10-01 / application 2027-01-11 and Cycle 1 2027 at LOI 2027-01-06 / application 2027-05-04. The myriad and daiichi-sankyo dates_changed signals are the pages' own date stamps.",
+    "aacr-mpm-transformative-cancer-research-grants: RETIRED - Two consecutive cycles have passed with no announcement: 2025 and 2026 (LOI would have been around June). The sponsor page still shows only the 2024 cycle, and the program is not on AACR's current opportunities list. (both reads agree; held dates LOI 2024-06-11 / application 2024-10-01 unchanged).",
+    "pew-stewart-scholars-cancer-research: loi None to 2026-05-13, full None to 2026-08-27 (the closed cycle's dates, now stated on the sponsor page and confirmed by a second read; next_deadline stays null, status closed-projected, confidence verified).",
+    "cprit-iiracca: loi None to None, full None to 2026-04-28 (the closed cycle's dates, now stated on the sponsor page and confirmed by a second read; next_deadline stays null, status closed-projected, confidence verified).",
+    "cprit-iiracsbc: loi None to None, full None to 2026-04-28 (the closed cycle's dates, now stated on the sponsor page and confirmed by a second read; next_deadline stays null, status closed-projected, confidence verified).",
+    "cprit-iiract: loi None to None, full None to 2026-04-28 (the closed cycle's dates, now stated on the sponsor page and confirmed by a second read; next_deadline stays null, status closed-projected, confidence verified).",
+    "cprit-iirap: loi None to None, full None to 2026-04-28 (the closed cycle's dates, now stated on the sponsor page and confirmed by a second read; next_deadline stays null, status closed-projected, confidence verified).",
+    "arpah-active-programs-fit-check: next_deadline 2026-09-21 to 2026-11-10 (the FASTPASS solution-summary date passed; the proposal date is next; loi/full unchanged). Fit left at 45: none of the listed ARPA-H programmes targets breast oncology, so a nearer date does not make it a better fit.",
+    "mark-foundation-emerging-leader-award: confidence projected to verified (the sponsor page states the 2026 cycle, LOI 2026-04-30 and application 2026-07-30; still closed-projected, no 2027 cycle posted).",
+    "Standing item, Komen Career Catalyst pair: settled from the primary source (Komen Current Funding Opportunities page, read in the browser). The sponsor asks for a full-time faculty appointment and counts 'non-tenure and tenure track appointments combined' toward the 6-year cap, so komen-career-catalyst-research-fy27 verdict track-gated to needs-check and track_gate 'requires tenure-track' to null; the dated record no longer hides under the non-tenure toggle. Both records kept and cross-referenced in notes, not merged.",
+    "Promoted from discovery after re-opening each primary page (count 297 to 308): houston-norc-pilot-feasibility, rice360-citec-poc-cancer-detection-subawards, earlier-org-medical-research-grant, roche-diagnostics-iis-tissue-her2, sitc-lunit-research-program, nci-ccct-biqsfp, count-me-in-mbcproject-data-access, asco-centra-data-library, bwf-innovation-regulatory-science, nih-bridge2ai-stage2-u24-rfa-rm-28-010, nih-kc1-mentored-clinician-scientist-pa-28-047. Neutral-voice scrubs on promotion: an awardee surname removed (rice360-citec), 'describes the PI' and a seniority sentence reworded (houston-norc, nih-kc1); rice360-citec url moved from a Rice News item to the CITEC 2026 solicitations page.",
+    "bcm-junior-faculty-seed-award: the ORIT page returns 404 to the workflow and to a direct request (the ORIT root loads). One failed pass is not evidence the award stopped; confidence stays projected and a successor URL should be looked for if the 404 persists.",
+    "133 records re-verified by the workflow (27 batches, 6 second reads, 0 disputed); last_verified set to 2026-09-24 on each. Notes addenda appended on 31 records (NOFO final-cycle and expiry notes on NCI SPORE P50, UH2/UH3, biomarker revision R01, secondary-analysis R01/R21, RSE R50, IIT early-phase R01; forecast slippage on Parent P01 PA-27-061 and early-onset PAR-26-150; Komen CTA not offered in FY27); 9 empty enrichment fields filled."
+   ]
+  },
+  {
    "date": "2026-09-21",
    "kind": "refresh",
    "summary": "99 records re-verified against primary sources (94 by the workflow, 5 blocked pages in the browser); no posted deadline moved, nothing disputed, nothing retired; two lapsed cycles closed and two NCI-participation corrections recorded on the Parent R03 and R21; 15 discovery candidates promoted after their primary pages were re-opened (count 282 to 297). Notes and enrichment updated on 29 held records.",

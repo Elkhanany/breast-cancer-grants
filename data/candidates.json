@@ -5263,7 +5263,7 @@
   },
   {
    "id": "houston-norc-pilot-feasibility",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -5326,11 +5326,12 @@
     "confidence": "verified",
     "evidence": "From hnorc.org/pilot-and-feasibility-funding-program: \"The 2026 submission deadline is to be determined\" (the program is active but has no date yet); \"up to $25,000 total direct cost\" and \"Up to an additional $25,000 in matching funds\" (award size); \"one-year grants\" (duration); \"Applicants must be a member of Houston Nutrition Obesity Research Center (HNORC)\" (membership gate); \"full-time faculty members\" at the nine listed Houston institutions (eligibility); \"Applications are encouraged from early-career investigators and established investigators new to obesity and nutrition research\" (the PI is an encouraged applicant type).",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "rice360-citec-poc-cancer-detection-subawards",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+engineering support",
    "provenance": {
     "lens": "tmc-local",
@@ -5392,11 +5393,12 @@
     "confidence": "verified",
     "evidence": "News page (dated April 13, 2026): six subawards through the NIH Point-of-Care Technologies Research Network; awardees include a Baylor College of Medicine project, a breast ultrasound device team at Rochester and LED-PAT breast photoacoustic tomography (Li, Rice). The page gives no funding amount and no next call. Solicitations page (rice360.rice.edu/2026-citec-solicitations): release March 17, 2026; full proposals due May 5, 2026, 11:59 pm ET; notifications July 15, 2026; funds expected December 7, 2026; $450,000 total; awards of $75,000 (6 months) or $150,000 (12 months); \"The subaward USD amount includes overhead expenses\"; \"Applications from all sources, including domestic or foreign, public or private, and non-profit or for-profit, will be considered\"; focus areas lung, liver (HCC) and ovarian; applicants need \"a working prototype\" or \"an existing assay/device\".",
     "fit": 32
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "earlier-org-medical-research-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -5459,7 +5461,8 @@
     "confidence": "verified",
     "evidence": "The application instructions PDF linked from earlier.org as \"Resources for Prospective Researchers\" says: \"Maximum award amount is $50,000 USD.\" \"Grants are typically awarded for a 1-year period – June 1st – May 31st\". \"Please note that we do not fund indirect costs.\" \"The total proposal must be four (4) pages or less.\" \"Application Deadline is February 1st\". The recipients PDF says the foundation \"has awarded 143 Research Grant Proposals totaling $5,465,482 to fund seed grants in the specific area of finding a biological test to detect breast cancer in its earliest stage\". It lists 2026 total grants of $200,000, including the MSK award \"OncoVault-PREDICTOR: an AI Framework for Early Prediction of Invasion of Risk in DCIS\" and the UIC award \"BEACON-BC: A blood-based test for early detection of metastatic risk in breast cancer\". It lists 2025 total grants of $150,000, including Case Western ($50,000, blood-based biomarkers).",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "anticancer-fund-ingenious-call",
@@ -5531,7 +5534,7 @@
   },
   {
    "id": "roche-diagnostics-iis-tissue-her2",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+diagnostic assays/algorithms (in-kind)",
    "provenance": {
     "lens": "industry-data",
@@ -5593,11 +5596,12 @@
     "confidence": "verified",
     "evidence": "From the Roche Diagnostics medical-science page, fetched 2026-09-23:\n- \"Investigator Initiated Studies (IIS), Roche Sponsored Studies (RSS) and Research Collaboration Study (RCS) programs\" establishes the three program routes.\n- \"Proposals will be evaluated on a rolling basis\" establishes rolling review.\n- \"the institution /investigator assumes legal and regulatory responsibilities for the study design, conduct, and data analysis\" establishes that the investigator acts as sponsor.\n- \"fair market value of the research services performed\" establishes how funding is set. The page also states indirects at a \"maximum of 30%\" and salary support that \"cannot exceed 50% of total time spent on the study\".\n- \"Provide real world data on the use of HER2 IHC and HER2 ISH image analysis algorithms on pathologist scoring\" and \"Provide real world data to evaluate Digital pathology and/or AI image analysis algorithms\" are listed interests.\n- \"Interventional studies utilizing RUO products are not permitted\" is an exclusion.\n- The portal is at https://iisportal.roche.com/IISPortal/Submission?StudyAreaId=DIA.",
     "fit": 88
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "sitc-lunit-research-program",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data (AI image-analysis tool access, in-kind)",
    "provenance": {
     "lens": "industry-data",
@@ -5658,11 +5662,12 @@
     "confidence": "verified",
     "evidence": "sitcancer.org/lunit: 'Applicants must be a SITC member in good standing at time of submission' (membership gate); 'Application submission period: Feb. 1—May 30' (annual window, no year stated); 'Review process and notifications by Lunit: 2-3 months' (timeline); 'Access to Lunit SCOPE IO at no cost' (in-kind award); applicants must be affiliated with an academic or non-profit research institution, and the study must focus on cancer immunotherapy (scope).",
     "fit": 48
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "nci-ccct-biqsfp",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "consortia",
@@ -5724,11 +5729,12 @@
     "confidence": "verified",
     "evidence": "From the program page (updated March 23, 2026): the program exists to \"Support biomarker, imaging, and symptom science/quality of life (symptom science/QOL) studies\" that must be \"associated with NCI clinical trial concepts or protocols\". The eligible applicants are NCTN Groups and NCORP Research Bases. No amount and no deadline appear on the page. From the FAQ: \"Application for an INTEGRAL BIQSFP study must be submitted at the time the parent concept is submitted\"; \"REAL-TIME integrated BIQSFP proposals should be submitted ... preferably within 3 months of notification\"; \"NON-REAL TIME (NRT) integrated BIQSFP proposals are accepted only when submitted in response to a call for applications\". Funding depends on \"the availability of funds and the number of meritorious applications submitted.\"",
     "fit": 82
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "count-me-in-mbcproject-data-access",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "consortia",
@@ -5789,11 +5795,12 @@
     "confidence": "verified",
     "evidence": "GDC CMI page (fetched 2026-09-23): \"To request access to protected data, please apply to dbGaP for access to the appropriate CMI study (... phs001709, The Metastatic Breast Cancer Project ...)\" establishes the access route and accession. \"Data from CMI projects are regularly shared as generated, in a pre-publication manner.\" and \"All CMI projects are currently ongoing.\" establish a rolling, active resource. The page lists WXS BAM, somatic mutations (VCF/MAF), RNA-seq, gene expression quantification and splice junction quantification, links the GDC project at portal.gdc.cancer.gov/projects/CMI-MBC, and says additional CMI data are on cBioPortal.",
     "fit": 60
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "asco-centra-data-library",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "consortia",
@@ -5855,11 +5862,12 @@
     "confidence": "verified",
     "evidence": "Fetched 2026-09-23 with a browser user agent (HTTP 200); plain WebFetch returned 403. Quotes from the page: \"ASCO maintains a repository of information that qualified individuals and organizations may request for research purposes, e.g., ASCO COVID-19 Registry, meeting abstracts and datasets from the Targeted Agent and Profiling Utilization Registry (TAPUR) study\" (the program exists and names the datasets). \"ASCO will ... determine the appropriate fee for the provision of ASCO Information\" (a fee applies). \"The request review process is managed by the ASCO Center for Research and Analytics (CENTRA)\" (the sponsor unit). \"A team of ASCO staff will evaluate the request based on scientific merit, qualifications of the research team, concordance with ASCO's mission, priorities\" (the review criteria). \"If the request is approved, ASCO will send the applicant a draft Data Use Agreement and estimated fulfillment cost\" and \"ASCO will provide the applicant with the requested information once the Data Use Agreement is signed and payment is received\" (the process and payment). The page gives no deadline.",
     "fit": 48
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "bwf-innovation-regulatory-science",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "physician-scientist",
@@ -5921,7 +5929,8 @@
     "confidence": "projected",
     "evidence": "Program page (fetched 2026-09-23): 'Not Open to Applications'; 'Deadline: February 7, 2025' (last cycle); 'provides up to $500,000 over five years to academic investigators developing new methodologies or innovative approaches in regulatory science' (award and scope); 'ultimately inform the regulatory decisions the Food and Drug Administration (FDA) and others make' (scope); encourages approaches to 'expedite the realization of equitable clinical outcomes' (equity angle). The FAQ says a tenure-track position is not required, postdocs are ineligible, and self-nomination is permitted with no preproposal. The page states 'All applications must be approved by an official responsible for sponsored programs at the institution' (institutional sign-off, not limited submission). The grant recipients section spans 2013-2025.",
     "fit": 78
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "winn-clinical-investigator-leadership-award",
@@ -6122,7 +6131,7 @@
   },
   {
    "id": "nih-bridge2ai-stage2-u24-rfa-rm-28-010",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+data",
    "provenance": {
     "lens": "federal-adjacent",
@@ -6184,11 +6193,12 @@
     "confidence": "projected",
     "evidence": "Grants.gov API record for opportunity 363107 (the search-results-detail page is JavaScript-rendered and returned no content via WebFetch): opportunityNumber \"RFA-RM-28-010\", title \"Bridge2AI Network for AI Health Science\", status \"FORECASTED\", postingDate Jul 08 2026; estSynopsisPostingDate Jan 01 2027, estApplicationResponseDate Mar 01 2027, estAwardDate Aug 01 2027, fiscalYear 2028; awardFloor 1000000, awardCeiling 7000000, estimatedFunding 7000000, numberOfAwards 5, costSharing false, instrument Cooperative Agreement. Description: \"This NOFO will utilize the U24 activity code\" and \"This initiative will support 3-5 Centers\", with activities including \"evaluation of AI models\" and \"supporting pilot research activities\". Eligible applicants include private and public institutions of higher education and \"Non-domestic (non-U.S.) Entities (Foreign Institutions)\".",
     "fit": 38
-   }
+   },
+   "promoted_on": "2026-09-24"
   },
   {
    "id": "nih-kc1-mentored-clinician-scientist-pa-28-047",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -6251,7 +6261,8 @@
     "confidence": "verified",
     "evidence": "NOT-OD-26-098 (released August 12, 2026) establishes KC1, 'Mentored Clinician Research Scientist Career Development Awards', consolidating K08, K23 and K38. Implementation is 'beginning with due dates on or after October 12, 2027', and any active NOFO using current K codes 'will be expired by July 13, 2027' (K00, K12, K43 and K76 are unaffected). The notice also says 'K award funds may not be used to support the conduct of a clinical trial, clinical trial feasibility study, or ancillary study'. Grants.gov forecast PA-28-047 (opportunity 363571, posted Aug 13, 2026) gives: estimated synopsis posting Jul 13, 2027; estimated application due date Oct 12, 2027; estimated award and project start Jul 01, 2028; no award ceiling or floor. The forecast describes 'a sustained period of protected time (up to five years)' and is 'intended to prepare candidates with clinical doctoral degrees for future research independence.'",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-09-24"
   }
  ]
 }
