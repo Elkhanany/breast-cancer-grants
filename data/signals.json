@@ -1,8 +1,22 @@
 {
- "generated": "2026-09-20",
+ "generated": "2026-09-23",
  "seeded": false,
- "pages_watched": 123,
+ "pages_watched": 125,
  "signals": [
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "myriad-precise-mrd-research-collaboration"
+   ],
+   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
+   "dates_added": [
+    "2026-09-22"
+   ],
+   "dates_removed": [
+    "2026-09-21"
+   ],
+   "detail": "+1 / -1 dates since 2026-09-22"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +24,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +33,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,7 +42,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -37,7 +51,7 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 4 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -46,12 +60,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-20"
+    "2026-09-23"
    ],
    "dates_removed": [
-    "2026-09-19"
+    "2026-09-22"
    ],
-   "detail": "+1 / -1 dates since 2026-09-19"
+   "detail": "+1 / -1 dates since 2026-09-22"
   },
   {
    "kind": "blocked",
@@ -60,7 +74,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 19 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -69,7 +83,7 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -77,7 +91,8 @@
     "pcori-engagement-capacity-building-fall-2026"
    ],
    "url": "https://www.pcori.org/funding-opportunities",
-   "dates_added": [
+   "dates_added": [],
+   "dates_removed": [
     "2026-04-28",
     "2026-09-01",
     "2026-09-09",
@@ -89,8 +104,7 @@
     "2027-01-12",
     "2027-05-04"
    ],
-   "dates_removed": [],
-   "detail": "+10 / -0 dates since 2026-09-19"
+   "detail": "+0 / -10 dates since 2026-09-22"
   },
   {
    "kind": "rfp_changed",
@@ -98,7 +112,8 @@
     "pcori-engagement-capacity-building-fall-2026"
    ],
    "url": "https://www.pcori.org/funding-opportunities",
-   "lines_added": [
+   "lines_added": [],
+   "lines_removed": [
     "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
     "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
     "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
@@ -109,8 +124,7 @@
     "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
     "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
    ],
-   "lines_removed": [],
-   "detail": "+9 / -0 RFP-related passages since 2026-09-19"
+   "detail": "+0 / -9 RFP-related passages since 2026-09-22"
   }
  ]
 }
