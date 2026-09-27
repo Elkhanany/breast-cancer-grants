@@ -1,21 +1,19 @@
 {
- "generated": "2026-09-23",
+ "generated": "2026-09-27",
  "seeded": false,
- "pages_watched": 125,
+ "pages_watched": 124,
  "signals": [
   {
    "kind": "dates_changed",
    "ids": [
-    "myriad-precise-mrd-research-collaboration"
+    "nih-katz-esi-r01-par-25-322"
    ],
-   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
-   "dates_added": [
-    "2026-09-22"
-   ],
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-322.html",
+   "dates_added": [],
    "dates_removed": [
-    "2026-09-21"
+    "2025-09-26"
    ],
-   "detail": "+1 / -1 dates since 2026-09-22"
+   "detail": "+0 / -1 dates since 2026-09-26"
   },
   {
    "kind": "blocked",
@@ -24,7 +22,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -33,7 +31,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -42,7 +40,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -51,7 +49,7 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -60,12 +58,21 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-23"
+    "2026-09-27"
    ],
    "dates_removed": [
-    "2026-09-22"
+    "2026-09-26"
    ],
-   "detail": "+1 / -1 dates since 2026-09-22"
+   "detail": "+1 / -1 dates since 2026-09-26"
+  },
+  {
+   "kind": "not_found",
+   "ids": [
+    "exact-sciences-research-grants"
+   ],
+   "url": "https://www.exactsciences.com/science/grants",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 3 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -74,7 +81,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -83,48 +90,16 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
   },
   {
-   "kind": "dates_changed",
+   "kind": "not_found",
    "ids": [
-    "pcori-engagement-capacity-building-fall-2026"
+    "pfizer-competitive-grants-program"
    ],
-   "url": "https://www.pcori.org/funding-opportunities",
-   "dates_added": [],
-   "dates_removed": [
-    "2026-04-28",
-    "2026-09-01",
-    "2026-09-09",
-    "2026-10-01",
-    "2026-10-14",
-    "2026-11-17",
-    "2027-01-06",
-    "2027-01-11",
-    "2027-01-12",
-    "2027-05-04"
-   ],
-   "detail": "+0 / -10 dates since 2026-09-22"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "pcori-engagement-capacity-building-fall-2026"
-   ],
-   "url": "https://www.pcori.org/funding-opportunities",
-   "lines_added": [],
-   "lines_removed": [
-    "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
-    "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "ch findings. Use the search/filters below to find available funding opportunities and take advantage of the following resources: What You Need To Know To Apply Funding Ann",
-    "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
-   ],
-   "detail": "+0 / -9 RFP-related passages since 2026-09-22"
+   "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
+   "http": 404,
+   "detail": "not_found (404); a model must read this page. Failed 2 run(s) in a row."
   }
  ]
 }

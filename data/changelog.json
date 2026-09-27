@@ -1,6 +1,18 @@
 {
  "entries": [
   {
+   "date": "2026-09-27",
+   "kind": "watch",
+   "summary": "Exact Sciences research-grants page moved; record url updated. No deadline changed.",
+   "added": 0,
+   "changed": 1,
+   "retired": 0,
+   "details": [
+    "exact-sciences-research-grants: url https://www.exactsciences.com/science/grants -> https://www.exactsciences.com/grants (old page 404 for three runs; the new page carries the same areas of interest and still states 'There are no active RFPs').",
+    "Signals deferred: PAR-25-322 and daiichi-sankyo dates_changed were boilerplate (a date aged out of the crawler window; the page's own date stamp); pfizer-competitive-grants-program 404 for a second run while Pfizer's own grants navigation still links the same URL, so no successor exists yet; six blocked pages are long-standing."
+   ]
+  },
+  {
    "date": "2026-09-24",
    "kind": "refresh",
    "summary": "133 records re-verified against primary sources plus 7 blocked or signalled pages read in the browser; no open deadline moved and nothing disputed; closed-cycle dates filled on four CPRIT IIRA records and Pew-Stewart; AACR-MPM Transformative Cancer Research Grants retired after two missed cycles; the Komen Career Catalyst track gate removed on the sponsor's own eligibility text; 11 discovery candidates promoted (count 297 to 308).",

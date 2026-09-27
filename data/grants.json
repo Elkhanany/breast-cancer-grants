@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24",
+ "generated": "2026-09-27",
  "count": 308,
  "grants": [
   {
@@ -9598,7 +9598,7 @@
   {
    "status": "active",
    "first_seen": "2026-09-04",
-   "last_verified": "2026-09-04",
+   "last_verified": "2026-09-27",
    "retired_on": null,
    "retired_reason": null,
    "category": "trial-funding",
@@ -9617,7 +9617,7 @@
    "tier": "mid-size",
    "sponsor_full": "Exact Sciences Research Grants and Collaborations",
    "program": "Exact Sciences research grants - Oncotype DX in early-stage HR-positive breast cancer",
-   "url": "https://www.exactsciences.com/science/grants",
+   "url": "https://www.exactsciences.com/grants",
    "focus": [
     "computational",
     "translational",
