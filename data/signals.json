@@ -1,19 +1,30 @@
 {
- "generated": "2026-09-27",
+ "generated": "2026-09-28",
  "seeded": false,
  "pages_watched": 124,
  "signals": [
   {
+   "kind": "unreachable",
+   "ids": [
+    "myriad-precise-mrd-research-collaboration"
+   ],
+   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
+   "http": 0,
+   "detail": "unreachable (0); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
    "kind": "dates_changed",
    "ids": [
-    "nih-katz-esi-r01-par-25-322"
+    "arvinas-investigator-sponsored-research"
    ],
-   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-322.html",
-   "dates_added": [],
+   "url": "https://ir.arvinas.com/",
+   "dates_added": [
+    "2026-09-28"
+   ],
    "dates_removed": [
-    "2025-09-26"
+    "2026-09-03"
    ],
-   "detail": "+0 / -1 dates since 2026-09-26"
+   "detail": "+1 / -1 dates since 2026-09-27"
   },
   {
    "kind": "blocked",
@@ -22,7 +33,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -31,7 +42,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -40,7 +51,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -49,7 +60,16 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
+  },
+  {
+   "kind": "unreachable",
+   "ids": [
+    "astrazeneca-esr"
+   ],
+   "url": "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html",
+   "http": 0,
+   "detail": "unreachable (0); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -58,21 +78,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-09-27"
+    "2026-09-28"
    ],
    "dates_removed": [
-    "2026-09-26"
+    "2026-09-27"
    ],
-   "detail": "+1 / -1 dates since 2026-09-26"
-  },
-  {
-   "kind": "not_found",
-   "ids": [
-    "exact-sciences-research-grants"
-   ],
-   "url": "https://www.exactsciences.com/science/grants",
-   "http": 404,
-   "detail": "not_found (404); a model must read this page. Failed 3 run(s) in a row."
+   "detail": "+1 / -1 dates since 2026-09-27"
   },
   {
    "kind": "blocked",
@@ -81,7 +92,7 @@
    ],
    "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 27 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -90,16 +101,25 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
   },
   {
-   "kind": "not_found",
+   "kind": "blocked",
    "ids": [
     "pfizer-competitive-grants-program"
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
-   "http": 404,
-   "detail": "not_found (404); a model must read this page. Failed 2 run(s) in a row."
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 3 run(s) in a row."
+  },
+  {
+   "kind": "blocked",
+   "ids": [
+    "pfizer-investigator-sponsored-research"
+   ],
+   "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
+   "http": 403,
+   "detail": "blocked (403); a model must read this page. Failed 1 run(s) in a row."
   }
  ]
 }

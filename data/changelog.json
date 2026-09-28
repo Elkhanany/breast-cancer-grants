@@ -1,6 +1,27 @@
 {
  "entries": [
   {
+   "date": "2026-09-28",
+   "kind": "refresh",
+   "summary": "Mon refresh: 133 records re-verified; two lapsed NIH dates rolled or cleared, the closed CTPH pilot cycle's dates recorded, the NCI SPORE successor date disputed and not written; no deadline among open records moved.",
+   "added": 0,
+   "changed": 32,
+   "retired": 0,
+   "details": [
+    "nih-standard-due-dates-reference: full_deadline and next_deadline 2026-09-25 to 2026-10-05 (the September 25 standard date passed; October 5, R01/U01 new, is the next date on the NIH standard due-dates table; two reads agree). Fit left at 91 pending the open scoring question on reference rows.",
+    "ctph-pilot-awards: loi None to 2026-02-27, full None to 2026-04-27 (the closed 2026 cycle's dates, stated in the sponsor's 2026 RFA and confirmed by a second read); next_deadline stays null, deadline_status closed-projected, confidence projected. Fit unchanged.",
+    "nci-spore-p50-2024-2026: DISPUTED successor date not written. Both reads agree PAR-23-284's final due date 2026-09-25 has passed (NOFO expired 2026-09-26); the first read found the reissue forecast PAR-26-064 with an estimated 2027-01-25 date, the second read did not accept a forecast estimate. loi/full kept at 2026-08-26/2026-09-25; next_deadline 2026-09-25 to null, deadline_status open to closed-projected; fit 104 to 101.",
+    "hope-funds-postdoctoral-fellowship: next_deadline 2026-09-24 to 2027-01-25 (the abstract/LOI round closed 2026-09-24; the remaining full-application date is by invitation only). Fit 71.8 to 68.8.",
+    "nih-parent-p01: next_deadline 2026-09-25 to null (the forecast's estimated date passed with no NOFO in the NIH Guide); full_deadline kept as the forecast estimate, status forecast. Fit unchanged at 38 (it was never raised for proximity).",
+    "Enrichment filled into empty fields only (5): metavivor-translational-research-award success_rate; exact-sciences-research-grants, bwf-innovation-regulatory-science and nih-bridge2ai-stage2-u24-rfa-rm-28-010 program_contact; nih-bridge2ai-stage2-u24-rfa-rm-28-010 awards_per_cycle.",
+    "Re-verified 133 records (every signal, everything due within 60 days, projected records whose month has arrived, every DOD BCRP and CPRIT record); 129 unchanged, last_verified set to 2026-09-28. Every CDMRP BCRP and CPRIT date re-read and unchanged (BCRP FY26 L1/L2 and CRE round 2: LOI 2026-11-04, application 2026-11-18; CPRIT FY27 cycle 2 closes 2026-11-18; recruitment 2026-10-20).",
+    "Blocked pages read in the browser: AFAR Beeson K76 (2026-11-10, unchanged), Komen CCR FY27 (invited applications 2026-10-05, unchanged), Stand Up To Cancer (only pediatric DMG and lung early-detection RFAs open), AbbVie and Lilly (rolling, unchanged), Pfizer Competitive Grants (loads; no breast RFP among active RFPs), Pfizer ISR and AstraZeneca ESR (load, unchanged). Myriad's investor-relations page refused the browser too; first failure, left as is.",
+    "bcm-junior-faculty-seed-award: the ORIT page returns 404 in the browser as well and no successor was found; already projected, not retired (the sponsor has not said the program ended); re-check next pass.",
+    "No discovery candidates promoted: all 18 pending entries still fail active or eligible_plausible.",
+    "Standing items unchanged: the Komen CCR pair stays cross-referenced (settled 2026-09-24); nih-standard-due-dates-reference scoring left pending the owner's call."
+   ]
+  },
+  {
    "date": "2026-09-27",
    "kind": "watch",
    "summary": "Exact Sciences research-grants page moved; record url updated. No deadline changed.",
