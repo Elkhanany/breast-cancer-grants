@@ -1,6 +1,35 @@
 {
  "entries": [
   {
+   "date": "2026-10-01",
+   "kind": "refresh",
+   "summary": "Thu refresh: 135 records re-verified; Pfizer reposted its ISR review cycles (next deadline 2026-11-03), three lapsed dates rolled to the next cycle, five lapsed September 30 deadlines cleared; no disputes.",
+   "added": 0,
+   "changed": 13,
+   "retired": 0,
+   "details": [
+    "pfizer-investigator-sponsored-research: full_deadline None to 2026-11-03, next_deadline None to 2026-11-03, deadline_status unposted to open, confidence verified to verified (two independent reads agree). Fit 41.0 to 44.0.",
+    "ncats-ctsa-um1: full_deadline 2026-09-28 to 2027-01-28, next_deadline 2026-09-28 to 2027-01-28, deadline_status open to open, confidence verified to verified (two independent reads agree). Fit 56.0 to 53.0.",
+    "kleberg-foundation-medical-research: full_deadline 2026-09-30 to 2027-03-31, next_deadline 2026-09-30 to 2027-03-31, deadline_status open to closed-projected, confidence verified to projected (two independent reads agree). Fit 68 to 65.",
+    "nih-katz-esi-r01-par-25-322: full_deadline 2026-09-28 to 2027-01-26, next_deadline 2026-09-28 to 2027-01-26, deadline_status open to open, confidence verified to verified (two independent reads agree). Fit 98 to 95.",
+    "bwf-career-awards-medical-scientists: next_deadline 2026-09-30 to null (the 2026-09-30 deadline passed; no new cycle posted), deadline_status open to closed-projected. Fit 61.0 to 58.0.",
+    "dod-bcrp-breakthrough-level-3-fy26: next_deadline 2026-09-30 to null (the 2026-09-30 deadline passed; no new cycle posted), deadline_status closed-projected to closed-projected. Fit 0 to -3.",
+    "dod-bcrp-breakthrough-level-4-fy26: next_deadline 2026-09-30 to null (the 2026-09-30 deadline passed; no new cycle posted), deadline_status closed-projected to closed-projected. Fit 0 to -3.",
+    "dod-bcrp-transformative-consortium-award-fy26: next_deadline 2026-09-30 to null (the 2026-09-30 deadline passed; no new cycle posted), deadline_status closed-projected to closed-projected. Fit 0 to -3.",
+    "searle-scholars-program: next_deadline 2026-09-30 to null (the 2026-09-30 deadline passed; no new cycle posted), deadline_status open to closed-projected. Fit 52.0 to 49.0.",
+    "v-foundation-breaking-barriers-v-scholar: deadline_status closed-projected to forecast (the sponsor's FAQ cycle table now shows the next cycle with month-level estimates; no exact dates, all dates stay null).",
+    "v-foundation-translational-grant: deadline_status closed-projected to forecast (the sponsor's FAQ cycle table now shows the next cycle with month-level estimates; no exact dates, all dates stay null).",
+    "pfizer-investigator-sponsored-research: Pfizer has reposted its batched review schedule for independent research grants (PDF dated 9/29/2026, linked from the ISR page): the third 2026 submission deadline is November 3, 2026 (revised), with notification by February 26, 2027. The record's earlier note that the schedule was offline is superseded.",
+    "Enrichment filled into empty fields only (3): program_contact for komen-career-transition-award, hope-foundation-swog-career-engagement-award and pfizer-investigator-sponsored-research. NIH 'number of awards is contingent upon appropriations' boilerplate was not stored as awards_per_cycle.",
+    "Re-verified 135 records (every signal, everything due within 60 days, projected records whose month has arrived, every DOD BCRP and CPRIT record); 130 unchanged, last_verified set to 2026-10-01. Every CDMRP BCRP and CPRIT date re-read and unchanged (BCRP FY26 L1/L2 and CRE round 2: LOI 2026-11-04, application 2026-11-18; FY27 still unannounced; CPRIT FY27 cycle 2 closes 2026-11-18; recruitment 2026-10-20). The BCRP L3, L4 and Transformative Consortium applications closed 2026-09-30.",
+    "Blocked pages read in the browser: AFAR Beeson K76 (2026-11-10, unchanged), Stand Up To Cancer (only lung early-detection and pancreatic RFAs open), Pfizer Competitive Grants (no breast RFP among active RFPs), Lilly, AbbVie and AstraZeneca (rolling, unchanged). The Komen FY27 CCR announcement PDF downloads rather than renders; its 2026-10-05 invited-application date was re-read from the sponsor's pages by the verifying agent and is unchanged.",
+    "Signals from the 2026-10-01 daily crawl triaged: PCORI listing now shows the Cycle 1 2027 announcements opening 2026-11-17 (LOI 2027-01-06, application 2027-05-04), matching the three held Cycle 1 2027 records; ACS RSG, CSDG and Mission Boost still list June 1 and December 1; Novartis, Agendia FLEX and Natera show no new call; the CDMRP BCRP date change is the 2026-09-30 deadline dropping off the page.",
+    "bcm-junior-faculty-seed-award: the page still returns 404 and no successor was found; already projected, not retired (the sponsor has not said the program ended).",
+    "No discovery candidates promoted: all 18 pending entries still fail active or eligible_plausible.",
+    "Standing items unchanged: the Komen CCR pair stays cross-referenced (settled 2026-09-24); nih-standard-due-dates-reference scoring left pending the owner's call."
+   ]
+  },
+  {
    "date": "2026-09-28",
    "kind": "refresh",
    "summary": "Mon refresh: 133 records re-verified; two lapsed NIH dates rolled or cleared, the closed CTPH pilot cycle's dates recorded, the NCI SPORE successor date disputed and not written; no deadline among open records moved.",
