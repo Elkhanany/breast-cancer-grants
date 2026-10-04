@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-10-04",
+   "kind": "watch",
+   "summary": "Pharma-watchlist coverage gaps closed for Bayer, Guardant Health and Zymeworks (3 records added). No deadline changed.",
+   "added": 3,
+   "changed": 0,
+   "retired": 0,
+   "details": [
+    "bayer-investigator-institution-initiated-research: added (verified). Rolling US portal naming oncology and gynecologic therapies; applications generally reviewed monthly.",
+    "guardant-health-research-collaborations: added (unverified, not-posted). No public investigator-initiated study page; enquiries go to Key Accounts.",
+    "zymeworks-investigator-research: added (unverified, not-posted). No public programme; zanidatamab studies route through jazz-investigator-sponsored-trials.",
+    "Signals deferred: daiichi-sankyo-esr-iis dates_changed was the page's own date stamp (2026-10-03 -> 2026-10-04); Foundation Medicine coverage gap unsettled (academic-research page refused access, request-for-collaboration page redirects); 8 blocked pages left to the Mon/Thu pass."
+   ]
+  },
+  {
    "date": "2026-10-01",
    "kind": "refresh",
    "summary": "Thu refresh: 135 records re-verified; Pfizer reposted its ISR review cycles (next deadline 2026-11-03), three lapsed dates rolled to the next cycle, five lapsed September 30 deadlines cleared; no disputes.",
