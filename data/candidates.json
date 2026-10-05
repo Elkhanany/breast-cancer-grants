@@ -6266,7 +6266,7 @@
   },
   {
    "id": "bcm-dom-physician-scientist-faculty-development-award",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -6329,11 +6329,12 @@
     "confidence": "projected",
     "evidence": "GI & Hepatology awards page (fetched 2026-10-01): \"Department of Medicine Physician-Scientist Faculty Development Award ... (Funding amount: $190,000; Funding period: 2 years)\" shows the 2024 award amount and term. Also \"the inaugural Department of Medicine Physician-Scientist/Investigator Faculty Development Award ... ($207,906 for two years)\" shows the 2022 inaugural award and that the program exists. The 2022 project title, \"An Electronic Trigger Tool to Detect Missed Opportunities for Barrett's Esophagus Screening\", shows that EHR-based work has been funded.",
     "fit": 78
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "bcm-awards-hub-infoready",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -6395,11 +6396,12 @@
     "confidence": "verified",
     "evidence": "Rendered portal home page, read 2026-10-01 in a browser because the page is built by JavaScript and WebFetch returned an empty shell. \"The BCM Awards Hub is a central application and management system for limited submission competitions, internal and external funding opportunities, faculty prizes and awards\" establishes what the portal is. \"To log into the system, please use your BCM ECA username and password credentials\" establishes that applying is limited to BCM. \"The Dan L Duncan Comprehensive Cancer Center manages the solicitation and selection processes for cancer-specific limited submission RFAs, seed funding programs, and other award opportunities\" establishes the DLDCCC channel. The Competitions table read \"1 to 3 of 3\" and listed FY27 Blavatnik National Awards for Young Scientists (10/5/2026, Sponsored Funding Programs - Limited Submission), FY2027-28 BCM Interim Funding Program (Fall Cycle) (10/5/2026, Internal Funding Programs - BCM Office of Research) and FY2027 Andrew Carnegie Fellows Program (10/12/2026, Sponsored Funding Programs - Limited Submission).",
     "fit": 55
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "gcc-reach-commercialization",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+mentorship",
    "provenance": {
     "lens": "tmc-local",
@@ -6462,11 +6464,12 @@
     "confidence": "verified",
     "evidence": "FAQ: \"Innovators affiliated with Texas institutions—academic faculty, postdocs, students, and clinicians—can apply.\" (eligibility). FAQ: \"Applications are accepted anytime, but there are cutoffs for Technology Feedback Forums (TFFs).\" (rolling). FAQ: \"GCC REACH primarily offers mentorship and strategic guidance to develop a Product Commercialization Plan (PCP).\" and \"Select projects that meet certain milestones may receive up to $50,000 in funding for milestone.\" (award). Process page: \"Applications for Technology Feedback Forums ... will be accepted on a rolling basis\"; \"TFFs are conducted every Friday at 1:00 PM and 1:30 PM\"; a CDA must be signed between GCC REACH and the applicant's Technology Transfer Office. Home page: \"NIH funded multi-institutional resource\"; 16 projects received milestone funding; 29 commercialization plans; $5M+ follow-on funding; six cohorts.",
     "fit": 55
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "rice-d2k-capstone-tmc-sponsor",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data science (in-kind analytic team)",
    "provenance": {
     "lens": "tmc-local",
@@ -6528,11 +6531,12 @@
     "confidence": "verified",
     "evidence": "From https://d2k.rice.edu/partnerships/researchers (fetched 2026-10-01): \"Researchers at Rice University and in the Texas Medical Center are eligible to sponsor a student team.\" (establishes TMC/BCM eligibility). \"There is no sponsorship fee for Rice faculty, but we ask that researchers fully prepare their project for the D2K Capstone program and commit to spending at least one hour a week mentoring the student team.\" (establishes the fee waiver for Rice faculty and the mentoring obligation). \"A preference will be shown to researchers who are already collaborating with a Rice data science faculty member that has agreed to co-mentor the team.\" (establishes the co-mentor preference). The page gives d2k@rice.edu as the contact.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "phi-beta-psi-charity-trust-cancer-research-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -6596,7 +6600,8 @@
     "confidence": "projected",
     "evidence": "National project page (phibetapsi.org/national-project, fetched 2026-10-01): \"Grant Applications for August funding will be accepted April-June each year\". It also says \"In 2026, the national membership voted to give $697K to six grant recipients. Each doctor received more than $116K\". The RFP PDF linked from that page (\"How to Apply\", Rev. 03/25) says: research must be \"focused on brain, breast, colorectal, endometrial, lung, ovarian, pancreatic, gastrointestinal tract or prostate cancer\"; \"Post-doctoral fellows are not eligible\"; \"if the individual is eligible to submit an R01 from their institution as Principal Investigator then they are eligible\"; \"no overhead costs are allowed\"; \"salaries of the Principal Investigators may not be included\"; \"must be submitted to the office of the National Second Vice President by June 10th each year as a single .PDF file\"; \"Institutional approval must be granted in writing before an application is submitted.\"",
     "fit": 82
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "acgt-cinelli-breast-cell-gene-therapy-award",
@@ -6665,7 +6670,7 @@
   },
   {
    "id": "tersera-investigator-initiated-research",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+drug",
    "provenance": {
     "lens": "industry-data",
@@ -6729,11 +6734,12 @@
     "confidence": "verified",
     "evidence": "tersera.com/our-science: \"TerSera Medical Affairs supports independent initiatives that improve patient outcomes in areas of unmet medical need that are aligned with TerSera's areas of interest.\" The same page has an \"Investigator-Initiated Sponsored Research\" heading with Preclinical (CyberGrants proposal type 92360) and Clinical (proposal type 88218) portal links, plus HCP contact TerSera@medinfodept.com / 1-844-334-4035. A separate IME CyberGrants portal is also listed. tersera.com/our-medicines lists Zoladex (goserelin implant 3.6 mg and 10.8 mg), Margenza, Xermelo and Varubi, so the two breast-relevant products are current.",
     "fit": 82
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "astrazeneca-open-innovation",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "drug+data (compounds and data packages; funding needs are defined in the full proposal)",
    "provenance": {
     "lens": "industry-data",
@@ -6795,11 +6801,12 @@
     "confidence": "verified",
     "evidence": "application_process.html: \"We accept submissions all year around for our preclinical and clinical research programmes\" (rolling). \"Feedback and decisions will be shared within 8-10 weeks\" (turnaround). Targeted challenges open \"every six months\" (cadence). Accepted proposals cover \"defined milestones, timelines, responsibilities and funding needs\" (funding negotiated, not fixed). Applicants should \"include only non-confidential information\" (first-stage format); collaborations use \"bidirectional Confidential Disclosure Agreements and/or Material Transfer Agreements\". Home page: AZ wants to \"work with scientists and researchers anywhere in the world that have a great idea\" (open eligibility).",
     "fit": 55
-   }
+   },
+   "promoted_on": "2026-10-05"
   },
   {
    "id": "nrg-ncorp-pilot-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "consortia",
@@ -6866,7 +6873,8 @@
     "confidence": "verified",
     "evidence": "Primary URL (NRG news, posted September 12, 2024): two funded pilots named. The program is described as funding work with \"high potential to lead to competitive NRG NCORP concepts.\" This establishes the program and its past awards; the post gives no amount or deadline. 2023 CPC announcement PDF (nrgoncology.org/wp-content/uploads/2025/10/CPC-Pilot-Grant-Announcement-2023_final.pdf): \"Date Issued: February 17, 2023 / Submission Due Date: April 21, 2023\"; \"Funding can be requested for up to $50,000\"; \"One to two projects may be funded\"; \"Projects are to be implemented September 1, 2023 and completed by July 31, 2025\"; \"This opportunity is open to all investigators\"; institutions that waive indirects, and junior investigators with mentors, \"will be prioritized.\" This establishes the amount, duration, eligibility and indirect-cost policy. July 2025 NCORP Town Hall slides: \"The LOI process is a prerequisite for pilot grant application submission in 2025\"; \"The request for funding application (RFA) for NCORP pilot projects will be released in Spring 2025\"; \"This year we selected 11 LOI applications for the workshop\"; \"The next LOI announcement will be coming August 2025!\"; Boot Camp \"Mandatory for anyone submitting for NCORP pilot grants\", next session January 2026. This establishes the current gated process and that the program recurs. The January 2026 Winter Meeting agenda (search result) lists an NCORP Bootcamp \"LOI and Mentor Discussion.\"",
     "fit": 58
-   }
+   },
+   "promoted_on": "2026-10-05"
   }
  ]
 }

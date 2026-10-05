@@ -1,6 +1,28 @@
 {
  "entries": [
   {
+   "date": "2026-10-05",
+   "kind": "refresh",
+   "summary": "Mon refresh: 101 records re-verified. Pfizer posted an atirmociclib HR+/HER2+ breast cancer RFP (concepts due 2027-01-12), added as its own record; 8 discovery finds promoted; Foundation Medicine coverage gap recorded; CRI CLIP full date 2027-03-12 to 2027-03-01.",
+   "added": 10,
+   "changed": 5,
+   "retired": 0,
+   "details": [
+    "cprit-iira-eoc: full_deadline None to 2026-04-28 (the closed FY27 R-27.1 cycle's date, stated in the RFA and confirmed by a second read); next_deadline stays null, deadline_status closed-projected. Fit unchanged.",
+    "cri-clip-grant: full_deadline 2027-03-12 to 2027-03-01 (two independent reads agree); next_deadline stays 2026-12-01 (LOI). Award changed from $300,000 over 2 years (renewable) to up to $1,000,000 over 3 years for teams; the 2027 theme is prevention and interception. Fit unchanged.",
+    "breast-cancer-research-foundation-alabama: next_deadline 2026-10-01 to null (the deadline passed; no new cycle posted), deadline_status open to closed-projected. Fit 99.0 to 96.0.",
+    "pcori-engagement-capacity-building-fall-2026: next_deadline 2026-10-01 to 2027-01-11 (the LOI round closed 2026-10-01; the remaining full-application date is by invitation only). Fit 73.0 to 70.0.",
+    "pfizer-atirmociclib-breast-cancer-rfp-2027: added (verified). Pfizer released a breast cancer research RFP on 2026-10-01: atirmociclib in HR+/HER2- mBC and/or HER2+ BC, $8,000,000 for up to 6 studies over 3 years; concept due 2027-01-12, invited proposals 2027-03-05 to 2027-05-07. Read in the browser on the ACTIVE RFPs table and in the RFP PDF.",
+    "pfizer-competitive-grants-program: DISPUTED dates not written. Both reads found the new atirmociclib RFP; the first read gave full 2027-01-12, the second gave LOI (concept) 2027-01-12 and full 2027-05-07. The RFP is recorded as its own posted-cycle record (above), per REFRESH.md step 0; this standing record keeps its dates, and its notes now point to the new record.",
+    "foundation-medicine-research-collaborations: added (unverified, not-posted), closing the coverage gap the watch left open. No public investigator-research programme; research access is a commercial data subscription (FoundationInsights, the Flatiron-FMI CGDB).",
+    "Promoted from discovery (8): bcm-dom-physician-scientist-faculty-development-award, bcm-awards-hub-infoready, gcc-reach-commercialization, rice-d2k-capstone-tmc-sponsor, phi-beta-psi-charity-trust-cancer-research-grant, tersera-investigator-initiated-research, astrazeneca-open-innovation, nrg-ncorp-pilot-grant. Each primary URL was re-opened on 2026-10-05.",
+    "nci-itcr-u01-early-stage: the first read proposed downgrading confidence because Grants.gov's close date is 2027-10-19. That date is the last of three receipt dates (2026-10-19, 2027-06-11, 2027-10-19) already in the record's notes, so the record stays verified with next_deadline 2026-10-19.",
+    "Blocked pages read in the browser, all unchanged: AFAR Beeson K76 (deadline 2026-11-10 confirmed; 7 to 10 awards expected in 2027), Komen CCR (application due 2026-10-05, invitation only), Pfizer ISR, Lilly IIR, AbbVie IIS, and both Stand Up To Cancer pages (no breast-relevant RFA open). daiichi-sankyo-esr-iis dates_changed is the page's own date stamp.",
+    "Notes appended from today's reads: ARPA-H roster (TIGAR and STREAM dropped; UNIQUE, SURPASS, SPECTRA and COSMOS listed, with SURPASS the closest computational fit), final receipt dates for nci-assay-validation-uh2-uh3 (2026-10-14) and nci-biomarker-assay-revision-r01 (2026-10-14), nci-early-onset-cancers-par-26-150 still forecast-only, and an aicr-investigator-initiated-research-grant two-missed-cycles watch.",
+    "Standing items left as they were: the five standing-program/posted-cycle pairs (the Komen CCR pair was cross-referenced on 2026-09-24) and the fit of nih-standard-due-dates-reference, which awaits the user's call."
+   ]
+  },
+  {
    "date": "2026-10-04",
    "kind": "watch",
    "summary": "Pharma-watchlist coverage gaps closed for Bayer, Guardant Health and Zymeworks (3 records added). No deadline changed.",
