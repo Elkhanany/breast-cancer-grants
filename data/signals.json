@@ -1,8 +1,48 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-08",
  "seeded": false,
- "pages_watched": 118,
+ "pages_watched": 106,
  "signals": [
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "blavatnik-national-awards-young-scientists"
+   ],
+   "url": "https://blavatnikawards.org/awards/national-awards/nomination-guidelines/",
+   "dates_added": [],
+   "dates_removed": [
+    "2026-10-07"
+   ],
+   "detail": "+0 / -1 dates since 2026-10-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "myriad-precise-mrd-research-collaboration"
+   ],
+   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
+   "dates_added": [
+    "2026-10-08"
+   ],
+   "dates_removed": [
+    "2026-10-02"
+   ],
+   "detail": "+1 / -1 dates since 2026-10-05"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "arvinas-investigator-sponsored-research"
+   ],
+   "url": "https://ir.arvinas.com/",
+   "dates_added": [
+    "2026-10-07"
+   ],
+   "dates_removed": [
+    "2026-10-01"
+   ],
+   "detail": "+1 / -1 dates since 2026-10-05"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +50,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 28 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -19,7 +59,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 28 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,7 +68,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 28 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -37,7 +77,53 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 16 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 18 run(s) in a row."
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "acs-clinician-scientist-development-grant"
+   ],
+   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html",
+   "lines_added": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
+   ],
+   "lines_removed": [],
+   "detail": "+13 / -0 RFP-related passages since 2026-10-05"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "acs-mission-boost-grant"
+   ],
+   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/mission-boost-grants.html",
+   "lines_added": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
+   ],
+   "lines_removed": [],
+   "detail": "+13 / -0 RFP-related passages since 2026-10-05"
   },
   {
    "kind": "dates_changed",
@@ -46,21 +132,21 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-10-04"
+    "2026-10-08"
    ],
    "dates_removed": [
-    "2026-10-03"
+    "2026-10-05"
    ],
-   "detail": "+1 / -1 dates since 2026-10-03"
+   "detail": "+1 / -1 dates since 2026-10-05"
   },
   {
    "kind": "blocked",
    "ids": [
-    "komen-career-catalyst-research-fy27"
+    "bayer-investigator-institution-initiated-research"
    ],
-   "url": "https://www.komen.org/wp-content/uploads/FY27-CCR-LOI-Announcement_FINALv2.pdf",
+   "url": "https://www.grants-contributions.bayer.com/home/investigator-institution-initiated-research/pharmaceuticals-investigator-institution-initiated-research/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 31 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 2 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -69,16 +155,17 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 28 run(s) in a row."
   },
   {
    "kind": "blocked",
    "ids": [
-    "pfizer-competitive-grants-program"
+    "pfizer-competitive-grants-program",
+    "pfizer-atirmociclib-breast-cancer-rfp-2027"
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -87,51 +174,18 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
   },
   {
-   "kind": "coverage_gap",
+   "kind": "new_federal_opportunity",
    "ids": [],
-   "url": "",
-   "company": "Zymeworks",
-   "domains": [
-    "zymeworks.com"
-   ],
-   "why": "zanidatamab, HER2 bispecific",
-   "detail": "no record cites zymeworks.com; Zymeworks is relevant for zanidatamab, HER2 bispecific. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Bayer",
-   "domains": [
-    "bayer.com"
-   ],
-   "why": "elinzanetant, endocrine-therapy supportive care",
-   "detail": "no record cites bayer.com; Bayer is relevant for elinzanetant, endocrine-therapy supportive care. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Guardant Health",
-   "domains": [
-    "guardanthealth.com"
-   ],
-   "why": "ctDNA",
-   "detail": "no record cites guardanthealth.com; Guardant Health is relevant for ctDNA. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
-  },
-  {
-   "kind": "coverage_gap",
-   "ids": [],
-   "url": "",
-   "company": "Foundation Medicine",
-   "domains": [
-    "foundationmedicine.com"
-   ],
-   "why": "CGP, real-world data",
-   "detail": "no record cites foundationmedicine.com; Foundation Medicine is relevant for CGP, real-world data. Check whether it runs an investigator-research or RFP programme now, and record it or note that it does not."
+   "url": "https://www.grants.gov/search-results-detail/360873",
+   "opportunity": "RFA-AI-27-018",
+   "agency": "HHS-NIH11",
+   "title": "Implementation Science to Advance HIV Prevention, Treatment, and Care (R61/R33 Clinical Trial Optional)",
+   "close": "06/20/2029",
+   "status": "posted",
+   "detail": "RFA-AI-27-018 (HHS-NIH11, posted) not previously seen"
   }
  ]
 }
