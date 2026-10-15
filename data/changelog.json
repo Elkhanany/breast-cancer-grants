@@ -2,6 +2,30 @@
  "entries": [
   {
    "date": "2026-10-15",
+   "kind": "refresh",
+   "summary": "Thu refresh: 89 records re-verified. K99/R00, parent K08 and K23 rolled from their lapsed October dates to February 2027; three records whose last date passed now show no next deadline; eight discovery candidates promoted.",
+   "added": 8,
+   "changed": 7,
+   "retired": 0,
+   "details": [
+    "nci-k99-r00: full_deadline 2026-10-14 to 2027-02-17, next_deadline 2026-10-14 to 2027-02-17; fit 77.0 to 74.0 (second read agreed)",
+    "nih-parent-k08: full_deadline 2026-10-12 to 2027-02-12, next_deadline 2026-10-12 to 2027-02-12; fit 70.0 to 67.0 (second read agreed)",
+    "nih-parent-k23: full_deadline 2026-10-12 to 2027-02-12, next_deadline 2026-10-12 to 2027-02-12; fit 102.0 to 99.0 (second read agreed)",
+    "cprit-iira: full_deadline None to 2026-04-28 (FY2027 RFA closing date, already past; next_deadline stays null, FY2028 cycle expected ~January 2027) (second read agreed)",
+    "conquer-cancer-career-development-award: next_deadline 2026-10-08 to null (lapsed; no new cycle posted), deadline_status open to closed-projected",
+    "nci-assay-validation-uh2-uh3: next_deadline 2026-10-14 to null (lapsed; no new cycle posted), deadline_status open to forecast; fit 105.2 to 102.2",
+    "nci-biomarker-assay-revision-r01: next_deadline 2026-10-14 to null (lapsed; no new cycle posted), deadline_status open to closed-projected; fit 89.5 to 86.5",
+    "Promoted from the 2026-10-08 discovery sweep (each primary page re-opened today): bcm-tsu-p20-cured-collaborative-pilots, basser-external-research-grant, nci-ctep-career-development-loi-crdl, hcrn-concept-submission-support, project-data-sphere-open-access-platform, nih-parent-r35-investigator-focused-par-28-037 (forecast, first due 2027-10-04), nibib-trailblazer-r21-new-esi, gilead-oncology-health-equity-grant. Count 321 to 329.",
+    "nci-early-onset-cancers-par-26-150: disputed reading left as held. The first reader took 2027-02-08 from the PAR-28-014 full announcement (posted 2026-10-14, already applied by today's watch); the second read the superseded Grants.gov forecast record (estimated 2026-10-05). The held 2027-02-08 stands.",
+    "pfizer-competitive-grants-program: the active atirmociclib breast cancer RFP (concept 2027-01-12, invited proposals 2027-05-07) was confirmed by two readers; per step 0 it stays on its posted-cycle record pfizer-atirmociclib-breast-cancer-rfp-2027, and the standing portal record keeps no dates.",
+    "nci-itcr-u01-early-stage: the NOFO due-date table could not be re-read (Grants.gov shows only the 2027-10-19 final close); the held 2026-10-19 receipt date is kept as verified.",
+    "Blocked pages (Arvinas, SU2C x2, AbbVie, AFAR Beeson, Bayer, Lilly, Pfizer x3) were read in the browser or by fetch; no dates moved. Myriad and Daiichi Sankyo dates_changed signals are press-release or portal timestamps, not deadlines.",
+    "New federal opportunities triaged: PAR-28-014, PAR-28-022 and PA-27-061 are already held; RFA-CA-28-004 (limited-competition NCTN/EET biobank U24), PAR-27-090 (palliative care consortium R01) and PAR-28-091 (mind-body R33) are not relevant to this database.",
+    "Standing items left as they were: the five standing-program/posted-cycle pairs (Komen CCR pair cross-referenced 2026-09-24) and the scoring of nih-standard-due-dates-reference, pending the user's call."
+   ]
+  },
+  {
+   "date": "2026-10-15",
    "kind": "watch",
    "summary": "Daily watch: three NIH forecasts posted as NOFOs on 2026-10-14 (SPORE P50 as PAR-28-022, Parent P01 PA-27-061, Early-Onset Cancers as PAR-28-014); first due dates applied from the full announcements.",
    "added": 0,

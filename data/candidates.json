@@ -6878,7 +6878,7 @@
   },
   {
    "id": "bcm-tsu-p20-cured-collaborative-pilots",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "bcm-internal",
@@ -6942,11 +6942,12 @@
     "confidence": "verified",
     "evidence": "RFA docx (HTTP 200, fetched 2026-10-08): \"CURED will fund two (2) pilot projects conducted by at least one DLDCCC and one TSU collaborator. These two-year projects will receive a total of $200K (to be split evenly as $50K per institution per year).\" This establishes the award size, structure and partner requirement. \"We welcome investigators of all stages and disciplines\" establishes that there is no career-stage or track gate. \"The deadline for applications is February 17, 2025.\" and \"Awardees will be notified by April 1, 2025, with the award period beginning on July 1, 2025.\" establish that the posted call is past. The RFA names TSU research programs in \"breast (community-engaged and laboratory-based) and prostate cancer\", and Project 1 of the first round was \"Impact of race and ethnicity on outcomes in patients with hormone receptor-positive breast cancer treated with CDK4/6 inhibitors.\"",
     "fit": 78
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "basser-external-research-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -7009,7 +7010,8 @@
     "confidence": "verified",
     "evidence": "Primary page (basser.org/external-research-grants, fetched 2026-10-08): \"The 2026 Basser Center external grant program is temporarily delayed until later in 2026.\" This establishes that the 2026 cycle is active but has no dates. The page says all full-time faculty may apply, Penn faculty are excluded, international applicants are welcome, the research cannot have existing peer-reviewed national funding (NIH, ACS, DOD), and indirect costs are capped at 10%. It describes a two-phase process: a mandatory LOI of up to 2 pages, then an invited full application. Secondary pages (basser.org program text in search snippets; the UCI 2023 posting): \"One-year projects, up to $100,000 will be awarded.\" This establishes the amount and duration in prior cycles.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "flatiron-nccn-grants-program",
@@ -7078,7 +7080,7 @@
   },
   {
    "id": "nci-ctep-career-development-loi-crdl",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "drug",
    "provenance": {
     "lens": "consortia",
@@ -7142,11 +7144,12 @@
     "confidence": "verified",
     "evidence": "crdl page: \"The PI should be within 10 years of completion of fellowship training\" (career cap); \"should be a faculty member at an institution with a successful track record\" and \"Fellows may not serve as PIs on studies\" (eligibility); \"Career Development LOIs that are submitted without holding a preliminary conference will be refused\" (mandatory IDB conference); required documents: PI CV, \"Letter of commitment from the faculty mentor confirming the feasibility\", \"Letter of commitment from the institution indicating institutional support\". trial-development page: \"Early-career investigators in the ETCTN and NCTN are encouraged to learn about applying to the Career-Development LOI (CRDL) program for priority consideration.\" Neither page states deadlines.",
     "fit": 82
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "hcrn-concept-submission-support",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+drug",
    "provenance": {
     "lens": "consortia",
@@ -7209,11 +7212,12 @@
     "confidence": "verified",
     "evidence": "From concept-submission-support, all fetched 2026-10-08:\n- The listed services are \"Introductions to Medical Science Liaisons (MSLs)\", \"HCRN Letter of Intent (LOI) template\", \"Draft budgeting for your concept\", \"Scheduling your concept for presentation to the working group\" and \"Support for funder portal submissions\". These establish the support-only mechanism.\n- \"The ability of HCRN to support your concept is subject to operational and working group review.\" This establishes conditional review.\nFrom the BCM location page:\n- \"No current HCRN studies\". This establishes BCM as a network site with no active trials there.\nFrom the our-network page:\n- \"ideal for physicians at all levels in both academic and community settings\". This shows an open, mentorship-oriented working group.\n- The page links to a Breast Cancer Clinical Trial Working Group and a Correlative Sciences group.",
     "fit": 72
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "project-data-sphere-open-access-platform",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "consortia",
@@ -7272,11 +7276,12 @@
     "confidence": "verified",
     "evidence": "ceort.org homepage (fetched 2026-10-08): \"open-access data sharing platform housing 252+ de-identified clinical trials and 250,000+ patient records\" establishes the resource and its scale. \"closed-access precompetitive research projects where pharma, academia, the FDA, and technology partners collaborate\" establishes the separate partnership programs. The page names autoRECIST, Total Tumor Burden Index and the Immune-Related Adverse Events Initiative (since 2017). The page mentions no funding.",
     "fit": 48
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "nih-parent-r35-investigator-focused-par-28-037",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -7341,11 +7346,12 @@
     "confidence": "projected",
     "evidence": "simpler.grants.gov forecast page: \"Opportunity Number: PAR-28-037\"; status \"Forecasted\"; \"Posted Date: July 30, 2026\"; \"Estimated Post Date: May 27, 2027\"; \"Estimated Application Due Date: October 4, 2027\"; \"Estimated Award Date/Project Start: July 1, 2028\"; \"Award Ceiling/Floor: Not specified\". These establish the forecast status and timeline. The description says it will fund \"investigators at all career stages, including Early Stage Investigators (ESIs)\", which establishes the career-stage scope. The CFDA list includes 93.393-93.399 (NCI) and 93.307 (NIMHD), which shows these ICs are listed. Contact: ParentR35@mail.nih.gov. NIH ICO funding-considerations page, NCI entry: \"Applicants are expected to devote at least 6 months of calendar effort per year for the award\" and \"Funding applications over $750,000 in Direct Costs per year.\" These establish NCI's current R35 constraints.",
     "fit": 48
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "nibib-trailblazer-r21-new-esi",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "federal-adjacent",
@@ -7409,11 +7415,12 @@
     "confidence": "verified",
     "evidence": "simpler.grants.gov/opportunity/358886: FOR-EB-26-001, status \"Forecasted\", posted June 11, 2025; Estimated Post Date November 21, 2025; Estimated Application Due Date February 16, 2026; Estimated Award Date October 1, 2026; participating: NIBIB (lead), NEI, NIA, NCI, NCCIH; last updated May 13, 2026; targets \"NIH-defined New and Early Stage Investigators\". nibib.nih.gov/funding/trailblazer-r21-awards: \"$400,000 in direct costs over three years\", references PA-25-169. PA-25-169 NOFO: Expiration \"May 08, 2026 per NOT-EB-25-007\"; \"Application budgets may not exceed $400,000 direct costs over a maximum three-year funding period. No more than $200,000 direct costs may be requested in any single year\"; participating ICs NIBIB, NEI, NIA only; reissue of PAR-24-022.",
     "fit": 68
-   }
+   },
+   "promoted_on": "2026-10-15"
   },
   {
    "id": "gilead-oncology-health-equity-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "pharma-rfp",
@@ -7473,7 +7480,8 @@
     "confidence": "verified",
     "evidence": "Sponsor page (fetched 2026-10-08): the grant targets \"social and economic barriers that drive inequities\" in cancer, and says \"To date, Gilead has awarded more than $35million in health equity-related oncology\" grants. Geography is the US, Australia, Canada and Europe. The 2025 US recipient list includes Emory University, Mary Bird Perkins Cancer Center, Sisters Network Inc, Young Survival Coalition Inc, Living Beyond Breast Cancer and Breastcancer.Org. The page gives no deadlines, award sizes, eligibility rules or application link. Gilead Foundation release (Dec 2025, via OncoDaily): \"more than $3 million in new grants\" supporting \"23 nationwide programs led by 53 organizations\" for metastatic breast cancer. The 2023 funding announcement PDF on gilead.com returns 404.",
     "fit": 52
-   }
+   },
+   "promoted_on": "2026-10-15"
   }
  ]
 }
