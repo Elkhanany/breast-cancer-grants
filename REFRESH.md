@@ -1,13 +1,14 @@
 # Refresh procedure
 
-Runs Mondays and Thursdays. Every step below exists because skipping it has a specific failure mode.
-This is the definitive pass; the daily watcher and the weekly discovery sweep feed it. How the
-three fit together is in [PIPELINE.md](PIPELINE.md).
+Step 3 of [ROUTINE.md](ROUTINE.md), the cloud routine that runs every other day at about 2 AM
+Central. Every step below exists because skipping it has a specific failure mode. This is the
+definitive pass; the same run's crawl (step 1) and discovery sweep (step 2) feed it. How the three
+fit together is in [PIPELINE.md](PIPELINE.md).
 
 ## 1. Read current state
 
-Load `data/grants.json`, `data/changelog.json`, `data/signals.json` (what the daily crawl
-noticed) and `data/candidates.json` (what the discovery sweep found).
+Load `data/grants.json`, `data/changelog.json`, `data/signals.json` (what the crawl noticed)
+and `data/candidates.json` (what discovery found).
 
 ## 2. Decide what to re-verify
 
@@ -39,20 +40,30 @@ Priority order:
 
 The dated items above are state, not scripture. When one resolves, rewrite it here.
 
+Items 1 to 5 skip a record whose `last_verified` is under three days old unless its
+`next_deadline` is within 14 days. The routine runs every other day, a record read on the previous
+run has had no time to change, and the crawler still reads its page every run: a change raises a
+signal, and signals (item 0) are never skipped. That keeps each record on roughly the old Monday
+and Thursday cadence at about the same cost. ROUTINE.md step 3 builds the list in code.
+
 ## 3. Verify against primary sources only
 
 The sponsor's own page, the program announcement PDF, or Grants.gov. Never an aggregator.
 A landing page often does not carry dates; the announcement PDF usually does.
 
-Some sponsors refuse plain fetches (CPRIT's landing page, Komen, PCORI return 403). Open those in
-the in-app browser — `mcp__Claude_Browser__navigate`, then `get_page_text` — which renders the
-JavaScript tables a fetch never sees. A refused fetch is not a reason to skip a record.
+Some sponsors refuse plain fetches (CPRIT's landing page, Komen, PCORI return 403). In the cloud
+routine read those with `python3 tools/read_page.py <url>` — headless Chromium, which renders the
+JavaScript tables a fetch never sees and prints the page's visible text (`--links` adds its links).
+From the desktop app, the in-app browser does the same: `mcp__Claude_Browser__navigate`, then
+`get_page_text`. A refused fetch is not a reason to skip a record.
 
 Sponsor quirks worth knowing before you conclude a page is empty:
 
 - **Merck MISP** (`misp-investigator-studies.com/areas-of-interest`) forces a country selection
-  before it renders anything. In the browser choose United States and continue, then open the
-  Oncology therapeutic area; the compound and areas-of-interest list only appears after that. A
+  before it renders anything. Choose United States and continue, then open the Oncology
+  therapeutic area; the compound and areas-of-interest list only appears after that. With
+  read_page.py that is one command, `--click "United States" --click "<the gate's confirm
+  button>" --click "Oncology"`; read the page once without clicks to get the button's label. A
   plain fetch sees navigation labels and nothing else, so the crawler's RFP-line diff on this page
   detects new server-rendered text only; the list itself is a browser read.
 - **Gilead** (`.../oncology-rfp-opportunities`) prints "No current opportunities" under both
@@ -77,9 +88,9 @@ A page that merely fails to load is **not** evidence a program stopped. Mark it
 
 **Rolling industry portals need their own rule.** They have no cycle to miss, so "two consecutive
 cycles with no announcement" can never fire. Retire one when its page has returned 404 or 410 on
-three consecutive daily runs (the `not_found` signal carries the streak, and
-`data/fingerprints.json` records it) *and* a search finds no successor page. A 403 is not a 404 —
-blocked is not gone. Companies are acquired and programmes get folded into the acquirer's, so
+three consecutive crawler runs, about five days at the every-other-day cadence (the `not_found`
+signal carries the streak, and `data/fingerprints.json` records it) *and* a search finds no
+successor page. A 403 is not a 404 — blocked is not gone. Companies are acquired and programmes get folded into the acquirer's, so
 before retiring, check the acquirer: Seagen's programme now sits inside Pfizer's, for example.
 
 ## 5. Look for new opportunities
@@ -132,8 +143,9 @@ Before committing, in `data/grants.json`:
   freshness-focused site advertise a stale date.
 - Set `count` to the exact length of the `grants` array.
 
-CI asserts `count == len(grants)` and fails the deploy before the Pages steps run if they
-disagree. This is the single most likely way to break the site.
+Cloudflare's build runs `tools/validate.py`, which asserts `count == len(grants)`; if they
+disagree the build fails and the site stays on the previous deploy, so nothing from that run
+ships. This is the single most likely way to break the site.
 
 The site header and footer read their totals from the data, so they need no edit. `README.md`
 states the record count in prose, though — update it there when the count changes.
@@ -142,11 +154,12 @@ states the record count in prose, though — update it there when the count chan
 
 **Prepend** one entry to the `entries` array in `data/changelog.json` — newest first. The site
 renders `entries[0]` as "Last update" and shows only the first fourteen, so appending would pin
-the site to the original build date forever.
+the site to the original build date forever. The routine writes one entry per run, covering the
+crawl's date moves and this pass's changes together.
 
 ```json
 { "entries": [
-  { "date":"YYYY-MM-DD", "kind":"refresh", "summary":"one sentence",
+  { "date":"YYYY-MM-DD", "kind":"update", "summary":"one sentence",
     "added":0, "changed":0, "retired":0,
     "details":["specific change, old value to new value"] },
   ...
@@ -157,20 +170,24 @@ State old and new values for any date that moved, so `git log` is readable on it
 
 ## 9. Commit and push
 
+In the routine this is ROUTINE.md step 5: one commit for the whole run, pushed to GitLab `main`.
+
 ```bash
 git add -A
-git commit -m "refresh YYYY-MM-DD: +N added, N changed, N retired"
-git push
+git commit -m "update YYYY-MM-DD: +N added, N changed, N retired, +N candidates"
+git push origin HEAD:main
 ```
 
-**The push is the deploy.** The Pages workflow triggers on push to `main`; a commit that is never
-pushed changes nothing that anyone can see.
+**The push is the deploy.** Cloudflare Pages builds GitLab `main` on every push and publishes
+https://breast-cancer-grants.pages.dev/ within minutes; a commit that is never pushed changes
+nothing that anyone can see. If the push is rejected because `main` moved, rebase once and push
+again. Never force-push.
 
 ## 10. Report
 
-Anything closing within 30 days. Any date that changed, old and new. Anything newly posted.
-Anything previously projected that is now confirmed. If nothing changed and nothing closes
-within 30 days, say exactly that in two lines.
+ROUTINE.md step 6. Anything closing within 30 days. Any date that changed, old and new.
+Anything newly posted. Anything previously projected that is now confirmed. If nothing changed
+and nothing closes within 30 days, say exactly that in two lines.
 
 ---
 

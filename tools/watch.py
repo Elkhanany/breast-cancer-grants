@@ -33,7 +33,7 @@ GRANTS = "data/grants.json"
 FINGERPRINTS = "data/fingerprints.json"
 SIGNALS = "data/signals.json"
 
-UA = "Mozilla/5.0 (compatible; bc-grants-watch/1.0; +https://github.com/Elkhanany/breast-cancer-grants)"
+UA = "Mozilla/5.0 (compatible; bc-grants-watch/1.0; +https://breast-cancer-grants.pages.dev/)"
 TIMEOUT = 25
 WATCH_HORIZON_DAYS = 75
 ALWAYS_WATCH_SPONSORS = ("DOD CDMRP BCRP", "CPRIT")

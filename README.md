@@ -4,14 +4,14 @@ A continuously refreshed database of funding for breast cancer translational and
 research, weighted toward ER+/HER2+ disease, computational and real-world-data work, and
 investigator-initiated trials.
 
-**→ [elkhanany.github.io/breast-cancer-grants](https://elkhanany.github.io/breast-cancer-grants/)**
+**→ [breast-cancer-grants.pages.dev](https://breast-cancer-grants.pages.dev/)**
 
 329 mechanisms across six funder buckets: government, state, institutional, foundation,
 trial funding, and professional organizations.
 
 Industry portals are the awkward case: most are rolling, carry no deadline, and appear and
-disappear without notice. Every one of them is re-read daily, and the crawler also audits whether
-each company on a 27-name pharma and diagnostics watchlist is represented at all.
+disappear without notice. Every one of them is re-read on every run, and the crawler also audits
+whether each company on a 27-name pharma and diagnostics watchlist is represented at all.
 
 ## Why this exists
 
@@ -42,14 +42,22 @@ explains itself. Rows expand for eligibility, source line, and the sponsor link.
 
 ## How it updates
 
-Refreshed **Mondays and Thursdays**. The research step is not automated scraping. Each refresh
-re-reads the sponsor's own page, program announcement PDF, or Grants.gov, because judging
-whether a deadline moved or a program ended is not something a scraper can do reliably.
+Refreshed **every other day at about 2 AM Central** by one scheduled cloud routine
+([ROUTINE.md](ROUTINE.md)): a crawler notices which sponsor pages changed, a discovery sweep looks
+for funding the set lacks, and a refresh re-verifies what is due. The research step is not
+automated scraping. Each refresh re-reads the sponsor's own page, program announcement PDF, or
+Grants.gov, because judging whether a deadline moved or a program ended is not something a
+scraper can do reliably.
+
+Each run ends in one commit to `main` on GitLab, and the push is the deploy: Cloudflare Pages
+validates the data (`python3 tools/validate.py && node --check app.js`) and republishes the site
+within minutes.
 
 Programs that stop are marked `"status": "retired"` with a date and reason. They are never
 deleted, so a discontinued mechanism is not researched again from scratch.
 
-See [REFRESH.md](REFRESH.md) for the exact procedure each refresh follows.
+See [REFRESH.md](REFRESH.md) for the exact procedure each refresh follows, and
+[PIPELINE.md](PIPELINE.md) for how the three steps fit together.
 
 ## Data
 
