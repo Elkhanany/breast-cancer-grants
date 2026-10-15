@@ -4,6 +4,7 @@
     python3 tools/read_page.py URL                     # visible text of the rendered page
     python3 tools/read_page.py URL --links             # ... followed by every link, text -> href
     python3 tools/read_page.py URL --click "United States" --click "Continue"
+    python3 tools/read_page.py URL --wait-for "Request for Proposals"   # a slow JavaScript table
 
 For the pages a plain fetch cannot read: sponsors that answer 403 to scripts (CPRIT's landing
 page, Komen, PCORI), portals that build their tables in JavaScript, and gates that ask for a
@@ -11,9 +12,16 @@ country before showing anything (Merck MISP). Each --click runs in order once th
 It matches a button, link, tab, radio, label or visible text containing the words; a <select>
 option is chosen rather than clicked. Run once without --click to read the gate's own labels.
 
+"Settles" means the network has gone quiet and the visible text has then stopped changing for
+1.5 seconds (8 seconds at most), because a page that builds its content from a timer is still
+showing its loading shell when the network first goes quiet. Output that reads "Loading..." or
+"Please wait" means the page did not render, not that it is empty; --wait-for TEXT waits up to
+--timeout seconds for words the finished page is known to carry.
+
 Exit status: 0 the page loaded; 1 it loaded with HTTP 400 or above (the text is still printed,
-because a refusal page usually says why); 2 it did not load, or a --click target was not found.
-A page that exits 2 is unreachable, not empty: never edit a record on the strength of it.
+because a refusal page usually says why); 2 it did not load, a --click or --wait-for target was
+not found, or what rendered is a short page that still says it is loading. A page that exits 2
+is unreachable, not empty: never edit a record on the strength of it.
 
 Uses the Chromium already in PLAYWRIGHT_BROWSERS_PATH (/opt/pw-browsers in the cloud session).
 If the Python playwright module is missing it pip-installs the release that drives that build,
@@ -34,6 +42,10 @@ DEFAULT_BROWSERS = "/opt/pw-browsers"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/141.0.0.0 Safari/537.36")
 SETTLE_MS = 15000
+QUIET_MS, QUIET_CAP_MS, POLL_MS = 1500, 8000, 250
+# A short page that still says this has not rendered yet.
+LOADING_RE = re.compile(r"\b(loading|please wait)\b", re.I)
+LOADING_MAX_CHARS = 1000
 
 
 def ensure_playwright():
@@ -77,6 +89,23 @@ def settle(page, ms, timeout_error):
         page.wait_for_load_state("networkidle", timeout=ms)
     except timeout_error:
         pass  # long-polling pages never go idle; what has rendered by now is what there is
+    # networkidle fires after 500 ms without a request. A page that waits longer than that on a
+    # timer before fetching its table is still a loading shell here, so wait for the text itself
+    # to hold still. A page that never does (a ticker, a carousel) is read as it stands at the cap.
+    last, quiet, waited = None, 0, 0
+    while waited < QUIET_CAP_MS:
+        try:
+            text = page.inner_text("body", timeout=2000)
+        except Exception:
+            text = None  # mid-navigation after a click; not stable
+        if text is not None and text == last:
+            quiet += POLL_MS
+            if quiet >= QUIET_MS:
+                return
+        else:
+            last, quiet = text, 0
+        page.wait_for_timeout(POLL_MS)
+        waited += POLL_MS
 
 
 def click(page, text, ms):
@@ -124,6 +153,8 @@ def main():
     ap.add_argument("url")
     ap.add_argument("--click", action="append", default=[], metavar="TEXT",
                     help="click (or choose) the element with this text once the page settles; repeatable, in order")
+    ap.add_argument("--wait-for", metavar="TEXT",
+                    help="after any clicks, wait up to --timeout seconds for this text to be visible")
     ap.add_argument("--links", action="store_true", help="also print every link on the page, text -> href")
     ap.add_argument("--html", action="store_true", help="print the rendered HTML instead of the visible text")
     ap.add_argument("--timeout", type=float, default=45, help="seconds allowed for the first load (default 45)")
@@ -180,12 +211,31 @@ def main():
             settle(page, 10000, TimeoutError)
             page.wait_for_timeout(500)
 
+        if args.wait_for:
+            try:
+                page.get_by_text(args.wait_for).filter(visible=True).first.wait_for(
+                    state="visible", timeout=args.timeout * 1000)
+            except Error:
+                print(f"read_page: {args.wait_for!r} never appeared within {args.timeout:g}s; "
+                      "the page as it stands:", file=sys.stderr)
+                print(visible_text(page))
+                browser.close()
+                return 2
+            settle(page, 5000, TimeoutError)
+
         body = page.content() if args.html else visible_text(page)
         print(body)
         if args.links:
             print("\n--- links ---")
             print("\n".join(links(page)))
         print(f"read_page: HTTP {status} {page.url} ({len(body)} chars)", file=sys.stderr)
+        shell = visible_text(page) if args.html else body
+        if not args.wait_for and len(shell) < LOADING_MAX_CHARS and LOADING_RE.search(shell):
+            print("read_page: this is a loading shell, not the page: it did not finish rendering. "
+                  "Retry with --wait-for \"<words the page should carry>\"; never read it as empty.",
+                  file=sys.stderr)
+            browser.close()
+            return 2
         browser.close()
         return 1 if status >= 400 else 0
 
