@@ -8,9 +8,17 @@ export const meta = {
   ],
 }
 
-const ROOT = 'C:/Users/wess2/Dropbox/claude_code/bc_grants'
+// root is the clone the run works in (the cloud routine passes it); a desktop run that omits it
+// falls back to the owner's Dropbox clone.
+const ROOT = args.root || 'C:/Users/wess2/Dropbox/claude_code/bc_grants'
 const HELD = Array.isArray(args.held) ? args.held : []   // optional; finders read grants.json directly
 const TODAY = args.today
+
+// WebFetch cannot resolve hosts in some cloud containers, and several sponsors refuse it outright.
+const FETCH = `If WebFetch fails or comes back empty (a DNS error, a 403, a JavaScript shell), read the
+same page with curl -sSL (a PDF: save it in your scratch directory, then pdftotext FILE -), or
+with python3 ${ROOT}/tools/read_page.py <url> for JavaScript or 403 pages: it renders the page in
+headless Chromium and prints the visible text (--links adds the links).`
 
 const PROFILE = `
 THE INVESTIGATOR (never name or identify them; write "the PI"):
@@ -47,7 +55,7 @@ research programs, cooperative-group career programs), or (b) advertised but mis
 cycle page) where you can.
 
 METHOD: use WebSearch to find candidates, then WebFetch the sponsor's own page for each before
-returning it. Return ONLY candidates you fetched a primary page for. Prefer fewer, real finds over
+returning it. ${FETCH} Return ONLY candidates you fetched a primary page for. Prefer fewer, real finds over
 many speculative ones. Hard cap: 8 candidates. If a lens genuinely yields nothing new, return an
 empty list — that is a valid, useful answer.
 
@@ -165,7 +173,7 @@ and diagnostics/data RFPs (Exact Sciences, Agendia, Guardant, Natera, Tempus, Ca
 Medicine). For each, return ONLY a call that is open or announced with a window — not the standing
 portal — with its exact scope, submission window, and what it provides (funding, drug, data).
 Fetch the sponsor's own RFP page; many portals are JavaScript applications that return little to
-a plain fetch — if WebFetch shows nothing, say so in lens_notes rather than guessing.
+a plain fetch — if WebFetch and read_page.py both show nothing, say so in lens_notes rather than guessing.
 Never write any file inside ${ROOT}; use only your scratch directory.` },
 ]
 
@@ -283,7 +291,7 @@ const results = await pipeline(
 VERIFY THIS CANDIDATE against its primary source. Your default is scepticism: WebFetch the URL
 below (and one level of linked program/eligibility/announcement pages if needed) and confirm
 what the page actually says TODAY, ${TODAY}. Do not trust the finder's summary; re-derive
-every field from the page. If the page is unreachable, set confidence "unverified" and say so.
+every field from the page. ${FETCH} If the page is unreachable, set confidence "unverified" and say so.
 Check ${ROOT}/data/grants.json for a held record that is really the same mechanism; if so, set
 duplicate_of_held_id and still fill the fields (they may enrich the held record).
 
@@ -345,7 +353,7 @@ if (critique && critique.candidates.length) {
     agent(`${PROFILE}
 
 VERIFY THIS CANDIDATE against its primary source, today ${TODAY}. WebFetch ${c.url} and re-derive
-every field from what the page says. Check ${ROOT}/data/grants.json for a held record that is the
+every field from what the page says. ${FETCH} Check ${ROOT}/data/grants.json for a held record that is the
 same mechanism and set duplicate_of_held_id if so. Never guess a date the page does not state.
 Neutral third person ("the PI"); never name the investigator.
 

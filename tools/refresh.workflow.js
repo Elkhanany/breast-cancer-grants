@@ -8,8 +8,10 @@ export const meta = {
 }
 
 // args: { today: 'YYYY-MM-DD', due: [{id, sponsor, program, url, loi_deadline, full_deadline,
-//         next_deadline, deadline_status, confidence, status}] }
-const ROOT = 'C:/Users/wess2/Dropbox/claude_code/bc_grants'
+//         next_deadline, deadline_status, confidence, status}], root: '/path/to/the/clone' }
+// root is the clone the run works in (the cloud routine passes it); a desktop run that omits it
+// falls back to the owner's Dropbox clone.
+const ROOT = args.root || 'C:/Users/wess2/Dropbox/claude_code/bc_grants'
 const TODAY = args.today
 const DUE = Array.isArray(args.due) ? args.due : []
 const BATCH = 5
@@ -19,7 +21,11 @@ You are re-verifying records in a breast cancer research funding database (${ROO
 on ${TODAY}. Primary sources only: the sponsor's own page, the program announcement PDF, or
 Grants.gov (api.grants.gov or grants.gov). Never an aggregator, never memory. Use WebFetch on the
 record's url; if that is a landing page without dates, follow the announcement/guidelines link one
-level down. Grants.gov detail pages render with JavaScript — for anything federal, prefer the API:
+level down. If WebFetch fails or comes back empty (a DNS error, a 403, a JavaScript shell), read the
+same page with curl -sSL (a PDF: save it in your scratch directory, then pdftotext FILE -), or
+with python3 ${ROOT}/tools/read_page.py <url> for JavaScript or 403 pages: it renders the page in
+headless Chromium and prints the visible text (--links adds the links).
+Grants.gov detail pages render with JavaScript — for anything federal, prefer the API:
 POST https://api.grants.gov/v1/api/search2 with {"keyword":"<opportunity number>"} or
 POST https://api.grants.gov/v1/api/fetchOpportunity with {"opportunityId":<id from the url>}.
 
