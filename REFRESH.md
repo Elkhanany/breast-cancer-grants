@@ -121,6 +121,9 @@ For each entry in `data/candidates.json`:
   today and `status: "active"`. Set the candidate's `decision` to `"promoted"` and add
   `promoted_on`. Count it in the changelog's `added`.
 - anything else stays `"pending"` and is re-examined next pass.
+- a `verification.reason` that opens with "Shares its URL with" or "Possible revival of retired
+  record" is the merge asking for one more look before promotion. ROUTINE.md step 3 says what to
+  check.
 
 Batch the re-verification: split records due for a check into groups and run one agent per group
 against primary sources, returning a structured diff. Any date that moved is re-read by a second,

@@ -118,8 +118,13 @@ and searches for what both missed, because those are the least indexed and the m
 
 Verified finds land in `candidates.json`. They appear on the site as soon as the run's push
 deploys, under "Newly surfaced", marked as awaiting promotion, so nothing is hidden while it waits
-for the refresh of a later run. A find that is really news about a held record is not added: it
-goes into that run's step 3 due list instead.
+for the refresh of a later run. A find that is really news about a held record is not added:
+step 3 reads it beside that record, and either applies it or records a new posted cycle. "The same
+mechanism" means an agent named the held record, or sponsor and program match. A shared URL does
+not count, because one portal page lists many calls. So a new Pfizer RFP or PCORI cycle on a page
+a held record already cites becomes a candidate, with a note that step 3 checks before promoting.
+A find that is already a candidate is never added twice. If it is still pending and today's
+verifier reads it differently (it has opened, say), its verification is brought up to date.
 
 The lenses, in the order they matter to this profile:
 

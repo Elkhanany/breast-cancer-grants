@@ -186,19 +186,42 @@ def norm(s):  # the workflow's own normaliser
     s = re.sub(r"https?://(www\.)?", "", (s or "").lower(), count=1)
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
-held_ids = {g["id"] for g in held}
-held_key = {}  # url and sponsor+program; not watch_urls, where a new call is its own record
+STOP = {"the", "a", "an", "of", "for", "and", "to", "in", "on", "with", "program", "programme"}
+def words(s):  # "Seed Grants" and "Seed Grant" match
+    return {w[:-1] if len(w) > 3 and w.endswith("s") else w for w in norm(s).split()} - STOP
+def same_program(a, b):
+    """Two records on one URL: the same call reworded, or two calls? Program words without the
+    sponsor's, compared whole. Among the records already sharing a URL it picks out the five
+    pairs that are one award entered twice (four are in REFRESH.md's reconciliation task, the
+    fifth is the BCRF-AACR NextGen pair) and no distinct pair; the closest distinct pair,
+    "V Clinical Scholar Grant" and "V Scholar Grant", scores 0.67."""
+    wa, wb = words(a["program"]) - words(a["sponsor"]), words(b["program"]) - words(b["sponsor"])
+    na, nb = {w for w in wa if re.search(r"\d", w)}, {w for w in wb if re.search(r"\d", w)}
+    if na and nb and na != nb:  # "Cycle 1 2027" and "Cycle 2 2027": a different year or cycle
+        return False
+    wa, wb = wa - na, wb - nb
+    return bool(wa and wb) and len(wa & wb) / len(wa | wb) >= 0.75
+
+# Identity is sponsor + program, or an id one of the agents named. A URL is not: a portal page
+# carries many calls (PCORI's four cycles, ARPA-H, Pfizer Competitive Grants beside its
+# atirmociclib RFP, the DLDCCC list), so a shared URL is a note for step 3, never a merge.
+by_id = {g["id"]: g for g in held}
+held_prog, held_url = {}, {}
 for g in held:
-    for k in (norm(g.get("url")), norm(g["sponsor"] + " " + g["program"])):
-        if k:
-            held_key.setdefault(k, g["id"])
-cand_key = {}
+    held_prog.setdefault(norm(g["sponsor"] + " " + g["program"]), g["id"])
+    held_url.setdefault(norm(g.get("url")), []).append(g["id"])
+cand_by_id = {c["id"]: c for c in cands}
+cand_prog, cand_url = {}, {}
 for c in cands:
     r = c.get("record") or {}
-    for k in (norm(r.get("url")), norm((r.get("sponsor") or "") + " " + (r.get("program") or ""))):
-        if k:
-            cand_key.setdefault(k, f'{c["id"]} ({c["decision"]})')
-taken = held_ids | {c["id"] for c in cands}
+    cand_prog.setdefault(norm((r.get("sponsor") or "") + " " + (r.get("program") or "")), c)
+    cand_url.setdefault(norm(r.get("url")), []).append(c)
+taken = set(by_id) | set(cand_by_id)
+VFIELDS = ("focus", "breast_specific", "er_her2_fit", "award_usd", "award_text", "duration_years", "indirects",
+           "loi_deadline", "full_deadline", "next_deadline", "deadline_status", "cycle", "typical_month",
+           "verdict", "flags", "track_gate", "career_cap", "limited_submission", "eligibility", "notes",
+           "confidence", "evidence")
+MATERIAL = ("loi_deadline", "full_deadline", "next_deadline", "deadline_status", "confidence")
 
 def slug(sponsor, program):
     words = []
@@ -217,40 +240,74 @@ def slug(sponsor, program):
     taken.add(out)
     return out
 
-added, enrich, skipped = [], [], []
+def fit_of(v):
+    return max(0, min(140, v["fit"] if isinstance(v.get("fit"), (int, float)) else 0))
+
+def verification(v, note=""):
+    return {"real": v["real"], "active": v["active"], "eligible_plausible": v["eligible_plausible"],
+            "duplicate_of": None, "reason": note + v["reason"]}
+
+added, enrich, reverified, flagged, skipped = [], [], [], [], []
 for x in res.get("candidates") or []:
     c, v = x["candidate"], x["v"]
     name = f'{c["sponsor"]}: {c["program"]}'
     if not v.get("real"):
         skipped.append(f"not real: {name}"); continue
-    dup = v.get("duplicate_of_held_id") or c.get("overlaps_existing_id") or ""
-    hit = dup if dup in held_ids else held_key.get(norm(c["url"])) or held_key.get(norm(c["sponsor"] + " " + c["program"]))
-    if hit:  # new information about a held record: step 3 re-reads it
-        enrich.append({"held_id": hit, "lens": x["lens"], "url": c["url"], "evidence": v.get("evidence", "")})
+    kp, ku = norm(c["sponsor"] + " " + c["program"]), norm(c["url"])
+    named = [i for i in (v.get("duplicate_of_held_id"), c.get("overlaps_existing_id")) if i]
+    hits = [i for i in named + [held_prog.get(kp)] if i in by_id]
+    hid = next((i for i in hits if by_id[i]["status"] == "active"), hits[0] if hits else None)
+    if hid and by_id[hid]["status"] == "active":
+        # The same mechanism as a held record: the whole find goes to step 3, which reads it.
+        enrich.append({"held_id": hid, "lens": x["lens"], "candidate": c, "v": v}); continue
+    rep = (next((cand_by_id[i] for i in named if i in cand_by_id), None) or cand_prog.get(kp)
+           or next((o for o in cand_url.get(ku, []) if same_program(o["record"], c)), None))
+    if rep:
+        # Never resurrect a reject, never re-add a promotion. A pending one takes today's verdict
+        # when the verifier read the page and reached a different one, so a call that has opened
+        # since it was found can be promoted instead of waiting on a stale verification.
+        r, old = rep["record"], rep["verification"]
+        changed = (any(old.get(k) != v.get(k) for k in ("active", "eligible_plausible"))
+                   or any(r.get(k) != v.get(k) for k in MATERIAL))
+        if (rep["decision"] == "pending" and v.get("confidence") != "unverified" and changed
+                and rep["id"] not in reverified):
+            for k in VFIELDS:
+                r[k] = v.get(k)
+            r["fit"], r["last_verified"] = fit_of(v), today
+            rep["verification"] = verification(v)
+            reverified.append(rep["id"])
+        else:
+            skipped.append(f'repeat of candidate {rep["id"]} ({rep["decision"]}): {name}')
         continue
-    rep = cand_key.get(norm(c["url"])) or cand_key.get(norm(c["sponsor"] + " " + c["program"]))
-    if rep:  # never resurrect a reject, never re-add a promotion
-        skipped.append(f"repeat of candidate {rep}: {name}"); continue
+    note = ""
+    if hid:  # sponsor and program, or an agent, name a retired record: it may be running again
+        note = f"Possible revival of retired record {hid}; promote only if its page shows a current cycle. "
+    elif held_url.get(ku):
+        note = (f"Shares its URL with held record(s) {', '.join(held_url[ku])}, but neither agent called it the "
+                "same mechanism; step 3 checks it is a distinct call before promoting. ")
+    elif cand_url.get(ku):
+        note = (f"Shares its URL with candidate(s) {', '.join(o['id'] for o in cand_url[ku])} under a different "
+                "program name; step 3 checks it is a distinct call before promoting. ")
+    elif named:
+        note = f"An agent named {', '.join(named)}, which is not a held or candidate id. "
     cid = slug(c["sponsor"], c["program"])
-    fit = v["fit"] if isinstance(v.get("fit"), (int, float)) else 0
     rec = {"id": cid, "sponsor": c["sponsor"], "sponsor_full": c["sponsor_full"], "program": c["program"],
            "url": c["url"], "status": "active", "first_seen": today, "last_verified": today,
            "retired_on": None, "retired_reason": None, "category": c["category"], "tier": c["tier"]}
-    for k in ("focus", "breast_specific", "er_her2_fit", "award_usd", "award_text", "duration_years", "indirects",
-              "loi_deadline", "full_deadline", "next_deadline", "deadline_status", "cycle", "typical_month",
-              "verdict", "flags", "track_gate", "career_cap", "limited_submission", "eligibility", "notes",
-              "confidence", "evidence"):
+    for k in VFIELDS:
         rec[k] = v.get(k)
-    rec["fit"] = max(0, min(140, fit))
-    cands.append({"id": cid, "decision": "pending", "provides": c["provides"],
-                  "provenance": {"lens": x["lens"], "found_on": today, "run": "discovery",
-                                 "finder_summary": c["why_relevant"], "proven": c["proven"]},
-                  "verification": {"real": v["real"], "active": v["active"],
-                                   "eligible_plausible": v["eligible_plausible"], "duplicate_of": None,
-                                   "reason": v["reason"]},
-                  "record": rec})
-    cand_key[norm(c["url"])] = cand_key[norm(c["sponsor"] + " " + c["program"])] = f"{cid} (pending)"
+    rec["fit"] = fit_of(v)
+    new = {"id": cid, "decision": "pending", "provides": c["provides"],
+           "provenance": {"lens": x["lens"], "found_on": today, "run": "discovery",
+                          "finder_summary": c["why_relevant"], "proven": c["proven"]},
+           "verification": verification(v, note), "record": rec}
+    cands.append(new)
+    cand_by_id[cid] = new
+    cand_prog.setdefault(kp, new)
+    cand_url.setdefault(ku, []).append(new)
     added.append(cid)
+    if note:
+        flagged.append(f"{cid}: {note.strip()}")
 
 C["generated"] = today
 with open("data/candidates.json", "w", encoding="utf-8") as fh:
@@ -258,8 +315,11 @@ with open("data/candidates.json", "w", encoding="utf-8") as fh:
 with open(f"{RUN}/enrich.json", "w", encoding="utf-8") as fh:
     json.dump(enrich, fh, indent=1, ensure_ascii=False)
 print(f"+{len(added)} candidates:", ", ".join(added) or "none")
-print(f"{len(enrich)} enrichments for held records (step 3 re-reads them):",
+print(f"{len(enrich)} enrichments for held records (step 3 reads each):",
       ", ".join(sorted({e['held_id'] for e in enrich})) or "none")
+print(f"{len(reverified)} pending candidates re-verified:", ", ".join(reverified) or "none")
+for s in flagged:
+    print("flagged", s)
 for s in skipped:
     print("skipped", s)
 EOF
@@ -274,11 +334,31 @@ The merge follows every discovery commit so far:
   today. The finder supplies sponsor, sponsor_full, program, url, category, tier, provides,
   `finder_summary` (its `why_relevant`) and `proven`. The verifier supplies everything else,
   `evidence` and `reason` included. `fit` is clamped to 0–140.
-- **Not added.** A find the verifier calls not real. A find tied to a held record, by
-  `duplicate_of_held_id`, by `overlaps_existing_id`, or by a URL or sponsor-and-program match with
-  `grants.json`: that is an enrichment, written to `/tmp/bc-grants-run/enrich.json` for step 3 to
-  re-read. A repeat of any existing candidate, by URL or sponsor and program, whatever its
-  decision: a `"reject"` is never resurrected and a `"promoted"` never re-added.
+- **Identity.** The old merges were made by a model that judged identity; `duplicate_of` is null on
+  every candidate they wrote. Here two things establish it: an id the verifier
+  (`duplicate_of_held_id`) or the finder (`overlaps_existing_id`) names, or the same sponsor and
+  program. A URL does not. Nineteen URLs in `grants.json` each carry several distinct records,
+  because a portal page lists many calls. A new Pfizer RFP on the Competitive Grants page, a new
+  PCORI cycle or a new DLDCCC listing is a new find, not news about the record that happens to
+  share the page.
+- **Not added: enrichments.** A find tied to an active held record. The whole find, the finder's
+  `candidate` and the verifier's `v`, goes to `/tmp/bc-grants-run/enrich.json`, and step 3 reads
+  each one.
+- **Not added: repeats.** A repeat of an existing candidate, whatever its decision, by a named id,
+  sponsor and program, or the same URL with much the same program name (`same_program`: at least
+  three quarters of the words in common once the sponsor's are set aside, and no conflicting year
+  or cycle number). A `"reject"` is never resurrected and a `"promoted"` never
+  re-added. A `"pending"` one is re-verified in place when today's verifier read the page (its
+  `confidence` is not `unverified`) and changed `active`, `eligible_plausible`, a date,
+  `deadline_status` or `confidence`. The record's verifier fields, `fit`, `last_verified` and
+  `verification` are replaced. `id`, `first_seen`, `provenance` and the finder's fields stay. That
+  way a candidate found while its call was closed can be promoted once the call opens, and does
+  not wait on its first verdict forever. A repeat with nothing new is skipped, so the file does
+  not churn every run.
+- **Added with a note** at the front of `verification.reason`, for step 3. A find that shares a
+  held record's or a candidate's URL without being the same mechanism, and a find that matches a
+  *retired* record ("Possible revival of retired record ..."). A retired match is never dropped:
+  the program may be running again.
 - **Kept as pending** even when `active` or `eligible_plausible` is false, as before. The site
   shows them as awaiting promotion, and step 3 promotes only what passes.
 - **Ids** are a slug of sponsor and program, at most 60 characters, unique across both files.
@@ -290,6 +370,13 @@ If the workflow fails or returns nothing, skip the merge, say so in the report a
 ## 3. Refresh
 
 Follow [REFRESH.md](REFRESH.md) steps 1 to 8, with these specifics.
+
+**Snapshot first.** Everything steps 1 and 2 kept, before step 3 writes anything. If step 3 does
+not finish, the run falls back to this (see "When a step fails midway").
+
+```bash
+cd /tmp/bc-grants && mkdir -p /tmp/bc-grants-run/snap && cp data/grants.json data/candidates.json /tmp/bc-grants-run/snap/
+```
 
 **Due list.** Step 2 of REFRESH.md, built by code. Pass the ids step 1 settled as one
 comma-separated argument; the discovery enrichments are read from `/tmp/bc-grants-run/enrich.json`.
@@ -381,19 +468,46 @@ args:       {"today": "<TODAY>", "due": [ ...due.json... ], "root": "/tmp/bc-gra
   `next_deadline` cleared per REFRESH.md step 6 — plus the enrichment the sponsor posts
   (`awards_per_cycle`, `success_rate`, `program_contact`, `notes_addendum`) where it is new.
 - `unreachable`: read it yourself once, curl then read_page.py. If that fails too, it changes
-  nothing but what REFRESH.md step 4 allows.
+  nothing (Ground rules, for the one exception) and goes in the report.
 - `failed`: those batches' records wait for the next run.
 
 **Signals the fan-out cannot settle.** `coverage_gap`, `new_federal_opportunity` and the passages
 an `rfp_changed` signal added are for you, not the fan-out; handle them as REFRESH.md step 2
 item 0 says. A time-limited RFP becomes its own posted-cycle record.
 
+**Enrichments.** The fan-out re-reads each enriched record's own page, which may not be where
+discovery found the news. So read every entry in `/tmp/bc-grants-run/enrich.json` yourself: the
+held record beside the find's `candidate` (what the finder saw, its `url`) and `v` (the
+verifier's complete record, `evidence` quoting the page). It is one of two things.
+
+- **News about that record:** a date, an award change, a contact, terms. A date is written only
+  if the fan-out's two reads confirmed it. A date the find gives that the fan-out did not confirm
+  is reported as disputed. Other fields the find's evidence quotes from the primary page (award,
+  eligibility, `program_contact`, a notes addendum) are applied where the fan-out did not
+  contradict them.
+- **A distinct mechanism on that record's page:** a new cycle, a time-limited RFP, a
+  sub-program. Open its page once more yourself, then record it as its own posted-cycle record
+  (REFRESH.md step 2 item 0, every field per step 5, built from `v`) and count it in `added`. The
+  standing record keeps its own dates.
+
+**Retired records.** The due list ignores retired ids. A find that names one was added as a
+candidate with a "Possible revival" note, so it is judged at promotion, below.
+
 **New opportunities.** REFRESH.md step 5's search is what step 2 just did. Skip it.
 
 **Promotion.** REFRESH.md step 5b, for candidates whose `provenance.found_on` is before today
 only. A find spends at least one run on the site under "Newly surfaced", so the owner can set
 `"reject"` before it enters the curated set. The desktop pipeline gave the same window between
-Wednesday's sweep and Thursday's refresh.
+Wednesday's sweep and Thursday's refresh. A candidate whose `verification.reason` begins with a
+note from the merge needs one more check before promotion:
+
+- "Shares its URL with ...": read both. If it is the held record or candidate after all, fold
+  anything new into that record as an enrichment would be, set this candidate's `decision` to
+  `"reject"` and `verification.duplicate_of` to the id it duplicates, so it is never surfaced
+  again. If it is a distinct call, promote it as usual.
+- "Possible revival of retired record ...": promote only if its own page shows a current or
+  announced cycle. Its notes name the retired id. The retired record stays retired, because
+  nothing is deleted and its history stands.
 
 **Top-level fields and changelog.** REFRESH.md steps 7 and 8. `generated` is today and `count`
 is exact on every run, with README.md's count updated when it moves. Prepend one changelog entry
