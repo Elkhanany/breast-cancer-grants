@@ -24,6 +24,12 @@ for `main`.
   and the proxy authenticates plain `https://gitlab.com/...` requests.
 - **Browser:** headless Chromium is preinstalled (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`,
   chromium-1194). Never run `playwright install`.
+- **Permissions:** nobody is awake at 2 AM to approve a prompt. The task's permission mode must let
+  Bash, Write and Edit work in `/tmp/bc-grants` and `/tmp/bc-grants-run`, which are outside the
+  session's own checkout, without asking. It must also let the Workflow tool's agents run Bash:
+  their fallback to curl and read_page.py depends on it. Fire the task once by hand and read its
+  report before trusting the schedule. A run that stalls on a prompt, or whose report lists every
+  403 sponsor as unreadable, has a permission problem, not a data problem.
 - **The session's own checkout** may be a stale GitHub copy. It is never read, edited or pushed,
   and it may not contain this file, so the task's prompt carries the clone itself:
 
@@ -59,8 +65,15 @@ for `main`.
   - Gilead's oncology RFP page saying "No current opportunities" under both headings means nothing
     is open. That sentence disappearing is the signal.
 - **A page that failed to load changes nothing.** Not its dates, not its status, not its
-  retirement. If WebFetch, curl and read_page.py all fail, the record waits for the next run, and
-  the only mark it may get is the one REFRESH.md step 4 allows.
+  retirement, not its `confidence`. If WebFetch, curl and read_page.py all fail, the record waits
+  for the next run and the page goes in the report. A datacenter IP is refused more often than the
+  desktop's in-app browser was, so a mark set on one refused read would flip blocked sponsors
+  between verified and unverified on every run. The past runs kept `verified` when a page could
+  not be re-read. One exception: the crawler's signal for the page says it has failed three or
+  more runs in a row (`Failed N run(s) in a row`, the page's `fail_streak` in `fingerprints.json`),
+  and nothing this run could read it either. Then set `confidence: "unverified"`, because nobody
+  has read that date for about a week. The other edit such a record can get is step 4's: a
+  lapsed `next_deadline` derived from its own dates.
 - **Primary sources only**, as everywhere in this repository.
 
 ## Cadence
@@ -154,8 +167,8 @@ Then the model step, exactly as PIPELINE.md §1 describes it, reading `data/sign
   ignore it; `fingerprints.json` already holds the number, so it is never reported twice.
 
 Keep the ids whose signals this step settled completely, applied or dismissed as boilerplate.
-Step 3 does not send them to the fan-out again. Nothing is committed yet; every step's changes go into step 5's one
-commit.
+Step 3 does not send them to the fan-out again. Nothing is committed yet; every step's changes go
+into step 5's one commit.
 
 ## 2. Discover
 
@@ -590,14 +603,28 @@ EOF
 
 ## When a step fails midway
 
-- **Never commit anything that fails step 4.** If the data cannot be fixed, discard the edits that
-  broke it (`git checkout -- data/grants.json data/changelog.json README.md`), validate what is
-  left, and commit that.
+- **Never commit anything that fails step 4.** Fix the record that fails. If it cannot be fixed,
+  take the step 3 path below, which drops everything step 3 wrote. If validation still fails,
+  step 1's moves are the cause. Drop them, and with them the crawler's memory and the changelog
+  entry that described them, so the signals that found them come back next run:
+  `git checkout -- data/grants.json data/fingerprints.json data/signals.json data/changelog.json README.md`.
+  Commit step 2's candidates alone if they validate.
 - **Step 2 fails:** no candidates this run. Go on.
-- **Step 3 does not finish, or the Workflow tool is unavailable:** first restore the crawler's
-  memory, `git checkout -- data/fingerprints.json data/signals.json`, so the next run raises the
-  same signals again. A signal raised twice costs one look; a signal lost is a deadline nobody
-  reads. Step 1's date moves and step 2's candidates are still worth keeping if they validate:
-  commit them with "(refresh incomplete)" at the end of the subject line, and report what failed.
-  Never try to do the fan-out by hand; it is a configuration problem to fix, not to work around.
+- **Step 3 does not finish, or the Workflow tool is unavailable:** go back to the snapshot taken
+  at the start of step 3, and restore the crawler's memory.
+
+  ```bash
+  cd /tmp/bc-grants && cp /tmp/bc-grants-run/snap/grants.json /tmp/bc-grants-run/snap/candidates.json data/
+  git checkout -- data/fingerprints.json data/signals.json data/changelog.json README.md
+  ```
+
+  The snapshot drops whatever step 3 had half-applied, promotions included, so no candidate says
+  `"promoted"` without its record; the next run redoes it. The memory goes back so the next run
+  raises the same signals again. A signal raised twice costs one look; a signal lost is a deadline
+  nobody reads. What is left, step 1's date moves and step 2's candidates, is worth keeping if it
+  validates. Set `generated` to today and `count` exact, and prepend one changelog entry
+  (`"kind": "update"`, step 1's moves old → new in `details`, a summary ending "refresh
+  incomplete"), so the site's "Last update" says what happened. Commit with "(refresh incomplete)"
+  at the end of the subject line, and report what failed. Never try to do the fan-out by hand;
+  it is a configuration problem to fix, not to work around.
 - **Nothing worth keeping is left:** commit nothing, and report why.

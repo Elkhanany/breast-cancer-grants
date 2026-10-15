@@ -88,8 +88,10 @@ two consecutive cycles pass with no announcement. Do not delete it. Set:
 "status": "retired", "retired_on": "YYYY-MM-DD", "retired_reason": "one sentence"
 ```
 
-A page that merely fails to load is **not** evidence a program stopped. Mark it
-`confidence: "unverified"` and try again next run.
+A page that merely fails to load is **not** evidence a program stopped, or of anything else.
+Change nothing and try again next run; a record that was `verified` stays `verified` through one
+refused read. Only when the crawler's signal shows the page failing three runs in a row (its fail
+streak) and no other read this run succeeded does the record become `confidence: "unverified"`.
 
 **Rolling industry portals need their own rule.** They have no cycle to miss, so "two consecutive
 cycles with no announcement" can never fire. Retire one when its page has returned 404 or 410 on

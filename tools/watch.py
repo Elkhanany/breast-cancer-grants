@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily watch: notice change without spending a model on pages that have not changed.
+"""Watch: notice change without spending a model on pages that have not changed.
 
     python tools/watch.py          # compare against data/fingerprints.json, write data/signals.json
     python tools/watch.py --seed   # record today's state as the baseline, emit no change signals
@@ -175,7 +175,7 @@ def rfp_lines(text):
 
 
 def watchlist(grants, today):
-    """Which records earn a daily look. Dedupe by URL; many records share a landing page."""
+    """Which records earn a look every run. Dedupe by URL; many records share a landing page."""
     horizon = (today + timedelta(days=WATCH_HORIZON_DAYS)).isoformat()
     by_url = {}
     for g in grants:
