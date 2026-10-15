@@ -330,15 +330,15 @@ function wireRunway(){
     document.querySelector('.tablewrap').scrollIntoView({behavior:'smooth',block:'start'});
   });
 }
-/* Discovery finds wait here, visible, until the Mon/Thu pass promotes them into the main set. */
+/* Discovery finds wait here, visible, until a later run's refresh promotes them into the main set. */
 function newly(){
   const bar=document.getElementById('newbar'), pane=document.getElementById('newpane');
   if(!bar||!pane) return;
   const n=CANDIDATES.length;
-  // blocked/unreachable pages recur every day by design; only substantive signals earn a mention
+  // blocked/unreachable pages recur on every run by design; only substantive signals earn a mention
   const pend=SIGNALS && SIGNALS.signals ? SIGNALS.signals.filter(s=>!['baseline','blocked','unreachable'].includes(s.kind)).length : 0;
   const sl=document.getElementById('sigline');
-  if(sl) sl.innerHTML = pend ? `<span class="sigline">${pend} watch signal${pend===1?'':'s'} from the daily crawl on ${esc(fmt(SIGNALS.generated)||SIGNALS.generated)} await the same pass.</span>` : '';
+  if(sl) sl.innerHTML = pend ? `<span class="sigline">${pend} watch signal${pend===1?'':'s'} from the crawl on ${esc(fmt(SIGNALS.generated)||SIGNALS.generated)}, read by that run's refresh.</span>` : '';
   bar.hidden = !n && !pend;
   document.getElementById('newcount').textContent=n;
   document.getElementById('newnoun').textContent = n===1?'mechanism':'mechanisms';
