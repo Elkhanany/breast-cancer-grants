@@ -519,8 +519,8 @@ note from the merge needs one more check before promotion:
   `"reject"` and `verification.duplicate_of` to the id it duplicates, so it is never surfaced
   again. If it is a distinct call, promote it as usual.
 - "Possible revival of retired record ...": promote only if its own page shows a current or
-  announced cycle. Its notes name the retired id. The retired record stays retired, because
-  nothing is deleted and its history stands.
+  announced cycle, and name the retired id in the promoted record's `notes`. The retired record
+  stays retired, because nothing is deleted and its history stands.
 
 **Top-level fields and changelog.** REFRESH.md steps 7 and 8. `generated` is today and `count`
 is exact on every run, with README.md's count updated when it moves. Prepend one changelog entry
