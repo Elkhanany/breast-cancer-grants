@@ -25,7 +25,10 @@ Priority order:
    every month. `not_found` is a page returning 404 or 410; see step 4. `blocked` or `unreachable` means
    the script could not read the page — read it yourself. `new_federal_opportunity` is a
    Grants.gov number never seen before — one line of triage each, and record the relevant ones.
-1. Anything with a `next_deadline` inside the next 60 days.
+1. Anything with a `next_deadline` inside the next 60 days, or already passed. A lapsed date
+   is rolled to the next posted cycle or cleared (step 6) on the first run after it passes. The
+   crawler stops reading a page once its deadline is behind today, so no signal will bring the
+   record back, and the site shows the passed date as "N days ago" until someone does.
 2. Anything `confidence: "projected"` or `"unverified"` whose `typical_month` has now arrived.
 3. Anything whose `last_verified` is more than 60 days old.
 4. **DOD CDMRP BCRP** every run. As of 2026-09-10 FY27 is still unappropriated (no FY27
@@ -41,10 +44,12 @@ Priority order:
 The dated items above are state, not scripture. When one resolves, rewrite it here.
 
 Items 1 to 5 skip a record whose `last_verified` is under three days old unless its
-`next_deadline` is within 14 days. The routine runs every other day, a record read on the previous
-run has had no time to change, and the crawler still reads its page every run: a change raises a
-signal, and signals (item 0) are never skipped. That keeps each record on roughly the old Monday
-and Thursday cadence at about the same cost. ROUTINE.md step 3 builds the list in code.
+`next_deadline` is within 14 days or has passed. The routine runs every other day, a record read
+on the previous run has had no time to change, and the crawler still reads its page every run: a
+change raises a signal, and signals (item 0) are never skipped. That keeps each record on roughly
+the old Monday and Thursday cadence at about the same cost. A lapsed record is the exception
+because the crawler no longer reads it: it stays due on every run until its date is resolved.
+ROUTINE.md step 3 builds the list in code.
 
 ## 3. Verify against primary sources only
 

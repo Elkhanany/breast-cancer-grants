@@ -325,6 +325,11 @@ for g in grants:
         continue
     nd, lv = g.get("next_deadline"), g.get("last_verified") or "0000-00-00"
     r = []
+    # A date that has passed: watch.py stops reading the page once next_deadline is behind
+    # today, so no signal will ever bring the record back, and REFRESH.md step 6 forbids leaving it.
+    lapsed = bool(nd) and nd < iso(today)
+    if lapsed:
+        r.append("lapsed")                                                    # item 1
     if nd and iso(today) <= nd <= iso(today + timedelta(days=60)):
         r.append("deadline<60d")                                              # item 1
     tm = (g.get("typical_month") or "").lower()
@@ -335,8 +340,10 @@ for g in grants:
     if g.get("sponsor") in ("DOD CDMRP BCRP", "CPRIT"):
         r.append(g["sponsor"])                                                # items 4-5
     # Read on the previous run and nowhere near its deadline: nothing has had time to change,
-    # and the crawler still reads its page every run.
-    fresh = lv > iso(today - timedelta(days=3)) and not (nd and iso(today) <= nd <= iso(today + timedelta(days=14)))
+    # and the crawler still reads its page every run. A lapsed record is never fresh: it stays
+    # due on every run until its date is rolled forward or cleared.
+    fresh = (not lapsed and lv > iso(today - timedelta(days=3))
+             and not (nd and iso(today) <= nd <= iso(today + timedelta(days=14))))
     if r and not fresh:
         why.setdefault(g["id"], []).extend(r)
 FIELDS = ("id", "sponsor", "program", "url", "loi_deadline", "full_deadline", "next_deadline",
@@ -401,7 +408,17 @@ python3 tools/validate.py && node --check app.js
 ```
 
 Both must exit 0. This is the command Cloudflare's build runs, so a run that passes here deploys.
-Fix the data, never the validator. Warnings do not block.
+Fix the data, never the validator.
+
+Warnings do not block the build, but one blocks this commit. `next_deadline ... has passed` means
+a record missed REFRESH.md step 6: the due list sent it to the fan-out and nothing rolled it
+forward. Resolve each one before committing. If a read this run confirmed the next posted cycle,
+write it. Otherwise set `next_deadline` to whichever of the record's own `loi_deadline` and
+`full_deadline` is still in the future, or `null`. Then keep `deadline_status` in step (an `open`
+whose dates have all passed becomes `closed-projected`, as the 2026-10-08 refresh did) and
+re-score `fit`. That needs no page: it derives from dates the record already holds, so it is the
+one edit a record whose page failed to load still gets. Name each one in the changelog
+("lapsed; no new cycle confirmed"). Other warnings go in the report.
 
 ## 5. Commit and push
 
