@@ -46,8 +46,11 @@ for `main`.
   Nothing is written inside the clone except the files the steps name: `tools/validate.py` refuses
   to publish while any untracked file is present.
 - **Shell state does not persist between Bash calls.** Start every command with the prelude
-  `cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)`, so
-  watch.py, validate.py, the scripts below and the commit all agree on the owner's date.
+  `cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)`, so
+  watch.py, validate.py, the scripts below and the commit all agree on the owner's date. The
+  `|| exit 1` matters: if the clone is gone (a recycled container), the rest of the block would
+  otherwise run in the session's own GitHub checkout, and `git checkout`, `commit` or `push` there
+  would touch GitHub. A block that exits there means: run step 0a again, then resume.
 - **Secrets.** Never print `GITLAB_TOKEN`, `.git/config` or a remote URL. Step 0a keeps the token
   out of `.git/config` altogether: git asks a credential helper, which reads the environment only
   when GitLab asks for a password.
@@ -109,8 +112,9 @@ fi
 ### 0b. Identity and write access
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 git config user.name "Elkhanany" && git config user.email "Elkhanany@users.noreply.github.com"
+git remote get-url origin | grep -qx "https://gitlab.com/a.elkhanany/breast-cancer-grants.git" || { echo "origin is not GitLab: stop"; exit 1; }
 git status -sb | head -1                 # expect: ## main...origin/main
 git push --dry-run origin HEAD:main      # expect: Everything up-to-date
 ```
@@ -120,7 +124,7 @@ The identity is the one every past data commit carries, so `git log` reads as on
 ### 0c. The open web
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 curl -sS -o /dev/null -w 'grants.nih.gov %{http_code}\n' --max-time 30 https://grants.nih.gov/
 curl -sS -o /dev/null -w 'api.grants.gov %{http_code}\n' --max-time 30 -X POST \
   -H 'Content-Type: application/json' -d '{"keyword":"breast cancer","rows":1}' \
@@ -149,7 +153,7 @@ stop:
 ## 1. Crawl
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 python3 tools/watch.py
 ```
 
@@ -183,7 +187,7 @@ Write the object it returns, unchanged, to `/tmp/bc-grants-run/discovery.json`. 
 says it was saved to a file, copy the JSON from that file rather than retyping it. Then merge:
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 python3 - /tmp/bc-grants-run/discovery.json <<'EOF'
 import json, os, re, sys
 from datetime import date
@@ -388,14 +392,14 @@ Follow [REFRESH.md](REFRESH.md) steps 1 to 8, with these specifics.
 not finish, the run falls back to this (see "When a step fails midway").
 
 ```bash
-cd /tmp/bc-grants && mkdir -p /tmp/bc-grants-run/snap && cp data/grants.json data/candidates.json /tmp/bc-grants-run/snap/
+cd /tmp/bc-grants || exit 1; mkdir -p /tmp/bc-grants-run/snap && cp data/grants.json data/candidates.json /tmp/bc-grants-run/snap/
 ```
 
 **Due list.** Step 2 of REFRESH.md, built by code. Pass the ids step 1 settled as one
 comma-separated argument; the discovery enrichments are read from `/tmp/bc-grants-run/enrich.json`.
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 python3 - "<ids settled in step 1, comma-separated, or empty>" <<'EOF'
 import json, os, sys
 from datetime import date, timedelta
@@ -530,7 +534,7 @@ it even when nothing changed: "N records re-verified; no deadline moved."
 ## 4. Validate
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 python3 tools/validate.py && node --check app.js
 ```
 
@@ -550,10 +554,12 @@ one edit a record whose page failed to load still gets. Name each one in the cha
 ## 5. Commit and push
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
-git status --short     # data/*.json, and README.md when the count moved; nothing else
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+git status --short     # data/*.json; README.md when the count moved; REFRESH.md when its dated
+                       # DOD/CPRIT state was rewritten (REFRESH.md step 2); nothing else
 git add -A
 git commit -m "update $TODAY: +N added, N changed, N retired, +N candidates"
+git remote get-url origin | grep -qx "https://gitlab.com/a.elkhanany/breast-cancer-grants.git" || { echo "origin is not GitLab: stop"; exit 1; }
 git push origin HEAD:main
 ```
 
@@ -587,7 +593,7 @@ The session's last message, in a few lines, as PIPELINE.md's guardrails require:
 If nothing changed and nothing closes within 30 days, say exactly that in two lines.
 
 ```bash
-cd /tmp/bc-grants && export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 python3 - <<'EOF'
 import json, os
 from datetime import date, timedelta
@@ -614,7 +620,7 @@ EOF
   at the start of step 3, and restore the crawler's memory.
 
   ```bash
-  cd /tmp/bc-grants && cp /tmp/bc-grants-run/snap/grants.json /tmp/bc-grants-run/snap/candidates.json data/
+  cd /tmp/bc-grants || exit 1; cp /tmp/bc-grants-run/snap/grants.json /tmp/bc-grants-run/snap/candidates.json data/
   git checkout -- data/fingerprints.json data/signals.json data/changelog.json README.md
   ```
 
