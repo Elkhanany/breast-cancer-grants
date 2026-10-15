@@ -1,6 +1,29 @@
 {
  "entries": [
   {
+   "date": "2026-10-15",
+   "kind": "watch",
+   "summary": "Daily watch: three NIH forecasts posted as NOFOs on 2026-10-14 (SPORE P50 as PAR-28-022, Parent P01 PA-27-061, Early-Onset Cancers as PAR-28-014); first due dates applied from the full announcements.",
+   "added": 0,
+   "changed": 3,
+   "retired": 0,
+   "details": [
+    "nci-spore-p50-2027-2029: deadline_status forecast → upcoming",
+    "nci-spore-p50-2027-2029: confidence projected → verified",
+    "nci-spore-p50-2027-2029: forecast PAR-26-064 posted 2026-10-14 as PAR-28-022; fit 104.0 → 106.0",
+    "nih-parent-p01: full_deadline 2026-09-25 → 2026-11-20",
+    "nih-parent-p01: next_deadline None → 2026-11-20",
+    "nih-parent-p01: deadline_status forecast → upcoming",
+    "nih-parent-p01: confidence projected → verified",
+    "nih-parent-p01: forecast PA-27-061 posted 2026-10-14; fit 38.0 → 44.0",
+    "nci-early-onset-cancers-par-26-150: full_deadline 2026-10-05 → 2027-02-08",
+    "nci-early-onset-cancers-par-26-150: next_deadline None → 2027-02-08",
+    "nci-early-onset-cancers-par-26-150: deadline_status forecast → upcoming",
+    "nci-early-onset-cancers-par-26-150: confidence projected → verified",
+    "nci-early-onset-cancers-par-26-150: forecast PAR-26-150 posted 2026-10-14 as PAR-28-014; fit 57 → 60"
+   ]
+  },
+  {
    "date": "2026-10-08",
    "kind": "refresh",
    "summary": "Thu refresh: 138 records re-verified. Lapsed 2026-10-05 NIH due dates rolled to 2027-02-05 (MetNet U01 to 2027-06-05) across 13 records; four NOFOs whose last new-application date was 2026-10-05, and the Komen FY27 CCR cycle, now show no next deadline; no promotions.",
