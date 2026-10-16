@@ -2,6 +2,22 @@
  "entries": [
   {
    "date": "2026-10-15",
+   "kind": "update",
+   "summary": "27 records re-verified; no deadline moved. One date disputed (nci-itcr-u01-early-stage), two confidence downgrades, 5 discovery candidates added (one a rejected duplicate).",
+   "added": 0,
+   "changed": 9,
+   "retired": 0,
+   "details": [
+    "mary-kay-ash-foundation-cancer-research: confidence verified to projected (page states Feb 1 without a year); date 2027-02-01 kept",
+    "pfizer-investigator-sponsored-research: confidence verified to unverified (application-window document would not render; 2026-11-03 not re-confirmed; page failing in the crawler 14 runs)",
+    "nci-itcr-u01-early-stage: disputed, nothing written (Grants.gov API shows 2027-10-19, the announcement's key-dates table lists 2026-10-19, 2027-06-11 and 2027-10-19); held 2026-10-19 kept",
+    "nci-secondary-analysis-r21: final cycle noted (expiration extended to 2026-11-17 by NOT-CA-26-012); dates unchanged",
+    "unreadable this run (403): arvinas-investigator-sponsored-research, bayer-investigator-institution-initiated-research; pfizer-atirmociclib RFP not seen on page 1 of the Pfizer list (later pages 403), dates kept",
+    "discovery: +5 candidates (rice-synthx duplicate rejected), 5 enrichments folded into notes; no promotions"
+   ]
+  },
+  {
+   "date": "2026-10-15",
    "kind": "refresh",
    "summary": "Thu refresh: 89 records re-verified. K99/R00, parent K08 and K23 rolled from their lapsed October dates to February 2027; three records whose last date passed now show no next deadline; eight discovery candidates promoted.",
    "added": 8,

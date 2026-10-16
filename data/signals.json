@@ -1,22 +1,8 @@
 {
  "generated": "2026-10-15",
  "seeded": false,
- "pages_watched": 100,
+ "pages_watched": 101,
  "signals": [
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "myriad-precise-mrd-research-collaboration"
-   ],
-   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
-   "dates_added": [
-    "2026-10-15"
-   ],
-   "dates_removed": [
-    "2026-10-12"
-   ],
-   "detail": "+1 / -1 dates since 2026-10-13"
-  },
   {
    "kind": "blocked",
    "ids": [
@@ -24,44 +10,7 @@
    ],
    "url": "https://ir.arvinas.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 5 run(s) in a row."
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-spore-p50-2027-2029"
-   ],
-   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
-   "dates_added": [
-    "2026-10-14",
-    "2029-09-25",
-    "2029-11-25"
-   ],
-   "dates_removed": [
-    "2025-10-31",
-    "2026-05-13",
-    "2027-01-25",
-    "2027-06-04",
-    "2027-06-11"
-   ],
-   "detail": "+3 / -5 dates since 2026-10-13"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "nci-spore-p50-2027-2029"
-   ],
-   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
-   "lines_added": [
-    "ding 10 Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-28-022 Cost sharing or matching requirement : No Funding instrument type : G",
-    "ov Description Jump to all documents Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications for P50 Research Center"
-   ],
-   "lines_removed": [
-    "Forecasted Estimated Post Date : October 31, 2025 Estimated Application Due Date : January 25, 2027 Estimated Due Date Description : Not available Estimated Award Da",
-    "ding 12 Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-26-064 Cost sharing or matching requirement : No Funding instrument type : G",
-    "on history on Grants.gov Description Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications for P50 Research Center"
-   ],
-   "detail": "+2 / -3 RFP-related passages since 2026-10-13"
+   "detail": "blocked (403); a model must read this page. Failed 6 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -70,7 +19,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 34 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 35 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -79,7 +28,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 34 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 35 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -88,7 +37,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 34 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 35 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -97,14 +46,14 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 24 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 25 run(s) in a row."
   },
   {
    "kind": "rfp_changed",
    "ids": [
-    "acs-research-scholar-grant"
+    "acs-clinician-scientist-development-grant"
    ],
-   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-scholar-grants.html",
+   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html",
    "lines_added": [],
    "lines_removed": [
     "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
@@ -120,21 +69,30 @@
     "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
     "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
    ],
-   "detail": "+0 / -13 RFP-related passages since 2026-10-13"
+   "detail": "+0 / -13 RFP-related passages since 2026-10-15"
   },
   {
-   "kind": "dates_changed",
+   "kind": "rfp_changed",
    "ids": [
-    "daiichi-sankyo-esr-iis"
+    "acs-mission-boost-grant"
    ],
-   "url": "https://www.daiichisankyo-esr.com/",
-   "dates_added": [
-    "2026-10-15"
+   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/mission-boost-grants.html",
+   "lines_added": [],
+   "lines_removed": [
+    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
+    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
+    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
+    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
+    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
+    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
+    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
+    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
    ],
-   "dates_removed": [
-    "2026-10-13"
-   ],
-   "detail": "+1 / -1 dates since 2026-10-13"
+   "detail": "+0 / -13 RFP-related passages since 2026-10-15"
   },
   {
    "kind": "blocked",
@@ -143,100 +101,7 @@
    ],
    "url": "https://www.grants-contributions.bayer.com/home/investigator-institution-initiated-research/pharmaceuticals-investigator-institution-initiated-research/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-itcr-u24-sustained"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/359853",
-   "dates_added": [
-    "2026-10-13"
-   ],
-   "dates_removed": [],
-   "detail": "+1 / -0 dates since 2026-10-13"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "nci-itcr-u24-sustained"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/359853",
-   "lines_added": [
-    "ov nciitcr@mail.nih.gov nciitcr@mail.nih.gov This Notice of Funding Opportunity (NOFO) solicits applications for the continued development and sustainment of high value"
-   ],
-   "lines_removed": [
-    "ov nciitcr@mail.nih.gov juli.klemm@gmail.com This Notice of Funding Opportunity (NOFO) solicits applications for the continued development and sustainment of high value"
-   ],
-   "detail": "+1 / -1 RFP-related passages since 2026-10-13"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nih-parent-p01"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/361279",
-   "dates_added": [
-    "2026-10-14",
-    "2029-05-25",
-    "2029-07-25"
-   ],
-   "dates_removed": [
-    "2026-02-11",
-    "2026-04-25",
-    "2026-06-29",
-    "2026-09-25",
-    "2027-07-01"
-   ],
-   "detail": "+3 / -5 dates since 2026-10-13"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "nih-parent-p01"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/361279",
-   "lines_added": [
-    ".gov National Cancer Institute (NCI) Through this Notice of Funding Opportunity (NOFO), the participating NIH Institutes, Centers, and Offices (ICOs) invite applications"
-   ],
-   "lines_removed": [
-    "61279 4 Feb 11, 2026 12:00:00 AM EST Through this Notice of Funding Opportunity (NOFO), the participating NIH Institutes, Centers, and offices (ICOs) invite applications"
-   ],
-   "detail": "+1 / -1 RFP-related passages since 2026-10-13"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "nci-early-onset-cancers-par-26-150"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/361438",
-   "dates_added": [
-    "2026-10-14",
-    "2029-10-11",
-    "2029-12-11"
-   ],
-   "dates_removed": [
-    "2026-03-10",
-    "2026-06-30",
-    "2026-10-05",
-    "2027-07-01"
-   ],
-   "detail": "+3 / -4 dates since 2026-10-13"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "nci-early-onset-cancers-par-26-150"
-   ],
-   "url": "https://www.grants.gov/search-results-detail/361438",
-   "lines_added": [
-    "-OnsetCancersNOFO_DCCPS_DCB_DCP@mail.nih.gov This Notice of Funding Opportunity (NOFO) invites applications that investigate the etiology of sporadic non-hereditary earl"
-   ],
-   "lines_removed": [
-    "61438 1 Mar 10, 2026 12:00:00 AM EDT Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications that investigate the eti"
-   ],
-   "detail": "+1 / -1 RFP-related passages since 2026-10-13"
+   "detail": "blocked (403); a model must read this page. Failed 9 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -245,7 +110,7 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 34 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 35 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -255,7 +120,7 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 15 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 16 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -264,73 +129,7 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 13 run(s) in a row."
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/361438",
-   "opportunity": "PAR-28-014",
-   "agency": "HHS-NIH11",
-   "title": "Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)",
-   "close": "10/11/2029",
-   "status": "posted",
-   "detail": "PAR-28-014 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/361134",
-   "opportunity": "RFA-CA-28-004",
-   "agency": "HHS-NIH11",
-   "title": "Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)",
-   "close": "02/11/2027",
-   "status": "posted",
-   "detail": "RFA-CA-28-004 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/360541",
-   "opportunity": "PAR-28-022",
-   "agency": "HHS-NIH11",
-   "title": "Specialized Programs of Research Excellence (SPOREs) in Human Cancers for Years 2027, 2028, and 2029 (P50 Clinical Trial Required)",
-   "close": "09/25/2029",
-   "status": "posted",
-   "detail": "PAR-28-022 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/360675",
-   "opportunity": "PAR-27-090",
-   "agency": "HHS-NIH11",
-   "title": "Palliative Care Research Across the Lifespan: Leveraging the Palliative Care Consortium (R01 Clinical Trial Optional)",
-   "close": "11/05/2029",
-   "status": "posted",
-   "detail": "PAR-27-090 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/359941",
-   "opportunity": "PAR-28-091",
-   "agency": "HHS-NIH11",
-   "title": "Assessing the Feasibility of Incorporating Mechanisms in Multi-site Clinical Trials of Mind and Body Interventions on Whole Person Health Restoration (R33 Clinical Trial Required)",
-   "close": "11/16/2029",
-   "status": "posted",
-   "detail": "PAR-28-091 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/361279",
-   "opportunity": "PA-27-061",
-   "agency": "HHS-NIH11",
-   "title": "NIH Research Program Projects (Parent P01 Clinical Trial Optional)",
-   "close": "05/25/2029",
-   "status": "posted",
-   "detail": "PA-27-061 (HHS-NIH11, posted) not previously seen"
+   "detail": "blocked (403); a model must read this page. Failed 14 run(s) in a row."
   }
  ]
 }
