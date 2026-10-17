@@ -1,6 +1,30 @@
 {
  "entries": [
   {
+   "date": "2026-10-16",
+   "kind": "update",
+   "summary": "20 records re-verified; 5 deadlines rolled forward after passing, 6 candidates promoted.",
+   "added": 6,
+   "changed": 10,
+   "retired": 0,
+   "details": [
+    "nci-exploratory-cancer-control-r21: next_deadline 2026-10-16 -> 2027-06-16",
+    "nih-parent-r03: next_deadline 2026-10-16 -> 2027-02-16",
+    "nih-parent-r21: next_deadline 2026-10-16 -> 2027-02-16",
+    "nci-basic-cancer-health-disparities-r21: next_deadline 2026-10-16 -> 2027-02-16",
+    "nci-itcr-u01-early-stage: next_deadline 2026-10-19 -> 2027-10-19",
+    "nci-secondary-analysis-r21: next_deadline 2026-10-16 -> null (last due date passed, expiry 2026-11-17, no later dates; watch for reissue)",
+    "bayer-investigator-institution-initiated-research: confidence verified -> unverified (page unreadable for 10+ consecutive runs; nothing could read it this run)",
+    "lilly-investigator-initiated-research: confidence verified -> unverified (page unreadable for 10+ consecutive runs; nothing could read it this run)",
+    "pfizer-atirmociclib-breast-cancer-rfp-2027: confidence verified -> unverified (page unreadable for 10+ consecutive runs; nothing could read it this run)",
+    "pfizer-competitive-grants-program: confidence verified -> unverified (page unreadable for 10+ consecutive runs; nothing could read it this run)",
+    "promoted from candidates: uthealth-tx-apcd-research-data-access, ecog-acrin-combomatch-substudy-concept, nlm-personal-health-informatics-r01-par-25-235, thermo-fisher-oncomine-clinical-research-grant, victory-houston-dldccc-limited-submission, aim-ahead-clinicians-leading-ingenuity-ai-quality-fellowship",
+    "discovery: +3 candidates (cancer-research-foundation-fletcher-scholars-program, aim-ahead-clinaq-fellowship-program, aim-ahead-research-fellowship-program); the latter two rejected as duplicates of existing candidates",
+    "nci-itcr-u01-early-stage: Grants.gov record states 2027-10-19 (sibling U24s still 2026-10-19); NOFO text unreadable (404), intermediate dates unconfirmed",
+    "crawler: Myriad and Daiichi Sankyo date shifts were page date stamps, not deadline moves"
+   ]
+  },
+  {
    "date": "2026-10-15",
    "kind": "update",
    "summary": "27 records re-verified; no deadline moved. One date disputed (nci-itcr-u01-early-stage), two confidence downgrades, 5 discovery candidates added (one a rejected duplicate).",
