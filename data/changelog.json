@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-10-18",
+   "kind": "update",
+   "summary": "71 records re-verified; no deadline moved; 2 candidates added (2 same-day duplicates rejected).",
+   "added": 0,
+   "changed": 42,
+   "retired": 0,
+   "details": [
+    "Discovery: +4 candidates appended (nih-common-fund-director-s-transformative-research-award, cancer-grand-challenges-team-awards pending; bcm-wiess-law-scholars-caroline-scholar-award-young and rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2 rejected as duplicates of bcm-caroline-wiess-law-scholar and rice-synthx-dldccc-seed-grant).",
+    "Notes/enrichment added on 42 records (e.g. ARPA-H FASTPASS now select-submissions only; TIGAR/REST/STREAM no longer listed).",
+    "lilly-investigator-initiated-research: confidence unverified -> verified (page read).",
+    "Unreadable this run (403/500): arvinas, bayer, pfizer ISR, NRG NCORP pilot; unchanged."
+   ]
+  },
+  {
    "date": "2026-10-16",
    "kind": "update",
    "summary": "20 records re-verified; 5 deadlines rolled forward after passing, 6 candidates promoted.",

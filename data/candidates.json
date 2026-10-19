@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-18",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -8491,6 +8491,271 @@
     "confidence": "unverified",
     "evidence": "\"This Fellowship supports early-career researchers (graduate students, postdocs, junior faculty, and others conducting research outside of an academic institution, within 10 years of completing their highest degree)\". \"The Research Fellowship Program launched Cohort 1 in September 2022, and is currently on Cohort 4.\" \"By focusing on AIM-AHEAD North Star (III), the initiative aims to advance the use of AI/ML to improve behavioral health, cardiometabolic health and cancer outcomes for all Americans.\" The page shows no award amount, deadline or Cohort 5 call.",
     "fit": 45
+   }
+  },
+  {
+   "id": "bcm-wiess-law-scholars-caroline-scholar-award-young",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "bcm-internal",
+    "found_on": "2026-10-18",
+    "run": "discovery",
+    "finder_summary": "This is a large BCM-internal physician-scientist retention award that has gone to Duncan Cancer Center members. It is worth raising with the chair or Duncan Cancer Center leadership as a nomination target, but it is not an open application and the PI's stage fit is uncertain.",
+    "proven": "Yes. Seven named scholars from 2009 to 2020 are listed on the page. The most recent appointment shown is 2020, so the program may be dormant or may simply not have updated its page."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": "bcm-caroline-wiess-law-scholar",
+    "reason": "Shares its URL with candidate(s) bcm-caroline-wiess-law-scholar under a different program name; step 3 checks it is a distinct call before promoting. Fetched the primary page with the headless renderer on 2026-10-19 and re-derived every field from it. It confirms the award, amount, duration and 2009 start. It does not confirm any call, deadline, nomination route or eligibility rule. The last appointment shown is 2020, so I could not tell whether the program is still active. The grants.json grep for a held duplicate returned nothing. I did not follow any linked page for selection details, because none appeared on this page. Ruled not active because there is no evidence of a 2026-27 cycle."
+   },
+   "record": {
+    "id": "bcm-wiess-law-scholars-caroline-scholar-award-young",
+    "sponsor": "BCM Wiess Law Scholars",
+    "sponsor_full": "Baylor College of Medicine, Caroline Wiess Law Scholar award (Caroline Wiess Law estate endowment)",
+    "program": "Caroline Wiess Law Scholar Award for Young Physician-Scientists",
+    "url": "https://www.bcm.edu/research/baylor-research/faculty-recognition/wiess-law-scholars",
+    "status": "active",
+    "first_seen": "2026-10-18",
+    "last_verified": "2026-10-18",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "program-large",
+    "focus": [
+     "career-development",
+     "translational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 1000000,
+    "award_text": "$1 million over three years, with the expectation that the scholar will then have obtained sufficient funding to continue the work.",
+    "duration_years": 3,
+    "indirects": "Not stated",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "unknown",
+    "verdict": "needs-check",
+    "flags": [
+     "no-call-posted",
+     "internal-nomination-likely",
+     "possibly-dormant",
+     "young-investigator-framing",
+     "no-deadline"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The page describes the award as supporting the recruitment and retention of young physician-scientists with potential to translate scientific discoveries into clinical applications. No application process, nomination route, eligibility criteria, career-stage cap, track or clinical-duty rule is posted. Scholars named on the page were assistant or associate professors at appointment; six of seven hold an MD/PhD or MBBS/PhD and one (appointed 2010) holds an MD only. The PI is faculty year 7+ and an MD without PhD, so the \"young\" criterion is a likely barrier.",
+    "notes": "This is a BCM endowed physician-scientist recruitment and retention award of $1 million over three years, funded from the Caroline Wiess Law estate. The page is purely a recognition list. It posts no call, deadline, application or nomination process, so it cannot be treated as an open opportunity. The seven listed scholars run 2009 to 2020, and the latest (2020) is more than six years old, so the program may be dormant or the page may be stale. Five of the seven were assistant or associate professors, and the framing is \"young physician-scientists\", which sits poorly with a PI who is year 7+ and has an MD only. The PI is not clearly excluded, since one past scholar held an MD only and several were Duncan Cancer Center members. The practical step is a short, low-cost inquiry to the department chair or Duncan Cancer Center leadership about whether the program is still active and how scholars are selected. Do not build an application plan around it.",
+    "confidence": "verified",
+    "evidence": "\"Since 2009, the Caroline Wiess Law Scholar award has facilitated the recruitment and retention of young physician-scientists who have the potential to translate scientific discoveries into effective clinical applications.\" \"The award funds researchers for $1 million over three years, with the expectation that the scientists will then have obtained sufficient funding to continue their work.\" Latest listed: \"Jennifer E. Posey, M.D., Ph.D., assistant professor of molecular & human genetics, was appointed in 2020.\" The page contains no deadline, application, eligibility or contact for the award itself.",
+    "fit": 38
+   }
+  },
+  {
+   "id": "rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-18",
+    "run": "discovery",
+    "finder_summary": "It is a small BCM-eligible Rice-collaboration seed fund. A breast oncologist could use it to pilot biomarker, imaging or ADC-chemistry work with a Rice partner, and the Smith Breast Center has already won it. It also makes a Rice co-PI route for the held Rice ENRICH and GCC-Dunn mechanisms easier to line up.",
+    "proven": "Yes. Three awards in 2024 and three in 2025, with named BCM awardees including one in the breast center and one breast-imaging project. It does not appear to be held in the database (no SynthX record found)."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": "rice-synthx-dldccc-seed-grant",
+    "reason": "Shares its URL with candidate(s) rice-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant under a different program name; step 3 checks it is a distinct call before promoting. WebFetch of the primary page confirmed the 2025 cycle dates, award structure, eligibility and restrictions. The page states no rank or clinical-duty limit. It shows no 2026-27 DLDCCC call, and the linked 2026 call is with Houston Methodist (HMNCC). I did not fetch the 2024 or 2026 pages, so the 2024 amount ($80,000) and the annual pattern are not independently confirmed here. The held database has no SynthX record (checked ids and text), so there is no duplicate. The 2026-27 recurrence is unconfirmed, so the record is a forecast, not an open call."
+   },
+   "record": {
+    "id": "rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2",
+    "sponsor": "Rice SynthX / BCM DLDCCC",
+    "sponsor_full": "Rice University Synthesis X (SynthX) Center and Baylor College of Medicine Dan L Duncan Comprehensive Cancer Center",
+    "program": "SynthX/DLDCCC Seed Grant",
+    "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-10-18",
+    "last_verified": "2026-10-18",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "basic"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 30000,
+    "award_text": "2025 cycle: $30,000 seed grant per joint Rice+BCM team ($15,000 from each side) over two years, plus conditional incentives if a later grant is won (>$1M and <$3M adds $20,000 total; >$3M adds $40,000 total), for a maximum of $70,000 per team.",
+    "duration_years": 2,
+    "indirects": "None. F&A, PI and co-investigator salaries, and tuition remission are not allowed. Allowed: supplies, equipment (cap $5,000 unless justified), travel (cap $2,000), stipends, research staff salaries.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "forecast",
+    "cycle": "annual",
+    "typical_month": "Call announced December; proposals due February; awards notified April 1",
+    "verdict": "eligible",
+    "flags": [
+     "requires-rice-partner",
+     "no-posted-2026-27-call",
+     "no-pi-salary",
+     "no-indirects",
+     "small-award",
+     "sponsor-page-is-2025-cycle"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center (BCM). Each faculty member may be PI or co-PI on only one proposal, and a PI who receives a seed grant cannot receive another for two years. Projects needing IRB approval receive no funds until approval is obtained. The page states no rank, degree, tenure-track or clinical-duty restriction.",
+    "notes": "The SynthX/DLDCCC Seed Grant is a small joint Rice SynthX and BCM Duncan Cancer Center pilot fund. A team gets $30,000 over two years, split evenly between the institutions, with up to $40,000 more in incentives if the pilot leads to a larger award. The PI could take the clinical and translational partner role with a Rice chemist or engineer, for example on biomarker, imaging or ADC-chemistry pilots in ER+/HER2+ disease. The Smith Breast Center has already won it (a 2025 award for modified mRNA immunotherapy), so the fit is precedent-backed. Traps: the money is small, it pays no PI salary and no indirects, and a Rice co-PI is mandatory. The posted page is the closed 2025 cycle (due 2025-02-24). The 2026 cycle was run with Houston Methodist (HMNCC), not BCM, so no DLDCCC call exists for 2026-27 and a new one is not guaranteed. Next step: line up a Rice partner now and watch synthx.rice.edu and Duncan Cancer Center announcements from December 2026. The Rice ENRICH rolling fund is the more reliable route in the meantime.",
+    "confidence": "verified",
+    "evidence": "Page lists \"December 10, 2024: Call for proposals announced\", \"February 24, 2025: Proposal submission deadline\", \"April 1, 2025: Notice of awards\", \"June 1, 2025: Earliest project start date\". Award table: seed grant $15,000 Rice / $15,000 BCM / $30,000 joint; maximum attainable $35,000 / $35,000 / $70,000. Eligibility: \"Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center.\" Not allowed: indirect costs, PI or co-investigator salaries, tuition remission. The page links a 2026 SynthX/HMNCC seed grant (winners announced) and a 2024 SynthX/DLDCCC call. Awardees include Rice Chemistry paired with BCM Lester and Sue Smith Breast Center.",
+    "fit": 48
+   }
+  },
+  {
+   "id": "nih-common-fund-director-s-transformative-research-award",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-18",
+    "run": "discovery",
+    "finder_summary": "A recurring annual NIH award with no preliminary-data requirement and open to any career stage, usable for an ambitious computational or real-world-data idea (for example ctDNA-guided adaptive therapy or HER2-heterogeneity modeling) built with Rice or MD Anderson collaborators.",
+    "proven": "The Common Fund page lists a current forecast (FY28), a past FY27 cycle, and an archive of funded research. No awardee list was captured."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "The program and its forecast are confirmed on the primary page. The page list labels the 2026 cycle RFA-RM-25-003, and WebFetch noted a link-text inconsistency, so I did not rely on the finder's FY26 due-date claim. The page does not show the FY26 due date. I could not confirm award size, duration, indirect costs, institutional eligibility, limited-submission rules or clinical-trial rules, because the eligibility and application-process subpages returned 404 and the FY28 NOFO is not posted. I also did not read the prior NOFO. No held record duplicates it. The nearest held records are the New Innovator DP2 and the PRIMED-AI NOFO, which are different mechanisms."
+   },
+   "record": {
+    "id": "nih-common-fund-director-s-transformative-research-award",
+    "sponsor": "NIH Common Fund",
+    "sponsor_full": "NIH Common Fund, High-Risk High-Reward Research Program",
+    "program": "NIH Director's Transformative Research Award (R01, Clinical Trial Optional)",
+    "url": "https://commonfund.nih.gov/tra/grants",
+    "status": "active",
+    "first_seen": "2026-10-18",
+    "last_verified": "2026-10-18",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "program-large",
+    "focus": [
+     "computational",
+     "translational",
+     "basic"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "No dollar cap stated on the program pages. \"Flexible budgets\"; projects \"may require very large budgets\"; \"No prior approval required for large budget requests.\"",
+    "duration_years": null,
+    "indirects": "Not stated on the pages read; standard NIH R01 F&A rules presumably apply. Confirm in the NOFO.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "forecast",
+    "cycle": "annual",
+    "typical_month": "September (estimated 2027-09-03; not a confirmed date)",
+    "verdict": "eligible",
+    "flags": [
+     "forecast-only",
+     "no-open-nofo",
+     "very-long-shot",
+     "dates-estimated",
+     "institutional-eligibility-unconfirmed",
+     "page-numbering-inconsistency"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The program snapshot says the award is open to all career stages, to individuals or teams, with no preliminary data required and research effort commensurate with project needs. Multiple-PI and large-budget applications are welcomed under the R01 mechanism. Institutional eligibility, limited-submission rules and clinical-trial rules for the FY28 cycle could not be confirmed, because the eligibility subpage returned 404 and the FY28 NOFO is not yet posted. The PI's assistant professor rank and clinical duties do not appear to be barriers.",
+    "notes": "The NIH Director's Transformative Research Award is a Common Fund R01 for projects that could create or overturn fundamental paradigms. It is open to all career stages and to teams, and it requires no preliminary data and no detailed experimental plan. The FY28 NOFO (RFA-RM-28-003) is only forecast: the page states \"Forecasted. Not soliciting applications at this time,\" with an estimated due date of September 3, 2027. The prior cycle (RFA-RM-27-003) is already listed under past opportunities. The claimed September 3, 2026 date belongs to an older cycle and is not on the page; treat all dates as estimates until the NOFO posts. The PI could pursue a paradigm-level computational idea, for example ctDNA/MRD-guided adaptive therapy or HER2-heterogeneity modeling, with Rice and MD Anderson collaborators. The trap is that a conventional biomarker study, trial or incremental real-world-data analysis will not compete, because the review rewards a paradigm shift. The page also shows no dollar cap, project period or institutional eligibility, so those must be read from the NOFO. Next step: join the HRHR listserv, watch Grants.gov for the NOFO, and draft a one-page Specific Aims concept now. Contact is the program office at Transformative_Awards@mail.nih.gov.",
+    "confidence": "verified",
+    "evidence": "Funding page: \"RFA-RM-28-003 NIH Director's Transformative Research Awards (R01 Clinical Trial Optional) Forecasted. Not soliciting applications at this time. September 3, 2027 (estimated)\", reviewed September 14, 2026. Past list begins \"2027 ... RFA-RM-27-003\". Program page: \"Open to all career stages; Open to individuals or teams; No preliminary data required; Research effort commensurate to project needs; Flexible budgets; No prior approval required for large budget requests.\" Overview: \"Multiple Principal Investigators and large budget applications are welcome... No detailed experimental plan or preliminary data are required.\"",
+    "fit": 52
+   }
+  },
+  {
+   "id": "cancer-grand-challenges-team-awards",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-18",
+    "run": "discovery",
+    "finder_summary": "This is a watch-list item. The current call is off-topic, but the program recurs, and a Texas Medical Center breast oncologist with computational and real-world-data skills could be named in a future breast or endocrine-resistance team through Baylor, Rice or MD Anderson partners.",
+    "proven": "The homepage reports 21 teams funded and $624m+ invested, and shows five new teams announced at up to $25m each."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "The homepage and apply page confirm the banner, the deadline, the award size and the team structure. They do not state career stage, clinical duties, indirects or duration. The held grants.json has no record for this mechanism; it only mentions SAMBAI team membership inside a different record. I did not confirm that a breast-relevant challenge will run in future. Dates for the current call's early stages were not shown. The next deadline is null because the 24 November 2026 closing date applies to a gastroesophageal call the PI would not realistically use, so I treated it as not usable and did not record it."
+   },
+   "record": {
+    "id": "cancer-grand-challenges-team-awards",
+    "sponsor": "Cancer Grand Challenges",
+    "sponsor_full": "Cancer Grand Challenges (founded by Cancer Research UK and the US National Cancer Institute)",
+    "program": "Cancer Grand Challenges team awards",
+    "url": "https://www.cancergrandchallenges.org/",
+    "status": "active",
+    "first_seen": "2026-10-18",
+    "last_verified": "2026-10-18",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "program-large",
+    "focus": [
+     "cooperative-group",
+     "translational",
+     "computational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 34000000,
+    "award_text": "Up to $34m for the open gastroesophageal challenge; recent teams funded at up to $25m each. Past rounds funded 3-5 teams.",
+    "duration_years": null,
+    "indirects": "Not stated on the pages read",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "forecast",
+    "cycle": "unknown",
+    "typical_month": "Challenges launched around Sept; expressions of interest in about June and full applications in about Oct-Nov of the following year",
+    "verdict": "needs-check",
+    "flags": [
+     "watch-list",
+     "team-science",
+     "off-topic-current-call",
+     "not-single-PI",
+     "apply-page-conflict"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Teams are international and interdisciplinary: one Team Lead and up to seven Co-Investigators, with no more than 70% of activity and funding in a single country. Disciplines can span biomedical, technology, engineering and population/social sciences. Career stage, clinical-duty rules and award duration are not stated on the pages read. The PI could realistically take part only as a co-investigator or collaborator on a team led by a senior investigator, not as a single-PI applicant.",
+    "notes": "Cancer Grand Challenges is a large, recurring, team-science funder. The open call, which closes 24 November 2026 and offers up to $34m, targets gastroesophageal cancer, so it is not usable for breast disease. The PI cannot lead a team and cannot realistically join this round. The value is as a watch item: the program recurs, and a future breast, endocrine-resistance or equity challenge could use a Houston breast oncologist with real-world-data skills as a co-investigator through Baylor, Rice or MD Anderson partners. The apply page still describes an earlier round as closed (EOI June 2025, full applications October 2025) while the banner shows the November 2026 deadline, so the current process should be rechecked directly. The held SAMBAI team mention in another record suggests Baylor-area investigators already take part in these teams. Next step: monitor challenge announcements and let senior collaborators know of interest. Do not budget for it as a PI-level funding source.",
+    "confidence": "verified",
+    "evidence": "Homepage: \"Awards of up to $34m. Applications close 24 November 2026.\" Gastroesophageal cancer challenge launched with the Torrey Coast Foundation; 21 teams funded and $624m+ invested. No breast challenge listed. Apply page: \"one Team Lead and up to seven Co-Investigators\"; \"no more than 70% of the activity (and funding) being based in a single country\"; EOI due 18 June 2025 and the page says those challenges are now closed.",
+    "fit": 25
    }
   }
  ]

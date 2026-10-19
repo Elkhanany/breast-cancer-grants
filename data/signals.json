@@ -1,22 +1,8 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-18",
  "seeded": false,
- "pages_watched": 101,
+ "pages_watched": 99,
  "signals": [
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "myriad-precise-mrd-research-collaboration"
-   ],
-   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
-   "dates_added": [
-    "2026-10-16"
-   ],
-   "dates_removed": [
-    "2026-10-15"
-   ],
-   "detail": "+1 / -1 dates since 2026-10-15"
-  },
   {
    "kind": "blocked",
    "ids": [
@@ -24,7 +10,7 @@
    ],
    "url": "https://ir.arvinas.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 7 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 8 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -33,7 +19,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 36 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 37 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -42,7 +28,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 36 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 37 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -51,7 +37,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 36 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 37 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -60,7 +46,7 @@
    ],
    "url": "https://www.afar.org/grants/beeson",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 26 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 27 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -69,12 +55,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-10-16"
+    "2026-10-18"
    ],
    "dates_removed": [
-    "2026-10-15"
+    "2026-10-16"
    ],
-   "detail": "+1 / -1 dates since 2026-10-15"
+   "detail": "+1 / -1 dates since 2026-10-16"
   },
   {
    "kind": "blocked",
@@ -83,7 +69,7 @@
    ],
    "url": "https://www.grants-contributions.bayer.com/home/investigator-institution-initiated-research/pharmaceuticals-investigator-institution-initiated-research/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 10 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 11 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -92,7 +78,16 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 36 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 37 run(s) in a row."
+  },
+  {
+   "kind": "unreachable",
+   "ids": [
+    "nrg-ncorp-pilot-grant"
+   ],
+   "url": "https://www.nrgoncology.org/Home/News/Post/ncorp-pilot-project-awardees/",
+   "http": 500,
+   "detail": "unreachable (500); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -102,7 +97,7 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 18 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -111,29 +106,7 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 15 run(s) in a row."
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/361318",
-   "opportunity": "RFA-LM-28-001",
-   "agency": "HHS-NIH11",
-   "title": "NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)",
-   "close": "02/11/2027",
-   "status": "posted",
-   "detail": "RFA-LM-28-001 (HHS-NIH11, posted) not previously seen"
-  },
-  {
-   "kind": "new_federal_opportunity",
-   "ids": [],
-   "url": "https://www.grants.gov/search-results-detail/360869",
-   "opportunity": "PAR-28-090",
-   "agency": "HHS-NIH11",
-   "title": "Centers for AIDS Research (CFAR) and Developmental Centers for AIDS Research (D-CFAR) (P30 Clinical Trial Not Allowed)",
-   "close": "05/25/2029",
-   "status": "posted",
-   "detail": "PAR-28-090 (HHS-NIH11, posted) not previously seen"
+   "detail": "blocked (403); a model must read this page. Failed 16 run(s) in a row."
   }
  ]
 }
