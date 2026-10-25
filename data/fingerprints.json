@@ -7,7 +7,7 @@
     "dod-bcrp-era-of-hope-scholar-fy26",
     "dod-bcrp-transformative-consortium-development-fy26"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -41,7 +41,7 @@
     "dod-bcrp-fy27-outlook",
     "dod-bcrp-transformative-consortium-award-fy26"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-09-03",
@@ -76,7 +76,7 @@
    "ids": [
     "cprit-iira"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "ecfad0caa70417f2",
@@ -88,7 +88,7 @@
     "cprit-iiracca",
     "cprit-iirap"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "b13a739541abd8ab",
@@ -99,7 +99,7 @@
    "ids": [
     "cprit-iiract"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "9012ce2aee0fd1fa",
@@ -110,7 +110,7 @@
    "ids": [
     "cprit-iiracsbc"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "bcc29147874ae0f4",
@@ -123,7 +123,7 @@
     "gateway-nci-spore-p20-program",
     "gateway-traditional-grant-program"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-11-06"
@@ -896,7 +896,7 @@
    "ids": [
     "nci-cpc-planning-r34"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2025-10-25",
@@ -1178,7 +1178,7 @@
    "ids": [
     "nci-merit-r37-extension"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2028-09-08"
@@ -1266,7 +1266,7 @@
    "ids": [
     "nih-rse-r50"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2025-12-04",
@@ -1494,7 +1494,7 @@
    "ids": [
     "nci-r50-research-specialist"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-05-04"
@@ -1511,7 +1511,7 @@
    "ids": [
     "cri-technology-impact-award"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-11-15",
@@ -1547,7 +1547,7 @@
    "ids": [
     "cprit-rrs"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "ef5c1a0c3b3be81e",
@@ -1594,7 +1594,7 @@
    "ids": [
     "cprit-rft"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "775138f01290e69f",
@@ -1605,7 +1605,7 @@
    "ids": [
     "cprit-rei"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "008a1c5c399fd702",
@@ -1718,7 +1718,7 @@
    "ids": [
     "nia-gemsstar-r03"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-09-01",
@@ -1735,7 +1735,7 @@
    "ids": [
     "nci-imat-r33-advanced"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1753,7 +1753,7 @@
    "ids": [
     "nci-imat-r61-early-stage"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1771,7 +1771,7 @@
    "ids": [
     "nih-parent-p01"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-10-14",
@@ -1811,16 +1811,17 @@
   },
   "https://www.pcori.org/funding-opportunities": {
    "ids": [
-    "pcori-engagement-capacity-building-fall-2026"
+    "pcori-broad-pragmatic-studies-cycle1-2027",
+    "pcori-digital-health-technologies-cycle1-2027",
+    "pcori-placer-cycle1-2027"
    ],
-   "checked": "2026-10-01T11:49:58",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-04-28",
     "2026-09-01",
     "2026-09-09",
     "2026-10-01",
-    "2026-10-14",
     "2026-11-17",
     "2027-01-06",
     "2027-01-11",
@@ -1836,7 +1837,8 @@
     "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
     "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
     "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P"
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
+    "ype: Research Sept. 9, 2026 Jan. 12, 2027 Receiving Invited Applications Open Competition: Implementation of Findings From PCORI&#039;s Research Investments PCORI Fund"
    ],
    "rfp_v": 2,
    "fail_streak": 0
@@ -1875,19 +1877,19 @@
    "ids": [
     "arvinas-investigator-sponsored-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [
     "2026-09-16",
     "2026-10-07"
    ],
-   "fail_streak": 8
+   "fail_streak": 9
   },
   "https://medical.menarinistemline.com/": {
    "ids": [
     "menarini-stemline-iss"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1912,6 +1914,7 @@
     "arch&reg; (AACR) April 2023 Poster CT073 View The oral SERD elacestrant in combination with the PI3K inhibitor MEN1611 inhibits tumor growth in ER+/HER2- breast",
     "ation, Pipeline and Clinical Trials and Population Health & Real-World Resources. The scientific information provided on this website may include data/informati",
     "center, phase 1b/2 study of elacestrant in combination with abemaciclib in patients with brain metastasis (mets) from estrogen receptor-positive (ER+), HER2-nega",
+    "ces Published Phase 1b/2 data from the ELEVATE Study in ER+/HER2- previously treated advanced or metastatic breast cancer. Read more . &#x2715; Stemline T",
     "determining the activity of elacestrant in combination with Abemaciclib in BC EH+/HER2- with brain metastases. Proposed Mechanism of Action SERD (ER) Additional",
     "e PI3K inhibitor MEN1611 inhibits tumor growth in ER+/HER2- breast cancer in vitro and in PDX models Product: Orserdu Merlino G, Fiascarelli A, Talucci S, e",
     "ement with current standard of care or elacestrant for ER+, HER2-, ESR1-mutated advanced or metastatic breast cancer patients: A population-level provider",
@@ -1943,6 +1946,7 @@
     "rom estrogen receptor-positive (ER+), HER2-negative (HER2-) breast cancer (BC) Product: Orserdu Ibrahim N, Kim SB, Lin NU, et al Miami Breast Cancer Confere",
     "t in fulvestrant-refractory hormone receptor-positive (HR+) breast cancer: A translational investigation Product: Orserdu Dubash TD, Bardia A, Chirn B, et a",
     "t: Orserdu Bardia A, Shaughnessy JO, Bidard FC, et al Miami Breast Cancer Conference&reg; (MBCC) March 2024 Poster 10 View EMERALD trial analysis of patient",
+    "tudy in ER+/HER2- previously treated advanced or metastatic breast cancer. Read more . &#x2715; Stemline Therapeutics US Medical Provides comprehensive prod",
     "ty of elacestrant in combination with Abemaciclib in BC EH+/HER2- with brain metastases. Proposed Mechanism of Action SERD (ER) Additional Detail ELEVATE",
     "uipment Administration Components and Vendor Contacts Miami Breast Cancer Conference&reg; (MBCC) Posters Elacestrant vs standard-of-care in ER+/HER2- advanc"
    ],
@@ -1953,7 +1957,7 @@
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1970,7 +1974,7 @@
    "ids": [
     "olema-oncology-iss"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1995,7 +1999,7 @@
    "ids": [
     "boehringer-ingelheim-iis"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2015,7 +2019,7 @@
    "ids": [
     "sermonix-pharmaceuticals-collaboration"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2028,25 +2032,25 @@
    "ids": [
     "stand-up-to-cancer-team-and-catalyst"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 37
+   "fail_streak": 38
   },
   "https://standuptocancer.org/what-we-do/scientific-initiatives/": {
    "ids": [
     "su2c-catalyst"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 37
+   "fail_streak": 38
   },
   "https://thehopefoundation.org/funding-opportunities/": {
    "ids": [
     "hope-foundation-swog-trial-support"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2057,7 +2061,7 @@
    "ids": [
     "hope-foundation-swog-seed-fund"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-07-01"
@@ -2070,7 +2074,7 @@
    "ids": [
     "hope-foundation-swog-impact-award"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2084,22 +2088,23 @@
    "ids": [
     "abbvie-investigator-initiated-studies"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 37
+   "fail_streak": 38
   },
   "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html": {
    "ids": [
     "astrazeneca-esr"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
     "(LAIV) Make a submission Live Attenuated Influenza Vaccine Areas of interest (but considered on a case-by-case basis): Role of children in the transmission of influen",
     "/ Computational path) to approach patient ID, spanning the HER2 spectrum Explore approaches to maximize patient response Breast Indication Non-specific N",
     "/ Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug Conjugate (ADC) HER2+ Breast Cancer Optimal treatment approaches",
+    "; ocular surface events)* MIBC Bladder Sparing Strategies – Dato-DXd mono or in combination** UTUC All treatment strategies except high-risk adjuvant (ypT2+)",
     "AE management Across BC Capivasertib combination with Dato, Enhertu, Imfinzi and focus on late-stage development AZ molecules to align with LCM strategy* Vol",
     "AZD1390 Potent and Selective Brain Penetrant ATM inhibitor Areas of interest include exploration of monotherapy or combination treatment in indications where there is",
     "C Outcomes &amp; safety profile of durvalumab in LS-SCLC in real-world practice Durvalumab in patients excluded from ADRIATIC or in conjunction with alternative",
@@ -2116,12 +2121,11 @@
     "adjuvant setting (e.g. MRD) Post-launch: RW experience with camizestrant Datroway / Datopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed An",
     "amizestrant in RW setting Characterising RW experience with Camizestrant Safety/efficacy of camizestrant as indirect comparisons with other ET in aBC, including n",
     "amp; Immunology Brand / Substance Mechanism of action ESR - Areas of interest Airsupra (Budesonide + Albuterol) Make a submission Inhaled steroid/short acting Beta2 ag",
-    "an be considered if not overlapping with existing portfolio Enhertu / Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug C",
     "as and markets. Brand / Substance Mechanism of action ESR - Areas of interest Cross-TA AI/Digital Make a submission AI/Digital health solutions Patient awareness: ​ Us",
     "ategies for early diagnosis and prompt treatment initiation Real-world outcomes of quality standards in reducing disease burden, lowering healthcare utilization",
     "atient identification Companion diagnostics utilization and real-world testing patterns Treatment patterns and impact of sequencing of novel treatments on T-DXd",
     "atient populations in high-risk adjuvant endometrial cancer Real-world treatment patterns and outcomes of HER2+ patients in 1L ovarian cancer and relevant strat",
-    "atopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed Antibody Drug Conjugate (ADC) Non Small Cell Lung Cancer Efficacy/safety in pati",
+    "atopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed Antibody Drug Conjugate (ADC) Bladder Cancer Identifying risk factors, underlyin",
     "below link. The link will provide further information about Areas of Interest for the Rare Disease brands as well as direction on how to submit your ESR proposal. http",
     "bmission HER2-targeting Antibody Drug Conjugate (ADC) HER2+ Breast Cancer Optimal treatment approaches to maximize patient experience and outcomes with T-DX",
     "combinations/monotherapy (including overlapping biomarkers) HER2-actionable Non-Smal Cell Lung Cancer (NSCLC) T-DXd efficacy and safety in 2L+ HER2 IHC 2+",
@@ -2140,13 +2144,14 @@
     "further characterization of patients with HR+ BRCAm/PALB2m breast cancer Advances in BC treatment settings: trials investigating new treatment strategies i",
     "g T-DXd central nervous system brain metastasis efficacy in HER2 (overexpression, mutant) NSCLC Temporal changes in HER2 expression, through paired biopsi",
     "guidelines on Oscillometry usage for asthma/COPD diagnosis. Real-World Impact: Evaluate the implementation of oscillometry in clinical practice, assessing its r",
-    "idered if not overlapping with existing portfolio Enhertu / Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug Conjugate (ADC) HER2+ Brea",
+    "ies with appropriate combination agents like ICIs preferred Enhertu / Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug C",
     "in HER2 (overexpression, mutant) NSCLC Temporal changes in HER2 expression, through paired biopsies, across lines of treatment HER2-expressing Tumor Agno",
     "ion on the available products/compounds, and the associated areas of interest for ESR can be found on this page. Please follow the instructions to register a user name",
     "issions for drug only support will be considered currently. Breast: Testing and biomarkers: identification of novel testing modalities and/or biomarkers to",
     "l Cell Lung Cancer (NSCLC) T-DXd efficacy and safety in 2L+ HER2 IHC 2+ NSCLC T-DXd as the backbone for novel combinations in HER2-altered 1L, exploring T",
     "ld or clinical studies). For example: IO-pretreated in eBC, Dato-DXd reintroduction in mTNBC among patients who were treated with Dato-DXd in an early TNBC se",
     "lities Evaluate peri-operative strategies with T-DXd in eBC HER2low Breast Cancer Exploration of benefit of T-DXd in subpopulations with high unmet need C",
+    "ll treatment strategies except high-risk adjuvant (ypT2+) – Dato-DXd mono or in combination mUC Post-EVP treatment strategies; dato single agent (or in combin",
     "mp; ocular surface events) to support adherence* Evaluating Dato-DXd in lower-risk eTNBC patient populations including stage I patients and adjuvant treatment",
     "nd impact of early biologic intervention. Understanding the real-world clinical effectiveness of anifrolumab in attaining guideline-directed treatment goals and",
     "ndirect comparisons with other ET in aBC, including ngSERDs Camizestrant in different BC disease subtype Analysis of long-term benefit and ESR1m monitoring impact",
@@ -2159,10 +2164,12 @@
     "oposal Oncology Brand / Substance Mechanism of action ESR - Areas of interest Surovatamig (AZD0486) Make a submission Bispecific T-cell engager (TCE), CD19xCD3 Hematol",
     "positive change in healthcare. Please review the AI/Digital Area of Interest below before submitting your ESR proposal. Cross-TA AI/Digital Externally Sponsored Resea",
     "pport diseases with emerging biologic evidence Registry and real-world evidence experience of tezepelumab in clinical practice Tozorakimab Make a submission Inh",
+    "ppropriate combination agents like ICIs preferred Enhertu / Trastuzumab deruxtecan (DS-8201/T-DXd) Make a submission HER2-targeting Antibody Drug Conjugate (ADC) HER2+ Brea",
     "pter site evaluations on introducing molecular monitoring * Camizestrant monotherapy in select patient populations To be considered post-launch: CDK4/6i combinati",
     "ption of durvalumab-based combinations - see the durvalumab areas of interest for further information), are not sought at this time. Proposals for non-oncological indi",
     "ression, through paired biopsies, across lines of treatment HER2-expressing Tumor Agnostic Real-world T-DXd efficacy / safety, patient characteristics and",
     "rs and optimal management of adverse events associated with Dato-DXd (in particular AESIs such as stomatitis &amp; ocular surface events) to support adherence",
+    "rs and optimal management of adverse events associated with Dato-DXd (in particular AESIs such as stomatitis &amp; ocular surface events)* MIBC Bladder Sparin",
     "s HER2 overlap with other biomarkers in gynecologic cancers Real-world outcomes of HER2-expressing patient populations in high-risk adjuvant endometrial cancer",
     "s, across lines of treatment HER2-expressing Tumor Agnostic Real-world T-DXd efficacy / safety, patient characteristics and biomarker expression in HER2-express",
     "safety, patient characteristics and biomarker expression in HER2-expressing malignancies with limited data or sub-populations of interest Novel technologi",
@@ -2171,7 +2178,7 @@
     "t imply or guarantee approval of a protocol. Compounds with areas of interest for Externally Sponsored Research are listed below. We aren’t accepting proposals at this",
     "t need and treatment outcomes in the evolving RWE landscape ctDNA testing in late adjuvant setting (e.g. MRD) Post-launch: RW experience with camizestrant",
     "terising RW experience with Camizestrant Safety/efficacy of camizestrant as indirect comparisons with other ET in aBC, including ngSERDs Camizestrant in different",
-    "th camizestrant Datroway / Datopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed Antibody Drug Conjugate (ADC) Non Small Cell Lung Cance",
+    "th camizestrant Datroway / Datopotamab deruxtecan (DS-1062a/Dato-DXd) Make a submission TROP2-directed Antibody Drug Conjugate (ADC) Bladder Cancer Identifyin",
     "valuate peri-operative strategies with T-DXd in eBC HER2low Breast Cancer Exploration of benefit of T-DXd in subpopulations with high unmet need Clinical ap",
     "y disease: Unmet need, outcomes by geographic location, and HER2 expression In advanced disease: Real-world outcomes, treatment patterns and sequencing su"
    ],
@@ -2182,7 +2189,7 @@
    "ids": [
     "cri-clinical-innovator"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2196,10 +2203,10 @@
    "ids": [
     "daiichi-sankyo-esr-iis"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
-    "2026-10-18"
+    "2026-10-24"
    ],
    "rfp": [],
    "rfp_v": 2,
@@ -2210,7 +2217,7 @@
     "genentech-investigator-initiated-studies",
     "genentech-roche-iss"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2221,7 +2228,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2240,16 +2247,16 @@
    "ids": [
     "lilly-investigator-initiated-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 37
+   "fail_streak": 38
   },
   "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical": {
    "ids": [
     "novartis-investigator-initiated-trials"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2297,7 +2304,7 @@
     "pfizer-competitive-grants-program",
     "pfizer-atirmociclib-breast-cancer-rfp-2027"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [
     "2026-05-26",
@@ -2315,22 +2322,22 @@
     "2026-09-30",
     "2026-10-19"
    ],
-   "fail_streak": 18
+   "fail_streak": 19
   },
   "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research": {
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 16
+   "fail_streak": 17
   },
   "https://misp-investigator-studies.com/areas-of-interest": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2343,7 +2350,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2357,7 +2364,7 @@
     "merck-investigator-studies-program",
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2375,7 +2382,7 @@
    "ids": [
     "agendia-flex-registry-substudies"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2420,7 +2427,7 @@
    "ids": [
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-11-30"
@@ -2480,7 +2487,7 @@
    "ids": [
     "bms-independent-research-isr"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2501,7 +2508,7 @@
    "ids": [
     "eisai-investigator-initiated-studies"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2524,7 +2531,7 @@
    "ids": [
     "rising-tide-ccr-open-call"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-11-23",
@@ -2541,7 +2548,7 @@
    "ids": [
     "arpah-active-programs-fit-check"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2604,7 +2611,7 @@
    "ids": [
     "puma-biotechnology-ist"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2618,7 +2625,7 @@
    "ids": [
     "nih-lrp-clinical-research-l30-fy2027"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -2760,7 +2767,7 @@
    "ids": [
     "hologic-grant-program"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2782,21 +2789,19 @@
    "ids": [
     "bslmc-macdonald-research-fund"
    ],
-   "checked": "2026-10-18T20:51:08",
-   "status": 200,
+   "checked": "2026-10-24T20:50:54",
+   "status": 0,
    "dates": [
     "2026-08-07",
     "2026-11-09"
    ],
-   "rfp": [],
-   "rfp_v": 2,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://pardeefoundation.org/how-to-apply/": {
    "ids": [
     "elsa-pardee-foundation-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2807,7 +2812,7 @@
    "ids": [
     "gilead-research-scholars-solid-tumors-us"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-07-14",
@@ -2825,7 +2830,7 @@
    "ids": [
     "nih-pragmatic-trials-health-care-systems-par-28-010"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-04-29",
@@ -2848,7 +2853,7 @@
    "ids": [
     "hope-foundation-swog-career-engagement-award"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2861,7 +2866,7 @@
    "ids": [
     "hope-foundation-coltman-fellowship"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2874,16 +2879,16 @@
    "ids": [
     "nia-beeson-k76-par-27-112"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 27
+   "fail_streak": 28
   },
   "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html": {
    "ids": [
     "acs-clinician-scientist-development-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2894,7 +2899,7 @@
    "ids": [
     "acs-mission-boost-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2905,7 +2910,7 @@
    "ids": [
     "acs-research-scholar-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2916,7 +2921,7 @@
    "ids": [
     "cri-clip-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2934,7 +2939,7 @@
    "ids": [
     "damon-runyon-physician-scientist-training-award"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-12-01"
@@ -2965,7 +2970,7 @@
    "ids": [
     "jazz-investigator-sponsored-trials"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2995,7 +3000,7 @@
    "ids": [
     "neogenomics-investigator-initiated-collaborations"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3008,7 +3013,7 @@
    "ids": [
     "blavatnik-national-awards-young-scientists"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-11-11"
@@ -3021,7 +3026,7 @@
    "ids": [
     "cprit-texas-regional-training-award-r272-trta"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "e2ad3018a41b0ae6",
@@ -3032,7 +3037,7 @@
    "ids": [
     "cprit-trec"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "05fee5630e2db591",
@@ -3043,7 +3048,7 @@
    "ids": [
     "cprit-cia"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "cf1501007c23fb98",
@@ -3054,7 +3059,7 @@
    "ids": [
     "cprit-cpra"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "85d0171a745f8ea6",
@@ -3065,7 +3070,7 @@
    "ids": [
     "cprit-iira-eoc"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "88597fe00eefa61a",
@@ -3076,7 +3081,7 @@
    "ids": [
     "cprit-rtawd"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "57d3f549f3b030ea",
@@ -3087,7 +3092,7 @@
    "ids": [
     "cprit-ctna"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "355c3a73c4e3eb61",
@@ -3098,7 +3103,7 @@
    "ids": [
     "cprit-rrcta"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "a36cf6397104dfa3",
@@ -3109,7 +3114,7 @@
    "ids": [
     "cprit-cfsa"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "sha": "f5ed11de96c70604",
@@ -3142,7 +3147,7 @@
    "ids": [
     "nih-lrp-focus-l70-fy2027"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -3163,7 +3168,7 @@
    "ids": [
     "pershing-square-sohn-cancer-prize-2027"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-09-21",
@@ -3286,7 +3291,7 @@
    "ids": [
     "natera-signatera-iit-collaboration"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3358,10 +3363,10 @@
    "ids": [
     "myriad-precise-mrd-research-collaboration"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
-    "2026-10-16"
+    "2026-10-23"
    ],
    "rfp": [
     "CREA) to evaluate the maintenance of complete response with trastuzumab deruxtecan (T-DXd) in HER2-positive advanced or metastatic breast cancer patients and whether ctDNA",
@@ -3398,7 +3403,7 @@
    "ids": [
     "nih-bridge2ai-stage2-u24-rfa-rm-28-010"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-07-08",
@@ -3416,7 +3421,7 @@
    "ids": [
     "exact-sciences-research-grants"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3438,7 +3443,7 @@
    "ids": [
     "guardant-health-research-collaborations"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3451,7 +3456,7 @@
    "ids": [
     "astrazeneca-open-innovation"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -3462,7 +3467,7 @@
    "ids": [
     "tersera-investigator-initiated-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3475,7 +3480,7 @@
    "ids": [
     "foundation-medicine-research-collaborations"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3502,25 +3507,31 @@
    "ids": [
     "bayer-investigator-institution-initiated-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 403,
    "dates": [],
-   "fail_streak": 11
+   "fail_streak": 12
   },
   "https://www.nrgoncology.org/Home/News/Post/ncorp-pilot-project-awardees/": {
    "ids": [
     "nrg-ncorp-pilot-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
-   "status": 500,
+   "checked": "2026-10-24T20:50:54",
+   "status": 200,
    "dates": [],
-   "fail_streak": 1
+   "rfp": [
+    "Committees Disease Specific Committees Overview Brain Tumor Breast Cancer Gastrointestinal Cancer Genitourinary Cancer Gynecologic Cancer Gynecologic Cancer",
+    "primary and secondary tumors of the central nervous system. Breast Cancer Focused on research aimed at improving the management and outcomes of breast cance",
+    "research aimed at improving the management and outcomes of breast cancer. Gastrointestinal Cancer Comprised of colorectal and non-colorectal cancer sectors"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
   },
   "https://www.zymeworks.com/partners/": {
    "ids": [
     "zymeworks-investigator-research"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3535,7 +3546,7 @@
    "ids": [
     "nci-ctep-career-development-loi-crdl"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-07-26"
@@ -3551,7 +3562,7 @@
    "ids": [
     "hcrn-concept-submission-support"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3564,7 +3575,7 @@
    "ids": [
     "nih-parent-r35-investigator-focused-par-28-037"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-07-30",
@@ -3584,7 +3595,7 @@
    "ids": [
     "ecog-acrin-combomatch-substudy-concept"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3598,7 +3609,7 @@
    "ids": [
     "aim-ahead-clinicians-leading-ingenuity-ai-quality-fellowship"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
     "2026-02-03",
@@ -3631,20 +3642,19 @@
    "ids": [
     "uthealth-tx-apcd-research-data-access"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [
-    "2026-10-19",
-    "2026-10-20",
-    "2026-10-21",
-    "2026-10-22",
-    "2026-10-23",
     "2026-10-27",
+    "2026-10-28",
     "2026-10-29",
     "2026-11-05",
+    "2026-11-06",
+    "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-16",
+    "2026-11-20",
     "2026-11-30"
    ],
    "rfp": [],
@@ -3655,7 +3665,7 @@
    "ids": [
     "thermo-fisher-oncomine-clinical-research-grant"
    ],
-   "checked": "2026-10-18T20:51:08",
+   "checked": "2026-10-24T20:50:54",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -5150,6 +5160,6 @@
    "url": "https://www.grants.gov/search-results-detail/360869"
   }
  },
- "updated": "2026-10-18T20:51:08",
+ "updated": "2026-10-24T20:50:54",
  "coverage_reported": {}
 }

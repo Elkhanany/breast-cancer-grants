@@ -6,7 +6,7 @@ investigator-initiated trials.
 
 **→ [breast-cancer-grants.pages.dev](https://breast-cancer-grants.pages.dev/)**
 
-335 mechanisms across six funder buckets: government, state, institutional, foundation,
+336 mechanisms across six funder buckets: government, state, institutional, foundation,
 trial funding, and professional organizations.
 
 Industry portals are the awkward case: most are rolling, carry no deadline, and appear and
