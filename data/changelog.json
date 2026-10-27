@@ -1,6 +1,21 @@
 {
  "entries": [
   {
+   "date": "2026-10-26",
+   "kind": "update",
+   "summary": "17 records re-verified; NCI R34 PAR-25-104 rolled to 2027-02-25, Pershing Square Sohn closed; 2 candidates promoted, 4 found.",
+   "added": 2,
+   "changed": 10,
+   "retired": 0,
+   "details": [
+    "pershing-square-sohn-cancer-prize-2027: next_deadline 2026-10-26 -> null, open -> closed-projected (LOI passed, no full stage)",
+    "nci-cpc-planning-r34: full_deadline/next_deadline 2026-10-25 -> 2027-02-25 (two reads agree; 2026-10-25 passed)",
+    "sanofi-investigator-sponsored-studies promoted from candidates",
+    "gsk-investigator-sponsored-studies-supported-collaborative promoted from candidates",
+    "Discovery added 4 pending candidates: utmb-dmac-collaborative-pilot-projects, abta-metastatic-brain-tumor-collaborative-cns-metastasis, landenberger-foundation-margaret-q-award, orien-intermember-projects-project-submission"
+   ]
+  },
+  {
    "date": "2026-10-24",
    "kind": "update",
    "summary": "74 records re-verified; 3 CPRIT recruitment deadlines rolled to 2026-11-20, 3 lapsed NIH deadlines cleared, 1 candidate promoted.",

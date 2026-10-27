@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-10-26",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -8826,7 +8826,7 @@
   },
   {
    "id": "sanofi-investigator-sponsored-studies",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+drug",
    "provenance": {
     "lens": "industry-data",
@@ -8888,11 +8888,12 @@
     "confidence": "verified",
     "evidence": "\"You must be a physician, pharmacist, or researcher qualified by training and experience\" (page eligibility); deadlines not stated; funding limited to fair market value review and milestone approval; first drug shipment 'when applicable'; oncology areas of interest not listed, directing users to the iEnvision-ESR platform; individual investigators cannot enter Externally Sponsored Collaborations.",
     "fit": 45
-   }
+   },
+   "promoted_on": "2026-10-26"
   },
   {
    "id": "gsk-investigator-sponsored-studies-supported-collaborative",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding+drug",
    "provenance": {
     "lens": "industry-data",
@@ -8954,6 +8955,277 @@
     "confidence": "projected",
     "evidence": "WebFetch of https://iss.gsk.com/User-Guidance.aspx: GSK 'reviews proposals at set points throughout the year'; 'GSK responds within 8 weeks'; draft protocol 'within 5 weeks'; GSK 'can provide funding, product ... or both'; page gives no funding amounts; disease area pages specify submission periods and review dates. Default.aspx lists an Oncology area but page content was not rendered.",
     "fit": 38
+   },
+   "promoted_on": "2026-10-26"
+  },
+  {
+   "id": "utmb-dmac-collaborative-pilot-projects",
+   "decision": "pending",
+   "provides": "data",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-26",
+    "run": "discovery",
+    "finder_summary": "Provides real-world claims and registry data plus a biostatistics mentor for a breast oncology real-world and equity analysis (angles 1 and 4) and generates preliminary data for CPRIT or NIH applications.",
+    "proven": "Named pilot grantees and mentors for 2024-2025 (incl. MD Anderson, UTHealth Houston) and 2025-2026 cohorts are listed on the page."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "The page was fetched and confirms the claimed call, the LOI date, the eligibility and the non-cash award. The held grants.json has no DMAC record, so there is no duplicate. The cycle is inferred as annual from five listed cohorts, but the 2027 dates are not posted, so I gave only a typical month. The page was a rendered shell, so the fetch summary may have missed details such as the exact dataset list. The fit score is moderate because the program is non-cash, not breast-specific, and closed for this cycle."
+   },
+   "record": {
+    "id": "utmb-dmac-collaborative-pilot-projects",
+    "sponsor": "UTMB DMAC (CPRIT)",
+    "sponsor_full": "UTMB Data Management and Analysis Core for Comparative Effectiveness Research on Cancer in Texas (CPRIT-funded)",
+    "program": "DMAC Collaborative / Pilot Projects (cancer comparative effectiveness research data access and analytic support)",
+    "url": "https://utmb.edu/dmac/pilot-projects",
+    "status": "active",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "state",
+    "tier": "early-career",
+    "focus": [
+     "computational",
+     "equity",
+     "pilot",
+     "translational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "No cash. Two projects per cycle receive DMAC data access and analytical support (biostatistician; SEER-Medicare, TCR-Medicare, Texas Medicaid/Medicare and UTMB EHR data referenced in past pilots).",
+    "duration_years": null,
+    "indirects": "Not applicable (no funds awarded)",
+    "loi_deadline": "2026-10-23",
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "closed-projected",
+    "cycle": "annual",
+    "typical_month": "October",
+    "verdict": "eligible",
+    "flags": [
+     "non-cash-data-access",
+     "loi-passed-2026-10-23",
+     "cprit-funded-core",
+     "watch-2027-cycle",
+     "datasets-not-listed-on-page"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Investigators at Texas academic and research institutions may apply. Topics are cancer comparative effectiveness research across screening, diagnosis, treatment, post-treatment surveillance or survivorship, and the project must be feasible with DMAC's available data. Submission is a one-page letter of intent plus a biosketch or CV. No rank, degree, track or clinical-duty restriction is stated.",
+    "notes": "The UTMB Data Management and Analysis Core, funded by CPRIT, runs an annual call for collaborative cancer comparative effectiveness research projects and selects two per cycle to receive data access and analytical support. It gives no money. The PI, as a BCM faculty member at a Texas academic institution, is plausibly eligible, with no stated bar on clinical duties, degree or track. Its value is claims and registry data (SEER-Medicare, Texas Medicaid and Medicare) and biostatistics help for a breast cancer real-world or equity analysis, which could produce preliminary data for CPRIT or NIH applications. The 2026 LOI deadline of 2026-10-23 has already passed, and results were due by the end of October 2026, so the PI cannot apply this cycle. The trap is that the data are claims-based and not ER/HER2 subtype-granular or ctDNA-capable, so translational angles fit poorly. The next step is to watch for the 2027 call, likely in the fall, and to draft a breast-specific CER question in advance. The page does not state the datasets, so confirm them with the DMAC biostatistician before committing to a question.",
+    "confidence": "verified",
+    "evidence": "Page (utmb.edu/dmac/pilot-projects), as read via WebFetch: \"Call for Collaborative Projects (2026)\"; funded by the Cancer Prevention and Research Institute of Texas; \"Investigators at Texas academic and research institutions\"; \"LOI Deadline: October 23, 2026\"; notified by end of October; one-page LOI plus Biosketch or CV to Samuel David (savdavid@utmb.edu); \"Two projects will be selected to receive DMAC data access and analytical support.\" Past cohorts listed 2021-22 through 2025-26 (including MD Anderson and UT Health Houston), which establishes annual recurrence. No dataset list on the page; past pilots mention SEER-Medicare, TCR-Medicare, Texas Medicaid and Medicare, UTMB EHR.",
+    "fit": 52
+   }
+  },
+  {
+   "id": "abta-metastatic-brain-tumor-collaborative-cns-metastasis",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "national-quiet",
+    "found_on": "2026-10-26",
+    "run": "discovery",
+    "finder_summary": "HER2+ and triple-positive breast cancer carries a high brain-metastasis burden, so a small pilot on CNS relapse biomarkers, ctDNA/CSF or real-world data (partnered with a lung or other primary-site collaborator) fits angles 1 and 3 if the PI's appointment date clears the Sept 1, 2020 cutoff.",
+    "proven": "ABTA page links 2024, 2025 and 2026 CNS metastasis grant recipient pages and says the MBTC funds these grants annually. I did not open the individual recipient lists."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "Re-derived from the 2027 RFA PDF and FAQ linked from the program page; the landing page text alone showed a stale 2024 LOI date and few details. All dates, award, indirect, and eligibility claims match the candidate. Not confirmed: the PI's exact first full-time faculty date versus the 2020-09-01 cutoff, and the headless browser was unavailable, though WebFetch and curl sufficed. No clinical-duty restriction appears in the RFA or FAQ. No held record matches. Today is 2026-10-27, so the LOI is still open for one week."
+   },
+   "record": {
+    "id": "abta-metastatic-brain-tumor-collaborative-cns-metastasis",
+    "sponsor": "ABTA / Metastatic Brain Tumor Collaborative",
+    "sponsor_full": "American Brain Tumor Association - Metastatic Brain Tumor Collaborative (MBTC)",
+    "program": "CNS Metastasis Research Grants (2027 RFA)",
+    "url": "https://www.abta.org/cnsmetastasisresearchgrant/",
+    "status": "active",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "computational",
+     "career-development"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": 50000,
+    "award_text": "Up to $50,000 total (salary plus research expenses) for one year; indirects are inside the cap.",
+    "duration_years": 1,
+    "indirects": "Up to 10% of the grant budget may be used for indirect costs; the total including indirects must not exceed $50,000. Equipment items max $5,000; travel max $2,000.",
+    "loi_deadline": "2026-11-03",
+    "full_deadline": "2027-03-02",
+    "next_deadline": "2026-11-03",
+    "deadline_status": "open",
+    "cycle": "annual",
+    "typical_month": "LOI in autumn (Oct-Dec), full application ~March",
+    "verdict": "needs-check",
+    "flags": [
+     "LOI due 2026-11-03 noon CST, about one week away, no late LOIs",
+     "Eligibility hinges on first full-time faculty start date on or after 2020-09-01; a start earlier in 2020 or before is ineligible",
+     "Must include CNS metastases from at least two primary sites; breast-only is withdrawn",
+     "Patient advocate required as Key Personnel, institutional signature required at LOI",
+     "Request for more than two collaborators must be emailed to grants@abta.org by 2026-10-27",
+     "ABTA landing page shows stale 2024 LOI date; 2027 RFA PDF is authoritative",
+     "Indirects capped within $50,000"
+    ],
+    "track_gate": null,
+    "career_cap": "Full-time faculty appointment may not predate 2020-09-01 (eight-year window, leave excludable)",
+    "limited_submission": false,
+    "eligibility": "The PI must hold a doctoral degree (MD included) and a full-time faculty position, and must not have held a full-time faculty appointment before September 1, 2020 (eight-year window; documented leave of generally under 12 months may be excluded; borderline cases email grants@abta.org with a biosketch before applying). The lead institution must be a US non-profit, non-governmental body. One LOI per PI per cycle. The project must cover brain/CNS metastases from at least two distinct primary organ sites (for example breast and lung), or it is administratively withdrawn. A patient advocate is required Key Personnel. No restriction on clinical duties is stated.",
+    "notes": "The Metastatic Brain Tumor Collaborative, run through ABTA, funds one-year $50,000 pilot grants for early-career faculty studying CNS metastases. The 2027 RFA confirms a mandatory LOI due 2026-11-03 at noon CST, full application around 2027-03-02, notification around 2027-06-22 and earliest start 2027-08-01. The gate for the PI is the first full-time faculty date: it must be on or after 2020-09-01, and a 2020 start before September falls outside the window unless documented leave is excluded. If the appointment sits near the line, the PI should email grants@abta.org with a biosketch immediately. The project must span at least two primary sites, so a breast-only HER2+ or triple-positive brain-metastasis study would be withdrawn; pairing with a lung or other primary-site collaborator (for example at MDACC or UTHealth) and using ctDNA/CSF biomarkers or real-world data fits angles 1 and 3. A patient advocate and an institutional signature are required even at the LOI stage, so the BCM grants office needs notice now. Funds are small and indirects are inside the cap, so this is a seed for later funding rather than a main award.",
+    "confidence": "verified",
+    "evidence": "RFA: \"The PI must hold a full-time faculty position and cannot have held a full-time faculty appointment before September 1, 2020.\" \"Letter of Intent (LOI) Due: November 3, 2026, by 12:00 p.m., noon CST. No late LOIs will be accepted.\" \"Projects MUST include Brain and CNS Metastases arising from cancers originating from at least TWO distinct primary organ sites (i.e. Breast Cancer AND Lung Cancer).\" \"Grants are awarded for $50,000 (salary support and research expenses) for one year.\" \"Up to 10% of the grant budget may be used for indirect costs.\" Source: https://www.abta.org/wp-content/uploads/2022/06/2027-CNS-Mets-RFA_Finalv2.pdf, linked from the program page.",
+    "fit": 78
+   }
+  },
+  {
+   "id": "landenberger-foundation-margaret-q-award",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "national-quiet",
+    "found_on": "2026-10-26",
+    "run": "discovery",
+    "finder_summary": "A $200K bridge award for a non-K-holding or post-K assistant professor to generate preliminary data for an R01 or foundation-scale award, usable for an investigator-initiated or ctDNA/real-world-data project.",
+    "proven": "Prior cycles are documented on UW-Madison competition pages for 2024, 2025 and 2026, with an annual sponsor application packet. I found no awardee list. The sponsor website was unreachable (proxy 502), so the primary document is the sponsor's own instructions PDF as hosted by UW."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "Re-derived from the instructions PDF and the UW-Madison 2027 competition page. The sponsor's own site was not checked. The $200,000 and 2-year terms come from the UW page, not the PDF. The 2027 sponsor deadline (2026-10-02) has passed, and no later cycle is posted, so no date is recorded. BCM's limited-submission status and the PI's K-award status are unconfirmed. The held grants.json has no Landenberger record."
+   },
+   "record": {
+    "id": "landenberger-foundation-margaret-q-award",
+    "sponsor": "Landenberger Foundation",
+    "sponsor_full": "Margaret Q. Landenberger Research Foundation",
+    "program": "Margaret Q. Landenberger Foundation Award (early-stage investigator, all fields)",
+    "url": "https://research.wisc.edu/wp-content/uploads/sites/2/2025/06/2025-Margaret-Q.-Landenberger-Research-Foundation-Application-Instructions.pdf",
+    "status": "active",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "foundation",
+    "tier": "mid-size",
+    "focus": [
+     "pilot",
+     "career-development",
+     "iit",
+     "computational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 200000,
+    "award_text": "$200,000 total over 2 years (per UW-Madison 2027 competition page); no indirect costs paid per sponsor instructions",
+    "duration_years": 2,
+    "indirects": "None. Sponsor instructions: no indirect costs are provided, total costs equal direct costs.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "October (sponsor); internal institutional deadline typically July",
+    "verdict": "needs-check",
+    "flags": [
+     "limited-submission (UW-Madison limits to one; BCM route unconfirmed)",
+     "no K-award holders",
+     "2027 cycle closed 2026-10-02",
+     "no indirects",
+     "not breast-specific",
+     "next cycle dates not posted",
+     "sponsor site unreachable; verified via UW instructions PDF and UW 2027 page"
+    ],
+    "track_gate": null,
+    "career_cap": "10 years from terminal degree or end of postgraduate clinical training",
+    "limited_submission": true,
+    "eligibility": "Early-stage investigators whose terminal research degree or end of postgraduate clinical training (whichever is later) falls within the past 10 years. Not a mentored award; current K-award holders or equivalents are not eligible. The ideal applicant is an assistant or associate professor who previously held a K award or equivalent and now seeks independent (R-type) funding; K99/R00 awardees may apply during the R00 phase. All fields of medical research. Institutions appear to be limited to one application, with internal nomination.",
+    "notes": "This is a $200,000, two-year bridge award for early-stage medical investigators in any field, run by a private foundation using an NIH PHS 398-style application (1-page Aims, 6-page Strategy, 5-page biosketch). The PI's fellowship ended 2019-2020, so the PI sits inside the 10-year window until about 2029-2030, and nothing in the instructions forbids clinical duties. The main trap is the K-award exclusion: current K holders are ineligible, so the PI must confirm no K or equivalent is active. The other trap is that the award is a limited submission at UW-Madison; whether BCM runs an internal nomination is unknown, and the sponsor's own site was not reachable. The 2027 cycle (sponsor deadline 2026-10-02) has already closed as of 2026-10-26. The next cycle, likely around October 2027 with an internal deadline around July 2027, is not yet posted. Next step: ask the BCM research office whether the foundation is on its limited-submission list, and monitor for the 2028 call. The award would suit a ctDNA or real-world-data pilot or an investigator-initiated project that generates preliminary data for an R01.",
+    "confidence": "verified",
+    "evidence": "UW instructions PDF (May 2025): \"Applications are due by 5pm on October 1, 2025... emailed to susan.whartnaby@bbh.com.\" \"The Margaret Q. Landenberger award is intended for early-stage investigators who have completed their terminal research degree or end of post-graduate clinical training, whichever date is later, within the past 10 years. This is not a Mentored Award and individuals who are currently on K awards or the equivalent are NOT eligible.\" \"No indirect costs are provided by the foundation.\" UW 2027 competition page: \"Amount per award: $200,000\"; \"Duration of award: 2 Years\"; \"Applications are due to The Margaret Q. Landenberger Research Foundation by October 02, 2026.\"; \"UW-Madison may submit one application.\"; internal deadline July 22, 2026.",
+    "fit": 62
+   }
+  },
+  {
+   "id": "orien-intermember-projects-project-submission",
+   "decision": "pending",
+   "provides": "data",
+   "provenance": {
+    "lens": "consortia",
+    "found_on": "2026-10-26",
+    "run": "discovery",
+    "finder_summary": "Fits the PI's first priority angle (computational and real-world data) as a way to run breast genomic or real-world-evidence analyses and to build data for K23 or foundation applications.",
+    "proven": "The page lists dated publications from ORIEN members using Total Cancer Care data (2024: melanoma tumor microbiome, glioblastoma database, renal cell carcinoma). None of those I saw is breast-specific. Weaker evidence that breast projects have run."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "WebFetch returned empty and the headless-browser reader failed (Chromium missing), so I read the page with curl and extracted its text. That confirmed the program, data description, rolling inquiry and nonmember inclusion. I could not confirm BCM membership because the roster is empty, or whether any breast projects have run. No held record is the same mechanism: the grants.json hits for 'orien' were substring false positives. Fit is moderate because it is a resource with no money."
+   },
+   "record": {
+    "id": "orien-intermember-projects-project-submission",
+    "sponsor": "ORIEN",
+    "sponsor_full": "Oncology Research Information Exchange Network (Aster Insights / Total Cancer Care)",
+    "program": "ORIEN Intermember Projects and Project Submission (real-world data and Avatar exome/transcriptome data)",
+    "url": "https://www.oriencancer.org/research-programs/",
+    "status": "active",
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "mid-size",
+    "focus": [
+     "computational",
+     "translational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": null,
+    "award_text": "No funding. This is a data and collaboration resource: harmonized real-world data and Avatar whole-exome/transcriptome data linked to longitudinal clinical data, from over 400,000 patients enrolled in the Total Cancer Care protocol. Fees or data-use terms are not stated.",
+    "duration_years": null,
+    "indirects": "Not applicable (no award).",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "rolling",
+    "cycle": "rolling",
+    "typical_month": "any (rolling project inquiry)",
+    "verdict": "needs-check",
+    "flags": [
+     "not-funding-data-access-only",
+     "bcm-membership-unconfirmed",
+     "no-breast-specific-evidence",
+     "terms-and-fees-unstated",
+     "contact-email-link-malformed-on-page"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Intermember Projects encourage research between ORIEN member institutions and are described as 'inclusive of nonmember and industry partners'. Proposals start with a project inquiry form or an email to ORIENprojects@AsterInsights.com. The page gives no investigator rank, career-stage or clinical-duty restrictions. The Our Network roster did not render (Founding Members and Members both show 'No posts found'), so BCM's membership status could not be confirmed.",
+    "notes": "ORIEN is a consortium of cancer centers built on the Total Cancer Care protocol, run by Aster Insights. Its Project Submission and Intermember Projects route gives scientists access to harmonized real-world data and to Avatar exome/transcriptome data linked to longitudinal clinical data. It is a data resource, not a grant, so it adds no dollars. For the PI it fits the real-world-data and translational angles: a breast ER+/HER2+ genomic or outcomes analysis could produce preliminary data for a K23 or foundation application. The trap is assuming access is free or quick. The page states no terms, fees, data-use process or timeline, and shows no breast-specific publications (the 2024 list is melanoma, glioblastoma, renal, urinary tract, myeloma, colorectal and others). The member roster did not load, so BCM membership is unknown. The PI should ask the BCM cancer center research office whether BCM is a member, then send a project inquiry asking about breast cohort size, receptor-subtype annotation and data-access terms. Treat this as a data-access lead, not a funding opportunity.",
+    "confidence": "verified",
+    "evidence": "Page (curl, 2026-10): 'With over 400,000 patients enrolled in the TCC protocol to date, these harmonized datasets provides an opportunity to generate real-world data (RWD)...' Establishes the data scale. 'The Avatar program, which was launched in 2016, generates whole exome and transcriptome data for TCC-consented patients and links longitudinal clinical data...' Establishes the genomic data. 'ORIEN Intermember Projects encourage research opportunities between ORIEN member institutions, and are inclusive of nonmember and industry partners.' Establishes eligibility. 'submit a project inquiry below or contact ORIENprojects@AsterInsights.com' Establishes the entry route. There is no deadline or funding language on the page. The network roster showed 'No posts found'.",
+    "fit": 45
    }
   }
  ]
