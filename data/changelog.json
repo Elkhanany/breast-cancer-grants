@@ -1,6 +1,26 @@
 {
  "entries": [
   {
+   "date": "2026-10-28",
+   "kind": "update",
+   "summary": "28 records re-verified; no deadline moved, 2 candidates promoted.",
+   "added": 2,
+   "changed": 17,
+   "retired": 0,
+   "details": [
+    "Step 1: daiichi-sankyo-esr-iis date change was the page's own timestamp, no move",
+    "Refresh: 23 records re-read; no posted deadline moved",
+    "nih-parent-p01, bayer-investigator-institution-initiated-research: confidence unverified → verified",
+    "nia-gemsstar-r03: confidence verified → projected (2026-11-10 not shown on Grants.gov)",
+    "lilly-investigator-initiated-research, bslmc-macdonald-research-fund: confidence verified → unverified (page unreadable 41 and 4 runs in a row)",
+    "Disputed, nothing written: pfizer-competitive-grants-program (reads gave full 2027-01-12 vs concept 2027-01-12 / invited 2027-05-07; matches held atirmociclib record)",
+    "Unreadable, unchanged: pfizer-atirmociclib-breast-cancer-rfp-2027, pfizer-investigator-sponsored-research (Cloudflare 403)",
+    "Enrichment notes: BCM internal deadlines for V Foundation (2026-11-09) and Damon Runyon (2026-11-16), unconfirmed so no dates written",
+    "Promoted: landenberger-foundation-margaret-q-award, orien-intermember-projects-project-submission",
+    "Discovery added 6 pending candidates (SynthX/DLDCCC seed, Alliance Foundation special projects, PCORI x2, AIM-AHEAD year 3-4, NCI incretin)"
+   ]
+  },
+  {
    "date": "2026-10-27",
    "kind": "update",
    "summary": "62 records re-verified; GSK oncology cycle 4 date added, 3 candidates promoted.",

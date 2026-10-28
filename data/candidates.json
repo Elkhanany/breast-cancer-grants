@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -9099,7 +9099,7 @@
   },
   {
    "id": "landenberger-foundation-margaret-q-award",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -9164,11 +9164,12 @@
     "confidence": "verified",
     "evidence": "UW instructions PDF (May 2025): \"Applications are due by 5pm on October 1, 2025... emailed to susan.whartnaby@bbh.com.\" \"The Margaret Q. Landenberger award is intended for early-stage investigators who have completed their terminal research degree or end of post-graduate clinical training, whichever date is later, within the past 10 years. This is not a Mentored Award and individuals who are currently on K awards or the equivalent are NOT eligible.\" \"No indirect costs are provided by the foundation.\" UW 2027 competition page: \"Amount per award: $200,000\"; \"Duration of award: 2 Years\"; \"Applications are due to The Margaret Q. Landenberger Research Foundation by October 02, 2026.\"; \"UW-Madison may submit one application.\"; internal deadline July 22, 2026.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-10-28"
   },
   {
    "id": "orien-intermember-projects-project-submission",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "consortia",
@@ -9229,7 +9230,8 @@
     "confidence": "verified",
     "evidence": "Page (curl, 2026-10): 'With over 400,000 patients enrolled in the TCC protocol to date, these harmonized datasets provides an opportunity to generate real-world data (RWD)...' Establishes the data scale. 'The Avatar program, which was launched in 2016, generates whole exome and transcriptome data for TCC-consented patients and links longitudinal clinical data...' Establishes the genomic data. 'ORIEN Intermember Projects encourage research opportunities between ORIEN member institutions, and are inclusive of nonmember and industry partners.' Establishes eligibility. 'submit a project inquiry below or contact ORIENprojects@AsterInsights.com' Establishes the entry route. There is no deadline or funding language on the page. The network roster showed 'No posts found'.",
     "fit": 45
-   }
+   },
+   "promoted_on": "2026-10-28"
   },
   {
    "id": "rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant",
@@ -9564,6 +9566,408 @@
     "confidence": "projected",
     "evidence": "PDF: \"This document applies to applications requesting research supplement funding to active National Cancer Institute (NCI) grants in response to PA-23-189.\" \"The two application receipt dates for the NCI Diversity Supplements are: October 1 – December 1 and February 1 – April 2\". \"At the time of the supplement application, the parent grant must have at least two years of NCI support remaining.\" \"NCI does not accept the P30 as the parent grant\". \"The PI of the parent grant is the PI of the supplement.\" Salary: \"capped at $31,000 annually\" for post-bac; investigators \"not to exceed $100,000 per year\", maximum two years, minimum 75% effort. \"Last updated November 15, 2024\". NIH Guide page PA-23-189.html returned 404 on 2026-10-28; NIH contacts page lists Expiration Date May 8, 2026 (via web search snippet).",
     "fit": 22
+   }
+  },
+  {
+   "id": "rice-synthx-duncan-ccc-synthx-dldccc-cancer-seed-grant",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "A BCM-specific, Duncan CCC-linked Rice collaboration seed grant with a track record in HER2 and breast projects. A clinician could be the BCM PI on a computational or biomarker project with a Rice data-science or bioengineering partner.",
+    "proven": "Yes. Two completed rounds (2024: 3 awards; 2025: 3 awards, $90,000 total), including two breast or HER2 projects."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I fetched the 2024, 2025 and 2026 program pages directly. They confirm the structure, eligibility and budget rules, and show that the award structure changed between 2024 and 2025. I did not read the 2025 scope text or the winners list, so the claimed 2025 focus areas and \"two breast or HER2 projects\" are unconfirmed; I only saw one breast project among the 2024 winners. No 2026-27 Duncan call is posted, so the deadline is unknown. I found no held record for the same mechanism. The held ids rice-enrich-tmc-collaborator-fund and similar are different programs."
+   },
+   "record": {
+    "id": "rice-synthx-duncan-ccc-synthx-dldccc-cancer-seed-grant",
+    "sponsor": "Rice SynthX / Duncan CCC",
+    "sponsor_full": "Rice University Synthesis X Center (SynthX) and Baylor College of Medicine Dan L Duncan Comprehensive Cancer Center, administered via Rice ENRICH",
+    "program": "SynthX/DLDCCC Cancer Seed Grant",
+    "url": "https://synthx.rice.edu/2024-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "computational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": 30000,
+    "award_text": "2025 round: $30,000 base seed for a joint Rice+BCM team ($15,000 each), plus conditional incentives up to $40,000 more if follow-on grants are won within two years (max $70,000). The 2024 round was up to $80,000 over two years ($60,000 in year 1, $20,000 more on submission of a multi-PI grant). The 2026 Houston Methodist round was $45,000 per team.",
+    "duration_years": 2,
+    "indirects": "None allowed (2024 page: no indirect/F&A, no PI or co-investigator salary, no tuition remission).",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Call announced Nov-Dec; deadline Jan-Feb; awards April 1",
+    "verdict": "eligible",
+    "flags": [
+     "no-current-call",
+     "needs-rice-synthx-partner",
+     "no-pi-salary",
+     "award-structure-changed-2024-to-2025",
+     "page-date-typo",
+     "alternating-partner-in-2026"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan CCC (BCM). Faculty may be PI or co-PI on only one proposal. Recipients cannot receive another seed award within 2 years. Projects needing IRB approval are not funded until approval is received. The page states no degree requirement and no ban on clinical duties, but it also allows no PI salary. The Rice partner must be a SynthX member.",
+    "notes": "This is a Rice SynthX and Duncan CCC joint seed grant for cancer research. It is run through Rice ENRICH and has had two completed rounds (2024 and 2025). A 2024 winner was a breast intraoperative imaging project with a BCM surgeon as co-PI, so breast work is funded, but the program is not breast-specific. The PI could serve as the BCM PI, but needs a Rice SynthX partner first. Rice Center for Computational Biology, bioengineering or data-science faculty fit the computational and ctDNA/MRD angle. The trap is the award size. The 2024 page says up to $80,000, but the 2025 page shows a $30,000 base with conditional incentives up to $70,000 total, so budget for the smaller figure. The 2024 page also lists the deadline as January 31, 2023, which is a typo. No 2026-27 Duncan call is posted as of 2026-10-28. The 2026 round went to Houston Methodist (call April 27, due May 18, $45,000 per team), so Duncan may alternate or skip. Next step: start Rice partner conversations now and ask synthx@rice.edu or the Duncan CCC grants office when the next call will open. The earlier cycle suggests a December call and a February deadline.",
+    "confidence": "verified",
+    "evidence": "2024 page: \"SynthX and the Duncan Cancer Center announced two-three seed awards of $80,000: 50% toward RICE and 50% toward BCM.\" and \"Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center.\" and \"Costs that are not allowed: Indirect (F/A) costs; Salary for the PI and/or co-investigators\". 2025 page: \"December 10, 2024 Call for proposals announced; February 24, 2025 Proposal submission deadline\", with a Seed Grant row of $15,000 / $15,000 / $30,000 and \"Maximum Seed Grant Attainable $35,000 $35,000 $70,000\". 2026 page: \"2026 SynthX/HMNCC Seed Grant... Each team will receive $45,000\", with a May 18, 2026 deadline. The site menu lists no 2026 Duncan round.",
+    "fit": 62
+   }
+  },
+  {
+   "id": "alliance-foundation-special-projects-allocation",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "consortia",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "There is no years-since-training cap, so it is a possible Alliance route for a computational or biomarker sub-project that the Scholar Award's 5-year window would block.",
+    "proven": "Described on the Alliance Awards page as an active Foundation allocation. No awardee list or amounts were found."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I fetched the primary page and the Awards overview with WebFetch. Both confirm the program exists and describe its priority-driven purpose. Neither gives amount, eligibility, deadline or process. I could not confirm that the finder's claims of \"Alliance Cancer Control Program page names it as open to all investigators\", of \"no career-stage limit\" (the page is silent) or of \"membership required\" hold, so eligibility stays needs-check. I held no duplicate: the held Alliance records are the breast concept route and unrelated programs. I did not check the Cancer Control Program page."
+   },
+   "record": {
+    "id": "alliance-foundation-special-projects-allocation",
+    "sponsor": "Alliance Foundation",
+    "sponsor_full": "Alliance for Clinical Trials in Oncology Foundation",
+    "program": "Alliance Foundation Special Projects Allocation",
+    "url": "https://www.allianceforclinicaltrialsinoncology.org/main/public/standard.xhtml?path=%2FPublic%2FSpecial-Projects",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "mid-size",
+    "focus": [
+     "cooperative-group",
+     "pilot",
+     "computational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "Amount not stated on the Special Projects page or the Awards overview page.",
+    "duration_years": null,
+    "indirects": "Not stated",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "unknown; priorities reset every two years at the Alliance Scientific Strategic Retreat",
+    "verdict": "needs-check",
+    "flags": [
+     "no-amount-posted",
+     "no-deadline-posted",
+     "membership-unconfirmed",
+     "priorities-may-be-stale-2023",
+     "contact-awards@alliancenctn.org"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The public page states no eligibility rules. It says the Alliance Foundation supports proposals for discrete projects that directly address Alliance strategic priorities, which are set every two years at the Scientific Strategic Retreat (the Awards page cites the 2023 retreat). No career-stage limit is posted. In practice this appears to be an Alliance-internal route, so Alliance membership and committee engagement are likely required but not confirmed.",
+    "notes": "This is a real Alliance Foundation allocation, but the public page is only a brief description. It posts no amount, eligibility, deadline or application steps. Priorities reset every two years at the Scientific Strategic Retreat, and the Awards page still cites the 2023 retreat, so the current priority list may be stale or newer. The only inquiry contact listed is awards@alliancenctn.org. The PI has no stated career-stage cap here, which makes it a possible route for a computational or real-world-data sub-project that the Scholar Award's early-career window would block. The trap is treating it as an open call: it looks like a committee-sponsored, priority-driven allocation, not an open application. Next step: the PI should email awards@alliancenctn.org and the Alliance Breast Committee Chair to ask whether a call is open, the current priorities, the typical amount and whether Alliance membership is required. No held record covers this mechanism; it is distinct from the Alliance breast committee concept route.",
+    "confidence": "verified",
+    "evidence": "Special Projects page: \"focused on addressing high priority research areas\"; priorities \"defined every two years at the Alliance Scientific Strategic Retreat\" and proposals \"should identify discrete projects that directly address one or more of these priorities.\" Awards overview page: allocation tied to the \"2023 Scientific Strategic Retreat\"; contact awards@alliancenctn.org. Eligibility, amounts, deadlines and application steps are not stated on either page.",
+    "fit": 52
+   }
+  },
+  {
+   "id": "pcori-improving-health-decision-making-cer-retrospective",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "Directly fits angle 1 (EHR and real-world data): a retrospective comparative-effectiveness study in breast cancer, such as ER+/HER2+ regimens, ADC sequencing or ctDNA-guided care, using BCM or Texas Medical Center health-system data or PCORnet, with heterogeneity of treatment effect and causal inference explicitly encouraged.",
+    "proven": "PCORI has funded observational CER under its broader programs for years. This specific PFA is new for the 2026 cycle and its awards are not yet announced; its recurrence in 2027 is unconfirmed."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I re-derived the dates, award, duration and topic themes from the primary page via WebFetch. The page has no eligibility text, no indirect-cost statement and no future-cycle statement, so recurrence in 2027 stays unconfirmed. I did not independently re-check the PCORI standard-dates page. The held grants.json has PCORI records, including Cycle 1 2027 Broad Pragmatic Studies and Digital Health Technologies, but none is this observational CER mechanism, so I set no duplicate. The portal requirement (PCORI Connect) and the dual-PI allowance from the finder's summary were not seen in the fetched text and are unverified."
+   },
+   "record": {
+    "id": "pcori-improving-health-decision-making-cer-retrospective",
+    "sponsor": "PCORI",
+    "sponsor_full": "Patient-Centered Outcomes Research Institute",
+    "program": "Improving Health Decision Making with CER: Retrospective Observational Studies Leveraging Existing Data Sources (Topic Theme: Addressing Cancer)",
+    "url": "https://www.pcori.org/funding-opportunities/announcement/improving-health-decision-making-observational-comparative-clinical-effectiveness-research",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "program-large",
+    "focus": [
+     "computational",
+     "clinical",
+     "equity"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": 2000000,
+    "award_text": "Up to $2 million direct costs per award; up to 18 months; up to $25 million total funds available for the PFA",
+    "duration_years": 1.5,
+    "indirects": "Not stated on the page; budget limit is expressed in direct costs only",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "closed-projected",
+    "cycle": "unknown",
+    "typical_month": "May (application); January (LOI) if reissued in Cycle 1 2027",
+    "verdict": "needs-check",
+    "flags": [
+     "cycle-closed",
+     "recurrence-unconfirmed",
+     "no-eligibility-text-on-page",
+     "data-access-evidence-required",
+     "topic-theme-nonresponsive-risk"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The page lists no applicant-type or career-stage criteria. Projects must be retrospective observational comparative effectiveness studies using existing data sources, with evidence of data access at application time and no new networks, novel linkages or new registries. Applications must explicitly address at least one of nine Board-approved Topic Themes, one of which is Addressing Cancer; otherwise they are nonresponsive. A BCM MD assistant professor with clinical duties is plausibly eligible, since no restriction is stated.",
+    "notes": "This PCORI funding announcement supports retrospective observational comparative effectiveness research on existing data, with Addressing Cancer as one eligible Topic Theme. It fits the PI's first angle (EHR and real-world data), for example a breast cancer comparison of ER+/HER2+ regimens, ADC sequencing or ctDNA-guided care using BCM, Texas Medical Center or PCORnet data. The 2026 cycle is closed: the application was due 2026-05-05 and the page shows Applications Under Review, with awards expected December 2026. The trap is assuming it recurs. The page describes no future cycle, and a separate PCORI schedule lists Cycle 1 2027 PFAs opening 2026-11-17, with LOI 2027-01-06 and application 2027-05-04. Whether this PFA is reissued is not confirmed. The PI should check the PCORI funding page after 2026-11-17 and email pfa@pcori.org about eligibility. Evidence of data access is required at application, so data-use agreements should be arranged early. The PI should also line up a dual-PI partner and patient partners. PCORI funds comparative effectiveness, not biomarker discovery, so correlative aims should be secondary.",
+    "confidence": "verified",
+    "evidence": "\"Dec. 2, 2025, 9 am (ET)\" PFA opening; \"Letter of Intent deadline: Jan. 6, 2026, 5 pm (ET)\"; \"Application deadline: May 5, 2026, 5 pm (ET)\"; status \"Applications Under Review\"; awards \"December 2026 (Subject to Change)\"; \"Up to $2 million in direct costs\"; \"Up to 18 months duration\"; \"Funds Available Up To $25 million\"; \"At the time of application, there should already be evidence of data access.\"; \"Applications that do not explicitly address at least one of these Topic Themes will be considered nonresponsive.\" (Addressing Cancer is among the nine themes.) The page describes no future cycle and no eligibility or indirect-cost text.",
+    "fit": 70
+   }
+  },
+  {
+   "id": "pcori-partnering-research-community-organizations-cer-across",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "A route for angle 4 (cancer health equity) and pragmatic or investigator-initiated CER in metastatic breast cancer, with a Houston community-organization partner. Treat as a watch item until the 2027 cycle list is posted.",
+    "proven": "Cycle 1 2026 applications are under review, so awardees are not yet public. Recurrence is unproven."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "I re-derived the award, dates, and eligibility from the PFA page itself, and the $12M figure is confirmed there. The page does not state the indirect cost rate. I checked the PCORI funding-opportunities listing for a Cancer Partner reissue and found none among the upcoming Cycle 1 2027 announcements, so the program is marked inactive for 2026-27 with unproven recurrence. No held record duplicates this mechanism. I could not confirm whether a later Cancer Partner cycle will be announced."
+   },
+   "record": {
+    "id": "pcori-partnering-research-community-organizations-cer-across",
+    "sponsor": "PCORI",
+    "sponsor_full": "Patient-Centered Outcomes Research Institute",
+    "program": "Partnering Research and Community Organizations for CER Across the Cancer Care Continuum (The Cancer Partner PFA)",
+    "url": "https://www.pcori.org/funding-opportunities/announcement/cancer-partner-pfa-cycle-1-2026",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "program-large",
+    "focus": [
+     "equity",
+     "clinical",
+     "iit",
+     "cooperative-group"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 12000000,
+    "award_text": "Up to $12M direct costs (up to $13M if outcomes are powered at 24 months or later); up to $60M total pool; up to 5 years (6 if outcomes are powered at 24 months or later). Patient care costs count toward the direct cost cap.",
+    "duration_years": 5,
+    "indirects": "Not stated on the PFA page; PCORI quotes direct-cost ceilings and applies a separate indirect rate.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "Dec (PFA opening); application May",
+    "verdict": "needs-check",
+    "flags": [
+     "closed-cycle",
+     "no-2027-reissue-listed",
+     "dual-PI-community-partner-required",
+     "RCT-only",
+     "very-large-scale",
+     "watch-item",
+     "observational-not-responsive"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Applications need dual PIs, one from a research organization and one from a community organization, who have collaborated before. The research PI needs prior community-partnered research experience, and the community organization needs prior research or community health implementation experience. A broader coalition (health systems, payers) with letters of support is required. The design must be an individual-level or cluster-randomized trial with a hybrid type 1, 2 or 3 design and a sustainability plan. Observational, strictly implementation, and methods-only studies are not responsive.",
+    "notes": "This is PCORI's Cancer Partner PFA: a pragmatic, community-partnered comparative effectiveness program across the cancer care continuum, with awards of up to $12M direct. The Cycle 1 2026 round is closed (application deadline 2026-05-05) and sits at \"Applications Under Review\", with awards expected in December 2026 and the earliest start in April 2027. As of 2026-10-28 the PCORI funding-opportunities page lists seven upcoming Cycle 1 2027 PFAs opening 2026-11-17 (LOI 2027-01-06, application 2027-05-04), and none is a Cancer Partner reissue, so recurrence is unconfirmed. The scale and design rules make it a poor fit for the PI as lead: it requires a dual-PI with a community organization that has already collaborated with the research PI, a randomized hybrid effectiveness-implementation trial, and a broad coalition. Observational and real-world-data studies are explicitly not responsive. Its relevance is to angle 4 (health equity) and to metastatic-disease care delivery such as toxicity management and care coordination, possibly as a co-investigator on a larger BCM or Houston team. The PI should treat it as a watch item, re-check the PCORI page after the November 17 openings, and meanwhile use the Broad Pragmatic Studies PFA already held.",
+    "confidence": "verified",
+    "evidence": "PFA page: \"Status: Applications Under Review\"; \"Application deadline: May 5, 2026, 5 pm\"; \"Award size: Up to $12 million in direct costs. Up to $13 million may be considered for studies with powered outcomes at or beyond 24 months\"; \"Project period: Up to five years\"; \"Total funds available: Up to $60 million\"; \"Applications must have dual PIs, one from a research organization and one from a community organization\"; \"Observational designs are not responsive.\" The PCORI funding-opportunities page (read 2026-10-28) lists seven Upcoming Cycle 1 2027 PFAs (Digital Health, Broad Pragmatic, Phased Large Awards, Methods, Engagement Science, Open Competition Implementation, Limited Competition Implementation), none of them Cancer Partner.",
+    "fit": 38
+   }
+  },
+  {
+   "id": "aim-ahead-consortium-development-program-year-3-4",
+   "decision": "pending",
+   "provides": "funding+data",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "Combines angle 1 (AI/ML on real-world data) and angle 4 (equity) in cancer, with BCM as the academic lead and a Harris County health system or FQHC (e.g., Harris Health) as the co-lead. Other AIM-AHEAD programs (Hub-Specific, Public-Private Partnerships, ReCARDO) do not fit as well.",
+    "proven": "Year 3 (2024-25) and Year 4 (2025-26) program pages list six awarded teams each. Held record aim-ahead-clinicians-leading-ingenuity-ai-quality-fellowship covers only the CLINAQ fellowship, not this program."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "Shares its URL with candidate(s) aim-ahead-cdp-fair-med under a different program name; step 3 checks it is a distinct call before promoting. Confirmed from the Year 4 page (WebFetch) and the programs directory (rendered browser read) that the program exists, awards up to $400k per year for two years, and that no Year 5 or 2026-27 call is listed. No deadline, LOI, indirect-cost or clinical-duties text was found. The finder's SAM, trainee-PI and FQHC claims were not seen on the page and were not verified. I did not open the Year 3 page or the news items. Active is false because no call is open. The spring 2027 timing is a projection from the 2025 webinar date."
+   },
+   "record": {
+    "id": "aim-ahead-consortium-development-program-year-3-4",
+    "sponsor": "AIM-AHEAD",
+    "sponsor_full": "AIM-AHEAD (Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity), NIH Common Fund consortium",
+    "program": "AIM-AHEAD Consortium Development Program (CDP), Year 3 and Year 4 (FAIR-MED)",
+    "url": "https://www.aim-ahead.net/programs/aim-ahead-consortium-development-projects-cdp-year-4-fair-med/",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "mid-size",
+    "focus": [
+     "computational",
+     "equity",
+     "cooperative-group"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 400000,
+    "award_text": "Up to $400,000 per year for two years (about $800,000 total) per team, Year 4 (FAIR-MED); six teams funded.",
+    "duration_years": 2,
+    "indirects": "Not stated on the program page; confirm in the next call.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "forecast",
+    "cycle": "annual",
+    "typical_month": "spring (webinar May 2025 for the Year 4 cycle; unconfirmed for 2027)",
+    "verdict": "needs-check",
+    "flags": [
+     "no-open-call",
+     "year5-not-posted",
+     "deadline-not-posted",
+     "requires-health-system-co-lead",
+     "finder-claims-partly-unverified"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The Year 4 page says proposals came from private and public institutes of higher education, non-profits, small businesses and for-profit organizations, and that all funded projects are jointly led by learning health systems and academia. Focus areas are cancer, cardiometabolic disease and behavioral/mental health, with emphasis on trustworthy AI and co-design. The page states no PI rank, tenure-track or clinical-duties restriction. The SAM registration, multidisciplinary and community-partner requirements in the finder summary were not on this page and were not verified. An assistant-professor MD with clinical duties appears plausibly eligible as academic lead paired with a health-system co-lead.",
+    "notes": "The AIM-AHEAD Consortium Development Program funds multi-year, team-based AI/ML projects in cancer, cardiometabolic and behavioral health, co-led by a learning health system and an academic partner. It fits the PI's first and fourth angles (real-world data AI/ML plus health equity). The Year 4 (FAIR-MED) page describes the 2025-2026 cycle only and gives no dates, so no 2026-27 or Year 5 call exists as of 2026-10-28. The trap is treating it as open or assuming past rules, such as the Year 3 community-health-center partnership, carry forward. The program is not breast-specific, so the project must be framed around a cancer equity question. Practical next steps: line up a Harris Health or FQHC co-lead and a data scientist from Rice or the Texas Medical Center now, and watch the AIM-AHEAD news page for a spring 2027 call. Check indirect-cost rules and SAM registration when it posts.",
+    "confidence": "verified",
+    "evidence": "Year 4 page: \"up to $400,000 per year\"; awards \"over a two-year period\"; \"2025-2026 application cycle\"; \"All projects are jointly led by learning health systems and academia\"; proposals from \"private and public institutes of higher education, non-profits, small businesses, and for-profit organizations\"; focus on \"cancer, cardiometabolic disease and behavioral/mental health disorders\". The programs directory lists Year 2, Year 3 and Year 4 (FAIR-MED) and no Year 5. No deadline, LOI or indirect-cost text appeared on the page.",
+    "fit": 78
+   }
+  },
+  {
+   "id": "nih-nci-mechanisms-that-impact-cancer-risk-use-incretin",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-28",
+    "run": "discovery",
+    "finder_summary": "A niche but open NCI-linked mechanism where a breast oncologist with EHR and registry access could study GLP-1 and GIP agonist exposure and breast cancer outcomes or ER+ risk (obesity-related cancers), pairing with a Rice or Baylor mechanistic collaborator.",
+    "proven": "Standard NIH PAR; not verified with awardee data. Parent R01 and R21 records are held, but this targeted NOFO is not."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I re-derived every field from the grants.gov listing and the full NIH Guide text of both NOFOs. The finder's closing date of Jan 7, 2027 does not match the NOFO, which has standard due dates ending Oct 2026 and an expiration of Jan 8, 2027. The R01 has no budget cap, which the finder left blank, and the R21 cap is stated in the NOFO. The held grants.json has no record of this mechanism (the only GLP-1 hit is the H-NORC pilot), so it is not a duplicate. I did not check whether NCI has issued a reissue notice after the 2025-03-31 update. Whether the PI has a prior submission that would qualify for the Nov 2026 resubmission dates is unknown."
+   },
+   "record": {
+    "id": "nih-nci-mechanisms-that-impact-cancer-risk-use-incretin",
+    "sponsor": "NIH / NCI",
+    "sponsor_full": "National Institutes of Health (National Cancer Institute participating)",
+    "program": "Mechanisms that Impact Cancer Risk with Use of Incretin Mimetics (R01 PAR-25-069 and R21 PAR-25-070)",
+    "url": "https://www.grants.gov/search-results-detail/357202",
+    "status": "active",
+    "first_seen": "2026-10-28",
+    "last_verified": "2026-10-28",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "program-large",
+    "focus": [
+     "computational",
+     "translational",
+     "basic"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "R01 (PAR-25-069): budget not capped, up to 5 years. R21 (PAR-25-070): direct costs capped at $275,000 over a maximum of 2 years, with no more than $200,000 in any single year.",
+    "duration_years": 5,
+    "indirects": "Standard NIH negotiated F&A rate; R21 cap applies to direct costs only.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "closed-projected",
+    "cycle": "one-time",
+    "typical_month": "Oct (last new-application due dates were R01 2026-10-05 and R21 2026-10-16)",
+    "verdict": "needs-check",
+    "flags": [
+     "no-new-due-date-remaining",
+     "grants-gov-closing-date-is-expiration",
+     "expires-2027-01-08",
+     "nofo-updated-2025-03-31-agency-priorities",
+     "check-for-reissue",
+     "scope-thyroid-prostate-focus",
+     "R21-no-clinical-trials"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Open to US higher-education institutions and nonprofits, including private institutions such as Baylor College of Medicine. No career-stage or tenure restriction appears in the NOFO. R01 is Clinical Trial Optional and is meant for well-developed projects with preliminary data. R21 is Clinical Trial Not Allowed and is meant for pilot or exploratory projects. Both accept New and Resubmission applications only. Studies must address mechanisms by which GLP-1 or dual GLP-1/GIP receptor agonists affect cancer risk.",
+    "notes": "PAR-25-069 (R01) and companion PAR-25-070 (R21) are NCI parent-style program announcements for mechanistic studies of how GLP-1 and dual GLP-1/GIP receptor agonists change cancer risk. The grants.gov \"closing date\" of Jan 7, 2027 is really the NOFO expiration (Jan 8, 2027 on the NIH Guide). The standard dates in the NOFO show the last new-application due dates were 2026-10-05 for the R01 and 2026-10-16 for the R21, both already past as of 2026-10-28. The only remaining dates, 2026-11-05 and 2026-11-16, are for renewals and resubmissions, so the PI cannot use them without a prior submission. The mechanism is therefore effectively closed unless NCI reissues it, which is worth watching. The scope is breast-adjacent at best: the NOFO names thyroid and prostate cancers and obesity-related cancers generally, not breast or ER+ disease. The PI's EHR and registry angle could support a GLP-1 exposure and ER+ breast cancer risk or outcome question, but the NOFO leans mechanistic and the R21 bars clinical trials. If NCI reissues it, pair with a Rice or Baylor mechanistic collaborator. Next step: check the NIH Guide for a reissue or replacement NOFO and consider the parent R01/R21 meanwhile.",
+    "confidence": "verified",
+    "evidence": "NIH Guide PAR-25-069: \"Application Due Dates ... October 05, 2026 * [New] November 05, 2026 * [Renewal / Resubmission]\" and \"Expiration Date January 08, 2027\". PAR-25-070: \"October 16, 2026 * ... November 16, 2026 *\", and \"direct costs are limited to $275,000 over a maximum two year period, with no more than $200,000 in any single year\". Both: \"Application Types Allowed New Resubmission\". PAR-25-069: \"Award Budget Application budgets are not limited ... maximum project period is 5 years\". Purpose: \"mechanisms by which incretin mimetics, specifically GLP-1 or dual GLP-1/GIP-1 receptor agonists, impact cancer risk.\" Grants.gov listing: \"Current Closing Date for Applications: Jan 07, 2027\", \"Award Ceiling: $\" (blank).",
+    "fit": 48
    }
   }
  ]
