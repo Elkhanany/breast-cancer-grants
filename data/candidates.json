@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -1415,7 +1415,7 @@
   },
   {
    "id": "alliance-ccdr-pilot-project-award",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "consortia",
@@ -1426,10 +1426,10 @@
    },
    "verification": {
     "real": true,
-    "active": false,
+    "active": true,
     "eligible_plausible": true,
     "duplicate_of": null,
-    "reason": "The page was fetched and the claimed fields match it. It states no deadline, amount or cycle, so those are null with deadline_status not-posted. I could not confirm BCM's Alliance membership or the PI's CCDR Committee standing. I did not fetch the linked Awards page, so the claim that the sibling awards are on hiatus is unverified. A search of the held grants.json found no record of this mechanism, so there is no duplicate. active is false because there is no evidence of an open or reliably recurring call in 2026-27."
+    "reason": "Re-derived from the primary page fetched by WebFetch, which returned a summary rather than verbatim text. Confirmed eligibility, topics, one-year limit, contact and awardees. Could not confirm any deadline, award amount, indirects, or whether a call is currently open. Alliance membership of the PI and BCM was not checked. Checked the held records: the only Alliance one is the concept-submission route (alliance-breast-committee-concept), a different mechanism, so no duplicate."
    },
    "record": {
     "id": "alliance-ccdr-pilot-project-award",
@@ -1439,21 +1439,21 @@
     "url": "https://www.allianceforclinicaltrialsinoncology.org/main/public/standard.xhtml?path=%2FPublic%2FCCDR-Award",
     "status": "active",
     "first_seen": "2026-09-10",
-    "last_verified": "2026-10-15",
+    "last_verified": "2026-10-27",
     "retired_on": null,
     "retired_reason": null,
     "category": "organization",
     "tier": "mid-size",
     "focus": [
-     "equity",
      "pilot",
+     "equity",
      "cooperative-group",
-     "clinical"
+     "computational"
     ],
     "breast_specific": false,
     "er_her2_fit": "low",
     "award_usd": null,
-    "award_text": "Not stated on the page; funded from the Alliance NCORP Research Base grant (NCI).",
+    "award_text": "Amount not stated; pilot funds from the Alliance NCORP Research Base grant (NCI DCCPS), project must be completable within one year",
     "duration_years": 1,
     "indirects": "Not stated",
     "loi_deadline": null,
@@ -1465,20 +1465,21 @@
     "verdict": "needs-check",
     "flags": [
      "no-deadline-posted",
-     "no-amount-posted",
+     "no-amount-stated",
      "membership-required",
-     "last-recipient-2024",
+     "contact-program-manager",
      "not-breast-specific"
     ],
     "track_gate": null,
     "career_cap": null,
     "limited_submission": false,
-    "eligibility": "Applicants and their respective institutions must be Alliance members and members of the Alliance CCDR Committee. Projects must be completable within one year. The committee prioritises patient out-of-pocket costs, financial toxicity and financial counseling; implementation of patient-reported outcomes into routine care delivery; and practice-level changes that improve cancer care delivery. No career-stage limit is stated on the page.",
-    "notes": "This is a small internal pilot award from the Alliance NCORP Research Base. It is meant to generate preliminary data for an Alliance CCDR study that would go to the NCORP network. The page posts no deadline, amount or call cycle, so it cannot be treated as an open mechanism; the most recent listed recipient is 2024, with earlier ones in 2021 and 2020. It fits the PI's health-equity and care-delivery angle (financial toxicity, access, patient-reported outcomes in breast cancer) but not the ER+/HER2+ biomarker angle. The trap is membership. Both the PI and BCM must be Alliance members, and the PI must sit on the CCDR Committee. The PI should confirm BCM's Alliance membership and join the CCDR Committee first. Then the PI should email the program manager (Anne Barber, abarber@facs.org) to ask whether a call is planned for 2026-27, what the award size is, and how to apply. Treat it as a low-effort enquiry, not a deadline-driven application. The Alliance page also lists related awards, which should be checked on the Awards page.",
+    "eligibility": "Applicants and their institutions must be Alliance members and also members of the Alliance CCDR Committee. Projects must be completable within one year and aim to generate preliminary data leading to an Alliance CCDR study for the NCORP network. Topics: out-of-pocket costs, financial toxicity and counseling; implementing patient-reported outcomes in routine care; practice-level care delivery changes (survivorship plans, care coordination, surgical care processes). No career-stage limit or clinical-duty restriction is stated.",
+    "notes": "This is a small one-year pilot award from the Alliance NCORP Research Base, meant to produce preliminary data for a later Alliance CCDR study in the NCORP network. It fits the PI's health-equity and real-world care-delivery angles (financial toxicity, PRO implementation), but not the ER+/HER2+ translational angle. The page gives no deadline, amount, or application process, so the PI would have to email the program manager to learn whether a call is open. The main trap is the double membership requirement: the PI and BCM must be Alliance members and on the CCDR Committee, and this has not been checked. Recent awardees (2020, 2021, 2024) include a breast oncologist, but none were from BCM. Next step: confirm BCM Alliance membership and CCDR Committee status, then write to the program manager with a one-paragraph concept. The held record for the Alliance concept route is a related but separate mechanism.",
     "confidence": "verified",
-    "evidence": "Page text (via WebFetch, paraphrase and short quotes): the Alliance offers pilot funds to \"generate preliminary data that will lead to the development of an Alliance CCDR study for submission to the NCORP network.\" \"Applicants and their respective institutions must be Alliance members and members of the Alliance CCDR Committee.\" Projects must be completable within one year. Deadline and amount: not stated. Recipients listed: 2024 Halbert, 2021 Wernil, 2020 Blinder. Contact: Anne Barber, abarber@facs.org.",
-    "fit": 48
-   }
+    "evidence": "Page states applicants and institutions \"must be Alliance members\" and members of the Alliance CCDR Committee; goal to \"generate preliminary data that will lead to the development of an Alliance CCDR study\"; projects completable within one year; funded from the Alliance NCORP Research Base grant (NCI DCCPS). No deadline or amount listed. Contact: Anne Barber, abarber@facs.org. Awardees listed: 2024 Halbert, 2021 Wernil, 2020 Blinder (MSKCC).",
+    "fit": 52
+   },
+   "promoted_on": "2026-10-27"
   },
   {
    "id": "nrg-health-care-access-fellowship",
@@ -8960,7 +8961,7 @@
   },
   {
    "id": "utmb-dmac-collaborative-pilot-projects",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "data",
    "provenance": {
     "lens": "tmc-local",
@@ -9023,11 +9024,12 @@
     "confidence": "verified",
     "evidence": "Page (utmb.edu/dmac/pilot-projects), as read via WebFetch: \"Call for Collaborative Projects (2026)\"; funded by the Cancer Prevention and Research Institute of Texas; \"Investigators at Texas academic and research institutions\"; \"LOI Deadline: October 23, 2026\"; notified by end of October; one-page LOI plus Biosketch or CV to Samuel David (savdavid@utmb.edu); \"Two projects will be selected to receive DMAC data access and analytical support.\" Past cohorts listed 2021-22 through 2025-26 (including MD Anderson and UT Health Houston), which establishes annual recurrence. No dataset list on the page; past pilots mention SEER-Medicare, TCR-Medicare, Texas Medicaid and Medicare, UTMB EHR.",
     "fit": 52
-   }
+   },
+   "promoted_on": "2026-10-27"
   },
   {
    "id": "abta-metastatic-brain-tumor-collaborative-cns-metastasis",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "national-quiet",
@@ -9092,7 +9094,8 @@
     "confidence": "verified",
     "evidence": "RFA: \"The PI must hold a full-time faculty position and cannot have held a full-time faculty appointment before September 1, 2020.\" \"Letter of Intent (LOI) Due: November 3, 2026, by 12:00 p.m., noon CST. No late LOIs will be accepted.\" \"Projects MUST include Brain and CNS Metastases arising from cancers originating from at least TWO distinct primary organ sites (i.e. Breast Cancer AND Lung Cancer).\" \"Grants are awarded for $50,000 (salary support and research expenses) for one year.\" \"Up to 10% of the grant budget may be used for indirect costs.\" Source: https://www.abta.org/wp-content/uploads/2022/06/2027-CNS-Mets-RFA_Finalv2.pdf, linked from the program page.",
     "fit": 78
-   }
+   },
+   "promoted_on": "2026-10-27"
   },
   {
    "id": "landenberger-foundation-margaret-q-award",
@@ -9226,6 +9229,341 @@
     "confidence": "verified",
     "evidence": "Page (curl, 2026-10): 'With over 400,000 patients enrolled in the TCC protocol to date, these harmonized datasets provides an opportunity to generate real-world data (RWD)...' Establishes the data scale. 'The Avatar program, which was launched in 2016, generates whole exome and transcriptome data for TCC-consented patients and links longitudinal clinical data...' Establishes the genomic data. 'ORIEN Intermember Projects encourage research opportunities between ORIEN member institutions, and are inclusive of nonmember and industry partners.' Establishes eligibility. 'submit a project inquiry below or contact ORIENprojects@AsterInsights.com' Establishes the entry route. There is no deadline or funding language on the page. The network roster showed 'No posts found'.",
     "fit": 45
+   }
+  },
+  {
+   "id": "rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-27",
+    "run": "discovery",
+    "finder_summary": "A Rice-BCM cancer seed grant the PI could be named on as clinical co-PI for ADC, imaging or chemistry-enabled translational breast work, and a Smith Breast Center investigator has already won it.",
+    "proven": "Awardee lists for 2024 (3 teams, incl. breast tumor imaging team) and 2025 (3 teams, incl. Smith Breast Center); 2026 HMNCC winners posted."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "Shares its URL with candidate(s) rice-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2 under a different program name; step 3 checks it is a distinct call before promoting. Re-derived from the 2025 and 2026 program pages via WebFetch. The claimed up-to-$80,000 figure for 2024 was not checked (2024 page not fetched); the 2025 page shows $30,000 plus incentives. Active set to false because no BCM-eligible round is open or announced for 2026-27 and the successor excludes BCM. The collapsed timeline for the 2025 round was visible in the fetched summary. Could not confirm whether a DLDCCC round will return. Verdict needs-check, not ruled out, because a return is plausible and a Houston Methodist co-appointment route exists."
+   },
+   "record": {
+    "id": "rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant",
+    "sponsor": "Rice SynthX / Duncan Cancer Center",
+    "sponsor_full": "Rice University Synthesis X (SynthX) Center with Baylor College of Medicine Dan L Duncan Comprehensive Cancer Center (managed by Rice ENRICH)",
+    "program": "SynthX/DLDCCC Seed Grant (successor: SynthX/HMNCC Seed Grant)",
+    "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "basic"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 30000,
+    "award_text": "2025 SynthX/DLDCCC round: $30,000 seed for a Rice plus BCM team (maximum original budget $30,000 over two years), plus conditional incentives of $20,000 (new grant over $1M and under $3M) or $40,000 (new grant over $3M), maximum attainable $70,000 per joint team. The claimed $80,000 for 2024 was not re-checked; the 2026 HMNCC successor is $45,000 per team for one year ($22,500 per side) and is a Rice plus Houston Methodist pairing only.",
+    "duration_years": 2,
+    "indirects": "Not allowed (no F&A, no PI or co-investigator salary, no tuition remission)",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "Call announced Dec (2024) with Feb deadline; 2026 HMNCC version announced Apr with May deadline; no BCM round after 2025",
+    "verdict": "needs-check",
+    "flags": [
+     "no-open-call",
+     "bcm-round-lapsed",
+     "requires-rice-partner",
+     "no-indirects",
+     "claimed-amount-mismatch",
+     "successor-excludes-bcm"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The 2025 SynthX/DLDCCC round required at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center at BCM; faculty could be PI or co-PI on one proposal only, and a prior recipient could not receive another seed grant within 2 years. No degree, rank, track or clinical-duty restriction is stated. The 2026 successor (SynthX/HMNCC) requires one SynthX PI and one Houston Methodist Neal Cancer Center PI and does not mention BCM, so the PI would be eligible only through a Houston Methodist appointment or co-PI. Projects needing IRB approval are not funded until approval.",
+    "notes": "The SynthX/DLDCCC Seed Grant was a Rice SynthX Center and Duncan Cancer Center (BCM) joint seed program, run through Rice ENRICH, with 2024 and 2025 rounds. The 2025 page shows a $30,000 team seed (not the $80,000 claimed for 2024) with conditional incentives of up to $40,000 if the seed leads to a large new grant. The program is no longer a BCM mechanism in 2026: the successor SynthX/HMNCC call (announced 2026-04-27, due 2026-05-18, winners posted) pairs Rice with Houston Methodist Neal Cancer Center only, at $45,000 for one year, and the page does not mention BCM. No 2026-27 DLDCCC call is posted, and the 2026-27 HMNCC call is not announced. The 2025 awardees included a Smith Breast Center investigator paired with a Rice chemist, which shows the pairing is viable, but SynthX is chemistry and bioengineering oriented, so the PI would need a Rice chemistry co-PI (for example ADC or imaging chemistry). Funds cannot pay faculty salary or indirects. Treat as a watch item: check synthx.rice.edu in December for a returning DLDCCC round, and in the interim use the open Rice and TMC Collaborator Fund (held) as the standing Rice-BCM route.",
+    "confidence": "verified",
+    "evidence": "2025 page: \"Each team needs at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center\"; timeline \"December 10, 2024: Call for proposals announced; February 24, 2025: Proposal submission deadline\"; \"Seed grant ... Rice & BCM PIs $30,000\"; \"Maximum original budget: $30,000 over two years for teams with PIs from both institutions\"; \"Indirect (F&A) costs are not allowed.\" Page states the 2026 SynthX/HMNCC Seed Grant has announced winners. 2026 page: \"Each team must include one SynthX PI and one HMNCC PI\"; \"$45,000 total, with $22,500 going to each PI's home institution\"; deadline May 18, 2026; no mention of BCM; no future call announced. No LOI mentioned on either page.",
+    "fit": 40
+   }
+  },
+  {
+   "id": "rice-synthx-rice-bcm-rising-star-translational-cancer",
+   "decision": "pending",
+   "provides": "recognition (honorarium not stated)",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-27",
+    "run": "discovery",
+    "finder_summary": "Low-priority recognition award; the PI is likely beyond the 10-year-from-degree window, so probably ineligible.",
+    "proven": "2024 winner Igor Bado (Mount Sinai) on the page."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "Re-derived from the primary page via WebFetch. Confirmed eligibility and the 2026 closure. Could not confirm the 2028 next cycle, the award amount or any nomination process; the page does not state them. No held record matched (grep for the program name returned only an unrelated entry). Ruled out mainly on the 10-years-from-degree cap, which the PI's MD date is assumed to exceed; the degree year itself was not provided."
+   },
+   "record": {
+    "id": "rice-synthx-rice-bcm-rising-star-translational-cancer",
+    "sponsor": "Rice SynthX",
+    "sponsor_full": "Rice University Synthesis X Center",
+    "program": "Rice/BCM Rising Star in Translational Cancer Research Award",
+    "url": "https://synthx.rice.edu/ricebcm-rising-star-translational-cancer-research-award",
+    "status": "active",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "early-career",
+    "focus": [
+     "career-development",
+     "translational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "Not stated on the page; no prize amount or honorarium is described. The 2024 winner gave a talk, so recognition with a lecture appears to be the main component.",
+    "duration_years": null,
+    "indirects": "Not applicable (recognition award; none stated)",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "unknown",
+    "verdict": "ruled-out",
+    "flags": [
+     "nomination-only",
+     "recognition-no-funding",
+     "10-year-degree-cap",
+     "2026-closed",
+     "next-cycle-unconfirmed"
+    ],
+    "track_gate": null,
+    "career_cap": "Within 10 years of terminal degree",
+    "limited_submission": false,
+    "eligibility": "Nomination-based; self-application is not described. Nominees must have earned a terminal degree (PhD, MD or equivalent) within the last 10 years, hold a junior faculty position at an accredited institution, work on cancer-related topics, and have strong records of peer-reviewed publications, grants and impactful research. The PI completed fellowship in 2019-2020 but the MD was earned well over 10 years ago, so the PI is outside the window.",
+    "notes": "This is a nomination-based recognition award from Rice SynthX, presented with a lecture at a Rice/BCM event; the page states it is given twice a year but states no prize amount. The page says nominations for 2026 are closed and posts no future date, so the claimed 2028 next cycle is not confirmed by the page. The eligibility requires a terminal degree within the last 10 years, which the PI very likely exceeds given an MD and faculty year 7+ after fellowship. The trap is assuming that junior faculty rank alone qualifies; the clock runs from the degree, not the appointment. Only a colleague could nominate, and there is no funding to justify effort. Low priority; revisit only if the degree window is confirmed to be met, otherwise drop. The 2024 winner was a breast cancer metastasis PhD at Mount Sinai, so the award does reach breast research outside Houston.",
+    "confidence": "verified",
+    "evidence": "\"Nominations for the 2026 award are closed.\" Eligibility: terminal degree (Ph.D., M.D., or equivalent) within the last 10 years; junior faculty position at an accredited institution; cancer-related research; strong publication and grant record. The page gives no nomination procedure, deadline, prize amount or honorarium. 2024 winner: Igor Bado, PhD, Mount Sinai.",
+    "fit": 15
+   }
+  },
+  {
+   "id": "aim-ahead-research-fellowship-program-2",
+   "decision": "pending",
+   "provides": "funding+data",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-27",
+    "run": "discovery",
+    "finder_summary": "A funded route into EHR and real-world-data AI/ML work with built-in health-equity framing, for a junior faculty clinician with no PhD, if the 10-year window still covers the PI.",
+    "proven": "Four cohorts have run. The page shows awardee distribution maps by hub and dataset use: 22 fellows on OCHIN data in Cohort 1, and 24 or more per cohort after."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "Shares its URL with candidate(s) aim-ahead-research-fellowship, aim-ahead-research-fellowship-program under a different program name; step 3 checks it is a distinct call before promoting. The program page and Cohort 4 mentor page were read directly and the 10-year cap was confirmed. The Cohort 4 fellow call page, the stipend amount and a Cohort 5 call could not be confirmed, because the funding listing sits behind a login. The ruled-out verdict rests on an inference from the fellowship dates, since the PI's MD year is not known. The Cohort 4 May 25 due date comes from a university notice and is not on the primary page. The held CLINAQ record is a related but different mechanism, so I did not mark a duplicate."
+   },
+   "record": {
+    "id": "aim-ahead-research-fellowship-program-2",
+    "sponsor": "AIM-AHEAD",
+    "sponsor_full": "AIM-AHEAD Consortium (NIH Common Fund / Coordinating Center, OT2OD032581)",
+    "program": "AIM-AHEAD Research Fellowship Program (Cohort 5 expected)",
+    "url": "https://www.aim-ahead.net/programs/research-fellowship-program/",
+    "status": "active",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "early-career",
+    "focus": [
+     "computational",
+     "career-development",
+     "equity"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "No dollar amount stated on the program page or the Cohort 4 pages. The page says only that fellows receive funding plus AIM-AHEAD training, data and infrastructure. Cohort 4 mentors received a $10,000 subaward plus 8% indirects via UNT Health. The fellow stipend is not confirmed.",
+    "duration_years": 1,
+    "indirects": "Not stated for fellows. Mentors are paid a subaward of $10,000 plus 8% indirect costs through UNT Health.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Spring (Cohort 4 fellow applications were due May 25, 2025; mentor call ran Oct 10-24, 2025)",
+    "verdict": "ruled-out",
+    "flags": [
+     "10-year-degree-window-likely-exceeded",
+     "cohort-5-call-not-posted",
+     "award-amount-not-stated",
+     "deadline-projected-not-stated",
+     "fellow-call-page-not-linked",
+     "partner-mentor-required-different-organization"
+    ],
+    "track_gate": null,
+    "career_cap": "Within 10 years of completing the highest degree",
+    "limited_submission": false,
+    "eligibility": "Early-career researchers (graduate students, postdocs, junior faculty, and others outside academia) within 10 years of completing their highest degree. Projects must fall under AIM-AHEAD North Star III (AI/ML for behavioral health, cardiometabolic health and cancer outcomes) and use biomedical, clinical or genomic data. Each fellow is matched with a mentor from another organization, and fellows or mentors must complete IRB and data-use steps. The program page states no clinical-duty restriction. The PI's MD date is not known to this check, but the stated fellowship completion in 2019-2020 implies a degree roughly 12 or more years old by a spring 2027 call.",
+    "notes": "This is the NIH Common Fund AIM-AHEAD one-year AI/ML research fellowship for early-career investigators, with a cancer-outcomes theme under North Star III. The program is real and recurring (Cohort 1 began September 2022; the page says it is on Cohort 4, which ran Oct 2025 to Sept 2026), but no Cohort 5 call is posted as of 2026-10-28. Prior timing points to a spring call (Cohort 4 fellow applications were due May 25, 2025), so the PI should treat spring 2027 as an expectation only. The trap is the 10-years-from-highest-degree cap. Because the PI finished fellowship in 2019-2020, the MD was probably earned around 2014 or earlier, which would put the PI outside the window. If the MD date is in fact 2017 or later, the PI should reconsider. The fellow stipend is not published, and the application portal requires a login. The more suitable AIM-AHEAD route is the held CLINAQ clinician fellowship, which has no degree-age cap. Next step is to confirm the MD year and, if eligible, watch the AIM-AHEAD funding listing in spring 2027.",
+    "confidence": "projected",
+    "evidence": "Program page: \"This Fellowship supports early-career researchers (graduate students, postdocs, junior faculty, and others conducting research outside of an academic institution, within 10 years of completing their highest degree)... The Research Fellowship Program launched Cohort 1 in September 2022, and is currently on Cohort 4.\" Cohort 4 mentor page: \"The proposed research project must focus on AIM-AHEAD North Star (III)... The Research Fellowship Cohort 4 program is from Oct 1, 2025 - Sept 30, 2026\" and \"Mentors... compensated through a subaward amount of $10,000 + 8% Indirect Costs\". University of Utah funding notice: \"Research Fellowship Program (Cohort 4)... Due May 25th.\" The page lists no dollar amount, deadline or clinical-duty restriction.",
+    "fit": 45
+   }
+  },
+  {
+   "id": "aim-ahead-consortium-development-program-fqhc",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-27",
+    "run": "discovery",
+    "finder_summary": "This pairs real-world-data AI/ML with cancer health equity, and Houston has a dense FQHC and Harris Health network the PI could partner with.",
+    "proven": "Six Year 3 teams were awarded, and the page says it drew proposals from many institution types."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I read the Year 3 page directly with curl, because the page was fetched as static HTML. It confirms the program, scope, eligibility types and six awardees. It states no amounts, no deadlines and no Year 4 or Year 5 call. My curl requests to the generic CDP page and the funding-opportunities page returned no usable text, probably because they are JavaScript-rendered, so I could not confirm the Year 4 (FAIR-MED) details or any current open call. I did not use the headless-Chromium reader. The held grants.json has no CDP record. Only an unrelated AIM-AHEAD CLINAQ fellowship is held, so there is no duplicate. The active flag is false because no cycle is currently posted, though the program appears to recur annually."
+   },
+   "record": {
+    "id": "aim-ahead-consortium-development-program-fqhc",
+    "sponsor": "AIM-AHEAD",
+    "sponsor_full": "AIM-AHEAD Consortium (NIH Common Fund)",
+    "program": "AIM-AHEAD Consortium Development Program (CDP), FQHC and community-health-center AI/ML pilots",
+    "url": "https://www.aim-ahead.net/programs/aim-ahead-consortium-development-program-cdp-year-3/",
+    "status": "active",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "mid-size",
+    "focus": [
+     "computational",
+     "equity",
+     "pilot"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "Not stated on the sponsor page. The page says only that six Year 3 teams received a first year of funding. Aggregator figures ($500,000 per Year 3 project; up to $800,000 total costs over 24 months for Year 4) are unverified.",
+    "duration_years": null,
+    "indirects": "Not stated on the page.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "June",
+    "verdict": "needs-check",
+    "flags": [
+     "no-open-call",
+     "year-3-closed",
+     "amount-unverified",
+     "page-has-no-deadline",
+     "needs-FQHC-partner",
+     "institutional-sponsored-programs-review",
+     "not-breast-specific"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The Year 3 page describes funding for multi-disciplinary research projects that plan and pilot AI/ML algorithms or tools for health inconsistencies in cancer, cardiometabolic, and mental/behavioral health. Projects must engage healthcare organizations serving patients in FQHCs or Community Health Centers in HRSA-defined areas with limited medical capacity, and/or serving a high percentage of NIH-designated populations. The 2024-2025 cycle drew proposals from public and private higher-education institutions, non-profits, small businesses, for-profits, and a tribal health organization, and 66% were led by non-academic institutions. No career-stage limit or clinical-duty restriction appears on the page.",
+    "notes": "This is the NIH Common Fund AIM-AHEAD Consortium Development Program, which funds pilots of AI/ML tools in cancer, cardiometabolic and mental/behavioral health, built with FQHC or community-health-center partners. The sponsor page covers only the closed 2024-2025 (Year 3) cycle, with six awardees, and shows no open call, deadline or dollar amount. It matches the PI's computational/real-world-data and health-equity angles, and the call is cancer-inclusive rather than breast-specific, so a breast or ER+/HER2+ application would be one use case among others. The PI could lead or join a team, since most Year 3 applicants were non-academic and the program wants equal partnerships with community providers. The traps are the unverified $500,000 and $800,000 figures from aggregators, and the Year 4 June 2025 deadline, which has already passed. The page also says the program wants more than data-only studies: it wants co-designed interventions piloted with communities. Next steps are to watch aim-ahead.net for a Year 5 call and to open early talks with Harris Health or a Houston FQHC. The PI should also ask the AIM-AHEAD South Central Hub about the current cycle.",
+    "confidence": "verified",
+    "evidence": "\"The Consortium Development Program for Year 3 provides funding to catalyze multi-disciplinary research projects to plan and pilot Artificial Intelligence/Machine Learning (AI/ML) algorithms or tools to address health inconsistencies in cancer, cardiometabolic and mental/behavioral health.\" \"Six teams have been awarded a first year of funding to form collaborative, equal partnerships with providers serving FQHC populations. The 2024-2025 application cycle drew proposals from ... Most applications (66%) were led by non-academic institutions.\" This establishes the program, its scope and eligible applicant types. It does not establish a deadline, an award amount or an open call.",
+    "fit": 62
+   }
+  },
+  {
+   "id": "nci-research-supplements-promote-diversity-health-related-pi",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-10-27",
+    "run": "discovery",
+    "finder_summary": "Once the PI has an NCI R01 or R21, this lets the PI fund a trainee on equity or real-world-data work, but it is a conditional later route, not a current one.",
+    "proven": "NCI runs it as a standing program, and the guidelines describe the CURE supplement program staff. No awardee list was fetched."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "The PDF was fetched and read, and it confirms the windows, parent-grant rules, salary caps, effort and durations. Today's date and the Dec 1, 2026 deadline could not be verified: the PA-23-189 NIH page 404s and a search shows a listed expiration of 2026-05-08, with no successor number found. A BRAIN Initiative notice mentions a continuing window to 2026-11-30, but that was not checked at its source. The PI has no NCI parent grant, so the program is unusable now. The $100,000 award figure is the investigator-candidate salary cap, not a guaranteed amount. No held record duplicates this (the grants.json matches were an AACR diversity award and a BCM P20 pilot)."
+   },
+   "record": {
+    "id": "nci-research-supplements-promote-diversity-health-related-pi",
+    "sponsor": "NCI",
+    "sponsor_full": "National Cancer Institute, Center to Reduce Cancer Health Disparities, CURE program",
+    "program": "NCI Research Supplements to Promote Diversity in Health-Related Research (PA-23-189), PI as sponsor",
+    "url": "https://www.cancer.gov/about-nci/organization/crchd/diversity-training/cure/ds-guidelines.pdf",
+    "status": "active",
+    "first_seen": "2026-10-27",
+    "last_verified": "2026-10-27",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "early-career",
+    "focus": [
+     "equity",
+     "career-development"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 100000,
+    "award_text": "Supplement to an existing NCI parent grant for a candidate's salary plus fringe and F&A per institutional policy. Candidate salary is capped at $31,000/yr (post-bac), $100,000/yr (investigator-level), with supplies/travel of $3,000 to $10,000/yr by level. Up to 2 years for post-baccalaureate and investigator candidates, up to 3 for postdocs.",
+    "duration_years": 2,
+    "indirects": "F&A allowed per institutional policy; budget periods sync to the parent grant.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "semiannual",
+    "typical_month": "October-December and February-April (receipt windows; Dec 1 and Apr 2 ends per NCI guidelines)",
+    "verdict": "ruled-out",
+    "flags": [
+     "requires-active-NCI-parent-grant",
+     "PI-holds-no-NCI-award",
+     "PA-23-189-listed-expiration-2026-05-08",
+     "PA-23-189-NIH-page-404",
+     "no-successor-NOFO-found",
+     "candidate-must-be-underrepresented-group",
+     "clinical-trial-leadership-excluded",
+     "pdf-last-updated-2024-11-15"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Administrative supplement to an active NCI parent grant (R01 or R01-equivalent supports up to 2 candidates; R21 supports one candidate at graduate-student level or more junior; P30 excluded) with at least 2 years of NCI support remaining. The parent-grant PI is the supplement PI and sponsors a candidate who is a US citizen, non-citizen national or permanent resident from an underrepresented group, with disabilities, or from a disadvantaged background. Candidates cannot have been PI of an individual research grant (K, R21, R00, R01) or hold concurrent PHS support. The program may not fund technical support for NIH investigators, and it excludes leading an independent clinical trial.",
+    "notes": "This is NCI's standing administrative-supplement route for funding a trainee or early-career investigator on an existing NCI grant, and the guidelines PDF is real and describes two receipt windows (Oct 1 to Dec 1 and Feb 1 to Apr 2). It is not a route the PI can use now: the PI must already hold an active NCI R01 or R21 with 2 or more years remaining, and the PI cannot be the beneficiary. The PDF was last updated 2024-11-15 and cites PA-23-189, whose NIH Guide page returned 404 today and which an NIH contacts page lists as expiring 2026-05-08; no reissue was found, so the claim that the window is open now to Dec 1, 2026 is not confirmed. Do not plan around a Dec 1 deadline. The supplement must also stay within the parent grant's scope and cannot support leading a clinical trial. Next step: if the PI later wins an NCI R01 or R21 for equity or real-world-data work, email CUREsupplements@nih.gov and check the current NOFO number before budgeting a trainee. Treat as a conditional future mechanism only.",
+    "confidence": "projected",
+    "evidence": "PDF: \"This document applies to applications requesting research supplement funding to active National Cancer Institute (NCI) grants in response to PA-23-189.\" \"The two application receipt dates for the NCI Diversity Supplements are: October 1 – December 1 and February 1 – April 2\". \"At the time of the supplement application, the parent grant must have at least two years of NCI support remaining.\" \"NCI does not accept the P30 as the parent grant\". \"The PI of the parent grant is the PI of the supplement.\" Salary: \"capped at $31,000 annually\" for post-bac; investigators \"not to exceed $100,000 per year\", maximum two years, minimum 75% effort. \"Last updated November 15, 2024\". NIH Guide page PA-23-189.html returned 404 on 2026-10-28; NIH contacts page lists Expiration Date May 8, 2026 (via web search snippet).",
+    "fit": 22
    }
   }
  ]

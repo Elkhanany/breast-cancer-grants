@@ -1,6 +1,23 @@
 {
  "entries": [
   {
+   "date": "2026-10-27",
+   "kind": "update",
+   "summary": "62 records re-verified; GSK oncology cycle 4 date added, 3 candidates promoted.",
+   "added": 3,
+   "changed": 32,
+   "retired": 0,
+   "details": [
+    "gsk-investigator-sponsored-studies-supported-collaborative: no date → full 2026-12-15 (oncology 2026 Cycle 4 closes; two reads agree)",
+    "Promoted: alliance-ccdr-pilot-project-award, utmb-dmac-collaborative-pilot-projects, abta-metastatic-brain-tumor-collaborative-cns-metastasis",
+    "Discovery added 5 pending candidates (Rice SynthX x2, AIM-AHEAD x2, NCI diversity supplement); 1 pending re-verified",
+    "Disputed, nothing written: nia-gemsstar-r03 (Grants.gov synopsis shows 2028-07-16 expiry; announcement says new applications due 2026-11-10, held), nih-parent-p01 (Grants.gov shows only 2029-05-25 expiry; held 2026-11-20 unsupported, kept)",
+    "Kleberg: page now refuses applicants with no funding in past ten years; eligibility updated",
+    "ARPA-H roster changed (REST, STREAM gone; EHI, UNIQUE, SURPASS, SPECTRA listed); FASTPASS only open to earlier-deadline applicants",
+    "myriad and daiichi dates_changed signals were page date stamps, not moves"
+   ]
+  },
+  {
    "date": "2026-10-26",
    "kind": "update",
    "summary": "17 records re-verified; NCI R34 PAR-25-104 rolled to 2027-02-25, Pershing Square Sohn closed; 2 candidates promoted, 4 found.",
