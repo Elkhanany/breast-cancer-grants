@@ -49,7 +49,7 @@ automated scraping. Each refresh re-reads the sponsor's own page, program announ
 Grants.gov, because judging whether a deadline moved or a program ended is not something a
 scraper can do reliably.
 
-Each run ends in one commit to `main` on GitLab, and the push is the deploy: Cloudflare Pages
+Each run ends in one commit to `main` on GitHub, and the push is the deploy: Cloudflare Pages
 validates the data (`python3 tools/validate.py && node --check app.js`) and republishes the site
 within minutes.
 

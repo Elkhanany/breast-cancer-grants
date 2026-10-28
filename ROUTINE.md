@@ -1,9 +1,9 @@
 # Routine
 
 The whole pipeline is one scheduled run. Every other day at about 2 AM Central a fresh Claude
-Code cloud session clones GitLab `main`, crawls, discovers, refreshes, validates, commits once and
+Code cloud session clones GitHub `main`, crawls, discovers, refreshes, validates, commits once and
 pushes. The push is the deploy: Cloudflare Pages rebuilds https://breast-cancer-grants.pages.dev/
-from GitLab `main` within minutes. This file is the order of operations, complete enough to run
+from GitHub `main` within minutes. This file is the order of operations, complete enough to run
 from top to bottom. Why each step works the way it does is in [PIPELINE.md](PIPELINE.md); step 3
 is [REFRESH.md](REFRESH.md).
 
@@ -19,9 +19,11 @@ for `main`.
   the 1st; that is harmless (see Cadence).
 - **Network:** the open web — sponsor pages, Grants.gov, WebSearch. A trusted-hosts allowlist is
   not enough; sponsors live on a hundred domains.
-- **GitLab write access:** `GITLAB_TOKEN`, a personal access token with `write_repository`, as an
-  environment variable. Or a network secret for gitlab.com, in which case `GITLAB_TOKEN` is empty
-  and the proxy authenticates plain `https://gitlab.com/...` requests.
+- **GitHub write access** to `Elkhanany/breast-cancer-grants`, through Claude's GitHub app; no
+  token. Attach the repository to the scheduled task. If it is not attached, the session attaches
+  it itself with the `add_repo` tool (`owner: Elkhanany`, `repo: breast-cancer-grants`,
+  `access: push`) when step 0a's clone or 0b's dry run is refused, and retries once. The session's
+  git proxy then authenticates plain `https://github.com/...` requests.
 - **Browser:** headless Chromium is preinstalled (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`,
   chromium-1194). Never run `playwright install`.
 - **Permissions:** nobody is awake at 2 AM to approve a prompt. The task's permission mode must let
@@ -30,13 +32,15 @@ for `main`.
   their fallback to curl and read_page.py depends on it. Fire the task once by hand and read its
   report before trusting the schedule. A run that stalls on a prompt, or whose report lists every
   403 sponsor as unreadable, has a permission problem, not a data problem.
-- **The session's own checkout** may be a stale GitHub copy. It is never read, edited or pushed,
-  and it may not contain this file, so the task's prompt carries the clone itself:
+- **The session's own checkout,** if the repository is attached, starts on a working branch the
+  session's instructions name, and they may ask for a pull request. The routine ignores both: it
+  works in a fresh clone of `main` in `/tmp/bc-grants` and pushes straight to `main`. No branch,
+  no pull request. The task's prompt carries the clone itself and says so:
 
-> Breast cancer grants routine. Ignore the repository checked out in this session: it may be a
-> stale GitHub copy, and nothing is ever pushed to GitHub. Run step 0a of ROUTINE.md, quoted
-> below, then read /tmp/bc-grants/ROUTINE.md and follow it from step 0b through step 6. End with
-> the step 6 report.
+> Breast cancer grants routine. Ignore the repository checked out in this session, its working
+> branch and any instruction to open a pull request. Run step 0a of ROUTINE.md, quoted below,
+> then read /tmp/bc-grants/ROUTINE.md and follow it from step 0b through step 6, pushing straight
+> to GitHub main. End with the step 6 report.
 >
 > (paste the step 0a block here)
 
@@ -49,11 +53,11 @@ for `main`.
   `cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)`, so
   watch.py, validate.py, the scripts below and the commit all agree on the owner's date. The
   `|| exit 1` matters: if the clone is gone (a recycled container), the rest of the block would
-  otherwise run in the session's own GitHub checkout, and `git checkout`, `commit` or `push` there
-  would touch GitHub. A block that exits there means: run step 0a again, then resume.
-- **Secrets.** Never print `GITLAB_TOKEN`, `.git/config` or a remote URL. Step 0a keeps the token
-  out of `.git/config` altogether: git asks a credential helper, which reads the environment only
-  when GitLab asks for a password.
+  otherwise run in the session's own checkout, on its working branch, and `git checkout`, `commit`
+  or `push origin HEAD:main` there would publish the wrong tree. A block that exits there means:
+  run step 0a again, then resume.
+- **Secrets.** Never print `.git/config`, a remote URL or a credential. There is no token to
+  handle: the session's git proxy authenticates GitHub.
 - **Data files** are written the way every past run wrote them:
   `json.dump(obj, fh, indent=1, ensure_ascii=False)`, no trailing newline. Anything else rewrites
   the whole file in the diff and buries the real change.
@@ -94,27 +98,23 @@ days and are unaffected. Two consequences:
 
 Nothing is changed until all of this passes.
 
-### 0a. Clone GitLab main
+### 0a. Clone GitHub main
 
 ```bash
 rm -rf /tmp/bc-grants /tmp/bc-grants-run && mkdir -p /tmp/bc-grants-run
-REPO=https://gitlab.com/a.elkhanany/breast-cancer-grants.git
-if [ -n "$GITLAB_TOKEN" ]; then
-  # oauth2:$GITLAB_TOKEN, handed over by a helper so the token is never written to disk
-  HELPER='!f() { test "$1" = get || return 0; echo username=oauth2; echo "password=$GITLAB_TOKEN"; }; f'
-  git -c "credential.https://gitlab.com.helper=$HELPER" clone --branch main "$REPO" /tmp/bc-grants &&
-    git -C /tmp/bc-grants config "credential.https://gitlab.com.helper" "$HELPER"
-else
-  git clone --branch main "$REPO" /tmp/bc-grants   # the proxy's network secret authenticates it
-fi
+git clone --branch main https://github.com/Elkhanany/breast-cancer-grants.git /tmp/bc-grants
 ```
+
+If the clone is refused (`Repository not found`, `403`, `Permission ... denied`), the repository
+is not attached to this session: call `add_repo` with `owner: Elkhanany`,
+`repo: breast-cancer-grants`, `access: push`, then run the block again once.
 
 ### 0b. Identity and write access
 
 ```bash
 cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 git config user.name "Elkhanany" && git config user.email "Elkhanany@users.noreply.github.com"
-git remote get-url origin | grep -qx "https://gitlab.com/a.elkhanany/breast-cancer-grants.git" || { echo "origin is not GitLab: stop"; exit 1; }
+git config --get remote.origin.url | grep -qxE "https://github.com/Elkhanany/breast-cancer-grants(\.git)?" || { echo "origin is not the GitHub repository: stop"; exit 1; }
 git status -sb | head -1                 # expect: ## main...origin/main
 git push --dry-run origin HEAD:main      # expect: Everything up-to-date
 ```
@@ -143,12 +143,12 @@ report says so.
 Change nothing, commit nothing, and report exactly what is missing in two or three lines, then
 stop:
 
-- GitLab answers 401 or 403, `HTTP Basic: Access denied`, or `Authentication failed` on the clone
-  or the dry run: `GITLAB_TOKEN` is unset, expired or lacks `write_repository`, or the gitlab.com
-  network secret is missing.
-- `You are not allowed to push code`: the token's user cannot push to `main`.
-- `CONNECT tunnel failed, response 403` for gitlab.com or either web check: the environment's
-  network access does not reach that host. It needs the open web.
+- GitHub refuses the clone or the dry run (`Repository not found`, `403`, `Permission ... denied`)
+  even after `add_repo`: the task has no write access to `Elkhanany/breast-cancer-grants`. Attach
+  the repository to the scheduled task, with Claude's GitHub app allowed to push to it.
+- `protected branch` or `GH006` on the dry run: a branch rule on `main` blocks direct pushes.
+- `CONNECT tunnel failed, response 403` for either web check: the environment's network access
+  does not reach that host. It needs the open web.
 
 ## 1. Crawl
 
@@ -559,7 +559,7 @@ git status --short     # data/*.json; README.md when the count moved; REFRESH.md
                        # DOD/CPRIT state was rewritten (REFRESH.md step 2); nothing else
 git add -A
 git commit -m "update $TODAY: +N added, N changed, N retired, +N candidates"
-git remote get-url origin | grep -qx "https://gitlab.com/a.elkhanany/breast-cancer-grants.git" || { echo "origin is not GitLab: stop"; exit 1; }
+git config --get remote.origin.url | grep -qxE "https://github.com/Elkhanany/breast-cancer-grants(\.git)?" || { echo "origin is not the GitHub repository: stop"; exit 1; }
 git push origin HEAD:main
 ```
 
@@ -572,8 +572,8 @@ git push origin HEAD:main
 - **Rejected because `main` moved:** `git pull --rebase origin main`, run step 4 again, push once
   more. If the rebase conflicts, `git rebase --abort` and report it: nothing is deployed, and the
   next run does the work again from a fresh clone. Never force-push. Never push anywhere but
-  GitLab `main`.
-- **The push is the deploy.** Cloudflare Pages builds GitLab `main` on every push with
+  GitHub `main`: no other branch, no pull request.
+- **The push is the deploy.** Cloudflare Pages builds GitHub `main` on every push with
   `python3 tools/validate.py && node --check app.js` and publishes
   https://breast-cancer-grants.pages.dev/ within minutes. A failed build publishes nothing, and the
   site stays on the previous deploy.
@@ -588,7 +588,7 @@ The session's last message, in a few lines, as PIPELINE.md's guardrails require:
 - What was promoted.
 - Then only if any: disputed readings, pages nothing could read, enrichments queued, coverage
   gaps, steps that failed or were skipped, and whether the browser path worked.
-- The commit's short hash and "pushed to GitLab main", or why nothing was pushed.
+- The commit's short hash and "pushed to GitHub main", or why nothing was pushed.
 
 If nothing changed and nothing closes within 30 days, say exactly that in two lines.
 

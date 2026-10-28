@@ -180,7 +180,7 @@ State old and new values for any date that moved, so `git log` is readable on it
 
 ## 9. Commit and push
 
-In the routine this is ROUTINE.md step 5: one commit for the whole run, pushed to GitLab `main`.
+In the routine this is ROUTINE.md step 5: one commit for the whole run, pushed to GitHub `main`.
 
 ```bash
 git add -A
@@ -188,7 +188,7 @@ git commit -m "update YYYY-MM-DD: +N added, N changed, N retired, +N candidates"
 git push origin HEAD:main
 ```
 
-**The push is the deploy.** Cloudflare Pages builds GitLab `main` on every push and publishes
+**The push is the deploy.** Cloudflare Pages builds GitHub `main` on every push and publishes
 https://breast-cancer-grants.pages.dev/ within minutes; a commit that is never pushed changes
 nothing that anyone can see. If the push is rejected because `main` moved, rebase once and push
 again. Never force-push.

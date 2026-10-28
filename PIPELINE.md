@@ -8,7 +8,7 @@ order of operations, command by command, is [ROUTINE.md](ROUTINE.md).
 ```
           every other day, ~02:00 Central · one fresh cloud session · ROUTINE.md
 
-   0 preflight: fresh clone of GitLab main · push --dry-run · open web reachable?
+   0 preflight: fresh clone of GitHub main · push --dry-run · open web reachable?
                  │ yes                                  no ──► change nothing, report, stop
                  ▼
    ┌──────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
@@ -36,7 +36,7 @@ order of operations, command by command, is [ROUTINE.md](ROUTINE.md).
                                                                           │
                               4  tools/validate.py gates the commit ◄─────┘
                                             │
-                              5  one commit, pushed to GitLab main
+                              5  one commit, pushed to GitHub main
                                             │
                               Cloudflare Pages rebuilds (validate.py && node --check app.js)
                                             │
@@ -46,13 +46,16 @@ order of operations, command by command, is [ROUTINE.md](ROUTINE.md).
 ## Where it runs
 
 A Claude Code scheduled task on the web fires every other day at about 02:00 America/Chicago and
-starts a fresh session each time. The session clones GitLab `main` into a scratch directory,
-ignoring whatever checkout it was started with, and pushes back to GitLab `main` only. Cloudflare
+starts a fresh session each time. The session clones GitHub `main` into a scratch directory,
+ignoring whatever checkout it was started with, and pushes back to GitHub `main` only. Cloudflare
 Pages builds every push to `main` with `python3 tools/validate.py && node --check app.js` and
 serves the result at https://breast-cancer-grants.pages.dev/; a failed build publishes nothing,
-so the site stays on the last good deploy. Pages that refuse plain fetches are read with
-`tools/read_page.py`, headless Chromium. The session needs the open web and a GitLab token with
-`write_repository`; ROUTINE.md step 0 checks both before anything changes.
+so the site stays on the last good deploy. The same push also runs
+`.github/workflows/pages.yml`, which republishes the older GitHub Pages copy at
+elkhanany.github.io/breast-cancer-grants/; switch GitHub Pages off in the repository's settings to
+keep one site. Pages that refuse plain fetches are read with `tools/read_page.py`, headless
+Chromium. The session needs the open web and write access to the GitHub repository through
+Claude's GitHub app; ROUTINE.md step 0 checks both before anything changes.
 
 Until October 2026 this was three jobs in the Claude desktop app on the owner's PC — a daily
 watch, a Monday/Thursday refresh and a Wednesday discovery sweep — deploying to GitHub Pages.
@@ -164,7 +167,7 @@ shows `real`, `active` and `eligible_plausible` and whose `confidence` is not `u
 copied into `grants.json` with `first_seen` set to today, and its `decision` becomes
 `"promoted"`. A find is never promoted by the run that found it, so it spends at least two days
 on the site first. Entries marked `"reject"` are left alone forever. To stop a promotion, set
-`decision` to `"reject"` in `candidates.json` on GitLab `main` before the next run; to force
+`decision` to `"reject"` in `candidates.json` on GitHub `main` before the next run; to force
 one, set it to `"promote"`.
 
 ## Guardrails that apply to every step
@@ -176,6 +179,6 @@ one, set it to `"promote"`.
 - The repository is public. Records are written in neutral third person ("the PI") and never
   carry personal career detail.
 - `python3 tools/validate.py` must exit 0 before any commit. The push is the deploy: Cloudflare
-  Pages rebuilds the site from GitLab `main`, running the same validator first.
+  Pages rebuilds the site from GitHub `main`, running the same validator first.
 - Every run reports in a few lines: what closes within 30 days, what moved (old → new), what is
   new, what was promoted. If nothing, it says so in two lines.
