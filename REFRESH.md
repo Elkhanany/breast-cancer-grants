@@ -181,12 +181,8 @@ State old and new values for any date that moved, so `git log` is readable on it
 ## 9. Commit and push
 
 In the routine this is ROUTINE.md step 5: one commit for the whole run, pushed to GitHub `main`.
-
-```bash
-git add -A
-git commit -m "update YYYY-MM-DD: +N added, N changed, N retired, +N candidates"
-git push origin HEAD:main
-```
+Run it exactly as step 5 writes it (the folder prelude, the validation re-run, the push-target
+guard, then the push), never as a bare `git push` typed from another folder.
 
 **The push is the deploy.** Cloudflare Pages builds GitHub `main` on every push and publishes
 https://breast-cancer-grants.pages.dev/ within minutes; a commit that is never pushed changes

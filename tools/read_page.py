@@ -26,9 +26,12 @@ is unreachable, not empty: never edit a record on the strength of it.
 Uses the Chromium already in PLAYWRIGHT_BROWSERS_PATH (/opt/pw-browsers in the cloud session).
 If the Python playwright module is missing it pip-installs the release that drives that build,
 quietly, and never runs `playwright install`: a browser download is slow, and the wrong build
-would not match the preinstalled one anyway.
+would not match the preinstalled one anyway. The image's build number varies between containers;
+when the build that release expects is absent, it launches the one the image holds instead
+(`/opt/pw-browsers/chromium`, a link the image keeps to its own build).
 """
 import argparse
+import glob
 import os
 import re
 import subprocess
@@ -71,6 +74,17 @@ def ensure_playwright():
     # A fresh install can land in a site directory this interpreter did not scan at startup.
     os.environ["READ_PAGE_INSTALLED"] = "1"
     os.execv(sys.executable, [sys.executable] + sys.argv)
+
+
+def installed_chromium():
+    """The Chromium this container actually holds, whatever its build number, or None."""
+    root = os.environ.get("PLAYWRIGHT_BROWSERS_PATH", DEFAULT_BROWSERS)
+    link = os.path.join(root, "chromium")
+    if os.path.isfile(link):
+        return link
+    builds = glob.glob(os.path.join(root, "chromium-*", "chrome-linux", "chrome"))
+    builds.sort(key=lambda b: int(re.search(r"chromium-(\d+)", b).group(1)))
+    return builds[-1] if builds else None
 
 
 def proxy_settings():
@@ -170,14 +184,25 @@ def main():
         try:
             browser = p.chromium.launch(headless=True, proxy=proxy)
         except Error as e:
-            msg = str(e).splitlines()[0]
-            print(f"read_page: browser did not start: {msg}", file=sys.stderr)
-            if "Executable doesn't exist" in str(e):
-                print(f"read_page: playwright {PLAYWRIGHT_VERSION} expects a Chromium build that "
-                      f"{os.environ.get('PLAYWRIGHT_BROWSERS_PATH')} does not hold; pin PLAYWRIGHT_VERSION "
-                      "to the release matching the installed chromium-NNNN. Do not run playwright install.",
-                      file=sys.stderr)
-            return 2
+            exe = installed_chromium() if "Executable doesn't exist" in str(e) else None
+            browser = None
+            if exe:
+                # The image holds a different build than this release expects (seen: 1243 vs 1194).
+                # A newer Chromium speaks the same protocol, so drive the one that is here.
+                print(f"read_page: playwright {PLAYWRIGHT_VERSION}'s Chromium build is absent; "
+                      f"using {os.path.realpath(exe)}", file=sys.stderr)
+                try:
+                    browser = p.chromium.launch(headless=True, proxy=proxy, executable_path=exe)
+                except Error as e2:
+                    e = e2
+            if browser is None:
+                msg = str(e).splitlines()[0]
+                print(f"read_page: browser did not start: {msg}", file=sys.stderr)
+                if "Executable doesn't exist" in str(e):
+                    print(f"read_page: no usable Chromium in {os.environ.get('PLAYWRIGHT_BROWSERS_PATH')}. "
+                          "Do not run playwright install; read the page with curl or WebFetch.",
+                          file=sys.stderr)
+                return 2
         page = browser.new_context(user_agent=UA, locale="en-US",
                                    viewport={"width": 1366, "height": 900}).new_page()
         try:

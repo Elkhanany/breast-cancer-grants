@@ -52,10 +52,14 @@ Pages builds every push to `main` with `python3 tools/validate.py && node --chec
 serves the result at https://breast-cancer-grants.pages.dev/; a failed build publishes nothing,
 so the site stays on the last good deploy. The same push also runs
 `.github/workflows/pages.yml`, which republishes the older GitHub Pages copy at
-elkhanany.github.io/breast-cancer-grants/; switch GitHub Pages off in the repository's settings to
-keep one site. Pages that refuse plain fetches are read with `tools/read_page.py`, headless
+elkhanany.github.io/breast-cancer-grants/. To keep one site, switch GitHub Pages off in the
+repository's settings and, at the same time, disable the "Deploy to GitHub Pages" workflow in the
+Actions tab (or delete `.github/workflows/pages.yml` in a commit of your own); otherwise every push
+afterwards shows a failed check. The routine never touches `.github/`. Pages that refuse plain fetches are read with `tools/read_page.py`, headless
 Chromium. The session needs the open web and write access to the GitHub repository through
-Claude's GitHub app; ROUTINE.md step 0 checks both before anything changes.
+Claude's GitHub app. ROUTINE.md step 0 checks the open web, and that GitHub accepts the session's
+credentials, before anything changes; a branch rule that refuses the push itself can only show at
+step 5, which reports it and pushes nothing else.
 
 Until October 2026 this was three jobs in the Claude desktop app on the owner's PC — a daily
 watch, a Monday/Thursday refresh and a Wednesday discovery sweep — deploying to GitHub Pages.

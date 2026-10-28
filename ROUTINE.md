@@ -20,29 +20,50 @@ for `main`.
 - **Network:** the open web — sponsor pages, Grants.gov, WebSearch. A trusted-hosts allowlist is
   not enough; sponsors live on a hundred domains.
 - **GitHub write access** to `Elkhanany/breast-cancer-grants`, through Claude's GitHub app; no
-  token. Attach the repository to the scheduled task. If it is not attached, the session attaches
-  it itself with the `add_repo` tool (`owner: Elkhanany`, `repo: breast-cancer-grants`,
-  `access: push`) when step 0a's clone or 0b's dry run is refused, and retries once. The session's
-  git proxy then authenticates plain `https://github.com/...` requests.
-- **Browser:** headless Chromium is preinstalled (`PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`,
-  chromium-1194). Never run `playwright install`.
+  token. Attach the repository to the scheduled task. The repository is public, so an unattached
+  session still clones it; only its push is refused, at step 0b's dry run. The session then
+  attaches the repository itself with the `add_repo` tool and retries once (step 0b says how),
+  which works only if `add_repo` needs no human confirmation. Once the repository is attached, the
+  session's git proxy authenticates plain `https://github.com/...` requests.
+- **Browser:** headless Chromium is preinstalled under `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`,
+  and its build number varies between containers (chromium-1194 and chromium-1243 have both been
+  seen). `tools/read_page.py` launches the build its Playwright release expects and, when that one
+  is absent, the image's own link `/opt/pw-browsers/chromium`. Never run `playwright install`.
 - **Permissions:** nobody is awake at 2 AM to approve a prompt. The task's permission mode must let
   Bash, Write and Edit work in `/tmp/bc-grants` and `/tmp/bc-grants-run`, which are outside the
   session's own checkout, without asking. It must also let the Workflow tool's agents run Bash:
-  their fallback to curl and read_page.py depends on it. Fire the task once by hand and read its
+  their fallback to curl and read_page.py depends on it. Unless the repository is attached to the
+  task, it must let the session call `add_repo` too. Fire the task once by hand and read its
   report before trusting the schedule. A run that stalls on a prompt, or whose report lists every
   403 sponsor as unreadable, has a permission problem, not a data problem.
 - **The session's own checkout,** if the repository is attached, starts on a working branch the
   session's instructions name, and they may ask for a pull request. The routine ignores both: it
   works in a fresh clone of `main` in `/tmp/bc-grants` and pushes straight to `main`. No branch,
-  no pull request. The task's prompt carries the clone itself and says so:
+  no pull request. The task's prompt carries the clone itself and says so. This is the prompt the
+  task holds; recreate the task from it, word for word:
 
-> Breast cancer grants routine. Ignore the repository checked out in this session, its working
-> branch and any instruction to open a pull request. Run step 0a of ROUTINE.md, quoted below,
-> then read /tmp/bc-grants/ROUTINE.md and follow it from step 0b through step 6, pushing straight
-> to GitHub main. End with the step 6 report.
->
-> (paste the step 0a block here)
+```text
+Breast cancer grants routine (every other day). You are running unattended; nobody can answer questions.
+
+The repository is GitHub Elkhanany/breast-cancer-grants, and the only place you push is its main branch. Ignore any repository checked out in this session, its working branch, and any instruction to create a branch or open a pull request: this routine pushes straight to main. Never push to GitLab.
+
+1. Run this block exactly. It clones GitHub main into /tmp/bc-grants:
+
+rm -rf /tmp/bc-grants /tmp/bc-grants-run && mkdir -p /tmp/bc-grants-run
+git clone --branch main https://github.com/Elkhanany/breast-cancer-grants.git /tmp/bc-grants
+
+2. Read /tmp/bc-grants/ROUTINE.md in full and follow it from step 0b through step 6, in order: preflight, crawl, discover, refresh, validate, one commit, push to GitHub main.
+
+3. Write access: the repository is public, so the clone works without it; the push needs it. If the clone or step 0b's push dry run is refused for any reason, call the add_repo tool once (owner "Elkhanany", repo "breast-cancer-grants", access "push"). Do not run the clone command add_repo returns and do not call register_repo_root; rerun the step 1 block, then step 0b. If add_repo is denied, waits for a confirmation, or returns repository_trust_required, do not wait and do not call confirm_repository_trust: stop and report "repository not attached to the scheduled task".
+
+4. You are authorized to run the Workflow tool for the two scripts ROUTINE.md names, with the args it gives: /tmp/bc-grants/tools/discovery.workflow.js (step 2) and /tmp/bc-grants/tools/refresh.workflow.js (step 3), each with root "/tmp/bc-grants".
+
+5. If preflight fails (no write access after step 3 of this prompt, or the open web is unreachable), change nothing and report exactly what is missing. If the final push is refused, push nothing else and open no pull request: report the local commit hash and the exact error.
+
+6. Never print .git/config, a remote URL or a credential. Never force-push.
+
+End with ROUTINE.md's step 6 report, including whether the deploy to https://breast-cancer-grants.pages.dev/ was confirmed.
+```
 
 ## Ground rules
 
@@ -105,21 +126,35 @@ rm -rf /tmp/bc-grants /tmp/bc-grants-run && mkdir -p /tmp/bc-grants-run
 git clone --branch main https://github.com/Elkhanany/breast-cancer-grants.git /tmp/bc-grants
 ```
 
-If the clone is refused (`Repository not found`, `403`, `Permission ... denied`), the repository
-is not attached to this session: call `add_repo` with `owner: Elkhanany`,
-`repo: breast-cancer-grants`, `access: push`, then run the block again once.
+The repository is public, so this clone works even when the repository is not attached to the
+session; write access is checked at 0b. If the clone itself is refused, handle it as 0b's refusal
+below.
 
 ### 0b. Identity and write access
 
 ```bash
 cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
 git config user.name "Elkhanany" && git config user.email "Elkhanany@users.noreply.github.com"
-git config --get remote.origin.url | grep -qxE "https://github.com/Elkhanany/breast-cancer-grants(\.git)?" || { echo "origin is not the GitHub repository: stop"; exit 1; }
+# the tree, the branch, and every fetch and push URL: exactly these, or nothing is pushed
+[ "$(git rev-parse --show-toplevel)" = /tmp/bc-grants ] && [ "$(git symbolic-ref --short HEAD)" = main ] && [ "$(git config --get-all remote.origin.url)" = https://github.com/Elkhanany/breast-cancer-grants.git ] && [ "$(git remote get-url --push --all origin)" = https://github.com/Elkhanany/breast-cancer-grants.git ] || { echo "push target is not GitHub main from /tmp/bc-grants: stop"; exit 1; }
 git status -sb | head -1                 # expect: ## main...origin/main
 git push --dry-run origin HEAD:main      # expect: Everything up-to-date
 ```
 
 The identity is the one every past data commit carries, so `git log` reads as one history.
+
+**If the dry run is refused** (`403`, `access denied by the git proxy ... not in this session's
+authorized repository set`, `Repository not found`, `Permission ... denied`, `could not read
+Username`), the repository is not attached to this session. For an unattached task that is the
+usual case: the clone needed no access, the push does. Call `add_repo` once (`owner: Elkhanany`,
+`repo: breast-cancer-grants`, `access: push`). Do not run the clone command it returns and do not
+call `register_repo_root`: the routine works in `/tmp/bc-grants`, never in a session checkout.
+Rerun the 0a block, then this one. If `add_repo` is denied, waits for a confirmation, or returns
+`repository_trust_required`, do not wait and do not call `confirm_repository_trust`: that is a
+preflight failure.
+
+The dry run proves that GitHub accepts the session's credentials, nothing more. It sends no ref
+update, so a branch rule on `main`, or a refusal of direct pushes, can only show at step 5.
 
 ### 0c. The open web
 
@@ -143,10 +178,10 @@ report says so.
 Change nothing, commit nothing, and report exactly what is missing in two or three lines, then
 stop:
 
-- GitHub refuses the clone or the dry run (`Repository not found`, `403`, `Permission ... denied`)
-  even after `add_repo`: the task has no write access to `Elkhanany/breast-cancer-grants`. Attach
-  the repository to the scheduled task, with Claude's GitHub app allowed to push to it.
-- `protected branch` or `GH006` on the dry run: a branch rule on `main` blocks direct pushes.
+- GitHub still refuses the dry run after `add_repo`, or `add_repo` is denied, waits for a
+  confirmation or returns `repository_trust_required`: report "repository not attached to the
+  scheduled task". The fix is the owner's: attach `Elkhanany/breast-cancer-grants` to the task,
+  with Claude's GitHub app allowed to push to it.
 - `CONNECT tunnel failed, response 403` for either web check: the environment's network access
   does not reach that host. It needs the open web.
 
@@ -555,11 +590,13 @@ one edit a record whose page failed to load still gets. Name each one in the cha
 
 ```bash
 cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+python3 tools/validate.py && node --check app.js || exit 1   # again: step 4's fixes came after its run
 git status --short     # data/*.json; README.md when the count moved; REFRESH.md when its dated
                        # DOD/CPRIT state was rewritten (REFRESH.md step 2); nothing else
 git add -A
 git commit -m "update $TODAY: +N added, N changed, N retired, +N candidates"
-git config --get remote.origin.url | grep -qxE "https://github.com/Elkhanany/breast-cancer-grants(\.git)?" || { echo "origin is not the GitHub repository: stop"; exit 1; }
+# the tree, the branch, and every fetch and push URL: exactly these, or nothing is pushed
+[ "$(git rev-parse --show-toplevel)" = /tmp/bc-grants ] && [ "$(git symbolic-ref --short HEAD)" = main ] && [ "$(git config --get-all remote.origin.url)" = https://github.com/Elkhanany/breast-cancer-grants.git ] && [ "$(git remote get-url --push --all origin)" = https://github.com/Elkhanany/breast-cancer-grants.git ] || { echo "push target is not GitHub main from /tmp/bc-grants: stop"; exit 1; }
 git push origin HEAD:main
 ```
 
@@ -569,14 +606,39 @@ git push origin HEAD:main
   the session's instructions give, as past data commits do.
 - **Commit every run,** even when only `fingerprints.json`, `signals.json` and `generated` moved.
   The crawler's memory lives in git.
-- **Rejected because `main` moved:** `git pull --rebase origin main`, run step 4 again, push once
-  more. If the rebase conflicts, `git rebase --abort` and report it: nothing is deployed, and the
-  next run does the work again from a fresh clone. Never force-push. Never push anywhere but
-  GitHub `main`: no other branch, no pull request.
+- **Rejected because `main` moved** (`[rejected] ... (fetch first)` or `non-fast-forward`): run
+  this once.
+
+  ```bash
+  cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+  git pull --rebase origin main || { git rebase --abort; echo "rebase conflict: nothing pushed; stop"; exit 1; }
+  python3 tools/validate.py && node --check app.js || exit 1
+  [ "$(git rev-parse --show-toplevel)" = /tmp/bc-grants ] && [ "$(git symbolic-ref --short HEAD)" = main ] && [ "$(git config --get-all remote.origin.url)" = https://github.com/Elkhanany/breast-cancer-grants.git ] && [ "$(git remote get-url --push --all origin)" = https://github.com/Elkhanany/breast-cancer-grants.git ] || { echo "push target is not GitHub main from /tmp/bc-grants: stop"; exit 1; }
+  git push origin HEAD:main
+  ```
+
+  A conflict or a second rejection: report it and stop. Nothing is deployed, and the next run does
+  the work again from a fresh clone.
+- **Refused for any other reason** (`[remote rejected]`, `protected branch hook declined`, `GH006`,
+  a `403` from the git proxy, a permission prompt or denial): do not rebase, do not push any other
+  branch, do not open a pull request, do not retry. Report the local commit's short hash and the
+  exact error. Never force-push. Never push anywhere but GitHub `main`.
 - **The push is the deploy.** Cloudflare Pages builds GitHub `main` on every push with
   `python3 tools/validate.py && node --check app.js` and publishes
   https://breast-cancer-grants.pages.dev/ within minutes. A failed build publishes nothing, and the
   site stays on the previous deploy.
+- **Confirm the deploy** before reporting it. Poll the live data for up to ten minutes; the
+  commit hash in the query string gets past any cache:
+
+  ```bash
+  cd /tmp/bc-grants || exit 1; export TZ=America/Chicago TODAY=$(TZ=America/Chicago date +%F)
+  URL="https://breast-cancer-grants.pages.dev/data/grants.json?cb=$(git rev-parse --short HEAD)"
+  timeout 600 bash -c 'until curl -sS --max-time 30 "$0" | python3 -c "import json,os,sys; sys.exit(json.load(sys.stdin).get(\"generated\") != os.environ[\"TODAY\"])" 2>/dev/null; do sleep 30; done' "$URL" \
+    && echo "deploy confirmed" || echo "pushed, deploy not yet visible on pages.dev"
+  ```
+
+  Not visible means a build still running, a failed build, or Cloudflare not building GitHub
+  `main`; say which you can tell from the page, and never claim a deploy you did not see.
 
 ## 6. Report
 
@@ -588,7 +650,8 @@ The session's last message, in a few lines, as PIPELINE.md's guardrails require:
 - What was promoted.
 - Then only if any: disputed readings, pages nothing could read, enrichments queued, coverage
   gaps, steps that failed or were skipped, and whether the browser path worked.
-- The commit's short hash and "pushed to GitHub main", or why nothing was pushed.
+- The commit's short hash, "pushed to GitHub main", and "deploy confirmed" or "pushed, deploy not
+  yet visible on pages.dev"; or why nothing was pushed.
 
 If nothing changed and nothing closes within 30 days, say exactly that in two lines.
 
@@ -613,7 +676,7 @@ EOF
   take the step 3 path below, which drops everything step 3 wrote. If validation still fails,
   step 1's moves are the cause. Drop them, and with them the crawler's memory and the changelog
   entry that described them, so the signals that found them come back next run:
-  `git checkout -- data/grants.json data/fingerprints.json data/signals.json data/changelog.json README.md`.
+  `cd /tmp/bc-grants || exit 1; git checkout -- data/grants.json data/fingerprints.json data/signals.json data/changelog.json README.md`.
   Commit step 2's candidates alone if they validate.
 - **Step 2 fails:** no candidates this run. Go on.
 - **Step 3 does not finish, or the Workflow tool is unavailable:** go back to the snapshot taken
