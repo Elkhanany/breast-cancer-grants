@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-31",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -9968,6 +9968,207 @@
     "confidence": "verified",
     "evidence": "NIH Guide PAR-25-069: \"Application Due Dates ... October 05, 2026 * [New] November 05, 2026 * [Renewal / Resubmission]\" and \"Expiration Date January 08, 2027\". PAR-25-070: \"October 16, 2026 * ... November 16, 2026 *\", and \"direct costs are limited to $275,000 over a maximum two year period, with no more than $200,000 in any single year\". Both: \"Application Types Allowed New Resubmission\". PAR-25-069: \"Award Budget Application budgets are not limited ... maximum project period is 5 years\". Purpose: \"mechanisms by which incretin mimetics, specifically GLP-1 or dual GLP-1/GIP-1 receptor agonists, impact cancer risk.\" Grants.gov listing: \"Current Closing Date for Applications: Jan 07, 2027\", \"Award Ceiling: $\" (blank).",
     "fit": 48
+   }
+  },
+  {
+   "id": "rice-synthx-dldccc-synthx-dldccc-joint-seed-grant",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-31",
+    "run": "discovery",
+    "finder_summary": "A recurring Rice-BCM seed award that has already funded Smith Breast Center and breast-cancer projects. A clinician-investigator could be the BCM PI on a translational or biomarker project with a Rice partner, producing preliminary data for CPRIT or NIH applications.",
+    "proven": "Awardees listed for 2024 (Miah/Li breast lesion imaging; Li/Song/Tour; Dere/Gustavsson) and 2025 (Mou/Zhang of the Smith Breast Center; Glasscock/Wink Foight; Ma/Deneen). Press release at news.rice.edu 2024."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "Shares its URL with candidate(s) rice-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2, rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant under a different program name; step 3 checks it is a distinct call before promoting. Re-derived from the 2024, 2025 and 2026 SynthX pages. The program is real and the URL is its primary page, but the claim of an $80,000 award applies only to 2024. The 2025 award was $30,000 for a joint team, and the 2026 round was with Houston Methodist rather than BCM. There is no open or announced 2026-27 DLDCCC call, so it is marked inactive with no deadline. The eligibility text is partly drawn from WebFetch because the rendered text collapses those sections. Whether the program continues with BCM could not be confirmed from the site."
+   },
+   "record": {
+    "id": "rice-synthx-dldccc-synthx-dldccc-joint-seed-grant",
+    "sponsor": "Rice SynthX / DLDCCC",
+    "sponsor_full": "Rice University Synthesis X (SynthX) Center with the Dan L Duncan Comprehensive Cancer Center (Baylor College of Medicine), administered by Rice ENRICH",
+    "program": "SynthX/DLDCCC Joint Seed Grant",
+    "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-10-31",
+    "last_verified": "2026-10-31",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "basic"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 30000,
+    "award_text": "2025 round: $30,000 base for a joint Rice-BCM team ($15,000 per institution), up to $70,000 with conditional incentives if a new grant over $1M follows within two years. 2024 round: 2-3 awards of $80,000 each, split 50/50 ($60,000 in year 1, $20,000 on submission of a multi-PI grant). The size fell sharply between rounds.",
+    "duration_years": 2,
+    "indirects": "None allowed (no F&A, no PI or co-investigator salary, no tuition remission)",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "Call announced Nov-Dec; proposals due Jan-Feb; awards April (2024 and 2025 rounds). No 2026 DLDCCC round was run.",
+    "verdict": "needs-check",
+    "flags": [
+     "no-open-call",
+     "requires-rice-partner",
+     "award-size-shrank",
+     "2026-round-moved-to-houston-methodist",
+     "no-indirects",
+     "scope-chemistry-chemical-biology-skew"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Each team needs at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center at BCM. Faculty may be PI or co-PI on only one proposal, and a seed recipient is barred from another SynthX seed fund for two years. IRB-dependent projects are not funded until approval is in hand. No rank, degree, track or clinical-duty limit is stated, so the PI could plausibly serve as the BCM PI with a Rice partner.",
+    "notes": "The SynthX/DLDCCC Joint Seed Grant paired a Rice SynthX Center PI with a Duncan Cancer Center PI at BCM, and ran twice, with calls announced in late 2023 and December 2024. The 2025 page confirms a proposal deadline of 2025-02-24 and awards on 2025-04-01. The 2025 award was only $30,000 per joint team ($15,000 per side), with up to $70,000 if a large grant followed. That is much smaller than the $80,000 per team in 2024, so the finder's headline figure is outdated. The 2026 round switched partners to Houston Methodist (SynthX/HMNCC, $45,000, due 2026-05-18, already awarded), and DLDCCC is not mentioned there. No 2026-27 DLDCCC call is posted, so the program may not recur with BCM. For the PI, the only route is a Rice chemistry, imaging or engineering collaborator, and the funding is pilot scale with no indirects or PI salary. Disease fit is generic, though a Smith Breast Center project won in 2025 and a BCM breast-surgery imaging project won in 2024. The PI should email enrich@rice.edu or the SynthX office to ask whether a BCM round is planned, and meanwhile recruit a Rice partner, since the Rice-TMC Collaborator Fund is open on a rolling basis.",
+    "confidence": "verified",
+    "evidence": "2025 page (rendered text): \"SynthX Center ... and the Dan L. Duncan Comprehensive Cancer Center ... announced a call for 2025 SynthX/DLDCCC Seed Grant applications. The winning teams are listed at the bottom.\" The Proposal Timeline and Team Eligibility sections are collapsed in the rendered text. WebFetch of the page text gave: deadline February 24, 2025; awards April 1, 2025; base $15,000 Rice, $15,000 BCM, or $30,000 for both; \"Each team must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center\"; no F&A. 2024 page: \"Two or three seed awards of $80,000 each, split 50% to Rice and 50% to BCM\"; winners include Pabel Ali Miah, D.O., Surgery, BCM. 2026 page (HMNCC): $45,000, due May 18, 2026, no mention of Baylor, no future call.",
+    "fit": 40
+   }
+  },
+  {
+   "id": "uh-bcm-uh-baylor-college-medicine-collaborative-pilot-grants",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-10-31",
+    "run": "discovery",
+    "finder_summary": "A UH data-science or health-equity collaborator could pair with the PI on an EHR, real-world-data or equity pilot. The page is a stale 2019 RFA, so this is a possible route to ask about, not a confirmed open call.",
+    "proven": "The pilot round with the stated $500,000 combined commitment is documented on the UH page. No awardee list was fetched."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "I fetched the page directly with curl, as the page text was returned in full. Every claimed field matches the page: award size, duration, institutional commitments, salary cap, co-PI rule and the 2019 dates. The page names no 2026-27 cycle, so I set deadlines to null and the status to not-posted. I did not confirm whether the program recurs, whether it ran again after 2019, or whether awardees were announced. I did not follow the internal awards timeline page or the application database, which needs a UH login. I found no held record for this mechanism in grants.json. The only grep hit was an unrelated BCM email address."
+   },
+   "record": {
+    "id": "uh-bcm-uh-baylor-college-medicine-collaborative-pilot-grants",
+    "sponsor": "UH / BCM",
+    "sponsor_full": "University of Houston Division of Research with Baylor College of Medicine",
+    "program": "UH/Baylor College of Medicine Collaborative Pilot Grants",
+    "url": "https://www.uh.edu/research/funding-opportunities/internal-awards/uh-bcm-grants",
+    "status": "active",
+    "first_seen": "2026-10-31",
+    "last_verified": "2026-10-31",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "computational",
+     "equity",
+     "translational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 60000,
+    "award_text": "Pilot round: 8-10 awards of 18 months, up to $60,000 each (up to $30,000 from each institution as separate budgets). Each institution committed $250,000. Salary is capped at $8,000 per institution.",
+    "duration_years": 1.5,
+    "indirects": "Not stated on the page.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "unknown (the only documented round had an LOI in October and a full proposal in November 2019)",
+    "verdict": "needs-check",
+    "flags": [
+     "stale-2019-rfa",
+     "no-current-cycle-posted",
+     "recurrence-unverified",
+     "requires-UH-partner",
+     "small-award",
+     "internal-program"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Joint teams of investigators from both UH and BCM. A person cannot be co-PI on more than one proposal but may sit on more than one team. There is no separate format for each institution; each team submits a single project, or projects, in the RFA format, and must show evidence of cross-institution collaboration. The program also aims to engage UH and BCM trainees. The page states no career-stage, track or clinical-duty restrictions.",
+    "notes": "This is the University of Houston and BCM joint pilot seed program, documented on a UH Division of Research page that still describes only the 2019 pilot round. The program exists and the page is its primary source, but it posts no current call. The page's navigation lists a 2026-2027 internal awards timeline for other UH programs, and this program does not appear in that menu. The PI should treat it as a watch item and not a deadline. The trap is assuming the October/November dates are recurring; nothing on the page supports that. The next step is to email the UH Division of Research and the BCM research office to ask whether a joint round is planned. In parallel, the PI could identify a UH collaborator in data science, AI, pharmacy or health equity, so a team is ready if a call reopens. The award is small ($60,000 total over 18 months, with a salary cap of $8,000 per institution), so it would suit a pilot dataset or a feasibility analysis, not a full study. It is not breast-specific, so disease fit depends on the project the PI proposes.",
+    "confidence": "verified",
+    "evidence": "\"The University of Houston (UH) and Baylor College of Medicine (BCM) have signed a joint collaboration agreement. As part of this collaboration, the institutions have initiated a pilot grant program...\" \"For this pilot round of funding, we anticipate making 8-10 18-month awards at a maximum of $60,000 each (up to $30,000 from each institution as separate budgets). Each institution is providing $250,000 in funding.\" \"Letter of Intent (required) are due on October 11, 2019, before 5 p.m. Full proposal due on November 15, 2019, before 5 p.m.\" \"A person cannot be Co-PI on more than one proposal... The budget limit of $8,000 for salary is per institution.\" These establish the program, award size, team-eligibility rule and the stale dates. They do not establish any current cycle.",
+    "fit": 48
+   }
+  },
+  {
+   "id": "lynn-sage-scholar-research-grants-senior-investigator-track",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "national-quiet",
+    "found_on": "2026-10-31",
+    "run": "discovery",
+    "finder_summary": "Seed funding for novel breast cancer concepts, such as translational ER+/HER2+ or ctDNA work, that suits a year-7+ PI who is past the early-career windows. Eligibility for a BCM applicant must be confirmed first.",
+    "proven": "Sponsor page lists current and past Senior Investigator awardees (for example Irina Balyasnikova, PhD, and Chuan He, PhD). It also cites 20+ research grants awarded since 2020 and $50M+ raised."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "I fetched /research with WebFetch and re-read it, plus the consortium page, in headless Chromium. The program exists and the tracks match the candidate, but amount, dates, geographic eligibility and the application process are not on the page. I did not fetch the /research/fellowships page or the 2025 Rush notice, so the $200,000 and February dates come from the finder only. Confidence is unverified because the key eligibility and deadline fields could not be confirmed."
+   },
+   "record": {
+    "id": "lynn-sage-scholar-research-grants-senior-investigator-track",
+    "sponsor": "Lynn Sage",
+    "sponsor_full": "Lynn Sage Breast Cancer Foundation (Chicago)",
+    "program": "Lynn Sage Scholar Research Grants - Senior Investigator track",
+    "url": "https://lynnsage.org/research",
+    "status": "active",
+    "first_seen": "2026-10-31",
+    "last_verified": "2026-10-31",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "foundation",
+    "tier": "mid-size",
+    "focus": [
+     "translational",
+     "pilot",
+     "basic"
+    ],
+    "breast_specific": true,
+    "er_her2_fit": "medium",
+    "award_usd": null,
+    "award_text": "No amount stated on the primary page. A secondary 2025 institutional notice (not re-verified) reported $200,000 over two years for established investigators.",
+    "duration_years": null,
+    "indirects": "Not stated",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "February (unconfirmed, from prior-cycle limited-submission notice at a Chicago institution)",
+    "verdict": "needs-check",
+    "flags": [
+     "no-open-call-on-page",
+     "chicago-locality-unconfirmed",
+     "no-deadline",
+     "no-amount-on-primary-page",
+     "possibly-invitation-or-consortium-only"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The Senior Investigator track is for seasoned researchers exploring bold new directions in breast cancer, including concepts too early for federal or commercial funding. The Early Investigator track is limited to the first six years of an independent career, so the PI at year 7+ falls outside it. The primary page states no institutional, residency or clinical-duty rules and no application process. The foundation's wider activity is Chicago-centred (Chicago Breast Cancer Research Consortium of UChicago, Northwestern, Rush MD Anderson and Endeavor Health), so BCM eligibility is unconfirmed.",
+    "notes": "The Lynn Sage Scholar Research Grants are a breast-cancer-only seed program with an Early Investigator track (first six years of independent career) and a Senior Investigator track. The PI at year 7+ is past the early window, so only the Senior track could apply. The primary page confirms the tracks and the 20+ grants since 2020, but gives no award amount, deadline, eligibility rules or application link. It also gives no sign of an open 2026-27 call, so the program cannot be treated as accepting applications. The foundation convenes a Chicago-only consortium, and the earlier secondary notice describes locally focused investment, so a Houston applicant may be ineligible or the awards may be by invitation. The PI should email info@lynnsage.org (312.252.2502) to ask whether non-Chicago institutions can apply and when the next call opens. A Chicago collaborator is a fallback only if the foundation confirms that route is allowed. No held record duplicates this program.",
+    "confidence": "unverified",
+    "evidence": "Page quotes: \"Senior Investigator: Seasoned researchers exploring bold new ideas or directions in breast cancer research. These grants help experienced scientists test innovative concepts that may be too early for federal or commercial funding but hold significant potential.\" \"Early Investigator: Researchers within the first six years of their independent careers.\" \"20+ Research grants awarded since 2020\"; \"$50+MM Raised\". The page contains no amount, deadline, apply link or geographic rule. The consortium page lists only Chicago-area centers: UChicago, Northwestern, Rush MD Anderson, Endeavor Health.",
+    "fit": 45
    }
   }
  ]

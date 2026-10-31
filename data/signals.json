@@ -1,8 +1,22 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-31",
  "seeded": false,
- "pages_watched": 97,
+ "pages_watched": 99,
  "signals": [
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "myriad-precise-mrd-research-collaboration"
+   ],
+   "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
+   "dates_added": [
+    "2026-10-30"
+   ],
+   "dates_removed": [
+    "2026-10-27"
+   ],
+   "detail": "+1 / -1 dates since 2026-10-28"
+  },
   {
    "kind": "blocked",
    "ids": [
@@ -10,7 +24,7 @@
    ],
    "url": "https://ir.arvinas.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 12 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 13 run(s) in a row."
   },
   {
    "kind": "unreachable",
@@ -19,7 +33,58 @@
    ],
    "url": "https://orit.research.bcm.edu/r5t80if3wh2/bslmcresearchfund/default.aspx",
    "http": 0,
-   "detail": "unreachable (0); a model must read this page. Failed 4 run(s) in a row."
+   "detail": "unreachable (0); a model must read this page. Failed 5 run(s) in a row."
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "boehringer-ingelheim-iis"
+   ],
+   "url": "https://pro.boehringer-ingelheim.com/funding/external-research-studies",
+   "lines_added": [
+    "Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Education Grants Submit Proposal Back Global | EN Engli",
+    "es, Non-interventional studies, including observational and Real-World Evidence (RWE) studies, Non-Commercial Health Economics and Outcomes Research (HEOR) Exte",
+    "glish Global | EN Logo Logo Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Education Grants Submit Prop",
+    "ls Back Global | EN English Global | EN Logo Logo Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Educat"
+   ],
+   "lines_removed": [],
+   "detail": "+4 / -0 RFP-related passages since 2026-10-28"
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "uthealth-tx-apcd-research-data-access"
+   ],
+   "url": "https://sph.uth.edu/research/centers/center-for-health-care-data/texas-all-payor-claims-database",
+   "dates_added": [
+    "2026-11-04",
+    "2026-11-07",
+    "2026-11-18"
+   ],
+   "dates_removed": [
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ],
+   "detail": "+3 / -3 dates since 2026-10-28"
+  },
+  {
+   "kind": "unreachable",
+   "ids": [
+    "stand-up-to-cancer-team-and-catalyst"
+   ],
+   "url": "https://standuptocancer.org/science/grant-opportunities/",
+   "http": 502,
+   "detail": "unreachable (502); a model must read this page. Failed 1 run(s) in a row."
+  },
+  {
+   "kind": "unreachable",
+   "ids": [
+    "su2c-catalyst"
+   ],
+   "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
+   "http": 502,
+   "detail": "unreachable (502); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -28,76 +93,16 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 41 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 42 run(s) in a row."
   },
   {
-   "kind": "rfp_changed",
+   "kind": "unreachable",
    "ids": [
-    "acs-clinician-scientist-development-grant"
+    "nia-beeson-k76-par-27-112"
    ],
-   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html",
-   "lines_added": [],
-   "lines_removed": [
-    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
-    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
-    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
-    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
-    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
-    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
-   ],
-   "detail": "+0 / -13 RFP-related passages since 2026-10-27"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "acs-mission-boost-grant"
-   ],
-   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/mission-boost-grants.html",
-   "lines_added": [
-    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
-    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
-    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
-    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
-    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
-    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
-   ],
-   "lines_removed": [],
-   "detail": "+13 / -0 RFP-related passages since 2026-10-27"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "acs-research-scholar-grant"
-   ],
-   "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-scholar-grants.html",
-   "lines_added": [],
-   "lines_removed": [
-    "&amp; Services Lodging During Treatment Rides To Treatment Breast Cancer Support Hair Loss and Post-surgical Products Connecting Cancer Survivors Patient a",
-    "ARES™ Free Smoking Cessation Support Connect with Survivors Breast Cancer Support Survivor Stories 24/7 Cancer Helpline Call us 1-800-227-2345 Resource Sear",
-    "All About Cancer Back Explore All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "ail Sign Up For Text Messages All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Explore Get Involved Get Involved Back Explore Get Involved Fundraising Events Rel",
-    "anizations ACS GenNow Network Donate Making Strides Against Breast Cancer Our Research &amp; Journals Highlights of ACS Cancer Research ACS Research News Ap",
-    "ed Fundraising Events Relay For Life Making Strides Against Breast Cancer Walk Endurance Events Galas, Balls, and Parties Golf Tournaments Start a Fundraise",
-    "ety Catalyst Awards RFA: American Cancer Society - Flatiron Real-World Data Impact Award RFA: Yosemite-American Cancer Society Award Extramural Grants Departmen",
-    "n Honor &amp; Memorial Donate All About Cancer Cancer Types Breast Cancer Colon &amp; Rectal Cancer Lung Cancer Prostate Cancer Skin Cancer All Cancer Types",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Contact Us 800.227.2345 Help English",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Explore About Us About Us Back Explor",
-    "s ACS News Room Sign Up for Email Sign Up for Text Messages Breast Cancer Awareness Month: See How We’re Taking Action Search https://searchapi.cancer.org S"
-   ],
-   "detail": "+0 / -13 RFP-related passages since 2026-10-27"
+   "url": "https://www.afar.org/grants/beeson",
+   "http": 0,
+   "detail": "unreachable (0); a model must read this page. Failed 1 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -106,12 +111,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-10-28"
+    "2026-10-31"
    ],
    "dates_removed": [
-    "2026-10-27"
+    "2026-10-28"
    ],
-   "detail": "+1 / -1 dates since 2026-10-27"
+   "detail": "+1 / -1 dates since 2026-10-28"
   },
   {
    "kind": "blocked",
@@ -120,7 +125,7 @@
    ],
    "url": "https://www.grants-contributions.bayer.com/home/investigator-institution-initiated-research/pharmaceuticals-investigator-institution-initiated-research/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 15 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 16 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -129,7 +134,84 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 41 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 42 run(s) in a row."
+  },
+  {
+   "kind": "dates_changed",
+   "ids": [
+    "pcori-broad-pragmatic-studies-cycle1-2027",
+    "pcori-digital-health-technologies-cycle1-2027",
+    "pcori-engagement-capacity-building-fall-2026",
+    "pcori-placer-cycle1-2027"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities",
+   "dates_added": [],
+   "dates_removed": [
+    "2026-04-28",
+    "2026-09-01",
+    "2026-09-09",
+    "2026-10-01",
+    "2026-11-17",
+    "2027-01-06",
+    "2027-01-11",
+    "2027-01-12",
+    "2027-05-04"
+   ],
+   "detail": "+0 / -9 dates since 2026-10-28"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "pcori-broad-pragmatic-studies-cycle1-2027",
+    "pcori-digital-health-technologies-cycle1-2027",
+    "pcori-engagement-capacity-building-fall-2026",
+    "pcori-placer-cycle1-2027"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities",
+   "lines_added": [],
+   "lines_removed": [
+    "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
+    "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
+    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
+    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
+    "ch findings. Use the search/filters below to find available funding opportunities and take advantage of the following resources: What You Need To Know To Apply Funding Ann",
+    "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
+    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
+    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
+    "ype: Research Sept. 9, 2026 Jan. 12, 2027 Receiving Invited Applications Open Competition: Implementation of Findings From PCORI&#039;s Research Investments PCORI Fund"
+   ],
+   "detail": "+0 / -10 RFP-related passages since 2026-10-28"
+  },
+  {
+   "kind": "now_readable",
+   "ids": [
+    "pcori-broad-pragmatic-studies-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026",
+   "dates": [
+    "2026-08-04",
+    "2026-08-13",
+    "2026-09-09",
+    "2026-10-14",
+    "2027-01-12"
+   ],
+   "detail": "readable again after 3 failed run(s); 5 dates on the page, no baseline to compare."
+  },
+  {
+   "kind": "now_readable",
+   "ids": [
+    "pcori-improving-methods-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
+   "dates": [
+    "2026-08-04",
+    "2026-08-19",
+    "2026-09-09",
+    "2026-10-14",
+    "2027-01-12"
+   ],
+   "detail": "readable again after 3 failed run(s); 5 dates on the page, no baseline to compare."
   },
   {
    "kind": "blocked",
@@ -139,7 +221,7 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 22 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 23 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -148,7 +230,40 @@
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 20 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
+  },
+  {
+   "kind": "new_federal_opportunity",
+   "ids": [],
+   "url": "https://www.grants.gov/search-results-detail/358959",
+   "opportunity": "RFA-RM-27-009",
+   "agency": "HHS-NIH11",
+   "title": "Single Source: Continued Development of the Gabriella Miller Kids First Pediatric Data Resource Center (U2C Clinical Trial Not Allowed)",
+   "close": "01/08/2027",
+   "status": "posted",
+   "detail": "RFA-RM-27-009 (HHS-NIH11, posted) not previously seen"
+  },
+  {
+   "kind": "new_federal_opportunity",
+   "ids": [],
+   "url": "https://www.grants.gov/search-results-detail/358954",
+   "opportunity": "RFA-RM-27-008",
+   "agency": "HHS-NIH11",
+   "title": "Genomic Data Generation Center for the Gabriella Miller Kids First Pediatric Research Program (U24 Clinical Trial Not Allowed)",
+   "close": "01/08/2027",
+   "status": "posted",
+   "detail": "RFA-RM-27-008 (HHS-NIH11, posted) not previously seen"
+  },
+  {
+   "kind": "new_federal_opportunity",
+   "ids": [],
+   "url": "https://www.grants.gov/search-results-detail/358960",
+   "opportunity": "RFA-RM-27-010",
+   "agency": "HHS-NIH11",
+   "title": "Gabriella Miller Kids First Training and Outreach Core (U24 Clinical Trial Not Allowed)",
+   "close": "01/08/2027",
+   "status": "posted",
+   "detail": "RFA-RM-27-010 (HHS-NIH11, posted) not previously seen"
   }
  ]
 }

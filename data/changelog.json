@@ -1,6 +1,23 @@
 {
  "entries": [
   {
+   "date": "2026-10-31",
+   "kind": "update",
+   "summary": "80 records re-verified; no deadline moved. 3 candidates added, none promoted.",
+   "added": 0,
+   "changed": 8,
+   "retired": 0,
+   "details": [
+    "Step 1: dates_changed signals (myriad, uthealth-tx-apcd, daiichi, four PCORI cycle-1 records) were page-text churn; fan-out confirmed no posted deadline moved",
+    "gsk-investigator-sponsored-studies-supported-collaborative: confidence verified → unverified",
+    "nia-gemsstar-r03: confidence projected → verified; pfizer-atirmociclib-breast-cancer-rfp-2027, pfizer-competitive-grants-program, pfizer-investigator-sponsored-research: unverified → verified",
+    "pcori-placer-cycle1-2027: open/verified → forecast/projected; dod-bcrp-transformative-consortium-award-fy26: verified → projected",
+    "Unreadable, unchanged: bslmc-macdonald-research-fund (TLS failure), boehringer-ingelheim-iis (403)",
+    "Candidates added: rice-synthx-dldccc-synthx-dldccc-joint-seed-grant, uh-bcm-uh-baylor-college-medicine-collaborative-pilot-grants, lynn-sage-scholar-research-grants-senior-investigator-track",
+    "No candidate promoted this run (pending ones await owner review)"
+   ]
+  },
+  {
    "date": "2026-10-28",
    "kind": "update",
    "summary": "28 records re-verified; no deadline moved, 2 candidates promoted.",
