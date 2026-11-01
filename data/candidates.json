@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-01",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -10169,6 +10169,215 @@
     "confidence": "unverified",
     "evidence": "Page quotes: \"Senior Investigator: Seasoned researchers exploring bold new ideas or directions in breast cancer research. These grants help experienced scientists test innovative concepts that may be too early for federal or commercial funding but hold significant potential.\" \"Early Investigator: Researchers within the first six years of their independent careers.\" \"20+ Research grants awarded since 2020\"; \"$50+MM Raised\". The page contains no amount, deadline, apply link or geographic rule. The consortium page lists only Chicago-area centers: UChicago, Northwestern, Rush MD Anderson, Endeavor Health.",
     "fit": 45
+   }
+  },
+  {
+   "id": "rice-synthx-bcm-dldccc-synthx-dldccc-innovation-seed-grants",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-11-01",
+    "run": "discovery",
+    "finder_summary": "This is a Rice-BCM co-funded seed route that has already funded breast-center work. It could fund a computational or biomarker collaboration with Rice engineering or data-science partners, and the preliminary data it produces would feed CPRIT or NIH multi-PI applications.",
+    "proven": "Three awards made in 2024, three in 2025, two in 2026 (with Houston Methodist). Winners are named on the sponsor pages. The 2024 award is also covered in a Rice news release."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": "rice-synthx-dldccc-seed-grant",
+    "reason": "Shares its URL with candidate(s) rice-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2, rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant, rice-synthx-dldccc-synthx-dldccc-joint-seed-grant under a different program name; step 3 checks it is a distinct call before promoting. Re-derived from the 2024, 2025 and 2026 sponsor pages. The program exists and the URL is its primary page for the 2025 round. It is not active for BCM now: no 2027 call is posted and the 2026 round used a different partner. The candidate's claim that the 2025 amount is unstated is wrong, since it was $30,000 base with incentives. The claim of three awards in 2024 is unclear, because the 2024 page lists seven names. No close duplicate is held; the Rice and TMC Collaborator Fund is a different mechanism. I could not confirm 2027 plans, DLDCCC membership rules or the PI's eligibility."
+   },
+   "record": {
+    "id": "rice-synthx-bcm-dldccc-synthx-dldccc-innovation-seed-grants",
+    "sponsor": "Rice SynthX / BCM DLDCCC",
+    "sponsor_full": "Rice University Synthesis X (SynthX) Center with the Baylor College of Medicine Dan L Duncan Comprehensive Cancer Center (managed by Rice ENRICH)",
+    "program": "SynthX/DLDCCC Innovation Seed Grants (the 2026 round was SynthX/Houston Methodist Neal Cancer Center)",
+    "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-11-01",
+    "last_verified": "2026-11-01",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "computational"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 30000,
+    "award_text": "Varies by round. 2024 SynthX/DLDCCC: $80,000 per team over 2 years, split 50/50 Rice/BCM ($60,000 in year 1, $20,000 more if a multi-PI grant is submitted within one year). 2025 SynthX/DLDCCC: base $30,000 per two-institution team (max $30,000 original budget over 2 years), plus conditional incentives of up to $40,000 more if a new grant over $1M-3M ($20,000) or over $3M ($40,000) is won within 2 years, for a maximum of $70,000. 2026 SynthX/HMNCC: $45,000 per team ($22,500 per home institution), 1 year.",
+    "duration_years": 2,
+    "indirects": "Not allowed (F&A excluded in 2024, 2025 and 2026 rounds); PI/co-I salary and tuition remission also excluded.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Call announced Nov-Dec (2023, 2024), deadline Jan-Feb; the 2026 round was Apr-May with Houston Methodist. 2027 partner and timing unknown.",
+    "verdict": "needs-check",
+    "flags": [
+     "requires-rice-partner",
+     "no-open-call",
+     "partner-rotates",
+     "no-indirects",
+     "no-salary",
+     "small-award",
+     "amount-varies-by-round",
+     "dldccc-membership-unconfirmed"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Teams need at least one PI from the Rice SynthX Center and at least one from the Dan L Duncan Comprehensive Cancer Center at BCM. Each faculty member may be PI or co-PI on only one proposal, and a recipient cannot receive another seed fund within 2 years. Projects needing IRB approval are not funded until approval is in hand. No rank or career-stage limit is stated on the rounds read. The PI would be the BCM co-PI and needs a Rice SynthX partner; DLDCCC membership is not confirmed.",
+    "notes": "This is a Rice-BCM seed route run by the Rice SynthX Center, co-sponsored by Rice ENRICH. It paired Rice chemistry, engineering and bioscience faculty with DLDCCC members in 2024 and 2025. A 2025 award went to a team that included the Lester and Sue Smith Breast Center, and a 2024 award covered breast lesion imaging. No call is open as of 2026-11-01. The 2026 round switched partner to the Houston Methodist Neal Cancer Center, so a 2027 round with BCM is not assured. Amounts have shrunk from $80,000 in 2024 to $30,000 base in 2025, and the award excludes salary and indirects. The PI would be the BCM co-PI and must first find a SynthX Rice partner, which fits best with a computational or biomarker collaboration. The accordion text (timeline, eligibility) is hidden in the rendered page but was recovered by WebFetch. The PI should contact SynthX and the DLDCCC to ask about a 2027 BCM round and to confirm DLDCCC membership. Meanwhile the PI should build a Rice partner relationship, since the Rice and TMC Collaborator Fund (already held) is a rolling alternative.",
+    "confidence": "verified",
+    "evidence": "2025 page (WebFetch): \"Teams need at least one PI from Rice's SynthX Center and at least one PI from the Duncan Cancer Center (DLDCCC)\"; \"Base seed grant ... $30,000 if PIs are from both institutions\"; timeline \"December 10, 2024: Call announced; February 24, 2025: Proposal submission deadline\". 2024 page: \"Two to three awards of $80,000 each, split 50% to Rice and 50% to BCM\"; call announced November 18, 2023. 2026 page: \"$45,000 total ... $22,500 from each PI's home institution\"; one SynthX PI and one HMNCC PI; call April 27, 2026, deadline May 18, 2026. 2025 page banner: \"2026 SynthX/HMNCC Seed Grant winners announced!\" Hidden accordion sections are collapsed in the rendered page text. None of the three pages mentions an LOI or a 2027 round.",
+    "fit": 52
+   }
+  },
+  {
+   "id": "foresight-diagnostics-academic-researcher-pathways-requests",
+   "decision": "pending",
+   "provides": "drug-free; in-kind assay testing (data) plus discounted pricing, no cash funding",
+   "provenance": {
+    "lens": "industry-data",
+    "found_on": "2026-11-01",
+    "run": "discovery",
+    "finder_summary": "Gives a low-cost route to ultrasensitive ctDNA/MRD testing for a PI's computational/real-world ctDNA angle or an investigator-initiated trial correlative, as a possible alternative or complement to Signatera.",
+    "proven": "Page lists academic partners with presented or published work (Memorial Sloan Kettering NSCLC MRD, NIH DLBCL, Stanford and Samsung Medical Center). No breast cancer awardee seen and no awardee list."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": null,
+    "reason": "WebFetch of the primary page and of its RFP and IIR subpages worked. The program exists, but nothing is currently open: no active RFPs and the in-kind window is closed. The IIR page's \"early 2026\" reopening claim is undated and apparently out of date, so the current status is unknown. I could not confirm eligibility rules, award volume, pricing or review process, because none are published. The held record natera-signatera-iit-collaboration is a different assay and portal (biopharma.natera.com), so I did not mark this as a duplicate. I did not check the separate IIR form page or the resources page."
+   },
+   "record": {
+    "id": "foresight-diagnostics-academic-researcher-pathways-requests",
+    "sponsor": "Foresight Diagnostics",
+    "sponsor_full": "Foresight Diagnostics (wholly-owned subsidiary of Natera, Inc.)",
+    "program": "Academic researcher pathways: Requests for Proposals (in-kind CLARITY MRD testing) and Investigator-Initiated Research portal (academic pricing support)",
+    "url": "https://foresight-dx.com/foresight-products-services/for-academic-researchers/",
+    "status": "active",
+    "first_seen": "2026-11-01",
+    "last_verified": "2026-11-01",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "organization",
+    "tier": "mid-size",
+    "focus": [
+     "computational",
+     "iit",
+     "translational",
+     "drug-supply",
+     "pilot"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": null,
+    "award_text": "No dollar amount. In-kind CLARITY MRD (PhasED-Seq) testing for selected RFP proposals, and \"academic pricing support\" for IIR projects. No cash and no testing volume is stated.",
+    "duration_years": null,
+    "indirects": "Not applicable as posted; no cash award is described.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "Unknown; the IIR page said in-kind applications would reopen in early 2026, with no later update posted",
+    "verdict": "needs-check",
+    "flags": [
+     "in-kind-only",
+     "no-cash",
+     "not-breast-specific",
+     "rfp-inactive",
+     "in-kind-window-closed",
+     "stale-page",
+     "natera-subsidiary",
+     "no-awardee-list",
+     "research-use-only"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The page says only \"academic researchers\" and states no eligibility criteria, review process or timeline. RFPs address specific questions chosen by Foresight, and projects outside an active RFP go through the Investigator-Initiated Research portal. Nothing on the pages mentions breast cancer or restricts clinical duties. A BCM faculty member would plausibly qualify as an academic researcher.",
+    "notes": "This is a vendor access pathway, not a grant. Foresight Diagnostics, a wholly-owned Natera subsidiary, offers academic groups in-kind CLARITY MRD (PhasED-Seq) testing through RFPs, plus academic pricing support through an Investigator-Initiated Research portal. For the PI it is a possible low-cost route to ultrasensitive ctDNA/MRD data for a real-world ctDNA project or an investigator-initiated trial correlative. As of 2026-11-01 the RFP page says \"There are no currently active Requests for Proposals\" and its two entries are lorem-ipsum placeholders. The IIR page says in-kind applications are closed and \"the next round of applications will open in early 2026.\" That date has passed without an update, so the page looks stale. The trap is treating it as funding, or assuming a breast proposal fits, since the featured partners are lymphoma and NSCLC groups and no breast awardee is shown. The PI should keep the IIR interest form in mind and ask Foresight directly whether the in-kind window has reopened and whether breast MRD is in scope. Foresight's assay is separate from the held Natera Signatera record, but both belong to the same parent company, so contacts and any negotiation should be coordinated. The assay is research-use through Foresight's CLIA lab.",
+    "confidence": "verified",
+    "evidence": "RFP page: \"There are no currently active Requests for Proposals, please check back soon.\" (Request #1 and #2 contain only lorem ipsum). IIR page: \"The application period is currently closed for applications requesting in-kind testing.\" and \"The next round of applications will open in early 2026.\" Main page: \"Submissions are posted on a rolling basis, with selected proposals being eligible for in-kind testing support.\" and projects that \"don't address active Requests for Proposals\" \"will be considered for academic pricing support for their study.\" Footer: \"a wholly-owned subsidiary of Natera, Inc.\" Neither the main page nor the RFP or IIR pages mention breast cancer, eligibility criteria or deadlines.",
+    "fit": 52
+   }
+  },
+  {
+   "id": "pcori-cancer-partner-pfa-partnering-research-community",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-11-01",
+    "run": "discovery",
+    "finder_summary": "This is a cancer-specific, equity-focused PCORI mechanism not among the six held PCORI records. Its Houston community partnerships and TMC data infrastructure could support a breast cancer care-delivery or endocrine therapy adherence hybrid trial (angles 2 and 4). The scale means the PI would more likely be a co-investigator or site lead.",
+    "proven": "PCORI has an established record of cancer CER awards, and this cycle is in merit review. No awardee list for this specific PFA was fetched."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": "pcori-partnering-research-community-organizations-cer-across",
+    "reason": "Shares its URL with candidate(s) pcori-partnering-research-community-organizations-cer-across under a different program name; step 3 checks it is a distinct call before promoting. I fetched the primary page and re-derived the dates, award caps and eligibility from it. Several finder claims did not match the page. The page requires dual PIs including a community-organization PI, which the finder summary omitted. The page does not state indirect costs, career stage or recurrence. The 'low priority for navigator or CHW efficacy studies' claim did not appear in the fetched text, so I left it out. I could not confirm whether a Cycle 2 or later PFA will be issued. No held PCORI record in grants.json is this mechanism."
+   },
+   "record": {
+    "id": "pcori-cancer-partner-pfa-partnering-research-community",
+    "sponsor": "PCORI",
+    "sponsor_full": "Patient-Centered Outcomes Research Institute",
+    "program": "Cancer Partner PFA: Partnering Research and Community Organizations for Comparative Clinical Effectiveness Research Across the Cancer Care Continuum",
+    "url": "https://www.pcori.org/funding-opportunities/announcement/cancer-partner-pfa-cycle-1-2026",
+    "status": "active",
+    "first_seen": "2026-11-01",
+    "last_verified": "2026-11-01",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "foundation",
+    "tier": "program-large",
+    "focus": [
+     "cooperative-group",
+     "clinical",
+     "equity",
+     "iit"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 12000000,
+    "award_text": "Up to $12M direct costs over up to 5 years; up to $13M and 6 years if powered outcomes are at or beyond 24 months. Up to $60M total available for the cycle. Patient care costs may be requested but count toward the direct cost cap.",
+    "duration_years": 5,
+    "indirects": "Not stated on the page; see the full PFA.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "December (PFA release); LOI January; application May",
+    "verdict": "needs-check",
+    "flags": [
+     "cycle-closed",
+     "recurrence-unconfirmed",
+     "community-co-PI-required",
+     "randomized-trial-required",
+     "scale-exceeds-junior-PI",
+     "indirects-not-on-page"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Dual PIs are required, one from a research organization and one from a community organization, and they must have collaborated before. The research PI must have prior community-partnered research experience. The application must include a broader coalition of community partners with letters of support from partners and sites, a shared leadership plan and a sustainability plan. The design must be an individual or cluster randomized hybrid effectiveness-implementation trial (types 1, 2 or 3). Observational, pure implementation and methods studies are non-responsive. The page lists no career-stage limit.",
+    "notes": "This is PCORI's cancer-specific partnered comparative effectiveness PFA, and the Cycle 1 2026 page is the primary source. The cycle is closed: the application deadline was 2026-05-05, merit review was July 2026, awards are due December 2026, and the earliest start is April 2027. The page does not say the PFA will recur, so no future deadline is known and the record should be treated as a watch item. The mechanism is not cancer-type specific, so the PI's breast focus would be one of several possible cancers. It requires dual PIs with a community-organization co-PI and a randomized hybrid effectiveness-implementation trial. Observational designs, which would suit the PI's real-world data angle, are explicitly non-responsive. The realistic role for the PI is co-investigator or clinical site lead on a Houston community-partnered trial, for example on endocrine therapy adherence or equity-focused care delivery. The PI should watch pcori.org for a reissue and should not plan a lead application at $12M scale without a senior co-lead. Indirect cost terms must be taken from the full PFA.",
+    "confidence": "verified",
+    "evidence": "Page status: \"Applications Under Review\". Dates on page: PFA released Dec. 2, 2025; LOI Jan. 6, 2026; LOI notification Feb. 3, 2026; application deadline May 5, 2026; merit review July 2026; awards announced December 2026 (subject to change); earliest start April 2027. Funding: up to $60 million total, direct cost cap up to $12 million (up to $13 million for powered outcomes at or beyond 24 months), up to five years (six). Design: \"observational study designs will not be considered responsive\"; \"strict implementation or dissemination studies will not be considered responsive\". The page requires dual PIs from a research organization and a community organization. No career-stage limit and no recurrence statement appear on the page.",
+    "fit": 55
    }
   }
  ]

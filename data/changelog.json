@@ -1,6 +1,26 @@
 {
  "entries": [
   {
+   "date": "2026-11-01",
+   "kind": "update",
+   "summary": "31 records re-verified; TBBCF 2026-27 fellowship cycle posted (deadline 2026-11-23); 2 duplicate discovery finds rejected, 1 new candidate pending.",
+   "added": 0,
+   "changed": 1,
+   "retired": 0,
+   "details": [
+    "terri-brodeur-breast-cancer-foundation-fellowship: full_deadline null -> 2026-11-23, next_deadline null -> 2026-11-23, closed-projected -> open, projected -> verified (2026-2027 guidelines posted; awards ~first week Feb 2027)",
+    "nci-merit-r37-extension: status/confidence open/verified -> open/projected",
+    "bcm-duncan-cc-pilot-funds: status/confidence unposted/unverified -> not-posted/verified",
+    "nci-r50-research-specialist: status/confidence unposted/unverified -> forecast/verified",
+    "pfizer-investigator-sponsored-research: status/confidence open/verified -> open/projected",
+    "pfizer-atirmociclib-breast-cancer-rfp-2027: re-read via browser, concepts due 2027-01-12 confirmed, confidence unverified -> verified",
+    "bcm-duncan-cc-pilot-funds: notes addendum on past-cycle Cancer & Environment pilot RFA",
+    "conquer-cancer-acra-breast-cancer: disputed, not written (first read LOI 2027-01-11 only; second read RFP LOI 2027-01-11, application 2027-03-11); held dates unchanged",
+    "Candidates +3 (2 rejected as duplicates of existing candidates, 1 pending: Foresight Diagnostics academic pathways); Cancer Research Foundation Young Investigator already a candidate",
+    "Unreadable this run: Lilly IIR, Komen ASPIRE (Cloudflare), BSLMC MacDonald (TLS); crawler blocked: Arvinas, AbbVie, Bayer, Lilly, Pfizer ISR"
+   ]
+  },
+  {
    "date": "2026-10-31",
    "kind": "update",
    "summary": "80 records re-verified; no deadline moved. 3 candidates added, none promoted.",
