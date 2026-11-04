@@ -1,6 +1,29 @@
 {
  "entries": [
   {
+   "date": "2026-11-04",
+   "kind": "update",
+   "summary": "157 records re-verified; ACRA and BCRF-AACR 2027 cycles posted, 2 records retired, 2 lapsed dates cleared, no new candidates.",
+   "added": 0,
+   "changed": 21,
+   "retired": 2,
+   "details": [
+    "conquer-cancer-acra-breast-cancer and conquer-cancer-advanced-clinical-research-award: 2027 cycle posted, LOI null -> 2027-01-11, full null -> 2027-03-11, closed-projected -> open",
+    "bcrf-aacr-career-development-award(s): LOI 2025-12-16/null -> 2026-12-15, full 2026-04-07/null -> 2027-04-01, closed-projected -> open, projected -> verified",
+    "bcrf-aacr-nextgen-davidson, bcrf-lbca-aacr-cda-lobular: prior-cycle dates recorded (LOI 2025-12-18/16, full 2026-04-07); no 2026-27 cycle posted",
+    "conquer-cancer-global-oncology-yia: loi null -> 2026-09-10 (passed); next stays 2027-01-15",
+    "conquer-cancer-yia-special-competitions: loi 2027-01-28 -> null, next_deadline 2027-01-28 -> 2027-03-12 (general application deadline)",
+    "abta-metastatic-brain-tumor-collaborative-cns-metastasis: next_deadline 2026-11-03 -> 2027-03-02 (LOI passed)",
+    "nci-merit-r37-extension: next_deadline 2026-11-01 -> null, open -> closed-projected (lapsed; no new cycle confirmed; reads of next date disputed)",
+    "pfizer-investigator-sponsored-research: next_deadline 2026-11-03 -> null, open -> closed-projected (lapsed; no 2027 window posted)",
+    "retired: ahrq-health-services-research-r01-expired (PA-24-154 expired per NOT-HS-26-006); moore-inventor-fellows (final cohort selected Spring 2025)",
+    "pcori cycle1-2027 broad-pragmatic and digital-health: open -> forecast; pcori-placer-cycle1-2027 projected -> verified",
+    "disputed, nothing written: esmo-clinical-and-translational-research-unit-visits (2026-12-05 vs second read)",
+    "unreachable, unchanged: 12 BCM/DLDCCC/Komen records (TLS proxy / Cloudflare challenge)",
+    "discovery: 0 new candidates; rice-synthx-dldccc-seed-grant re-verified in place; none promoted"
+   ]
+  },
+  {
    "date": "2026-11-01",
    "kind": "update",
    "summary": "31 records re-verified; TBBCF 2026-27 fellowship cycle posted (deadline 2026-11-23); 2 duplicate discovery finds rejected, 1 new candidate pending.",

@@ -7,7 +7,7 @@
     "dod-bcrp-era-of-hope-scholar-fy26",
     "dod-bcrp-transformative-consortium-development-fy26"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -41,7 +41,7 @@
     "dod-bcrp-fy27-outlook",
     "dod-bcrp-transformative-consortium-award-fy26"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-09-03",
@@ -76,7 +76,7 @@
    "ids": [
     "cprit-iira"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "ecfad0caa70417f2",
@@ -88,7 +88,7 @@
     "cprit-iiracca",
     "cprit-iirap"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "b13a739541abd8ab",
@@ -99,7 +99,7 @@
    "ids": [
     "cprit-iiract"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "9012ce2aee0fd1fa",
@@ -110,7 +110,7 @@
    "ids": [
     "cprit-iiracsbc"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "bcc29147874ae0f4",
@@ -123,7 +123,7 @@
     "gateway-nci-spore-p20-program",
     "gateway-traditional-grant-program"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-06"
@@ -1178,7 +1178,7 @@
    "ids": [
     "nci-merit-r37-extension"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2028-09-08"
@@ -1266,7 +1266,7 @@
    "ids": [
     "nih-rse-r50"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2025-12-04",
@@ -1511,7 +1511,7 @@
    "ids": [
     "cri-technology-impact-award"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-15",
@@ -1547,7 +1547,7 @@
    "ids": [
     "cprit-rrs"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "ef5c1a0c3b3be81e",
@@ -1594,7 +1594,7 @@
    "ids": [
     "cprit-rft"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "775138f01290e69f",
@@ -1605,7 +1605,7 @@
    "ids": [
     "cprit-rei"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "008a1c5c399fd702",
@@ -1718,7 +1718,7 @@
    "ids": [
     "nia-gemsstar-r03"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-09-01",
@@ -1735,7 +1735,7 @@
    "ids": [
     "nci-imat-r33-advanced"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1753,7 +1753,7 @@
    "ids": [
     "nci-imat-r61-early-stage"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1771,7 +1771,7 @@
    "ids": [
     "nih-parent-p01"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-10-14",
@@ -1816,10 +1816,31 @@
     "pcori-engagement-capacity-building-fall-2026",
     "pcori-placer-cycle1-2027"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
-   "dates": [],
-   "rfp": [],
+   "dates": [
+    "2026-04-28",
+    "2026-09-01",
+    "2026-09-09",
+    "2026-10-01",
+    "2026-11-17",
+    "2027-01-06",
+    "2027-01-11",
+    "2027-01-12",
+    "2027-05-04"
+   ],
+   "rfp": [
+    "Funding Opportunities | PCORI Skip to main content Find It Fast Careers Contact Us Search Search Site Submit Cl",
+    "Process Procurement Opportunities Provide Input Leadership Funding Opportunities PCORI funds patient-centered comparative clinical effectiveness research (CER), issuing f",
+    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
+    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
+    "ch findings. Use the search/filters below to find available funding opportunities and take advantage of the following resources: What You Need To Know To Apply Funding Ann",
+    "comparative clinical effectiveness research (CER), issuing funding opportunity announcements several times each year. PCORI also funds projects that support CER, such a",
+    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
+    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
+    "ype: Research Sept. 9, 2026 Jan. 12, 2027 Receiving Invited Applications Open Competition: Implementation of Findings From PCORI&#039;s Research Investments PCORI Fund"
+   ],
    "rfp_v": 2,
    "fail_streak": 0
   },
@@ -1827,7 +1848,7 @@
    "ids": [
     "pcori-broad-pragmatic-studies-cycle3-2026"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-08-04",
@@ -1842,7 +1863,7 @@
     "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
     "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
     "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2026 Research Project Agenda Topic Themes 2027 Research Project Agenda Topic Themes PCORn",
+    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2027 Research Project Agenda Topic Themes 2026 Research Project Agenda Topic Themes PCORn",
     "d FAQs . Use the Application Readiness Checklist . Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
     "da includes a set of Topic Themes that are included in this funding opportunity and further detailed below. Applicants have the option to choose up to three Topic Themes",
     "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
@@ -1865,8 +1886,8 @@
    "ids": [
     "pcori-improving-methods-cycle3-2026"
    ],
-   "checked": "2026-11-01T01:51:20",
-   "status": 200,
+   "checked": "2026-11-04T01:51:25",
+   "status": 403,
    "dates": [
     "2026-08-04",
     "2026-08-19",
@@ -1874,47 +1895,25 @@
     "2026-10-14",
     "2027-01-12"
    ],
-   "rfp": [
-    "A and FAQs Use the Application Readiness Checklist Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
-    "Agenda comprises a set of Topic Themes that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
-    "Applicant Town Hall Aug. 19, 2026; 1 - 2 pm (ET) View Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Appl",
-    "CORI has launched a new portal, PCORI Connect, to apply for funding opportunities. Apply Here With this PCORI Funding Announcement (PFA), PCORI aims to fund studies that a",
-    "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2026 Research Project Agenda Topic Themes 2027 Research Project Agenda Topic Themes PCORn",
-    "conditions faced by the U.S. population that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ement in Patient-Centered CER Methods To Support the Use of Real-World Data (RWD) in Multi-Site Patient-Centered CER Methods To Improve the Use of Artificial In",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "ess Procurement Opportunities Provide Input Leadership Home Funding Opportunities Improving Methods for Conducting Patient-Centered Comparative Clinical Effectiveness Rese",
-    "ew Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Application Deadline Jan. 12, 2027, 5 pm (ET) Merit Rev",
-    "l Policy This policy allows applicants who have submitted a Letter of Intent (LOI) and are invited to submit a full application to defer their application submission",
-    "ns Aug. 4, 2026 Applicant Town Hall Aug. 19, 2026; 1pm (ET) Letter of Intent (LOI) Deadline Sept. 9, 2026; 5 pm (ET) LOI Status Notification Oct. 14, 2026 Application",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
-    "s in Research PCORI’s Portfolio of Funded Research Upcoming Funding Opportunities Population Insights Reports Powered by PCORnet ® Download Full Announcement Key Dates Onl",
-    "ycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inform Focused Funding Opport"
-   ],
-   "rfp_v": 2,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://ir.arvinas.com/": {
    "ids": [
     "arvinas-investigator-sponsored-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [
     "2026-09-16",
     "2026-10-07"
    ],
-   "fail_streak": 14
+   "fail_streak": 15
   },
   "https://medical.menarinistemline.com/": {
    "ids": [
     "menarini-stemline-iss"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1982,7 +1981,7 @@
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1999,7 +1998,7 @@
    "ids": [
     "olema-oncology-iss"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2024,7 +2023,7 @@
    "ids": [
     "boehringer-ingelheim-iis"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2044,7 +2043,7 @@
    "ids": [
     "sermonix-pharmaceuticals-collaboration"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2057,25 +2056,25 @@
    "ids": [
     "stand-up-to-cancer-team-and-catalyst"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 502,
    "dates": [],
-   "fail_streak": 2
+   "fail_streak": 3
   },
   "https://standuptocancer.org/what-we-do/scientific-initiatives/": {
    "ids": [
     "su2c-catalyst"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 502,
    "dates": [],
-   "fail_streak": 2
+   "fail_streak": 3
   },
   "https://thehopefoundation.org/funding-opportunities/": {
    "ids": [
     "hope-foundation-swog-trial-support"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2086,7 +2085,7 @@
    "ids": [
     "hope-foundation-swog-seed-fund"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-07-01"
@@ -2099,7 +2098,7 @@
    "ids": [
     "hope-foundation-swog-impact-award"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2113,16 +2112,16 @@
    "ids": [
     "abbvie-investigator-initiated-studies"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [],
-   "fail_streak": 43
+   "fail_streak": 44
   },
   "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html": {
    "ids": [
     "astrazeneca-esr"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2214,7 +2213,7 @@
    "ids": [
     "cri-clinical-innovator"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2228,10 +2227,10 @@
    "ids": [
     "daiichi-sankyo-esr-iis"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
-    "2026-11-01"
+    "2026-11-04"
    ],
    "rfp": [],
    "rfp_v": 2,
@@ -2242,7 +2241,7 @@
     "genentech-investigator-initiated-studies",
     "genentech-roche-iss"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2253,7 +2252,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2272,50 +2271,54 @@
    "ids": [
     "lilly-investigator-initiated-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [],
-   "fail_streak": 43
+   "fail_streak": 44
   },
   "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical": {
    "ids": [
     "novartis-investigator-initiated-trials"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
     "(112 KB) IIT guidance for investigators (719 KB) Strategic areas of interest We welcome unsolicited research proposals from qualified investigators in our strategic a",
     ", and PFMD.org to enhance your project. Global – Strategic areas of interest US – Strategic areas of interest IIT Global Areas of Interest Cardiovascular, Renal &amp;",
-    "Basic Science research that request use of OAV101 OAV101 IT Areas of interest by product Interventional Studies of OAV IT in patients not included in clinical trials (",
-    "IIT US Areas of Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing re",
-    "Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD)",
-    "Long-term safety of 177Lu-PSMA-617 Ribociclib (Kisqali) HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring riboci",
+    "Areas of Interest Oncology Ribociclib HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD)",
+    "HRQoL and Long-term safety of 177Lu-PSMA-617 Ribociclib HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring riboci",
+    "Print PDF IIT US Areas of Interest Oncology Ribociclib HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing re",
+    "Remibrutinib in RMS Disease : Relapsing Multiple Sclerosis Areas of interest by product Follow the science Impact on the immune system in and outside the CNS – clinic",
+    "and management of Iptacopan in PNH patients treated in the real-world setting, across PNH populations. Out of scope: Pediatric studies Clinical trials explorin",
+    "at request use of OAV101 Onasemnogene abeparvovec-brve (IT) Areas of interest by product Interventional Studies of OAV IT in patients not included in clinical trials (",
     "autoimmune diseases on patients; comorbidities; studies of real-world treatment patterns (incl. e.g. overuse of corticosteroids, delays in systemic therapies i",
-    "b-cell subset characterization Gene Therapies Zolgensma IV Areas of interest by product Demonstrating or validating care needs for SMA populations post OAV101 Treatme",
-    "clib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD) and/or digital health techn",
     "cluding clinical trial recruiting, managed access programs, funding opportunities for patient organizations and side effects reporting. Healthcare professionals Medical co",
-    "d CIndU (chronic inducible urticaria) Product: Remibrutinib Areas of interest by product Disease Related Research: Population-based epidemiology studies; studies inves",
-    "eas of interest US – Strategic areas of interest IIT Global Areas of Interest Cardiovascular, Renal &amp; Metabolism Atrasentan (Vanrafia) Without drug (IgAN, FSGS) Di",
+    "eas of interest US – Strategic areas of interest IIT Global Areas of Interest Cardiovascular, Renal &amp; Metabolism Atrasentan Without drug (IgAN, FSGS) Diagnosis and",
+    "ent lines, investigating: Clinical efficacy and safety in a real-world setting PROs and QoL Treatment sequencing and treatment approaches post-asciminib (includ",
     "er Exploring data on CDK4/6 inhibitor rechallenge Exploring ribociclib with novel/emergent compounds Utilizing real world data and/or digital health technologie",
     "erience of patients Out of Scope Any area outside HR+/HER2- breast cancer Any study in overlap with ongoing Novartis-sponsored/supported studies 177LuDOTATA",
-    "erm safety and tolerability Clinical efficacy and safety in real-world setting Treatment sequencing Patient-reported outcomes (PROs) and Quality of Life (QoL) P",
+    "erization Gene Therapies Onasemnogene abeparvovec-xioi (IV) Areas of interest by product Demonstrating or validating care needs for SMA populations post OAV101 Treatme",
     "ethods of preventing and/or managing RLT-induced xerostomia Real-world evidence in prostate cancer for 225Ac-PSMA-617 Health disparities in advanced prostate ca",
     "ew clinical outcome measures or PROs for clinical trials or real-world practice use across autoimmune diseases Studies employing digital or AI based technologie",
-    "going Novartis-sponsored/supported studies Print PDF IIT US Areas of Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib wit",
+    "going Novartis-sponsored/supported studies Print PDF IIT US Areas of Interest Oncology Ribociclib HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/em",
     "impact of urticaria on patients; comorbidities; studies of real-world treatment patterns (incl. e.g. overuse of corticosteroids, impact on sleep) Studies inves",
-    "mparisons Studies in other hematology diseases ** Strategic areas of interest for iptacopan (IgAN, C3G, aHUS, MN, LN), please also refer to the Cardiovascular, Renal &",
+    "ing the impact of HS on patients; comorbidities; studies of real-world treatment patterns (including antibiotic cycling, treatment escalation/ de-escalation pat",
+    "m Remibrutinib in HS Disease: Hidradenitis suppurativa (HS) Areas of interest by product Disease Related Research: Studies focusing on population-based epidemiology, h",
     "n changes Differentiation of inclisiran vs. other LLTs in a real-world setting (e.g., adherence, implementation) Pelacarsen / Lp(a) Non-drug IITs Epidemiology a",
     "nt experience of patients Out of Scope Any area outside HR+/HER2- breast cancer Any study in overlap with ongoing Novartis-sponsored/supported studies 177",
-    "of 177Lu-PSMA-617 Ribociclib (Kisqali) HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring ribociclib with novel/eme",
+    "ntaneous urticaria) and CIndU (chronic inducible urticaria) Areas of interest by product Disease Related Research: Population-based epidemiology studies; studies inves",
+    "ogy Ribociclib HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Utilizing real-world data (RWD) and/or digital health techn",
+    "ope: Use of asciminib in ABL-independent diseases Iptacopan Areas of interest by product: Studies evaluating factors associated with or predictive of treatment outcome",
     "p; 2L) Sequencing of TKIs, clinical efficacy, and safety in real-world settings Patient-reported outcomes (PROs) and quality-of-life issues with current CML the",
-    "pported studies Print PDF IIT US Areas of Interest Oncology Ribociclib (Kisqali) HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent com",
+    "pported studies Print PDF IIT US Areas of Interest Oncology Ribociclib HR+/HER2- Studies in Breast Cancer Exploring ribociclib with novel/emergent compounds Uti",
     "rch proposals from qualified investigators in our strategic areas of interest which we list below. Well-thought through studies that enhance our delivery of innovative",
     "reported outcomes (PRO) Out of scope: Any area outside HR+/HER2- breast cancer Any study in overlap with ongoing Novartis-sponsored/supported studies Pri",
-    "ressed [mHSPC] HRQoL and Long-term safety of 177Lu-PSMA-617 Ribociclib (Kisqali) HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallen",
+    "ressed [mHSPC] HRQoL and Long-term safety of 177Lu-PSMA-617 Ribociclib HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Explori",
     "rldwide, enhance patient care, and align with our strategic areas of interest will be considered. If you have questions on any steps of the process or wish to discuss",
-    "roject. Global – Strategic areas of interest US – Strategic areas of interest IIT Global Areas of Interest Cardiovascular, Renal &amp; Metabolism Atrasentan (Vanrafia)",
-    "sease : Relapsing Multiple Sclerosis Product : Remibrutinib Areas of interest by product Follow the science Impact on the immune system in and outside the CNS – clinic",
+    "rm safety of 177Lu-PSMA-617 Ribociclib HR+/HER2- studies in breast cancer Exploring data on CDK4/6 inhibitor rechallenge Exploring ribociclib with novel/eme",
+    "roject. Global – Strategic areas of interest US – Strategic areas of interest IIT Global Areas of Interest Cardiovascular, Renal &amp; Metabolism Atrasentan Without dr",
+    "t request use of OAV101 Global Health Crizanlizumab, SEG101 Areas of interest by product: Predicators of response to crizanlizumab SCD biomarker endpoints Hematologic",
     "ted outcomes (PRO) Out of scope: Any area outside HR+/HER2- breast cancer Any study in overlap with ongoing Novartis-sponsored/supported studies Print PDF I",
     "ting retreatment or extended treatment with 177 Lu-PSMA-617 Real-world evidence in prostate cancer for 177 Lu-PSMA-617 Health disparities in advanced prostate c",
     "vestigating the impact of urticaria on patients; studies of real-world treatment patterns (including, for example, overuse of corticosteroids and impact on slee",
@@ -2329,7 +2332,7 @@
     "pfizer-competitive-grants-program",
     "pfizer-atirmociclib-breast-cancer-rfp-2027"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [
     "2026-05-26",
@@ -2347,22 +2350,22 @@
     "2026-09-30",
     "2026-10-19"
    ],
-   "fail_streak": 24
+   "fail_streak": 25
   },
   "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research": {
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [],
-   "fail_streak": 22
+   "fail_streak": 23
   },
   "https://misp-investigator-studies.com/areas-of-interest": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2375,7 +2378,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2389,7 +2392,7 @@
     "merck-investigator-studies-program",
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2407,7 +2410,7 @@
    "ids": [
     "agendia-flex-registry-substudies"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2452,7 +2455,7 @@
    "ids": [
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-30"
@@ -2512,7 +2515,7 @@
    "ids": [
     "bms-independent-research-isr"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2533,7 +2536,7 @@
    "ids": [
     "eisai-investigator-initiated-studies"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2556,7 +2559,7 @@
    "ids": [
     "rising-tide-ccr-open-call"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-23",
@@ -2573,7 +2576,7 @@
    "ids": [
     "arpah-active-programs-fit-check"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2636,7 +2639,7 @@
    "ids": [
     "puma-biotechnology-ist"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2650,7 +2653,7 @@
    "ids": [
     "nih-lrp-clinical-research-l30-fy2027"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -2792,7 +2795,7 @@
    "ids": [
     "hologic-grant-program"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2814,19 +2817,19 @@
    "ids": [
     "bslmc-macdonald-research-fund"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 0,
    "dates": [
     "2026-08-07",
     "2026-11-09"
    ],
-   "fail_streak": 6
+   "fail_streak": 7
   },
   "https://pardeefoundation.org/how-to-apply/": {
    "ids": [
     "elsa-pardee-foundation-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2837,7 +2840,7 @@
    "ids": [
     "gilead-research-scholars-solid-tumors-us"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-07-14",
@@ -2855,7 +2858,7 @@
    "ids": [
     "nih-pragmatic-trials-health-care-systems-par-28-010"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-04-29",
@@ -2878,7 +2881,7 @@
    "ids": [
     "hope-foundation-swog-career-engagement-award"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2891,7 +2894,7 @@
    "ids": [
     "hope-foundation-coltman-fellowship"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2904,20 +2907,20 @@
    "ids": [
     "nia-beeson-k76-par-27-112"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 0,
    "dates": [
     "2026-10-01",
     "2026-11-10",
     "2026-12-15"
    ],
-   "fail_streak": 2
+   "fail_streak": 3
   },
   "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html": {
    "ids": [
     "acs-clinician-scientist-development-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2928,7 +2931,7 @@
    "ids": [
     "acs-mission-boost-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2939,7 +2942,7 @@
    "ids": [
     "acs-research-scholar-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2950,7 +2953,7 @@
    "ids": [
     "cri-clip-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2968,7 +2971,7 @@
    "ids": [
     "damon-runyon-physician-scientist-training-award"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-12-01"
@@ -2999,7 +3002,7 @@
    "ids": [
     "jazz-investigator-sponsored-trials"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3029,7 +3032,7 @@
    "ids": [
     "neogenomics-investigator-initiated-collaborations"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3042,7 +3045,7 @@
    "ids": [
     "blavatnik-national-awards-young-scientists"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-11"
@@ -3055,7 +3058,7 @@
    "ids": [
     "cprit-texas-regional-training-award-r272-trta"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "e2ad3018a41b0ae6",
@@ -3066,7 +3069,7 @@
    "ids": [
     "cprit-trec"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "05fee5630e2db591",
@@ -3077,7 +3080,7 @@
    "ids": [
     "cprit-cia"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "cf1501007c23fb98",
@@ -3088,7 +3091,7 @@
    "ids": [
     "cprit-cpra"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "85d0171a745f8ea6",
@@ -3099,7 +3102,7 @@
    "ids": [
     "cprit-iira-eoc"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "88597fe00eefa61a",
@@ -3110,7 +3113,7 @@
    "ids": [
     "cprit-rtawd"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "57d3f549f3b030ea",
@@ -3121,7 +3124,7 @@
    "ids": [
     "cprit-ctna"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "355c3a73c4e3eb61",
@@ -3132,7 +3135,7 @@
    "ids": [
     "cprit-rrcta"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "a36cf6397104dfa3",
@@ -3143,7 +3146,7 @@
    "ids": [
     "cprit-cfsa"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "sha": "f5ed11de96c70604",
@@ -3176,7 +3179,7 @@
    "ids": [
     "nih-lrp-focus-l70-fy2027"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -3320,7 +3323,7 @@
    "ids": [
     "natera-signatera-iit-collaboration"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3392,10 +3395,10 @@
    "ids": [
     "myriad-precise-mrd-research-collaboration"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
-    "2026-10-30"
+    "2026-11-03"
    ],
    "rfp": [
     "CREA) to evaluate the maintenance of complete response with trastuzumab deruxtecan (T-DXd) in HER2-positive advanced or metastatic breast cancer patients and whether ctDNA",
@@ -3432,7 +3435,7 @@
    "ids": [
     "nih-bridge2ai-stage2-u24-rfa-rm-28-010"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-07-08",
@@ -3450,7 +3453,7 @@
    "ids": [
     "exact-sciences-research-grants"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3472,7 +3475,7 @@
    "ids": [
     "guardant-health-research-collaborations"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3485,7 +3488,7 @@
    "ids": [
     "astrazeneca-open-innovation"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -3496,7 +3499,7 @@
    "ids": [
     "tersera-investigator-initiated-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3509,7 +3512,7 @@
    "ids": [
     "foundation-medicine-research-collaborations"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3536,16 +3539,16 @@
    "ids": [
     "bayer-investigator-institution-initiated-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 403,
    "dates": [],
-   "fail_streak": 17
+   "fail_streak": 18
   },
   "https://www.nrgoncology.org/Home/News/Post/ncorp-pilot-project-awardees/": {
    "ids": [
     "nrg-ncorp-pilot-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3560,7 +3563,7 @@
    "ids": [
     "zymeworks-investigator-research"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3575,7 +3578,7 @@
    "ids": [
     "nci-ctep-career-development-loi-crdl"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-07-26"
@@ -3591,7 +3594,7 @@
    "ids": [
     "hcrn-concept-submission-support"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3604,7 +3607,7 @@
    "ids": [
     "nih-parent-r35-investigator-focused-par-28-037"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-07-30",
@@ -3624,7 +3627,7 @@
    "ids": [
     "ecog-acrin-combomatch-substudy-concept"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3638,7 +3641,7 @@
    "ids": [
     "aim-ahead-clinicians-leading-ingenuity-ai-quality-fellowship"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-02-03",
@@ -3671,7 +3674,7 @@
    "ids": [
     "uthealth-tx-apcd-research-data-access"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2026-11-04",
@@ -3681,10 +3684,13 @@
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
+    "2026-11-13",
     "2026-11-16",
     "2026-11-18",
+    "2026-11-19",
     "2026-11-20",
     "2026-11-30",
+    "2026-12-08",
     "2026-12-09"
    ],
    "rfp": [],
@@ -3695,7 +3701,7 @@
    "ids": [
     "thermo-fisher-oncomine-clinical-research-grant"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3715,7 +3721,7 @@
    "ids": [
     "gsk-investigator-sponsored-studies-supported-collaborative"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3744,7 +3750,7 @@
    "ids": [
     "conquer-cancer-global-oncology-yia"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -3755,13 +3761,373 @@
    "ids": [
     "cri-lloyd-old-star-program"
    ],
-   "checked": "2026-11-01T01:51:20",
+   "checked": "2026-11-04T01:51:25",
    "status": 200,
    "dates": [
     "2027-01-15"
    ],
    "rfp": [
     "Empowering Bold Thinkers to Transform Cancer Immunotherapy Submission Deadline January 15, 2027 Invited Interview Spring 2027 (date TBD) Apply Now Program Overview The"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://tbbcf.org/research/": {
+   "ids": [
+    "terri-brodeur-breast-cancer-foundation-fellowship"
+   ],
+   "checked": "2026-11-04T01:51:25",
+   "status": 200,
+   "dates": [],
+   "rfp": [
+    "+ breast cancer, and we will explore whether ultrasensitive ctDNA detection correlates with known risk factors for recurrence. We will assess ultrasensitiv",
+    ", relapses are common, and survival is poorer than in other breast cancer types. Therefore, it is critical to find new, effective, and durable treatments fo",
+    "-term, we must begin to identify ways to cure HER2-positive breast cancer with less toxic treatments. Modern treatment regimens for stage II and III non-met",
+    ". Arko Dasgupta, PhD Fred Hutchinson Cancer Research Center Breast cancer is a major killer in the United States and metastases are the primary cause of bre",
+    ". Therefore, BM can be considered the sword of Damocles for breast cancer patients, and new treatment approaches are urgent. A novel agent called tucatinib",
+    "023, which helped fund the study Multiclass Segmentation of Breast Tissue and Suspicious Findings: A Simulation-Based Study for the Development of Self-Stee",
+    "1 and BRCA2, as well as patients with a personal history of breast cancer or positive family history. Our goal is to determine the molecular pathways activa",
+    "2+) breast cancer, relapse and recurrence still occur. When HER2+ breast cancer returns after treatment, it is because some cancer cells survive killing,",
+    "2027 Granting Process Download Background The Terri Brodeur Breast Cancer Foundation is a nonprofit organization dedicated to providing critical funding to",
+    "24. He is currently a senior medical oncology fellow in the Breast Oncology Program at Dana-Farber Cancer Institute. Working in the laboratories of Drs. Joa",
+    "A repair and markedly increase the likelihood of developing breast, ovarian, prostate, and pancreatic cancers. These same genetic defects also create unique",
+    "Brigham and Women's Institute Abstract/Bio: Triple-negative breast cancer (TNBC) is one of the most aggressive forms of breast cancer that lacks the three c",
+    "Center, where she serves as the Co-Director of the Lobular Breast Cancer Program. Her research focuses on developing new treatments for estrogen receptor-p",
+    "D Memorial Sloan Kettering Cancer Center Genomic studies of breast cancer have dramatically transformed the field over the last few decades. Key oncogenic d",
+    "D Stanford University - School of Med. Description of work: Breast cancer is the second most common cancer diagnosed worldwide. In the United States alone,",
+    "D we have developed a mouse model of HER2+ breast cancer (t-HER2) where we can turn on and turn off tumor formation at will. This model also has an intact",
+    "Farber Cancer Institute – Harvard Medical School Metastatic breast cancer (MBC) – breast cancer that has spread to other organs – unfortunately remains incu",
+    "Following many important advances in treating HER2-positive breast cancer over the past two decades, a large majority of patients with non-metastatic HER2-p",
+    "Her research directly dovetails with her clinical focus on HER2-positive breast cancer and the mechanism of resistance in early and advanced stages, with",
+    "Hospital. Dr. Spring is currently an attending physician in breast medical oncology at the Massachusetts General Hospital Cancer Center and an instructor in",
+    "In this project, we will determine how well ultrasensitive ctDNA testing predicts breast cancer recurrences in young women with ER+ breast cancer, and we",
+    "MD Memorial Sloan Kettering Cancer Center The prognosis of breast cancer patients is dramatically affected by the seeding of cancer cells in the brain. The",
+    "News Archives Search for: Search Search TBBCF Terri Brodeur Breast Cancer Foundation Home About Our Story Terri Brodeur Norma Logan Leadership Watch Our Vid",
+    "Our lab previously analyzed biopsies from patients with ER+ breast cancer, before and after treatment with endocrine therapy, and found a significant increa",
+    "PL15 enhance breast cancer spread in mice. Additionally, in breast cancer patients, CTCs with high levels of ribosome proteins correlate with more aggressiv",
+    "PhD Cold Spring Harbor Laboratory Summary: Triple-negative breast cancer (TNBC) is a particularly aggressive type of breast cancer. TNBC does not have the",
+    "R2-low and HER2-positive metastatic breast cancer receiving trastuzumab deruxtecan (T-DXd). While T-DXd has transformed outcomes in this population, its clinical benefit is",
+    "Research - TBBCF Terri Brodeur Breast Cancer Foundation Skip to content Walk Registration is OPEN &#8211; Click HERE Want to Be",
+    "Rosenbluth developed new methods for studying premalignant breast epithelium using patient-derived three-dimensional breast organoid cultures. She is curre",
+    "Schrank, MD, PhD MD Anderson Cancer Center Triple-negative breast cancer (TNBC) is an especially aggressive form of breast cancer with limited treatment op",
+    "a Telli, MD, her current work focuses on methods to profile minimal residual disease in breast cancer both in the blood and in breast tissue after curative-intent chemotherap",
+    "a new treatment approach in stage II and III HER2-positive breast cancer, with the goal of allowing select patients to receive less chemotherapy. We know t",
+    "a select group of these modifications for their effects on breast cancer progression by manipulating the fraction of m6A methylation in breast cancer cell",
+    "a specific subtype of breast cancer known as HER2-positive breast cancer, which is particularly inclined to spread in the brain. Tucatinib, uniquely, is th",
+    "ables DTC survival despite multiple rounds of chemotherapy. Breast DTCs reside in a perivascular niche (PVN) – areas within a tissue that are occupied by bl",
+    "al genomics to better understand the molecular evolution of breast cancer and ultimately how these processes can be translated into new ways to prevent and",
+    "ally to: Dr. Nicholas A. Saccomano, Ph.D. SAB Terri Brodeur Breast Cancer Foundation [email protected] Applications will be reviewed promptly by the scienti",
+    "am and Women's Hospital Harvard University Around 15-20% of breast cancers are characterized by the amplification or overexpression of the receptor tyrosine",
+    "an important marker for treatment options and prognosis in breast cancer patients. Compared with women diagnosed with ER+ breast cancer, those with ER- tum",
+    "ancer Institute Choosing the best treatments for metastatic breast cancer depends increasingly on molecular features, such as tumor subtype. Patients with h",
+    "ancer cells. These molecular features will be linked to the real-world activity of antibody-drug conjugates in clinical practice, aiming to understand which pat",
+    "ancers and is associated with the worst prognosis among all breast cancer subtypes. TNBC is characterized by a limited response to standard chemotherapy and",
+    "and forty-four matched control patients that have not had a breast cancer recurrence. We will test whether a positive ultrasensitive ctDNA test was able to",
+    "ank of over 100 three-dimensional cultures derived from the breast tissues of patients with or without inherited mutations in breast cancer predisposition g",
+    "ant organs, is the leading cause of death for patients with breast cancer. Patients with metastatic triple ‑ negative breast cancer (TNBC) face poorer outco",
+    "any individuals with localized disease initially respond to HER2-directed therapies, a subset of patients with no overt signs of metastasis may still rela",
+    "approach, we aim to uncover new therapeutic candidates for breast cancer, support the design of more effective drug combinations, and characterize genetic",
+    "approach, will be a step toward establishing HER2-positive breast cancer treatments that are highly effective for a select patient group, and also maximize",
+    "apy has limited efficacy in the treatment of breast cancer. Breast tumours are one of the most common cancers in women and are a leading cause of cancer-ass",
+    "arch of a biomarker to diagnose BM earlier in patients with breast cancer and also to understand how CNS metastases form. Dr. Malani received her medical de",
+    "are a relatively new therapeutic modality utilized to treat breast cancer, which allows for a selective delivery of chemotherapy to tumor cells. Antibody-dr",
+    "are therefore classified as HER2-positive. In these tumors, HER2 drives tumor formation and progression by activating an oncogenic signaling cascade. Fort",
+    "arkers, there are at present -unlike for other subgroups of breast cancer- no targeted therapies available for TNBC. Therefore, TNBC is currently treated wi",
+    "assachusetts General Cancer Center. Dr. Micalizzi is also a breast medical oncologist at Massachusetts General Hospital specializing in cancer risk assessme",
+    "assachusetts General Hospital Cancer Center The majority of breast cancers express hormone receptors, and therapies that antagonize hormonal signaling via t",
+    "ast cancer patients. Compared with women diagnosed with ER+ breast cancer, those with ER- tumors generally have a poorer prognosis, partly because of their",
+    "at (2) these modifications have important ramifications for breast tumor biology and therapy. Studies of breast cancer drivers thus far have largely focused",
+    "at enhance NFκB signaling and promote cell death. Using ER+ breast cancer cells and patient-derived xenograft (PDX) mouse models, we observed synergy betwee",
+    "at increased risk of breast cancer as potential targets for breast cancer prevention. In particular, we have developed a biobank of over 100 three-dimension",
+    "ating the same approach, will be a step toward establishing HER2-positive breast cancer treatments that are highly effective for a select patient group, a",
+    "ating tumor DNA” (ctDNA). To find the very small amounts of ctDNA expected in early-stage breast cancer, a very powerful or “ultrasensitive” ctDNA test is",
+    "atment with the goal of curing breast cancer. However, some breast cancers recur, meaning the cancer returns in the breast or spreads to a different part of",
+    "ave longer life expectancy but also develop more aggressive breast cancers. This challenge may become even more pronounced in the coming years, given the in",
+    "because some cancer cells survive killing, and are known as minimal residual disease (MRD). To study the biology of MRD we have developed a mouse model of HER2+ breast cancer",
+    "biomarker of treatment-related toxicities in patients with HER2-low and HER2-positive metastatic breast cancer receiving trastuzumab deruxtecan (T-DXd).",
+    "blood tests from forty-four of these patients that have had breast cancer recurrence and forty-four matched control patients that have not had a breast canc",
+    "brain surgery per clinical indication will be treated with tucatinib preoperatively to evaluate the penetrance of this drug in the brain. Taking advantage of",
+    "breast cancer (TNBC) is one of the most aggressive forms of breast cancer that lacks the three common targets for therapy (estrogen receptor, progesterone r",
+    "breast cancer consist of multiple chemotherapy agents plus HER2-directed therapy with trastuzumab (Herceptin, H) and sometimes pertuzumab (Perjeta, P). S",
+    "cancer risk and developing new personalized strategies for breast cancer prevention. Ana Garrido-Castro, MD Dana-Farber Cancer Institute Choosing the best",
+    "cations to the development, maintenance, and progression of breast cancer is still lacking. By using my expertise in molecular and cellular biology and by t",
+    "cause of breast cancer-related deaths. Approximately 30% of breast cancer patients will develop metastases during their lifetime. Few prognostic factors pre",
+    "ccurate information than visual assessment by pathology. In breast cancer, blood-based MRD is often incorrectly negative when the amount of cancer in the bo",
+    "cells. This means that the most common drugs used to treat breast cancer are not effective. The lack of targeted treatments for TNBC makes the disease much",
+    "ceptor tyrosine kinase HER2 and are therefore classified as HER2-positive. In these tumors, HER2 drives tumor formation and progression by activating an o",
+    "cer Institute Despite recent advances in treatment options, breast cancer remains the second leading cause of cancer-related deaths in women. Triple negativ",
+    "cer Institute Following many important advances in treating HER2-positive breast cancer over the past two decades, a large majority of patients with non-m",
+    "cer, which is particularly inclined to spread in the brain. Tucatinib, uniquely, is the first agent to demonstrate a significant survival benefit in patients w",
+    "checkpoint blockade as a new modality of immunotherapy for breast cancer that promises to benefit patients ineligible for or refractory to existing treatme",
+    "ciated macrophages (TAMs) offers a novel strategy to induce breast tumor regression. Breast tumors are highly infiltrated with suppressive TAMs and clinical",
+    "cognize and attack TNBC. A key factor in the progression of breast cancer is the amplification of oncogenes on extrachromosomal circular DNA (ecDNA). These",
+    "cular features will be linked to the real-world activity of antibody-drug conjugates in clinical practice, aiming to understand which patients benefit the most from which sp",
+    "cus on patients with lobular breast cancer and inflammatory breast cancer. Dr. Fanucci designs and leads clinical trials aimed at advancing treatment option",
+    "cuses on the role of intratumor heterogeneity in metastatic breast cancer progression and therapeutic resistance. Sheheryar K. Kabraji, BM BCh Dana-Farber C",
+    "d breast cancer setting suggest that the amount and type of ctDNA in the blood can help determine the status of the tumor itself and the way it is respondi",
+    "d new treatment approaches are urgent. A novel agent called tucatinib has been recently approved and is available for patients with a specific subtype of breas",
+    "d the lack of targeted therapy. In addition, high-grade ER- breast cancer is more common among American women of African ancestry (AA) than among those of E",
+    "d translation to improve quality of life and survival. Most breast cancers express the estrogen receptor (ER). As these depend on estrogen, hormonal therapi",
+    "dation Granting Process Download a PDF of The Terri Brodeur Breast Cancer Foundation (TBBCF) 2026-2027 Granting Process Download Background The Terri Brodeu",
+    "day, we have large knowledge gaps in understanding why some breast cancer becomes metastatic to the CNS and how we can effectively identify CNS disease earl",
+    "decipher the cellular and molecular phenomena that occur in breast cancer to understand breast cancer better and potentially facilitate the development of n",
+    "define the role of two new tumor suppressor RasGAPs in anti-HER2 resistance. We have previously shown that the loss of these RasGAPs promotes primary tumo",
+    "dent. Laura Spring Massachusetts General Hospital Localized breast cancer patients with higher risk disease are often treated with chemotherapy in the neoad",
+    "dern treatment regimens for stage II and III non-metastatic HER2-positive breast cancer consist of multiple chemotherapy agents plus HER2-directed therapy",
+    "design novel therapies for the treatment of triple-negative breast cancer. Jennifer Rosenbluth, MD, PhD Dana-Farber Cancer Institute – Harvard Medical Schoo",
+    "detect after chemotherapy, more tumor is left behind in the breast tissue since this is the original site of disease. We propose a novel method to detect MR",
+    "deur, the Foundation’s namesake, was diagnosed with Stage 4 Breast Cancer in June 2003. Effective treatment options did not exist to help Terri. After a two",
+    "dicine at Harvard Medical School and is the Director of the Breast Tumor Immunology Laboratory at Dana-Farber Cancer-Institute. Her main focus is to bridge",
+    "directly dovetails with her clinical focus on HER2-positive breast cancer and the mechanism of resistance in early and advanced stages, with a special inter",
+    "does not have the three receptor types commonly present in breast cancer cells. This means that the most common drugs used to treat breast cancer are not e",
+    "donated tumor and blood samples for research. We will apply ctDNA tests to blood tests from forty-four of these patients that have had breast cancer recurr",
+    "drugs that target the PI3K pathway, a key growth signal in breast cancer. Because of this, standard treatments are limited, relapses are common, and surviv",
+    "e Negative Breast Cancer (TNBC) is an aggressive subtype of breast cancer, which represents approximately 15% of all cases. TNBC tumors frequently recur, an",
+    "e also examined how gene expression changed in cultured ER+ breast cancer cells when deprived of estrogen and found increased NFκB signaling. These results",
+    "e breast cancer (TNBC) is a particularly aggressive type of breast cancer. TNBC does not have the three receptor types commonly present in breast cancer cel",
+    "e of delivering 100 percent of gross fundraising dollars to breast cancer science and has held fast to this promise since its inception nearly 20 years ago.",
+    "e of these chemotherapeutic effects in young women with HR+ breast cancer, and accordingly, could provide a strong rationale for future tumor biology-guided",
+    "e studies, Dr. Remsik studied intratumoral heterogeneity in breast and prostate cancer, focusing on the role of epithelial-to-mesenchymal transition on the",
+    "e surgery) setting. However, it is difficult to predict how breast cancer will respond to treatment given in the neoadjuvant setting and we currently lack a",
+    "e – Harvard Medical School Metastatic breast cancer (MBC) – breast cancer that has spread to other organs – unfortunately remains incurable. Despite the inc",
+    "e). The CAPELA trial will test whether adding the oral SERD elacestrant to capecitabine is better than capecitabine alone in patients with advanced HR+ breast ca",
+    "earch fellow at Dana-Farber Cancer Institute working in the Breast Oncology Program at Dana-Farber, and is concomitantly pursuing a PhD in clinical research",
+    "early stages and receive treatment with the goal of curing breast cancer. However, some breast cancers recur, meaning the cancer returns in the breast or s",
+    "east cancer, relapse and recurrence still occur. When HER2+ breast cancer returns after treatment, it is because some cancer cells survive killing, and are",
+    "east cancer. We hypothesize that (1) GATA3 mutations modify breast cancer phenotypes by directing lineage transitions and modulating the ER transcriptome, a",
+    "east surgery, those who have all cancer eradicated from the breast and lymph nodes at the time of surgery (“pathologic complete response”) have an excellent",
+    "east tumors after neoadjuvant chemotherapy. Dr Kabraji is a breast medical oncologist at the Susan F. Smith Center for Women’s Cancers, Dana Farber Cancer I",
+    "eceptor (ER) signaling and is crucial in the biology of ER+ breast cancer. We hypothesize that (1) GATA3 mutations modify breast cancer phenotypes by direct",
+    "ed and is available for patients with a specific subtype of breast cancer known as HER2-positive breast cancer, which is particularly inclined to spread in",
+    "edgment that the effort was supported by the \"Terri Brodeur Breast Cancer Foundation”. We also require that a list of publications acknowledging TBBCF suppo",
+    "egative breast cancer (TNBC) accounts for 10% to 20% of all breast cancers and is associated with the worst prognosis among all breast cancer subtypes. TNBC",
+    "elf and the way it is responding to treatment. If change in ctDNA is validated as an early marker of response to different types of therapies in the preope",
+    "els – a phenomena that remains unexplored in the context of breast DTCs. Preliminary data generated by Dr. Dasgupta suggests that the PVN protect DTCs from",
+    "en this occurs, tumors become hormone receptor-negative and HER2-negative, i.e. triple-negative. It is unknown whether cancers that start out hormone rece",
+    "ence of ER+ breast cancer in young women. For patients with breast cancer, there is currently no recommended blood test administered during or after treatme",
+    "ene expression and DNA accessibility priming BRCA1/2-mutant breast epithelial cells for tumor initiation. In parallel, he will also investigate the role of",
+    "enpol and developed a strategy for treating triple-negative breast cancer by unleashing the tumor suppressor p73 to kill cancer cells. She subsequently comp",
+    "ens to eradicate chemo-resistant DTCs to prevent metastatic breast cancer-associated mortality. Dr. Arko Dasgupta earned his Ph.D. in Genetics and Biochemis",
+    "ent and reduce unnecessary side effects among patients with breast cancer. Additionally, the information derived from these analyses will inform future drug",
+    "entified GATA3 as one of the most commonly mutated genes in breast cancer; however, little is known about the mechanism by which GATA3 mutations modify brea",
+    "erapy exerts a differential benefit in young women with HR+ breast cancer. Tumor specimens will be derived from a prospective multicenter cohort study of wo",
+    "erapy. Systemic therapy strategies for young women with HR+ breast cancer could differ considerably on the basis of these alternative hypotheses, ranging fr",
+    "ers identified in these studies have not only shed light on breast cancer biology but also paved the way for clinical tumor profiling and targeted therapy.",
+    "erstand which patients benefit the most from which specific antibody-drug conjugates, as well as elucidate mechanisms of resistance to these important anticancer drugs. The",
+    "es on translating basic knowledge of how macrophages in the breast tumor microenvironment induce apoptosis of cancer cells, as well as identify how macropha",
+    "esently, the underlying causes of this increased risk of ER breast cancer in AA women are not clear, but the causes are likely multifaceted. In the last few",
+    "esidency at the University of Milan in 2020. She joined the Breast Medicine Service of Memorial Sloan Kettering Cancer Center in late 2019 for a clinical re",
+    "esponses. Siglecs-7, -9 and -10 are heavily associated with breast cancer pathogenesis, and Siglecs-7 and -9 have been shown to restrict the response to PD-",
+    "est its ability to reverse drug resistance to commonly used breast cancer drugs. Finally, I will use innovative new microfluidic technology to increase the",
+    "etermine the molecular effects of these combinations in ER+ breast cancer models that are either sensitive or resistant to SERD treatment. Together, these e",
+    "etter than capecitabine alone in patients with advanced HR+ breast cancer who have already received ET and a CDK4/6 inhibitor but no chemotherapy for metast",
+    "evelopment of LM. Due to the routine clinical management of breast cancer patients with LM at MSKCC, we have access to a unique collection of fully annotate",
+    "f cancer and a major cause of death and well as disability. Breast cancer is the second most common cancer to spread to the CNS. Over time, this problem has",
+    "f cancer in the blood by detecting “circulating tumor DNA” (ctDNA). To find the very small amounts of ctDNA expected in early-stage breast cancer, a very p",
+    "f patients at higher risk for recurrence. For patients with ctDNA present, we will compare the amount before treatment starts and after the first round of",
+    "f these pathways have been implicated in resistance to anti-HER2 therapies. Therefore, we hypothesized that the loss of these RasGAPs might not only drive",
+    "fective treatments for hormone receptor-positive metastatic breast cancer (HR+ MBC). Unfortunately, for the vast majority of patients with hormonal therapy-",
+    "focuses on understanding the mechanisms of triple-negative breast cancer development, metastasis, and response to treatment. Specifically, she uses candida",
+    "for therapy (estrogen receptor, progesterone receptor, and HER2). TNBCs are also frequently non-responsive to new approved therapies that work in other b",
+    "functional and biologic consequences of GATA3 mutations in breast cancer but also guide the development of novel therapeutic strategies. Daniel L. Abravane",
+    "fund clinical and pre-clinical fellowships in high impact, breast cancer therapeutic research areas. Awards The foundation seeks to fund broadly the very b",
+    "greatly improved outcomes for patients with HER2-positive (HER2+) breast cancer, relapse and recurrence still occur. When HER2+ breast cancer returns aft",
+    "gression by manipulating the fraction of m6A methylation in breast cancer cell lines using CRISPR/Cas technology. I will also identify the functional roles",
+    "h as tumor subtype. Patients with hormone receptor-positive/HER2-negative breast cancer are typically treated initially with hormonal therapies, and then",
+    "h breast cancer. Patients with metastatic triple ‑ negative breast cancer (TNBC) face poorer outcomes because effective targeted treatments are lacking. Adv",
+    "h suppressive TAMs and clinically, a high number of TAMs in breast tumors correlate with a worse overall prognosis and increased metastasis. Therefore, the",
+    "ham and Women's Hospital Harvard University Triple Negative Breast Cancer (TNBC) is an aggressive subtype of breast cancer, which represents approximately 1",
+    "hanism of tumor drug resistance in localized and metastatic breast cancer. Jing Hu, PhD Memorial Sloan Kettering Cancer Center Metastasis is a major clinica",
+    "he role of glycans in modulating the immune response during breast cancer, with the aim of harnessing these systems to provide novel treatments for the dise",
+    "he will shortly join the staff as an attending physician in breast oncology at the Dana-Farber Susan F. Smith Center for Women’s Cancers, and an instructor",
+    "hly related to the cancer stage. More recently, early-stage breast cancer has been treated with chemotherapy before surgery, which allows oncologists to ass",
+    "i-tumor immune response. We hypothesize that MRD after anti-HER2 treatment occurs because drug-resistant quiescent cancer cells dampen the anti-tumor resp",
+    "icacy and synergy across multiple models that represent ER+ breast cancers with heterogeneous genetic backgrounds. In addition, we will perform comprehensiv",
+    "identified that NK cells suppress outgrowth of disseminated breast cancer cells. However, emergence of immune evasive clones eventually triggers aggressive",
+    "ied in future clinical trials aimed at reducing the risk of breast cancer recurrence in this population. Amy Schade, PhD Brigham and Women's Hospital Harvar",
+    "ients, tumors recur spontaneously in our model. Using the t-HER2 model we found that MRD is comprised of rare ‘sleeping’, or quiescent, cancer cells surro",
+    "ification or overexpression of the receptor tyrosine kinase HER2 and are therefore classified as HER2-positive. In these tumors, HER2 drives tumor formati",
+    "ifications for breast tumor biology and therapy. Studies of breast cancer drivers thus far have largely focused on oncogenes or tumor suppressors with well-",
+    "in the coming years, given the increasing incidence of ER+ breast cancer in young women. For patients with breast cancer, there is currently no recommended",
+    "ination of a novel combination therapy that may improve ER+ breast cancer treatment. Kristina Fanucci, MD Dana-Farber Cancer Institute Abstract: Metastatic",
+    "ind the very small amounts of ctDNA expected in early-stage breast cancer, a very powerful or “ultrasensitive” ctDNA test is needed. In this project, we wil",
+    "ing biomarkers to optimize the tolerability and efficacy of breast cancer therapeutics. She received her medical degree with honors from Monash University,",
+    "investigating a new treatment approach in stage II and III HER2-positive breast cancer, with the goal of allowing select patients to receive less chemoth",
+    "is small, which is the case after initial chemotherapy for breast cancer. Improving cancer detection at this timepoint is critical since it can allow more",
+    "ival compared to patients with other subtypes of metastatic breast cancer. Patients whose tumors are initially hormone receptor-positive/HER2-negative and t",
+    "ive less chemotherapy. We know that in patients who receive breast cancer treatment before breast surgery, those who have all cancer eradicated from the bre",
+    "iversity of Milan. His research focuses on the study of the HER2 oncoprotein, the biology of HER2-low breast tumors and the development of novel antibody-",
+    "k focuses on methods to profile minimal residual disease in breast cancer both in the blood and in breast tissue after curative-intent chemotherapy using ne",
+    "l goal of the research being supported by the Terri Brodeur Breast Cancer Foundation is to evaluate novel cell types present in the breast tissues of women",
+    "l murine models that will facilitate the translation of new breast cancer prevention strategies into the clinic. Dr. Jennifer Rosenbluth received her medica",
+    "l-organized rolling PDF. Sources of Funds The Terri Brodeur Breast Cancer Foundation obtains its funds principally from private and corporate donations coll",
+    "l. Patients with ER+ breast cancer, the most common kind of breast cancer, are at risk of recurrence for many years, even decades. This problem of recurrenc",
+    "lecular phenomena that occur in breast cancer to understand breast cancer better and potentially facilitate the development of novel molecular targets for t",
+    "leptomeninges by breast cancer cells. We will then identify breast cancer patients with high risk of LM development and target these essential genes with FD",
+    "lish/develop independent programs and compelling careers in breast cancer research and forward-looking patient care. The award period is two years with a 1-",
+    "ll determine how well ultrasensitive ctDNA testing predicts breast cancer recurrences in young women with ER+ breast cancer, and we will explore whether ult",
+    "ll in the long-term, we must begin to identify ways to cure HER2-positive breast cancer with less toxic treatments. Modern treatment regimens for stage II",
+    "lled NMDA receptors. Some patients, including patients with breast cancer, naturally develop antibodies that target NMDA receptors. In these patients, these",
+    "logy of HER2-low breast tumors and the development of novel antibody-drug conjugates to treat breast cancer. Marie Will, MD, PhD Memorial Sloan Kettering Cancer Center Genom",
+    "lood test administered during or after treatment to predict breast cancer recurrence. However, personalized “liquid biopsies” are being developed for this p",
+    "lop new treatment options for the most diagnosed subtype of breast cancer, estrogen receptor positive (ER+). A common treatment is endocrine therapy that bl",
+    "ly 2016 after being selected for the Advanced Fellowship in Breast Oncology Program and as a Research Fellow at Harvard Medical School. She recently joined",
+    "ly, she is an Advanced Research Fellow in the Department of Breast Oncology at the Dana-Farber Cancer Institute, and a PhD candidate at the University of Me",
+    "ly-stage breast cancer, a very powerful or “ultrasensitive” ctDNA test is needed. In this project, we will determine how well ultrasensitive ctDNA testing",
+    "main goals of the study is to determine what percentage of breast cancer patients who are receiving treatment before surgery will have ctDNA detectable, as",
+    "major goal of the project funded through the Terri Brodeur Breast Cancer Foundation is to reveal novel signaling pathways in TAMs that can be targeted ther",
+    "mate goal of the project is to be able to tailor the use of antibody-drug conjugates to the profile of each patient and tumor, in order to maximize the value of treatment an",
+    "me a Sponsor? Events News News Archives TBBCF Terri Brodeur Breast Cancer Foundation Our Strength How we will find the cure. 2026 Grant Recipients TBBCF Gra",
+    "medical and health significance of the proposed research to breast cancer prevention, control and/or treatment; and (e) appropriateness of the research plan",
+    "metastatic outbreak are largely unknown. We discovered that breast cancer cells contain cytosolic double-stranded DNA (dsDNA), likely as a result of genomic",
+    "mmediate impact on patient care. Metastatic triple-negative breast cancer (mTNBC) remains a clinically unmet need, with a highly aggressive clinical course",
+    "molecules that promote the colonization of leptomeninges by breast cancer cells. We will then identify breast cancer patients with high risk of LM developme",
+    "mor cells (DTCs) – cells that have escaped from the primary breast tumor early in the disease and exist in a dormant state in distant organs until they deve",
+    "mphred-Wilson, MD Roswell Park Learn More The Terri Brodeur Breast Cancer Foundation Granting Process Download a PDF of The Terri Brodeur Breast Cancer Foun",
+    "n clinical practice. To improve the precision in the use of antibody-drug conjugates, we decided to leverage data and banked samples collected from patients with breast canc",
+    "n the United States and metastases are the primary cause of breast cancer-related deaths. Approximately 30% of breast cancer patients will develop metastase",
+    "n urgent need for improved cancer prevention strategies for breast cancer. The overall goal of the research being supported by the Terri Brodeur Breast Canc",
+    "n utilized by TNBC. With the support from The Terri Brodeur Breast Cancer Foundation, Dr. Wu plans to systematically dissect novel mechanisms that function",
+    "n. In the proposed project, we plan to investigate why some breast cancers become metastatic and lead to LM, how therapy contributes to the dormancy and re-",
+    "napa Sribenja, PhD Roswell Park Comprehensive Cancer Center Breast cancer presents as several clinical subtypes that have different progression trajectories",
+    "nce of the estrogen receptor, the progesterone receptor and HER2-amplification. Because of the lack of these markers, there are at present -unlike for oth",
+    "ncer CTCs and metastasis, I have generated a mouse model of breast cancer metastasis and performed a screen to identify regulators of metastasis. From this",
+    "ng cause of cancer-related deaths in women. Triple negative breast cancer (TNBC) is a subgroup of breast cancer that is characterized by the absence of the",
+    "non-responsive to new approved therapies that work in other breast cancers, such as drugs that target the PI3K pathway, a key growth signal in breast cancer",
+    "nti-tumor response. Our objective is to eliminate MRD after HER2 therapy by stimulating an anti-tumor immune response. To achieve this goal, we will first",
+    "ntly, one in eight women in the US are predicted to develop breast cancer in their lifetime, but what is unknown is how many of these cancers can be prevent",
+    "nts with ER+ breast cancer in the Dana-Farber Young Women’s Breast Cancer study who previously donated tumor and blood samples for research. We will apply c",
+    "nvestigation of how GATA3 mutations affects ER activity and breast tumor lineage. Results will not only fill a major knowledge gap in the functional and bio",
+    "o decades, a large majority of patients with non-metastatic HER2-positive tumors are cured with today’s treatments. For this majority of patients who do w",
+    "o identify the functional roles of m6A RNA modifications in breast cancer cells. As an active member of the methylation research group at Roswell Park Compr",
+    "o predict recurrences in this group so that this method for ctDNA detection can be studied in future clinical trials aimed at reducing the risk of breast c",
+    "o the development of a targeted therapy for triple negative breast cancer. Dr. Veerle Daniels did her undergraduate studies at the department of Pharmaceuti",
+    "ocuses on the study of the HER2 oncoprotein, the biology of HER2-low breast tumors and the development of novel antibody-drug conjugates to treat breast c",
+    "of brain involvement on the quality of life and survival of breast cancer patients is challenging, and therapeutic options are currently limited. Although n",
+    "of disease. We propose a novel method to detect MRD in the breast cancer tissue itself with personalized disease monitoring. We believe this approach will",
+    "of glycan-targeted cancer immunotherapies as treatments for breast cancer. Antibody-lectin (AbLec) chimeras were developed in the lab as bispecific antibody",
+    "of the body after the original tumor has been removed. When breast cancer spreads to a different part of the body, it is treatable but typically no longer c",
+    "of tumor-associated macrophages for anti-cancer therapy in breast cancer. Veerle Daniels, PhD Dana-Farber Cancer Institute Despite recent advances in treat",
+    "offers a novel strategy to induce breast tumor regression. Breast tumors are highly infiltrated with suppressive TAMs and clinically, a high number of TAMs",
+    "ogan Wu, PhD Massachusetts General Hospital Triple-negative breast cancer (TNBC) accounts for 10% to 20% of all breast cancers and is associated with the wo",
+    "ome breast cancers recur, meaning the cancer returns in the breast or spreads to a different part of the body after the original tumor has been removed. Whe",
+    "omen. Triple negative breast cancer (TNBC) is a subgroup of breast cancer that is characterized by the absence of the estrogen receptor, the progesterone re",
+    "on of small amounts of circulating tumor DNA molecules, or “minimal residual disease” (MRD), can provide more accurate information than visual assessment by pathology. In bre",
+    "on. I have shown that increased levels of the RPL15 enhance breast cancer spread in mice. Additionally, in breast cancer patients, CTCs with high levels of",
+    "one, there are 260,000 new diagnoses and 40,000 deaths from breast cancer each year. The survival of patients is highly related to the cancer stage. More re",
+    "oss of these proteins precisely promotes resistance to anti-HER2 therapies and 2) identify new targets in these RasGAP-deficient tumors so that we may dev",
+    "ot only drive metastasis but also induce resistance to anti-HER2 therapies in breast cancer. Our preliminary data support this hypothesis. The project's o",
+    "otherapy to prevent relapse and recurrence in patients with HER2+ breast cancer. Dr Sheheryar Kabraji received his medical degree from Oxford University M",
+    "oung women with early-stage hormone receptor-positive (HR+)/HER2-negative remains a significant challenge, particularly in terms of predicting chemotherap",
+    "oup that has assembled a comprehensive single-cell atlas of breast tissue from individuals harboring inherited mutations in BRCA1 and BRCA2 as well as non-c",
+    "ove a certain age or, in those at high risk, removal of the breast tissues, a procedure that can lead to physical and mental hardship. Few chemo-preventativ",
+    "oved the clinical outcome of individuals with HER2-positive breast cancer. Nevertheless, resistance to HER2 inhibitors remains a major challenge, especially",
+    "oves image quality and precision using simulations of X-ray breast imaging, potentially enhancing personalized cancer screening with improved accuracy. By i",
+    "patients with a specific subtype of breast cancer known as HER2-positive breast cancer, which is particularly inclined to spread in the brain. Tucatinib,",
+    "ple-negative tumors. In addition, hormone receptor-positive breast cancers are generally considered ̈cold ̈ tumors, characterized by decreased immune cell i",
+    "pment, suggesting the best strategies for the sequencing of antibody-drug conjugates and for their combination with other treatment modalities. The project will be led by Dr",
+    "ponsor Events News Archives &copy; 2026 TBBCF Terri Brodeur Breast Cancer Foundation Scroll to Top",
+    "potential to catalyze the development of new treatments for breast cancer that more effectively target CTCs and prevent or suppress the development of metas",
+    "potential to have a considerable impact in the treatment of breast cancer. Dr. Guerriero received her bachelor’s degree in Biochemistry from Northeastern Un",
+    "predicts breast cancer recurrences in young women with ER+ breast cancer, and we will explore whether ultrasensitive ctDNA detection correlates with known",
+    "present in the breast tissues of women at increased risk of breast cancer as potential targets for breast cancer prevention. In particular, we have develope",
+    "ptomic differences in tumor progression between ER- and ER+ breast cancers and link those differences to clinical outcome disparities between women of diffe",
+    "ptor, increases the killing activity of chemotherapy in HR+ breast cancer cells, including those that have become resistant to prior treatments and those wi",
+    "publications recognizing the support from the Terri Brodeur Breast Cancer Foundation by clicking here. Learn More Abstracts – 2007-2023 Explore the fascinat",
+    "py can prevent tumors from recurring after they shrink with HER2 inhibition. This study will suggest new ways to identify patients at risk for MRD and hel",
+    "py to prevent relapse and recurrence in patients with HER2+ breast cancer. Dr Sheheryar Kabraji received his medical degree from Oxford University Medical S",
+    "quent in TNBC, making it one of the most severe subtypes of breast cancer. To improve the perspectives of TNBC patients, there is need for better and more t",
+    "r Cancer Institute – Harvard Medical School While effective HER2-targeting drugs have greatly improved outcomes for patients with HER2-positive (HER2+) br",
+    "r Foundation is to evaluate novel cell types present in the breast tissues of women at increased risk of breast cancer as potential targets for breast cance",
+    "r circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA). CTCs are cells that have been shed from the primary tumor, and ctDNA is the shedding of",
+    "r targeting heterogeneity and plasticity in triple negative breast cancer. our sponsors Platinum &amp; Diamond Partners LOOKING TO MAKE A DONATION? DONATE J",
+    "r the development of new treatments to expand the number of breast cancer patients who can benefit from immunotherapy. One way in which cancer cells resist",
+    "rapeutic approach to improve outcomes for patients with ER+ breast cancer. Dr. Kuziel received her undergraduate degree from Reed College in Portland, Orego",
+    "rative setting, this could greatly improve the treatment of breast cancer by allowing more individualized treatment approaches and reducing exposure to unne",
+    "reast cancer or to the benefit to be gained by persons with breast cancer. At the discretion of the board, interviews will be requested of candidates. The e",
+    "recurrence. We will test whether a positive ultrasensitive ctDNA test was able to predict recurrences in this group so that this method for ctDNA detectio",
+    "reduced risk of disease recurrence. Studies in the advanced breast cancer setting suggest that the amount and type of ctDNA in the blood can help determine",
+    "regimens for stage II and III non-metastatic HER2-positive breast cancer consist of multiple chemotherapy agents plus HER2-directed therapy with trastuzuma",
+    "requesting support since the founding of the Terri Brodeur Breast Cancer Foundation, the board seeks to fund as many meritorious fellowships as is financia",
+    "residual disease in breast cancer both in the blood and in breast tissue after curative-intent chemotherapy using next-generation sequencing approaches. He",
+    "ribosome proteins can specifically target these aggressive breast cancer CTCs. First, I will investigate how ribosome proteins increase metastasis to achie",
+    "ring Cancer Center Metastasis is a major clinical hurdle in breast cancer treatment, with poor prognosis (5-year survival around 26.5%). Despite surgical re",
+    "risk factors for recurrence. We will assess ultrasensitive ctDNA testing in participants with ER+ breast cancer in the Dana-Farber Young Women’s Breast Ca",
+    "rm proof-of-concept studies in pre-clinical mouse models of breast cancer dormancy. His overarching goal is to design better treatment regimens to eradicate",
+    "rom a single patient, allowing for more in-depth studies of breast cancer metastasis and response to therapy. Dr. Douglas Micalizzi received his medical deg",
+    "rospective multicenter cohort study of women diagnosed with breast cancer at age 40 years or younger, enabling correlation of chemotherapy-mediated estrogen",
+    "rst-line therapy in patients with mTNBC. As a Terri Brodeur Breast Cancer Foundation Grant recipient, Dr. Garrido-Castro aims to: a) identify genomic profil",
+    "rt, and here he summarizes the findings. “The Terri Brodeur Breast Cancer Foundation supports the development of an innovative ‘self-steering method’ for br",
+    "s and their application to the treatment of triple-negative breast cancer. Bogan Wu, PhD Massachusetts General Hospital Triple-negative breast cancer (TNBC)",
+    "s are cells that have been shed from the primary tumor, and ctDNA is the shedding of DNA from the primary tumor. We propose the use of these novel techniqu",
+    "s in BRCA1 and BRCA2 face an estimated 70% lifetime risk of breast cancer. While BRCA1 and BRCA2 have well-established roles in DNA damage repair, the ways",
+    "s known about the mechanism by which GATA3 mutations modify breast cancer phenotypes. This represents a major gap in our scientific understanding of the dis",
+    "s targeted against known immune-suppressive cell subsets in breast cancer and test their efficacy as single agent and combination therapy in models of the d",
+    "s with breast cancer, with a focus on patients with lobular breast cancer and inflammatory breast cancer. Dr. Fanucci designs and leads clinical trials aime",
+    "se of the research or training as related to the control of breast cancer or to the benefit to be gained by persons with breast cancer. At the discretion of",
+    "search work centers on improving outcomes for patients with breast cancer, with a focus on patients with lobular breast cancer and inflammatory breast cance",
+    "sis presented by Dr. Garrido-Castro at the 2018 San Antonio Breast Cancer Symposium suggest that primary hormone receptor-positive tumors in patients who la",
+    "ssect biological states and unveil genetic aberrations from breast cancer cells. These molecular features will be linked to the real-world activity of antib",
+    "ssess ultrasensitive ctDNA testing in participants with ER+ breast cancer in the Dana-Farber Young Women’s Breast Cancer study who previously donated tumor",
+    "standing of the earliest molecular alterations in precursor breast cancer cells, a key step towards enabling future strategies to target and eliminate these",
+    "stasis but also induce resistance to anti-HER2 therapies in breast cancer. Our preliminary data support this hypothesis. The project's overall goals are to",
+    "stitute Most patients with estrogen receptor-positive (ER+) breast cancer are diagnosed at early stages and receive treatment with the goal of curing breast",
+    "study the biology of MRD we have developed a mouse model of HER2+ breast cancer (t-HER2) where we can turn on and turn off tumor formation at will. This m",
+    "t breast epithelium using patient-derived three-dimensional breast organoid cultures. She is currently a medical oncologist at the Susan F. Smith Center for",
+    "t departments to answer many unsolved questions about BM in HER2-positive breast cancer. Dr. Ferraro received her medical degree from the University of Ro",
+    "t need to develop new, effective therapies for this type of breast cancer. Previous research has shown that TNBC tumors have a high level of a protein norma",
+    "t or suppress the development of metastasis. To investigate breast cancer CTCs and metastasis, I have generated a mouse model of breast cancer metastasis an",
+    "t round of treatment. We believe that those with decreasing ctDNA levels will respond to treatment better with improved outcomes at the time of surgery, an",
+    "tantially improved the clinical outcome of individuals with HER2-positive breast cancer. Nevertheless, resistance to HER2 inhibitors remains a major chall",
+    "tark, her current work aims to establish new treatments for breast cancers by targeting glycans on the surface of cancer cells. Her goal is to develop our u",
+    "tatic setting. Currently, there are no cures for metastatic breast cancer. In addition, while many individuals with localized disease initially respond to H",
+    "tect genetic material (DNA) known as circulating tumor DNA (ctDNA) that is released into the blood from some breast cancer tumor cells. One of the main goa",
+    "th (NIH) R01 funded studies on DNA methylation profiling of breast tumors from AA and EA women as well as a currently funded R01 to study long noncoding RNA",
+    "th HER2-positive breast cancer. Nevertheless, resistance to HER2 inhibitors remains a major challenge, especially in the metastatic setting. Currently, th",
+    "that AKTlow quiescent cancer cells can be found in residual breast tumors after neoadjuvant chemotherapy. Dr Kabraji is a breast medical oncologist at the S",
+    "that change in response to chemotherapy can chemo-sensitize breast DTCs. Additionally, he will identify the signaling that is active in the PVN in a chemoth",
+    "that in patients who receive breast cancer treatment before breast surgery, those who have all cancer eradicated from the breast and lymph nodes at the time",
+    "that is elevated in many inflammatory conditions including breast cancer, can help clinicians identify patients at highest risk of toxicity and poorer outc",
+    "the biology of MRD we have developed a mouse model of HER2+ breast cancer (t-HER2) where we can turn on and turn off tumor formation at will. This model als",
+    "the development of an innovative ‘self-steering method’ for breast cancer detection through next-generation tomosynthesis. This approach improves image qual",
+    "the development of novel antibody-drug conjugates to treat breast cancer. Marie Will, MD, PhD Memorial Sloan Kettering Cancer Center Genomic studies of bre",
+    "the development of therapeutic agents that directly target HER2 has substantially improved the clinical outcome of individuals with HER2-positive breast",
+    "the goal of improving outcomes for patients with metastatic breast cancer. Michelle Li, MD Dana-Farber Cancer Institute Abstract/Bio: Dr. Li is leading the",
+    "the immune changes seen when tumors shrink to MRD in the t-HER2 model. Next, we will study how the AKTlow quiescent cancer cell (QCC) suppresses the anti",
+    "the lab of Dr. Rinath Jeselsohn, Dr. Kuziel focuses on ER+ breast cancer, in particular, examination of a novel combination therapy that may improve ER+ br",
+    "the study of the HER2 oncoprotein, the biology of HER2-low breast tumors and the development of novel antibody-drug conjugates to treat breast cancer. Mari",
+    "the tumor cells. Despite being selective and highly active, antibody-drug conjugates can still harbor relevant side effects, calling for precision in their use in clinical p",
+    "their efficacy is also limited by resistance. In fact, most breast cancer-related deaths result from ER+ MBC that develops resistance to hormonal therapy. O",
+    "therapeutic and biomarker strategies to improve the care of breast cancer patients. Megan J. Priestley, PhD MIT - Koch Institute for Integrative Cancer Rese",
+    "tients who are receiving treatment before surgery will have ctDNA detectable, as this may represent a group of patients at higher risk for recurrence. For",
+    "tients whose tumors are initially hormone receptor-positive/HER2-negative and then lose hormone receptor expression (i.e. become triple-negative) are typi",
+    "ties in patients with HER2-low and HER2-positive metastatic breast cancer receiving trastuzumab deruxtecan (T-DXd). While T-DXd has transformed outcomes in",
+    "ting drugs have greatly improved outcomes for patients with HER2-positive (HER2+) breast cancer, relapse and recurrence still occur. When HER2+ breast can",
+    "tino Dana-Farber Cancer Institute Short Abstract/Biography: Antibody-drug conjugates are a relatively new therapeutic modality utilized to treat breast cancer, which allows",
+    "tion, as well as the mechanism of action for synergy in ER+ breast cancer. Our results have the potential to be translated to the clinic, possibly leading t",
+    "tissues of patients with or without inherited mutations in breast cancer predisposition genes, including BRCA1 and BRCA2, as well as patients with a person",
+    "titute Abstract: Metastatic hormone receptor–positive (HR+) breast cancer is usually treated first with endocrine therapy (ET) plus targeted drugs like CDK4",
+    "titute. Her main focus is to bridge basic and translational breast cancer research and immunology with clinical science. She focuses on translating basic kn",
+    "to answer many unsolved questions about BM in HER2-positive breast cancer. Dr. Ferraro received her medical degree from the University of Roma La Sapienza a",
+    "to providing critical funding to researchers investigating breast cancer cures and patient treatment options. Terri Brodeur, the Foundation’s namesake, was",
+    "treatment-related toxicities in patients with HER2-low and HER2-positive metastatic breast cancer receiving trastuzumab deruxtecan (T-DXd). While T-DXd h",
+    "treatments for estrogen receptor-positive (ER+) metastatic breast cancer (MBC), such as the combination of lenvatinib, fulvestrant, and pembrolizumab being",
+    "tribute innovative ideas for treating metastatic relapse of breast cancer. Dr. Jing Hu obtained her Ph.D. in Molecular Cancer Biology Program at Duke Univer",
+    "ts whose tumors exhibit ER loss with mechanistic studies in breast cancer cell lines: 1) the causes of ER loss, and 2) the ways that tumors continue to prog",
+    "tumor DNA (ctDNA) that is released into the blood from some breast cancer tumor cells. One of the main goals of the study is to determine what percentage of",
+    "ty where she also served as Chief Fellow before joining the Breast Oncology Program at Dana-Farber Cancer Institute. Her clinical and research work centers",
+    "type. Patients with hormone receptor-positive/HER2-negative breast cancer are typically treated initially with hormonal therapies, and then subsequently wit",
+    "ucing the risk of recurrence is critical. Patients with ER+ breast cancer, the most common kind of breast cancer, are at risk of recurrence for many years,",
+    "urs, immunotherapy has limited efficacy in the treatment of breast cancer. Breast tumours are one of the most common cancers in women and are a leading caus",
+    "ute where she investigated the role of tumor macrophages in breast cancer and identified novel mechanisms to target pro-tumor macrophages to an anti-tumor p",
+    "ve breast cancer (TNBC) is an especially aggressive form of breast cancer with limited treatment options and, too often, a poor prognosis. Although therapie",
+    "verage data and banked samples collected from patients with breast cancer that have received antibodydrug conjugates at Dana-Farber Cancer Institute, using",
+    "whether it also contributes to drug resistance to standard breast cancer therapy, and determine whether targeting the function of ribosome proteins can spe",
+    "with the goal of understanding the molecular mechanisms of breast cancer risk and developing new personalized strategies for breast cancer prevention. Ana",
+    "ws for a selective delivery of chemotherapy to tumor cells. Antibody-drug conjugates are composed of three parts: 1. an antibody that reaches and binds a specific protein on",
+    "y and tumor-immune microenvironment in young women with HR+ breast cancer, by examining changes in the expression of pertinent genes in response to chemothe",
+    "y improved outcomes for patients with HER2-positive (HER2+) breast cancer, relapse and recurrence still occur. When HER2+ breast cancer returns after treatm",
+    "ypes of cancer, however there has been limited responses in breast cancer. While the main focus of immunotherapy has been on the adaptive immune system, nam"
    ],
    "rfp_v": 2,
    "fail_streak": 0
@@ -5270,8 +5636,35 @@
    "open": "10/29/2026",
    "close": "01/08/2027",
    "url": "https://www.grants.gov/search-results-detail/358960"
+  },
+  "PAR-28-042": {
+   "first_seen": "2026-11-04",
+   "title": "Assay Validation of High Quality Markers for Clinical Studies in Cancer (UH2/UH3 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/03/2026",
+   "close": "11/16/2029",
+   "url": "https://www.grants.gov/search-results-detail/360946"
+  },
+  "PAR-28-063": {
+   "first_seen": "2026-11-04",
+   "title": "NCI Research Specialist (Clinician Scientist) Award (R50 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/03/2026",
+   "close": "02/20/2029",
+   "url": "https://www.grants.gov/search-results-detail/362277"
+  },
+  "RFA-DK-28-314": {
+   "first_seen": "2026-11-04",
+   "title": "George M. O&rsquo;Brien Urology Cooperative Research Centers Program (U54 Clinical Trial Optional)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/03/2026",
+   "close": "02/01/2027",
+   "url": "https://www.grants.gov/search-results-detail/360551"
   }
  },
- "updated": "2026-11-01T01:51:20",
+ "updated": "2026-11-04T01:51:25",
  "coverage_reported": {}
 }

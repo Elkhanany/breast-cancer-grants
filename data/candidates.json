@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01",
+ "generated": "2026-11-04",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -154,7 +154,7 @@
     "active": false,
     "eligible_plausible": true,
     "duplicate_of": null,
-    "reason": "The primary URL was fetched and re-derived: the program is real and the 2025 page carries the dates, award structure and eligibility recorded here. The finder's 2024 deadline (January 31, 2024) matches the page only if one reads \"January 31, 2023\" as a typo. The finder's projection of a late-January/February 2027 DLDCCC deadline is not supported by any page: SynthX's home page, seed-grants page and 2026 page show the 2026 round went to Houston Methodist (HMNCC) with no DLDCCC counterpart, and no 2027 call exists. Hence active is false, deadline_status is not-posted, and next_deadline is null; the mechanism is retained because two DLDCCC rounds ran and a return is plausible. Could not confirm the 2025 awardee names or whether \"PI from the Duncan Cancer Center\" formally requires DLDCCC membership. No held record in grants.json covers SynthX; the nearest held records (bcm-duncan-cc-pilot-funds, the GCC Dunn award) are different mechanisms."
+    "reason": "I read the page with the headless-browser reader and curl, and all fields come from the page text. The 2025 cycle, award structure, eligibility and budget rules are confirmed. The page lists no later cycle, so the next call is a projection from the 2024 and 2025 pattern only. The site menu lists a 2026 SynthX/HMNCC round, and its structure was not extracted (the page body was not parsed). I did not open the 2024 page, so I could not confirm the claimed \"up to $80,000\" figure. I found no no-clinical-duty or rank restriction on the page. No match in grants.json for SynthX, so no duplicate."
    },
    "record": {
     "id": "rice-synthx-dldccc-seed-grant",
@@ -164,7 +164,7 @@
     "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
     "status": "active",
     "first_seen": "2026-09-10",
-    "last_verified": "2026-09-10",
+    "last_verified": "2026-11-04",
     "retired_on": null,
     "retired_reason": null,
     "category": "institutional",
@@ -175,33 +175,34 @@
      "basic"
     ],
     "breast_specific": false,
-    "er_her2_fit": "medium",
+    "er_her2_fit": "low",
     "award_usd": 30000,
-    "award_text": "2025 cycle: base seed grant of $15,000-$30,000 depending on PI affiliations (maximum original budget $30,000 over two years for a Rice-plus-BCM two-PI team), rising to a $35,000-$70,000 maximum with conditional incentives tied to follow-on grant activity. 2024 cycle: two to three awards of $80,000 split 50% Rice / 50% BCM, with $60,000 in Year 1 and the remaining $20,000 released only if a multi-PI grant was submitted within one year. Equipment capped at $5,000; travel up to $2,000.",
+    "award_text": "$30,000 per Rice+BCM team ($15,000 from each institution) over 2 years. Conditional incentives if follow-on grants are won within 2 years: +$20,000 for a grant over $1M and under $3M, +$40,000 for a grant over $3M (incentive cap $40,000). Maximum attainable $70,000 per joint team.",
     "duration_years": 2,
-    "indirects": "Not allowed. PI/co-investigator salary and tuition remission also prohibited; supplies, travel (up to $2,000), stipends and research-staff salaries allowed.",
+    "indirects": "Indirect (F&A) costs not allowed. PI and co-investigator salary not allowed. Tuition remission not allowed. Allowed: supplies, equipment (up to $5,000), travel (up to $2,000), stipends, research staff salaries (students, postdocs, technical staff, non-tenure-track research faculty).",
     "loi_deadline": null,
     "full_deadline": null,
     "next_deadline": null,
-    "deadline_status": "not-posted",
+    "deadline_status": "forecast",
     "cycle": "annual",
-    "typical_month": "February (2024 round closed January 31; 2025 round closed February 24). The 2026 SynthX round switched partner to Houston Methodist and closed May 18, 2026; no DLDCCC round was posted for 2026.",
-    "verdict": "eligible",
+    "typical_month": "December call; February deadline",
+    "verdict": "needs-check",
     "flags": [
-     "no 2026 or 2027 DLDCCC round posted; the 2026 SynthX round partnered with Houston Methodist (HMNCC) instead of BCM",
-     "requires a Rice SynthX Center co-PI (chemistry/engineering) - the PI cannot apply alone",
-     "Duncan Cancer Center PI status presumed to mean DLDCCC membership; confirm",
-     "no indirects, no PI salary, $5,000 equipment cap",
-     "small award: $30,000 base over two years in the 2025 round",
-     "2024 page states the deadline as 'January 31, 2023', evidently a typo for 2024"
+     "no-2026-DLDCCC-call-posted",
+     "2026-round-was-Houston-Methodist-variant-not-BCM-eligible",
+     "requires-Rice-SynthX-PI-partner",
+     "no-PI-salary",
+     "no-indirects",
+     "small-award",
+     "page-shows-only-2025-cycle-dates"
     ],
     "track_gate": null,
     "career_cap": null,
     "limited_submission": false,
-    "eligibility": "Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Dan L Duncan Comprehensive Cancer Center at BCM; the ENRICH Office co-sponsors. Each faculty member may be PI or co-PI on only one proposal per cycle, and prior seed-fund recipients are ineligible for another seed fund within two years. No rank, career-stage, degree, citizenship or tenure-track requirement is stated, and clinical duties are not restricted. Projects needing IRB approval are not funded until approval is in hand.",
-    "notes": "A Rice-BCM two-PI seed grant run by Rice's Synthesis X (SynthX) Center with the Duncan Cancer Center and the ENRICH Office, funded in 2024 (three teams, $80,000 each split 50/50) and 2025 (three teams, $30,000 base over two years, up to $70,000 with follow-on incentives). It matters to the PI as the formal, low-friction channel for a chemistry-plus-clinician pairing across the Texas Medical Center: a Rice chemist or engineer on ADC payload or linker chemistry, HER2-heterogeneity imaging probes, or ctDNA capture chemistry, with the PI supplying the ER+/HER2+ clinical question, tissue and cohort. The 2024 awardees included a BCM Surgery investigator paired with Rice engineering on photoacoustic imaging for breast lesion localization, so a breast-oriented proposal is in scope. The trap: the DLDCCC round is not confirmed to recur. SynthX's 2026 round was run with Houston Methodist's Neal Cancer Center instead (deadline May 18, 2026, $45,000 per team), and as of 2026-09-10 no 2026 or 2027 SynthX/DLDCCC call is posted, so the PI should not plan around a February 2027 deadline as if it were certain. Budget is thin and cannot carry PI salary or indirects, and prior recipients are locked out for two years. What to do: identify the Rice SynthX collaborator now, ask synthx@rice.edu and the Duncan CC research office whether a 2027 DLDCCC round is planned, and watch synthx.rice.edu in December-January, when the 2025 call was announced (December 10, 2024).",
+    "eligibility": "Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center (BCM). Each faculty member may be PI or co-PI on only one proposal. Funded PIs are ineligible for another seed within 2 years. Projects needing IRB approval receive no funds until approval is obtained. The page states no rank, track, or clinical-duty restriction. A Rice SynthX collaborator is mandatory, and awardees are chemistry or chemical-biology oriented.",
+    "notes": "This is a real Rice SynthX and Duncan Cancer Center (BCM) joint seed program. The page the PI would use is the 2025 cycle, which is closed. It gives a $30,000 two-year award split between Rice and BCM. A conditional incentive can raise it to $70,000 if the team wins a larger follow-on grant. No 2026 DLDCCC call is posted. The 2026 round on the site is titled SynthX/HMNCC, which is the Houston Methodist variant and is not BCM-eligible. The 2024 and 2025 rounds each ran a December call and a February deadline, so a December 2026 call is plausible but unconfirmed. The program does not fund PI salary or indirects. It requires a Rice SynthX chemistry or chemical-biology partner, and past awards were basic or chemistry-heavy, including one from the Smith Breast Center that went to a PhD. The PI could use it for ADC or payload chemistry preliminary data supporting a translational R01 or DOD application. Its value is modest, and its fit with the computational and trial angles is weak. Next step: contact synthx@rice.edu or the ENRICH office, and check the site around December 2026. Line up a Rice partner before any call opens.",
     "confidence": "verified",
-    "evidence": "2025 page: \"Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center\" (team requirement); \"Limit one proposal per person: faculty can be either PI or co-PI on only one proposal\"; \"PIs who receive the seed fund ARE NOT eligible to receive another seed fund within 2 years\"; deadline \"February 24, 2025\", notification \"April 1, 2025\", start \"June 1, 2025\"; maximum budget \"$30,000 for the duration of two (2) years\"; equipment cap \"$5,000\"; indirects, PI/co-I salary and tuition remission prohibited. 2024 page: \"two-three seed awards of $80,000: 50% toward RICE and 50% toward BCM. $60,000 was awarded in Year 1.\" SynthX home and seed-grants pages: only \"2026 SynthX/HMNCC Seed Grant winners announced!\" - \"Teams must include one PI from SynthX and one PI from HMNCC\", deadline \"May 18, 2026\", \"$45,000\" per team - establishing that the 2026 partner was Houston Methodist, not BCM, and no DLDCCC 2026/2027 call is posted.",
+    "evidence": "Page: \"SynthX Center (SynthX) at Rice University (Rice) and the Dan L. Duncan Comprehensive Cancer Center (DLDCCC) at the Baylor College of Medicine (BCM) announced a call for 2025 SynthX/DLDCCC Seed Grant applications. The winning teams are listed at the bottom of the page.\" Timeline: \"December 10, 2024 Call for proposals announced; February 24, 2025 Proposal submission deadline; April 1, 2025 Notice of awards; June 1, 2025 Earliest project start date.\" Table: \"Seed Grant $15,000 / $15,000 / $30,000\"; conditional incentives $20,000 (>$1M and <$3M) and $40,000 (>$3M) for joint teams; \"Maximum Seed Grant Attainable $70,000\". Eligibility: \"Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center.\" Budget: \"Not Allowed Costs: Indirect (F&A) costs; Salary for the PI and/or co-investigators\". Banner: \"2026 SynthX/HMNCC Seed Grant winners announced!\" Three 2025 winning teams listed, one with a Smith Breast Center PI.",
     "fit": 48
    }
   },
