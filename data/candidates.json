@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-07",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -9571,7 +9571,7 @@
   },
   {
    "id": "rice-synthx-duncan-ccc-synthx-dldccc-cancer-seed-grant",
-   "decision": "pending",
+   "decision": "promoted",
    "provides": "funding",
    "provenance": {
     "lens": "tmc-local",
@@ -9634,7 +9634,8 @@
     "confidence": "verified",
     "evidence": "2024 page: \"SynthX and the Duncan Cancer Center announced two-three seed awards of $80,000: 50% toward RICE and 50% toward BCM.\" and \"Teams must include at least one PI from the Rice SynthX Center and at least one PI from the Duncan Cancer Center.\" and \"Costs that are not allowed: Indirect (F/A) costs; Salary for the PI and/or co-investigators\". 2025 page: \"December 10, 2024 Call for proposals announced; February 24, 2025 Proposal submission deadline\", with a Seed Grant row of $15,000 / $15,000 / $30,000 and \"Maximum Seed Grant Attainable $35,000 $35,000 $70,000\". 2026 page: \"2026 SynthX/HMNCC Seed Grant... Each team will receive $45,000\", with a May 18, 2026 deadline. The site menu lists no 2026 Duncan round.",
     "fit": 62
-   }
+   },
+   "promoted_on": "2026-11-07"
   },
   {
    "id": "alliance-foundation-special-projects-allocation",
@@ -10379,6 +10380,274 @@
     "confidence": "verified",
     "evidence": "Page status: \"Applications Under Review\". Dates on page: PFA released Dec. 2, 2025; LOI Jan. 6, 2026; LOI notification Feb. 3, 2026; application deadline May 5, 2026; merit review July 2026; awards announced December 2026 (subject to change); earliest start April 2027. Funding: up to $60 million total, direct cost cap up to $12 million (up to $13 million for powered outcomes at or beyond 24 months), up to five years (six). Design: \"observational study designs will not be considered responsive\"; \"strict implementation or dissemination studies will not be considered responsive\". The page requires dual PIs from a research organization and a community organization. No career-stage limit and no recurrence statement appear on the page.",
     "fit": 55
+   }
+  },
+  {
+   "id": "rice-synthx-dldccc-synthx-dldccc-seed-grant",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-11-07",
+    "run": "discovery",
+    "finder_summary": "A Rice-partnered seed grant that explicitly funds Smith Breast Center work and could back a translational or biomarker pilot with a Rice chemistry, bioengineering or data-science partner, building toward a multi-PI external grant.",
+    "proven": "Yes. Three teams were funded in 2024 and three in 2025, with named awardees including a breast cancer project. The 2026 Houston Methodist round was also awarded, so the program recurs."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": true,
+    "duplicate_of": "rice-synthx-duncan-ccc-synthx-dldccc-cancer-seed-grant",
+    "reason": "Shares its URL with candidate(s) rice-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-seed-grant-2, rice-synthx-duncan-cancer-center-synthx-dldccc-seed-grant, rice-synthx-dldccc-synthx-dldccc-joint-seed-grant, rice-synthx-bcm-dldccc-synthx-dldccc-innovation-seed-grants under a different program name; step 3 checks it is a distinct call before promoting. The page is real and is the program's primary page. It is closed, and the Proposal Timeline, Team Eligibility and Budget Guidelines sections are collapsed accordions whose text did not render in headless Chromium or curl. Because of that, no deadlines, indirect-cost rules or rank and degree rules were confirmed. The award amounts come from the 2024 and 2026 pages. The 2026 round paired Rice with Houston Methodist rather than BCM, so I marked the program not active for BCM in 2026-27, and a 2027 BCM call is unconfirmed. The held records contain no record of this mechanism. The Rice ENRICH TMC Collaborator Fund is a different program. The two-year duration is inferred from the claimed text and not directly stated on the page."
+   },
+   "record": {
+    "id": "rice-synthx-dldccc-synthx-dldccc-seed-grant",
+    "sponsor": "Rice SynthX / DLDCCC",
+    "sponsor_full": "Rice University Synthesis X (SynthX) Center with the Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine (managed by Rice ENRICH)",
+    "program": "SynthX/DLDCCC Seed Grant (2024 and 2025 rounds; 2026 round run with Houston Methodist Neal Cancer Center)",
+    "url": "https://synthx.rice.edu/2025-synthx-dldccc-seed-grant",
+    "status": "active",
+    "first_seen": "2026-11-07",
+    "last_verified": "2026-11-07",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "translational",
+     "pilot",
+     "career-development"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 80000,
+    "award_text": "2024 DLDCCC round: $80,000 per team, split 50% Rice and 50% BCM. $60,000 was awarded in year 1, and a further $20,000 followed if a multi-PI external grant was submitted within one year. The 2026 round with Houston Methodist paid $45,000 per team ($22,500 per PI). The 2025 page's award amount is not visible in the rendered text.",
+    "duration_years": 2,
+    "indirects": "Not stated in the visible text. The budget guidelines are in a collapsed section that did not render.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Unknown; calls appear to open in the first half of the year, with awardees posted later. Not confirmed on the page.",
+    "verdict": "needs-check",
+    "flags": [
+     "guidelines-collapsed-not-rendered",
+     "no-2027-call-posted",
+     "bcm-round-not-repeated-in-2026",
+     "requires-rice-partner",
+     "possible-rotation-to-other-TMC-institutions",
+     "small-award"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "Teams pair a Rice University PI with a Baylor College of Medicine (DLDCCC) PI on cancer-related biomedical research. The 'Team Eligibility' accordion on the 2025 and 2024 pages did not render, so rank, degree and clinical-duty rules could not be read. The 2024 winners included a clinician (a surgeon with a D.O.) paired with a Rice engineer, which suggests no PhD requirement. No ban on clinical duties is visible.",
+    "notes": "This is a Rice SynthX seed grant that pairs a Rice PI with a partner from a TMC cancer center. The 2024 and 2025 rounds were run with the Duncan Cancer Center at BCM, and the 2026 round was run with the Houston Methodist Neal Cancer Center. Breast-related work has won before: a 2024 breast lesion imaging project led by a BCM surgeon, and a 2025 project with a Smith Breast Center co-PI. The PI would need a Rice chemistry, engineering or data-science partner, for example for an ADC, HER2-heterogeneity or ctDNA-assay pilot. The main trap is timing. The 2026 round moved to Houston Methodist, so no BCM-paired round is currently posted, and the pages show no 2027 call. The eligibility, timeline and budget details sit in accordion sections that did not render, so none of them were confirmed. The PI should email SynthX or Rice ENRICH to ask whether a BCM/DLDCCC round will return, and should line up a Rice partner now. Meanwhile the PI can watch the SynthX seed-grant pages and the DLDCCC announcements.",
+    "confidence": "projected",
+    "evidence": "2025 page: \"SynthX Center (SynthX) at Rice University (Rice) and the Dan L. Duncan Comprehensive Cancer Center (DLDCCC) at the Baylor College of Medicine (BCM) announced a call for 2025 SynthX/DLDCCC Seed Grant applications. The winning teams are listed at the bottom of the page.\" This shows the call is closed and awarded. It lists 3 winning teams, including a Rice chemist paired with a Smith Breast Center PhD. 2024 page: \"announced two-three seed awards of $80,000: 50% toward RICE and 50% toward BCM. $60,000 was awarded in Year 1... additional $20,000\" and a winner \"Pabel Ali Miah, D.O., Department of Surgery, Baylor College of Medicine\" on a breast lesion imaging project. 2026 page: \"The Rice University SynthX Center and the Houston Methodist Mary and Ron Neal Cancer Center opened a call for 2026... Each team will receive $45,000, with each PI receiving $22,500\". The site banner reads \"2026 SynthX/HMNCC Seed Grant winners announced!\"",
+    "fit": 62
+   }
+  },
+  {
+   "id": "cancer-research-foundation-young-investigator-awards-2",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "national-quiet",
+    "found_on": "2026-11-07",
+    "run": "discovery",
+    "finder_summary": "A small, little-advertised, long-running seed award that takes MD-only clinician-investigators and any cancer type, which could fit a translational or biomarker pilot if the PI's 7-year faculty tenure is judged to be within 'first years' of an initial appointment, which is uncertain.",
+    "proven": "Awardee lists for 1989-2025 on the program page, plus announcement posts for 2024, 2025 and 2026 on cancerresearchfdn.org."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "I confirmed the eligibility, award amount and timing wording from the primary page with WebFetch. I did not check the linked announcement posts. The fetch showed 2025 as the latest awardee year, while the finder claimed 2026 awardees were announced, so that point is unconfirmed. Duration, indirect costs and the exact meaning of \"first years\" are not on the page. No held record matches this program: the grep of grants.json found only Breast Cancer Research Foundation entries, which are a different sponsor. Eligibility for a faculty member in year 7 or later is the open question, so I marked it needs-check and not eligible_plausible."
+   },
+   "record": {
+    "id": "cancer-research-foundation-young-investigator-awards-2",
+    "sponsor": "Cancer Research Foundation",
+    "sponsor_full": "Cancer Research Foundation (Chicago)",
+    "program": "Young Investigator Awards (YIA)",
+    "url": "https://www.cancerresearchfdn.org/programs/young-investigator-awards",
+    "status": "active",
+    "first_seen": "2026-11-07",
+    "last_verified": "2026-11-07",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "foundation",
+    "tier": "early-career",
+    "focus": [
+     "career-development",
+     "translational",
+     "pilot"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 100000,
+    "award_text": "$100,000, awarded in two installments",
+    "duration_years": null,
+    "indirects": "Not stated on the program page",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Guidelines published in summer; applications due in time for the winter Board meeting (roughly autumn to early winter)",
+    "verdict": "needs-check",
+    "flags": [
+     "early-career-window",
+     "no-external-support-required",
+     "no-posted-deadline",
+     "not-open-now",
+     "eligibility-ambiguous-for-year-7"
+    ],
+    "track_gate": null,
+    "career_cap": "\"first years of their initial faculty appointment\" (no numeric cap stated)",
+    "limited_submission": false,
+    "eligibility": "Awarded to investigators during the first years of their initial faculty appointment (instructor, assistant professor) who have not yet received significant external support at the time of submission. The page states no institution restriction, no cancer-type restriction and no rule on clinical duties. No numeric limit on years since appointment is given, but \"first years of their initial faculty appointment\" is a likely barrier for a faculty member in year 7 or later.",
+    "notes": "This is a long-running seed award from the Cancer Research Foundation in Chicago. It gives $100,000 in two installments to new faculty in any cancer type. The program page was re-read on 2026-11-07 and confirms the eligibility wording and award amount. It posts no fixed deadline. Guidelines appear each summer, and applications are due in time for the winter Board meeting. The page lists awardees through 2025, and no 2027 call is posted. The main trap for the PI is the phrase \"first years of their initial faculty appointment\" combined with \"not yet received significant external support\". A faculty member in year 7 or later is unlikely to qualify, and the foundation does not define \"first years\". The PI should email the foundation to ask about eligibility before investing any effort. If the PI is judged ineligible, this should be treated as ruled out. If the foundation is flexible, it could fund an ER+/HER2+ biomarker pilot. Watch for the summer 2027 guidelines.",
+    "confidence": "verified",
+    "evidence": "Fetched page quotes: \"men and women during the first years of their initial faculty appointment (instructor, assistant professor) who have not yet received significant external support at the time of submission.\" \"$100,000, to be awarded in two installments.\" \"The Cancer Research Foundation publishes guidelines for the submission of applications each year in the summer.\" \"Applications are due in time to be reviewed at the winter Cancer Research Foundation Board Meeting.\" The page states no duration, no indirect-cost terms, no clinical-duty restriction and no 2027 call. The latest awardee year shown was 2025.",
+    "fit": 38
+   }
+  },
+  {
+   "id": "houston-methodist-neal-cancer-center-innovation-award",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "critic",
+    "found_on": "2026-11-07",
+    "run": "discovery",
+    "finder_summary": "It has an IIT track and a history of breast projects, so a BCM breast oncologist could be a co-investigator on a Houston Methodist-led IIT or translational pilot.",
+    "proven": "Awardee lists for 2019 through 2025, including a breast cancer microbiome project in 2019 and IIT awards in 2023-2025."
+   },
+   "verification": {
+    "real": true,
+    "active": false,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "The supplied URL (houstonmethist.org) failed through curl with a 502 proxy error because the domain is misspelled. I read the equivalent page at www.houstonmethodist.org/research/our-research/cancer/innovation-awards with the headless-browser reader. The 2025 awards were visible, and the page showed the award tabs for 2019 to 2024 but not their contents, so the earlier awards, including the 2019 breast microbiome award, were not confirmed. I could not confirm any deadline, cycle, award size, indirect cost policy or whether outsiders may apply. No held record in grants.json matches this mechanism. I marked it inactive for application purposes because no open call is posted. Whether a call is expected in 2026-27 is unknown."
+   },
+   "record": {
+    "id": "houston-methodist-neal-cancer-center-innovation-award",
+    "sponsor": "Houston Methodist Neal Cancer Center",
+    "sponsor_full": "Houston Methodist Dr. Mary and Ron Neal Cancer Center",
+    "program": "Neal Cancer Center Innovation Award (Innovation, Investigator-Initiated Interventional Treatment Trial, Cellular Therapy IIT, CAR-T categories)",
+    "url": "https://houstonmethist.org/research/our-research/cancer/innovation-awards",
+    "status": "active",
+    "first_seen": "2026-11-07",
+    "last_verified": "2026-11-07",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "iit",
+     "translational",
+     "pilot",
+     "clinical"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "medium",
+    "award_usd": null,
+    "award_text": "Amount not stated on the page.",
+    "duration_years": null,
+    "indirects": "Not stated",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "unknown",
+    "typical_month": "unknown",
+    "verdict": "needs-check",
+    "flags": [
+     "wrong-url-typo-in-candidate",
+     "internal-institutional-mechanism",
+     "no-deadline-posted",
+     "no-amount-posted",
+     "outside-applicant-eligibility-unstated",
+     "collaboration-route-only"
+    ],
+    "track_gate": null,
+    "career_cap": null,
+    "limited_submission": false,
+    "eligibility": "The page describes an internal, peer-reviewed Houston Methodist Neal Cancer Center funding mechanism launched in 2019 to promote team-based pilot projects within the center. Applications are judged on fit with the center's strategic research initiatives, and multi-PI projects get priority. No formal eligibility rules, application instructions or outside-applicant policy are stated. A BCM faculty member could realistically take part only as a co-investigator on a Houston Methodist-led project, and that is unconfirmed.",
+    "notes": "This is the Houston Methodist Neal Cancer Center Innovation Award, an internal, peer-reviewed pilot mechanism launched in 2019. It is aimed at team-based projects, with priority for multi-PI applications. The page lists awards in Innovation, Cellular Therapy IIT and Investigator-Initiated Interventional Treatment Trial categories. The 2025 IIT award went to a breast project: a Phase Ib/II study of trastuzumab deruxtecan plus a RAGE inhibitor in T-DXd-resistant HER2-positive or HER2-low breast cancer. That is close to the PI's ADC-resistance and HER2 heterogeneity interests. The trap is that the page gives no deadline, amount, cycle or eligibility rule, and nothing says an outside institution can apply. The candidate URL as supplied (houstonmethist.org) is misspelled and does not resolve; the real page is on houstonmethodist.org. The realistic route for the PI is as a co-investigator or collaborator on a Houston Methodist-led proposal, not as a lead applicant. The next step is to contact the Neal Cancer Center research office to ask whether non-Houston Methodist co-PIs are allowed and when the next call opens. Until then it should be tracked as a collaboration lead, not an application target.",
+    "confidence": "unverified",
+    "evidence": "\"The Houston Methodist Dr. Mary and Ron Neal Cancer Center Innovation Award was launched in 2019 to promote transdisciplinary teamwork within the center. This internal peer-reviewed funding mechanism is designed to promote pilot projects that solve cancer challenges in a team-based approach. The research strength of each application is determined by how well the science fits within the cancer center's strategic research initiatives with priority given to multi-principal-investigator (PI) research projects.\" This establishes that the mechanism is internal and exists. The 2025 listing under \"Investigator-Initiated Interventional Treatment Trial\" shows \"A Phase Ib/II Study of Trastuzumab Deruxtecan (T-DXd) in Combination With a RAGE Inhibitor in Patients With T-DXd-Resistant HER2-Positive or HER2-Low Breast Cancer\" (Akshjot Puri, MD). The visible page text contains no deadline, amount or eligibility rule.",
+    "fit": 38
+   }
+  },
+  {
+   "id": "uthealth-houston-ccts-pilot-projects",
+   "decision": "pending",
+   "provides": "funding",
+   "provenance": {
+    "lens": "critic",
+    "found_on": "2026-11-07",
+    "run": "discovery",
+    "finder_summary": "The preclinical-for-IIT and clinical and translational tracks, with Rice and MD Anderson collaboration, are a possible route for a real-world data or IIT pilot.",
+    "proven": "The page lists no awardees. Only its annual-cycle statement is evidence."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": false,
+    "duplicate_of": null,
+    "reason": "Re-derived from the page text (fetched with curl, since the page rendered as static HTML). Confirmed the program exists, the $50,000 cap, the annual cycle, the exclusions, and that the 2026 deadline has passed with no next date. Could not confirm the definition of junior faculty, BCM eligibility, the award duration or the indirect-cost policy, as the page is silent. The claimed per-year wording and the list of tracks are only partly supported, since the page says up to $50,000 without a duration. grants.json holds no CCTS record; the CTPH records are a different Texas program, so there is no duplicate."
+   },
+   "record": {
+    "id": "uthealth-houston-ccts-pilot-projects",
+    "sponsor": "UTHealth Houston CCTS",
+    "sponsor_full": "UTHealth Houston Center for Clinical and Translational Sciences",
+    "program": "CCTS Pilot Projects (junior faculty, preclinical-for-IIT, community engagement awards)",
+    "url": "https://ww2.uth.edu/ccts/education-training/pilot-projects",
+    "status": "active",
+    "first_seen": "2026-11-07",
+    "last_verified": "2026-11-07",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "iit",
+     "clinical"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 50000,
+    "award_text": "Grants of up to $50,000 awarded annually (page does not state duration or whether the cap is per year)",
+    "duration_years": null,
+    "indirects": "not stated",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "unknown",
+    "verdict": "needs-check",
+    "flags": [
+     "bcm-not-listed-institution",
+     "junior-faculty-undefined",
+     "no-dates-posted",
+     "2026-deadline-passed",
+     "no-awardee-list"
+    ],
+    "track_gate": null,
+    "career_cap": "junior faculty (undefined on page)",
+    "limited_submission": false,
+    "eligibility": "Three award types: junior faculty pilots for independent clinical and translational research, hypothesis-driven preclinical pilots generating preliminary data for investigator-initiated trials, and community engagement pilots for community partners teamed with academic investigators. Basic-science studies and studies for which the applicant currently has funding are not considered. Collaborative teams from CCTS institutions (UTHealth Houston schools, MD Anderson, UT Tyler, UT Rio Grande Valley, Rice, Texas Tech Health El Paso, Memorial Hermann) are encouraged. BCM is not listed, and the page gives no definition of junior faculty or rank limit.",
+    "notes": "The UTHealth Houston CCTS Pilot Projects program annually funds clinical and translational pilots of up to $50,000, including a preclinical track that generates preliminary data for investigator-initiated trials. The page says only that the 2026 deadline has passed and to watch the page for the next round, so no 2027 dates are posted and none should be assumed. The main trap is institutional standing. BCM is not among the listed CCTS institutions, and the page does not define junior faculty, so the PI at year 7+ may be outside the intent. The realistic route is a UTHealth Houston or MD Anderson lead with the PI as a named collaborator, if the program permits it. Basic-science work and already-funded studies are excluded, so a real-world data or IIT pilot would need to be framed as clinical or translational. The PI should email the program director (Yuko Yamamura, listed on the page) to ask about BCM eligibility, faculty-rank limits and the expected timing of the next call. This is a low-priority watch item, not a planning anchor. It is distinct from the held CTPH (Texas) records.",
+    "confidence": "verified",
+    "evidence": "\"The CCTS Pilot Projects program annually awards grants of up to $50,000 to be used as pilot funding initiatives that support clinical and translational research.\" \"Basic-science studies and studies for which the applicant currently has funding will not be considered.\" \"The 2026 deadline has passed. Watch this page to participate in the next round of submissions.\" The collaborator list names UTHealth Houston schools, MD Anderson, UT Tyler, UT Rio Grande Valley, Rice, Texas Tech Health El Paso and Memorial Hermann; BCM does not appear.",
+    "fit": 38
    }
   }
  ]

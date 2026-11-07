@@ -7,7 +7,7 @@
     "dod-bcrp-era-of-hope-scholar-fy26",
     "dod-bcrp-transformative-consortium-development-fy26"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -41,17 +41,17 @@
     "dod-bcrp-fy27-outlook",
     "dod-bcrp-transformative-consortium-award-fy26"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-09-03",
-    "2026-10-02",
     "2026-11-04",
+    "2026-11-06",
     "2026-11-18"
    ],
    "rfp": [
     "(eBRAP) How To Apply Avoiding Research Duplication Program Funding Opportunities Archives Consumers Consumers Overview Eligibility Checklist Program Consumer Reviewer Req",
-    "Breast Cancer Research Program (BCRP) To view past Program Funding Opportunities, please visit the BCRP Program Funding Opportunities Archives . Synopsis of FY26 BCRP Awa",
+    "Breast Cancer Research Program (BCRP) To view past Program Funding Opportunities, please visit the BCRP Program Funding Opportunities Archives . The pre-application submi",
     "Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research Program (BCRP) To view past Program Funding Opportunities, please visit t",
     "Funding Opportunities - FY26 Breast Cancer Research Program, Congressionally Directed Medical Research Programs",
     "Funding Opportunities - FY26 Breast Cancer Research Program, Congressionally Directed Medical Research Programs (CDMRP), US D",
@@ -60,14 +60,19 @@
     "Programs Funding Opportunities Funding Overview Anticipated Funding Opportunities Program Funding Opportunities Start Pre-Application (eBRAP) How To Apply Avoiding Researc",
     "gram Announcement Application Instructions Pre-Application (Letter of Intent): November 4, 2026 5:00 p.m. Eastern Time Application: November 18, 2026 11:59 p.m. Easte",
     "istory Annual Reports Review Two Tiered Review Process Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunitie",
-    "it Pre-Application Quick Links: BCRP Home Page BCRP Program Funding Opportunities Archives For further information, please send e-mail to: CDMRP Webmaster - for download-r",
-    "m. Mechanism Release Date Program Announcement/Instructions Submission Deadline Breakthrough Award Levels 1 and 2 II September 3, 2026 Program Announcement Application I",
+    "m. Mechanism Release Date Program Announcement/Instructions Submission Deadline tr> Breakthrough Award Levels 1 and 2 II September 3, 2026 Program Announcement Applicati",
+    "nities has passed. Submission of full applications to these funding opportunities will only be accepted if you received an invitation to submit an application or if a Lett",
     "nks/Product Disclaimers &middot; Research Programs &middot; Funding Opportunities &middot; Consumer Involvement &middot; Search Awards &middot; About Us CDMRP &copy; 2023",
+    "p.m. Eastern Time Quick Links: BCRP Home Page BCRP Program Funding Opportunities Archives For further information, please send e-mail to: CDMRP Webmaster - for download-r",
     "phic Lateral Sclerosis Arthritis Autism Bone Marrow Failure Breast Cancer Combat Readiness-Medical Duchenne Muscular Dystrophy Epilepsy Hearing Restoration",
-    "rogram Funding Opportunities, please visit the BCRP Program Funding Opportunities Archives . Synopsis of FY26 BCRP Award Mechanisms - (Adobe PDF) - provides a brief descri",
+    "pre-application submission deadline for the following BCRP funding opportunities has passed. Submission of full applications to these funding opportunities will only be a",
+    "rogram Funding Opportunities Archives . The pre-application submission deadline for the following BCRP funding opportunities has passed. Submission of full applications",
+    "rogram Funding Opportunities, please visit the BCRP Program Funding Opportunities Archives . The pre-application submission deadline for the following BCRP funding opportu",
     "ss Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research Program",
+    "tter of Intent was required and it was submitted by the pre-application due date deadline. Synopsis of FY26 BCRP Award Mechanisms - (Adobe PDF) - provides a brief de",
     "unding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research Program (BCRP) To view past Program Funding Opportunities, pl",
-    "wo Tiered Review Process Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research"
+    "wo Tiered Review Process Home Funding Opportunities Program Funding Opportunities Breast Cancer Research Program Program Funding Opportunities FY26 Breast Cancer Research",
+    "you received an invitation to submit an application or if a Letter of Intent was required and it was submitted by the pre-application due date deadline. Synopsis of F"
    ],
    "rfp_v": 2,
    "fail_streak": 0
@@ -76,7 +81,7 @@
    "ids": [
     "cprit-iira"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "ecfad0caa70417f2",
@@ -88,7 +93,7 @@
     "cprit-iiracca",
     "cprit-iirap"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "b13a739541abd8ab",
@@ -99,7 +104,7 @@
    "ids": [
     "cprit-iiract"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "9012ce2aee0fd1fa",
@@ -110,7 +115,7 @@
    "ids": [
     "cprit-iiracsbc"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "bcc29147874ae0f4",
@@ -123,9 +128,10 @@
     "gateway-nci-spore-p20-program",
     "gateway-traditional-grant-program"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
+    "2025-11-18",
     "2026-11-06"
    ],
    "rfp": [],
@@ -1178,7 +1184,7 @@
    "ids": [
     "nci-merit-r37-extension"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2028-09-08"
@@ -1511,7 +1517,7 @@
    "ids": [
     "cri-technology-impact-award"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-11-15",
@@ -1547,7 +1553,7 @@
    "ids": [
     "cprit-rrs"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "ef5c1a0c3b3be81e",
@@ -1594,7 +1600,7 @@
    "ids": [
     "cprit-rft"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "775138f01290e69f",
@@ -1605,7 +1611,7 @@
    "ids": [
     "cprit-rei"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "008a1c5c399fd702",
@@ -1718,7 +1724,7 @@
    "ids": [
     "nia-gemsstar-r03"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-09-01",
@@ -1735,7 +1741,7 @@
    "ids": [
     "nci-imat-r33-advanced"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1753,7 +1759,7 @@
    "ids": [
     "nci-imat-r61-early-stage"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-06-03",
@@ -1771,7 +1777,7 @@
    "ids": [
     "nih-parent-p01"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-10-14",
@@ -1816,7 +1822,7 @@
     "pcori-engagement-capacity-building-fall-2026",
     "pcori-placer-cycle1-2027"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-04-28",
@@ -1848,8 +1854,8 @@
    "ids": [
     "pcori-broad-pragmatic-studies-cycle3-2026"
    ],
-   "checked": "2026-11-04T01:51:25",
-   "status": 200,
+   "checked": "2026-11-07T01:51:01",
+   "status": 403,
    "dates": [
     "2026-08-04",
     "2026-08-13",
@@ -1857,37 +1863,14 @@
     "2026-10-14",
     "2027-01-12"
    ],
-   "rfp": [
-    "2 will be required to provide additional information in the Letter of Intent (LOI) and application to justify the size and scope of the proposed research projects and",
-    "CORI has launched a new portal, PCORI Connect, to apply for funding opportunities. Apply Here This PCORI Funding Announcement (PFA) invites applications for high-impact pa",
-    "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
-    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
-    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
-    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2027 Research Project Agenda Topic Themes 2026 Research Project Agenda Topic Themes PCORn",
-    "d FAQs . Use the Application Readiness Checklist . Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
-    "da includes a set of Topic Themes that are included in this funding opportunity and further detailed below. Applicants have the option to choose up to three Topic Themes",
-    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
-    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
-    "ess Procurement Opportunities Provide Input Leadership Home Funding Opportunities Broad Pragmatic Studies PCORI Funding Announcement -- Cycle 3 2026 Receiving Invited Appl",
-    "ew Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Application Deadline Jan. 12, 2027, 5 pm (ET) Merit Rev",
-    "he following Special Areas of Emphasis (SAE) within the BPS funding opportunity. The purpose of identifying these SAEs is to encourage submissions to these areas, not to",
-    "lion in direct costs through this funding opportunity. This funding opportunity contains three categories for funding: Category 1 Category 1 will support research projec",
-    "nt Town Hall Aug. 13, 2026; 11:30 am - 1 pm (ET) View Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Appl",
-    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
-    "pens Aug. 4, 2026 Applicant Town Hall View recording/slides Letter of Intent (LOI) Deadline Sept. 9, 2026; 5 pm (ET) LOI Status Notification Oct. 14, 2026 Application",
-    "s in Research PCORI’s Portfolio of Funded Research Upcoming Funding Opportunities Population Insights Reports Powered by PCORnet ® Download Full Announcement Key Dates Onl",
-    "will commit up to $120 million in direct costs through this funding opportunity. This funding opportunity contains three categories for funding: Category 1 Category 1 wi",
-    "ycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inform Focused Funding Opport"
-   ],
-   "rfp_v": 2,
-   "fail_streak": 0
+   "fail_streak": 1
   },
   "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026": {
    "ids": [
     "pcori-improving-methods-cycle3-2026"
    ],
-   "checked": "2026-11-04T01:51:25",
-   "status": 403,
+   "checked": "2026-11-07T01:51:01",
+   "status": 200,
    "dates": [
     "2026-08-04",
     "2026-08-19",
@@ -1895,25 +1878,47 @@
     "2026-10-14",
     "2027-01-12"
    ],
-   "fail_streak": 1
+   "rfp": [
+    "A and FAQs Use the Application Readiness Checklist Submit a Letter of Intent (LOI) through PCORI Connect . All new and returning applicants will use the new PCORI Con",
+    "Agenda comprises a set of Topic Themes that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
+    "Applicant Town Hall Aug. 19, 2026; 1 - 2 pm (ET) View Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Appl",
+    "CORI has launched a new portal, PCORI Connect, to apply for funding opportunities. Apply Here With this PCORI Funding Announcement (PFA), PCORI aims to fund studies that a",
+    "Funding Announcement -- Cycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inf",
+    "Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process Wh",
+    "Us Events Explore Our Portfolio Frequently Asked Questions Funding Opportunities PCORI Archive PCORI News Hub Topics Sign up for updates X Facebook Instagram LinkedIn You",
+    "We Fund Research Project Agenda Topic Themes Inform Focused Funding Opportunities 2027 Research Project Agenda Topic Themes 2026 Research Project Agenda Topic Themes PCORn",
+    "conditions faced by the U.S. population that inform focused funding opportunities for patient-centered comparative clinical effectiveness research (CER) through a series o",
+    "earch PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Research Funding Process What You Need to Know to App",
+    "ement in Patient-Centered CER Methods To Support the Use of Real-World Data (RWD) in Multi-Site Patient-Centered CER Methods To Improve the Use of Artificial In",
+    "ers Contact Us Search Search Site Submit Close Search PCORI Funding Opportunities Funding Opportunities All Funding Opportunities What &amp; Who We Fund PCORI&#039;s Resea",
+    "ess Procurement Opportunities Provide Input Leadership Home Funding Opportunities Improving Methods for Conducting Patient-Centered Comparative Clinical Effectiveness Rese",
+    "ew Event Letter of Intent Deadline Sept. 9, 2026, 5 pm (ET) Letter of Intent Status Notification Oct. 14, 2026 Application Deadline Jan. 12, 2027, 5 pm (ET) Merit Rev",
+    "l Policy This policy allows applicants who have submitted a Letter of Intent (LOI) and are invited to submit a full application to defer their application submission",
+    "ns Aug. 4, 2026 Applicant Town Hall Aug. 19, 2026; 1pm (ET) Letter of Intent (LOI) Deadline Sept. 9, 2026; 5 pm (ET) LOI Status Notification Oct. 14, 2026 Application",
+    "oundational Expectations Benefits of Engagement in Research Real-World Examples by Foundational Expectation Frequently Asked Questions Promotional Toolkit Why P",
+    "s in Research PCORI’s Portfolio of Funded Research Upcoming Funding Opportunities Population Insights Reports Powered by PCORnet ® Download Full Announcement Key Dates Onl",
+    "ycle 3 2026 Research Cycle 3 2026 Funding Opportunities All Funding Opportunities What &amp; Who We Fund Research Project Agenda Topic Themes Inform Focused Funding Opport"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
   },
   "https://ir.arvinas.com/": {
    "ids": [
     "arvinas-investigator-sponsored-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [
     "2026-09-16",
     "2026-10-07"
    ],
-   "fail_streak": 15
+   "fail_streak": 16
   },
   "https://medical.menarinistemline.com/": {
    "ids": [
     "menarini-stemline-iss"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1981,7 +1986,7 @@
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -1998,7 +2003,7 @@
    "ids": [
     "olema-oncology-iss"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2023,7 +2028,7 @@
    "ids": [
     "boehringer-ingelheim-iis"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2043,7 +2048,7 @@
    "ids": [
     "sermonix-pharmaceuticals-collaboration"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2056,25 +2061,25 @@
    "ids": [
     "stand-up-to-cancer-team-and-catalyst"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 502,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://standuptocancer.org/what-we-do/scientific-initiatives/": {
    "ids": [
     "su2c-catalyst"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 502,
    "dates": [],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://thehopefoundation.org/funding-opportunities/": {
    "ids": [
     "hope-foundation-swog-trial-support"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2085,7 +2090,7 @@
    "ids": [
     "hope-foundation-swog-seed-fund"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-07-01"
@@ -2098,7 +2103,7 @@
    "ids": [
     "hope-foundation-swog-impact-award"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2112,16 +2117,16 @@
    "ids": [
     "abbvie-investigator-initiated-studies"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [],
-   "fail_streak": 44
+   "fail_streak": 45
   },
   "https://www.astrazeneca.com/partnering/externally-sponsored-scientific-research.html": {
    "ids": [
     "astrazeneca-esr"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2213,7 +2218,7 @@
    "ids": [
     "cri-clinical-innovator"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2227,10 +2232,10 @@
    "ids": [
     "daiichi-sankyo-esr-iis"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
-    "2026-11-04"
+    "2026-11-07"
    ],
    "rfp": [],
    "rfp_v": 2,
@@ -2241,7 +2246,7 @@
     "genentech-investigator-initiated-studies",
     "genentech-roche-iss"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2252,7 +2257,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2271,16 +2276,16 @@
    "ids": [
     "lilly-investigator-initiated-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [],
-   "fail_streak": 44
+   "fail_streak": 45
   },
   "https://www.novartis.com/healthcare-professionals/investigator-initiated-trials-studies-clinical-and-investigator-initiated-research-non-clinical": {
    "ids": [
     "novartis-investigator-initiated-trials"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2332,7 +2337,7 @@
     "pfizer-competitive-grants-program",
     "pfizer-atirmociclib-breast-cancer-rfp-2027"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [
     "2026-05-26",
@@ -2350,22 +2355,22 @@
     "2026-09-30",
     "2026-10-19"
    ],
-   "fail_streak": 25
+   "fail_streak": 26
   },
   "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research": {
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [],
-   "fail_streak": 23
+   "fail_streak": 24
   },
   "https://misp-investigator-studies.com/areas-of-interest": {
    "ids": [
     "merck-investigator-studies-program"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2378,7 +2383,7 @@
    "ids": [
     "gilead-external-sponsored-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2392,7 +2397,7 @@
     "merck-investigator-studies-program",
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2410,7 +2415,7 @@
    "ids": [
     "agendia-flex-registry-substudies"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2455,7 +2460,7 @@
    "ids": [
     "merck-misp-sac-tmt-iisp-2026"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-11-30"
@@ -2466,7 +2471,6 @@
     "A analysis should be conducted with a validated, commercial ctDNA assay vendor (can also be research-use only (RUO). ctDNA can be used to detect mutations",
     "A assays run in CLIA/CAP (or equivalent) facilities. Use of ctDNA for clinical decision making must have a regulatory path forward and the investigator ass",
     "A to predict or confirm surgical outcomes Studies utilizing ctDNA to support clinical data to guide initiation or adjust treatment in alignment with one of",
-    "CLC (treatments with different payloads) MISP Translational Areas of Interest It is strongly encouraged to collect and analyze samples at confirmed radiological/clinic",
     "MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are currently accepting proposals for the sac-TMT Investigator-Initi",
     "Sacituzumab Tirumotecan (sac-TMT/MK-2870) Loading content… Areas of Interest for Sacituzumab Tirumotecan (sac-TMT/MK-2870) We are currently accepting proposals for th",
     "Therefore, we will not be able to accept MISP proposals for sac-TMT from these regions. US Submission: Please comply with the timelines outlined below when s",
@@ -2495,9 +2499,9 @@
     "ments an assessment of patient risk and a rationale for how ctDNA findings will be weighted in decision-making; for on-treatment decisions, studies should",
     "mples only. Studies of mechanisms to overcome resistance to sac-TMT either alone or in combination with pembrolizumab. Studies should focus on sac-TMT effect",
     "of response and/or resistance to approved, standard-of-care antibody-drug conjugates (ADCs). Note: On a per project basis, these should be focused on a single tumor type rat",
+    "olizumab in SCLC in 1L or 1L maintenance MISP Translational Areas of Interest It is strongly encouraged to collect and analyze samples at confirmed radiological/clinic",
     "on, MRD) for study inclusion decisions; in these cases, the ctDNA assay must be a commercial validated assay for the biomarker(s) of interest performed in",
     "onal Studies of mechanisms of response and/or resistance to sac-TMT either alone or in combination with pembrolizumab. Studies should focus on sac-TMT effect",
-    "osimertinib for the treatment of EGFRm in early-stage NSCLC Sac-TMT in combination with pembrolizumab for the treatment of early-stage NSCLC Studies of monot",
     "peutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get submission materials Belzutifan (MK-6482) Calderasib",
     "ry Chronic Obstructive Pulmonary Disease (COPD) Therapeutic areas of interest & submission materials Solid tumor Areas of Interest Select a compound to review and get",
     "s into possible mechanisms of response and/or resistance to sac-TMT Studies utilizing preclinical mouse/patient-derived xenograft (PDX) models, to identify c",
@@ -2515,7 +2519,7 @@
    "ids": [
     "bms-independent-research-isr"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2536,7 +2540,7 @@
    "ids": [
     "eisai-investigator-initiated-studies"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2559,7 +2563,7 @@
    "ids": [
     "rising-tide-ccr-open-call"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-11-23",
@@ -2576,7 +2580,7 @@
    "ids": [
     "arpah-active-programs-fit-check"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2639,7 +2643,7 @@
    "ids": [
     "puma-biotechnology-ist"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2653,7 +2657,7 @@
    "ids": [
     "nih-lrp-clinical-research-l30-fy2027"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -2795,7 +2799,7 @@
    "ids": [
     "hologic-grant-program"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2817,19 +2821,19 @@
    "ids": [
     "bslmc-macdonald-research-fund"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 0,
    "dates": [
     "2026-08-07",
     "2026-11-09"
    ],
-   "fail_streak": 7
+   "fail_streak": 8
   },
   "https://pardeefoundation.org/how-to-apply/": {
    "ids": [
     "elsa-pardee-foundation-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2840,7 +2844,7 @@
    "ids": [
     "gilead-research-scholars-solid-tumors-us"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-07-14",
@@ -2858,7 +2862,7 @@
    "ids": [
     "nih-pragmatic-trials-health-care-systems-par-28-010"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-04-29",
@@ -2881,7 +2885,7 @@
    "ids": [
     "hope-foundation-swog-career-engagement-award"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2894,7 +2898,7 @@
    "ids": [
     "hope-foundation-coltman-fellowship"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -2907,20 +2911,20 @@
    "ids": [
     "nia-beeson-k76-par-27-112"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 0,
    "dates": [
     "2026-10-01",
     "2026-11-10",
     "2026-12-15"
    ],
-   "fail_streak": 3
+   "fail_streak": 4
   },
   "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/clinician-scientist-development-grant.html": {
    "ids": [
     "acs-clinician-scientist-development-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2931,7 +2935,7 @@
    "ids": [
     "acs-mission-boost-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2942,7 +2946,7 @@
    "ids": [
     "acs-research-scholar-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -2953,7 +2957,7 @@
    "ids": [
     "cri-clip-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-12-01",
@@ -2971,7 +2975,7 @@
    "ids": [
     "damon-runyon-physician-scientist-training-award"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-12-01"
@@ -3002,7 +3006,7 @@
    "ids": [
     "jazz-investigator-sponsored-trials"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3032,7 +3036,7 @@
    "ids": [
     "neogenomics-investigator-initiated-collaborations"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3045,7 +3049,7 @@
    "ids": [
     "blavatnik-national-awards-young-scientists"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-11-11"
@@ -3058,7 +3062,7 @@
    "ids": [
     "cprit-texas-regional-training-award-r272-trta"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "e2ad3018a41b0ae6",
@@ -3069,7 +3073,7 @@
    "ids": [
     "cprit-trec"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "05fee5630e2db591",
@@ -3080,7 +3084,7 @@
    "ids": [
     "cprit-cia"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "cf1501007c23fb98",
@@ -3091,7 +3095,7 @@
    "ids": [
     "cprit-cpra"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "85d0171a745f8ea6",
@@ -3102,7 +3106,7 @@
    "ids": [
     "cprit-iira-eoc"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "88597fe00eefa61a",
@@ -3113,7 +3117,7 @@
    "ids": [
     "cprit-rtawd"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "57d3f549f3b030ea",
@@ -3124,7 +3128,7 @@
    "ids": [
     "cprit-ctna"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "355c3a73c4e3eb61",
@@ -3135,7 +3139,7 @@
    "ids": [
     "cprit-rrcta"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "a36cf6397104dfa3",
@@ -3146,7 +3150,7 @@
    "ids": [
     "cprit-cfsa"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "sha": "f5ed11de96c70604",
@@ -3179,7 +3183,7 @@
    "ids": [
     "nih-lrp-focus-l70-fy2027"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2025-12-02",
@@ -3323,7 +3327,7 @@
    "ids": [
     "natera-signatera-iit-collaboration"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3395,10 +3399,10 @@
    "ids": [
     "myriad-precise-mrd-research-collaboration"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
-    "2026-11-03"
+    "2026-11-06"
    ],
    "rfp": [
     "CREA) to evaluate the maintenance of complete response with trastuzumab deruxtecan (T-DXd) in HER2-positive advanced or metastatic breast cancer patients and whether ctDNA",
@@ -3435,7 +3439,7 @@
    "ids": [
     "nih-bridge2ai-stage2-u24-rfa-rm-28-010"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-07-08",
@@ -3453,7 +3457,7 @@
    "ids": [
     "exact-sciences-research-grants"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3475,7 +3479,7 @@
    "ids": [
     "guardant-health-research-collaborations"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3488,7 +3492,7 @@
    "ids": [
     "astrazeneca-open-innovation"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -3499,7 +3503,7 @@
    "ids": [
     "tersera-investigator-initiated-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3512,7 +3516,7 @@
    "ids": [
     "foundation-medicine-research-collaborations"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3539,16 +3543,16 @@
    "ids": [
     "bayer-investigator-institution-initiated-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 403,
    "dates": [],
-   "fail_streak": 18
+   "fail_streak": 19
   },
   "https://www.nrgoncology.org/Home/News/Post/ncorp-pilot-project-awardees/": {
    "ids": [
     "nrg-ncorp-pilot-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3563,7 +3567,7 @@
    "ids": [
     "zymeworks-investigator-research"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3578,7 +3582,7 @@
    "ids": [
     "nci-ctep-career-development-loi-crdl"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-07-26"
@@ -3594,7 +3598,7 @@
    "ids": [
     "hcrn-concept-submission-support"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3607,7 +3611,7 @@
    "ids": [
     "nih-parent-r35-investigator-focused-par-28-037"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-07-30",
@@ -3627,7 +3631,7 @@
    "ids": [
     "ecog-acrin-combomatch-substudy-concept"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3641,7 +3645,7 @@
    "ids": [
     "aim-ahead-clinicians-leading-ingenuity-ai-quality-fellowship"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2026-02-03",
@@ -3674,12 +3678,9 @@
    "ids": [
     "uthealth-tx-apcd-research-data-access"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06",
     "2026-11-07",
     "2026-11-10",
     "2026-11-11",
@@ -3689,6 +3690,8 @@
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
+    "2026-11-23",
+    "2026-11-24",
     "2026-11-30",
     "2026-12-08",
     "2026-12-09"
@@ -3701,7 +3704,7 @@
    "ids": [
     "thermo-fisher-oncomine-clinical-research-grant"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3721,7 +3724,7 @@
    "ids": [
     "gsk-investigator-sponsored-studies-supported-collaborative"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -3750,7 +3753,7 @@
    "ids": [
     "conquer-cancer-global-oncology-yia"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [],
@@ -3761,7 +3764,7 @@
    "ids": [
     "cri-lloyd-old-star-program"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [
     "2027-01-15"
@@ -3776,7 +3779,7 @@
    "ids": [
     "terri-brodeur-breast-cancer-foundation-fellowship"
    ],
-   "checked": "2026-11-04T01:51:25",
+   "checked": "2026-11-07T01:51:01",
    "status": 200,
    "dates": [],
    "rfp": [
@@ -4129,6 +4132,89 @@
     "y improved outcomes for patients with HER2-positive (HER2+) breast cancer, relapse and recurrence still occur. When HER2+ breast cancer returns after treatm",
     "ypes of cancer, however there has been limited responses in breast cancer. While the main focus of immunotherapy has been on the adaptive immune system, nam"
    ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://asco.smapply.org/prog/ACRA/": {
+   "ids": [
+    "conquer-cancer-acra-breast-cancer"
+   ],
+   "checked": "2026-11-07T01:51:01",
+   "status": 200,
+   "dates": [
+    "2026-10-27",
+    "2027-01-11"
+   ],
+   "rfp": [
+    "ccepting Letters of Intent (LOI) for the following: ACRA in Breast Cancer For more information, download the Request for Proposals (RFP) in this page . To s",
+    "g: ACRA in Breast Cancer For more information, download the Request for Proposals (RFP) in this page . To start an application, click Log-in at the top right-hand corner o"
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.aacr.org/grants/breast-cancer-research-foundation-aacr-career-development-awards/": {
+   "ids": [
+    "bcrf-aacr-career-development-award",
+    "bcrf-aacr-career-development-awards"
+   ],
+   "checked": "2026-11-07T01:51:01",
+   "status": 200,
+   "dates": [
+    "2026-12-15",
+    "2027-04-01",
+    "2027-07-01"
+   ],
+   "rfp": [
+    "000 USD Grant Term 3 Years Start of Grant Term July 1, 2027 Letter of Intent Deadline December 15, 2026 1:00 PM (ET) Letter of Intent Notification Date February 2027",
+    "27 Letter of Intent Deadline December 15, 2026 1:00 PM (ET) Letter of Intent Notification Date February 2027 Application Deadline April 1, 2027 1:00 PM (ET) Decision",
+    "Breast Cancer Research Foundation-AACR Career Development Awards | Grants | AACR × Advanced Sear",
+    "Interest: Breast Cancer Research Foundation-AACR Career... Breast Cancer Research Foundation and Lobular... Career Development Awards Back to Top",
+    "anding or nonmembers who do not apply for membership by the Letter of Intent submission deadline will be considered ineligible. Application Instructions The AACR requ",
+    "ar Targets and Cancer Therapeutics Liver Cancer San Antonio Breast Cancer Symposium Cancer Biology-informed Radioligand Therapy Lung Cancer Targeting RAS Im",
+    "ards In This Section Current Funding Opportunities Upcoming Funding Opportunities Information for Current Grantees Funded Research Overview Research Training and Fellowshi",
+    "covery, development, and application of new agents to treat breast cancer . Research that aims to advance the science of understanding cancer health dispari",
+    "ers who do not apply for membership by the Letter of Intent submission deadline will be considered ineligible. Application Instructions The AACR requires applicants to c",
+    "her Health Care Professionals > Research Funding > Grants > Breast Cancer Research Foundation-AACR Career Development Awards In This Section Current Funding",
+    "ing Partnerships Stand Up To Cancer Research Funding Impact Breast Cancer Research Foundation-AACR Career Development Awards Grant Amount $375,000 USD Grant",
+    "is in receipt of the submitted application. Description The Breast Cancer Research Foundation-AACR Career Development Awards represent a joint effort to sup",
+    "ligible must contact the AACR’s RGA before submitting their Letter of Intent. Have independent laboratory space as confirmed by their institution. Work at an academic",
+    "n-based research with direct applicability and relevance to breast cancer. The grants provide $375,000 over three years for expenses related to the research",
+    "nses. Program Guidelines Program Guidelines and Competitive Letter of Intent Instructions are available for download. Please read all program guidelines and instructi",
+    "plied. AACR Membership Requirements By the Letter of Intent submission deadline, applicants must be AACR members in the Active Membership category in good standing (dues",
+    "rant can be found in the Program Guidelines and Competitive Letter of Intent Instructions . Final determinations of eligibility will not be completed until the AACR i",
+    "rent grant ends before the start of the grant term for this funding opportunity (i.e., July 1, 2027). Also, the terms of their current grant must stipulate that the fina",
+    "rom which they applied. AACR Membership Requirements By the Letter of Intent submission deadline, applicants must be AACR members in the Active Membership category in",
+    "roposalCentral website . Program Guidelines and Competitive Letter of Intent Instructions are available in PDF format. 615 Chestnut St., 17th Floor Philadelphia, PA 1",
+    "ructions The AACR requires applicants to complete an online Letter of Intent submission by 1 p.m. ET on Tuesday, December 15, 2026, using the ProposalCentral website",
+    "sparities in racial and ethnic minorities with relevance to breast cancer will also be considered. Eligibility Criteria At the start of the grant term (July",
+    "stration (RGA) at [email protected] before submitting their Letter of Intent to confirm they will hold an eligible position. Have started their first independent facu",
+    "tion-AACR Career Development Awards In This Section Current Funding Opportunities Upcoming Funding Opportunities Information for Current Grantees Funded Research Overview",
+    "where the link block will be displayed--> Also of Interest: Breast Cancer Research Foundation-AACR Career... Breast Cancer Research Foundation and Lobular.."
+   ],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.asco.org/career-development/grants-awards/funding-opportunities/advanced-clinical-research-award": {
+   "ids": [
+    "conquer-cancer-advanced-clinical-research-award"
+   ],
+   "checked": "2026-11-07T01:51:01",
+   "status": 200,
+   "dates": [],
+   "rfp": [],
+   "rfp_v": 2,
+   "fail_streak": 0
+  },
+  "https://www.damonrunyon.org/for-scientists/application-guidelines/clinical-investigator": {
+   "ids": [
+    "damon-runyon-clinical-investigator-award"
+   ],
+   "checked": "2026-11-07T01:51:01",
+   "status": 200,
+   "dates": [
+    "2027-01-19"
+   ],
+   "rfp": [],
    "rfp_v": 2,
    "fail_streak": 0
   }
@@ -5663,8 +5749,17 @@
    "open": "11/03/2026",
    "close": "02/01/2027",
    "url": "https://www.grants.gov/search-results-detail/360551"
+  },
+  "RFA-AI-28-014": {
+   "first_seen": "2026-11-07",
+   "title": "Systems Biology of Infection and Inflammation in Chronic Diseases (U19 Clinical Trial Not Allowed)",
+   "agency": "HHS-NIH11",
+   "status": "posted",
+   "open": "11/04/2026",
+   "close": "02/18/2027",
+   "url": "https://www.grants.gov/search-results-detail/362952"
   }
  },
- "updated": "2026-11-04T01:51:25",
+ "updated": "2026-11-07T01:51:01",
  "coverage_reported": {}
 }

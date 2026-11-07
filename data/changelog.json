@@ -1,6 +1,34 @@
 {
  "entries": [
   {
+   "date": "2026-11-07",
+   "kind": "update",
+   "summary": "76 records re-verified; BCRP round 2 and RSE R50 next deadlines rolled forward, Gateway LOIs lapsed, 1 candidate promoted, 4 candidates added.",
+   "added": 1,
+   "changed": 70,
+   "retired": 0,
+   "details": [
+    "dod-bcrp-breakthrough-l1-l2-fy26-round2: next_deadline 2026-11-04 -> 2026-11-18",
+    "dod-bcrp-breakthrough-level-4-fy26: confidence projected -> verified",
+    "dod-bcrp-clinical-research-extension-fy26-round2: next_deadline 2026-11-04 -> 2026-11-18",
+    "gateway-ecog-acrin-joint-program: next_deadline 2026-11-06 -> None",
+    "gateway-ecog-acrin-joint-program: deadline_status open -> closed-projected",
+    "gateway-nci-spore-p20-program: next_deadline 2026-11-06 -> None",
+    "gateway-nci-spore-p20-program: deadline_status open -> closed-projected",
+    "gateway-traditional-grant-program: next_deadline 2026-11-06 -> None",
+    "gateway-traditional-grant-program: deadline_status open -> closed-projected",
+    "nih-rse-r50: next_deadline 2026-11-04 -> 2026-12-04",
+    "esmo-clinical-and-translational-research-unit-visits: confidence verified -> projected",
+    "lilly-investigator-initiated-research: confidence -> unverified (page failing 3+ runs, unread)",
+    "pfizer-investigator-sponsored-research: confidence -> unverified (page failing 3+ runs, unread)",
+    "promoted candidate rice-synthx-duncan-ccc-synthx-dldccc-cancer-seed-grant (Rice SynthX/DLDCCC seed grant; no open call)",
+    "nci-r50-research-specialist: clinician R50 renumbered PAR-27-089 -> PAR-28-063, posted on Grants.gov 2026-11-03; no application due date read, dates stay null",
+    "discovery: +4 pending candidates (Rice SynthX duplicate rejected as repeat)",
+    "BCRP round 2 (Breakthrough L1/L2, Clinical Research Extension): LOI 2026-11-04 has passed; next_deadline rolled to the 2026-11-18 application date; Gateway LOI 2026-11-06 passed, no new date posted",
+    "unreadable this run (no change): Lilly, Pfizer ISR, AbbVie, Bayer, Komen, BCM ORIT pages, Cloudflare-blocked sponsors"
+   ]
+  },
+  {
    "date": "2026-11-04",
    "kind": "update",
    "summary": "157 records re-verified; ACRA and BCRF-AACR 2027 cycles posted, 2 records retired, 2 lapsed dates cleared, no new candidates.",
