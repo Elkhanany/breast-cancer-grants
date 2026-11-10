@@ -1,6 +1,22 @@
 {
  "entries": [
   {
+   "date": "2026-11-10",
+   "kind": "update",
+   "summary": "78 records re-verified; no deadline moved; 1 lapsed date cleared; 2 duplicate discovery finds rejected.",
+   "added": 0,
+   "changed": 46,
+   "retired": 0,
+   "details": [
+    "bslmc-macdonald-research-fund: next_deadline 2026-11-09 -> null (lapsed; page unreadable, no new cycle confirmed); deadline_status open -> closed-projected",
+    "dod-bcrp-transformative-consortium-award-fy26: confidence projected -> verified (announcement PDF states 2026-06-12 / 2026-09-30)",
+    "arpah-active-programs-fit-check: REST and STREAM no longer listed; FASTPASS, ASCENT-IBO, TIGAR accept select submissions only; TIGAR group 2 proposal due 2027-02-05",
+    "lilly-investigator-initiated-research, pfizer-investigator-sponsored-research: confidence unverified -> projected after a successful read",
+    "Unreadable this run (unchanged): bcm-interim-funding-program, bcm-junior-faculty-seed-award, boehringer-ingelheim-iis, helis-foundation-bcm-project-funding, lawrence-foundation-houston, bcm-breast-spore-drp, bcm-debakey-excellence-research-award, bcm-cibr-seed-grant, dldccc-btpv-rfa, komen-aspire-supplement",
+    "Discovery: 2 finds were repeats of existing candidates (UTHealth CCTS pilot, AIM-AHEAD fellowship) and were recorded as rejected duplicates; BCM pages unreachable to discovery agents"
+   ]
+  },
+  {
    "date": "2026-11-07",
    "kind": "update",
    "summary": "76 records re-verified; BCRP round 2 and RSE R50 next deadlines rolled forward, Gateway LOIs lapsed, 1 candidate promoted, 4 candidates added.",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07",
+ "generated": "2026-11-10",
  "candidates": [
   {
    "id": "bslmc-macdonald-research-fund",
@@ -10648,6 +10648,141 @@
     "confidence": "verified",
     "evidence": "\"The CCTS Pilot Projects program annually awards grants of up to $50,000 to be used as pilot funding initiatives that support clinical and translational research.\" \"Basic-science studies and studies for which the applicant currently has funding will not be considered.\" \"The 2026 deadline has passed. Watch this page to participate in the next round of submissions.\" The collaborator list names UTHealth Houston schools, MD Anderson, UT Tyler, UT Rio Grande Valley, Rice, Texas Tech Health El Paso and Memorial Hermann; BCM does not appear.",
     "fit": 38
+   }
+  },
+  {
+   "id": "uthealth-ccts-pilot-projects-program",
+   "decision": "reject",
+   "provides": "funding",
+   "provenance": {
+    "lens": "tmc-local",
+    "found_on": "2026-11-10",
+    "run": "discovery",
+    "finder_summary": "A small, recurring Houston pilot fund that explicitly supports preclinical data for investigator-initiated trials and clinical/translational work, and rewards a UTHealth, MD Anderson or Rice collaborator, which suits the PI's trial and real-world-data angles.",
+    "proven": "Annual recurring program (2026-2027 RFA exists; the page describes it as an annual program). I did not find an awardee list."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": false,
+    "duplicate_of": "uthealth-houston-ccts-pilot-projects",
+    "reason": "Shares its URL with candidate(s) uthealth-houston-ccts-pilot-projects under a different program name; step 3 checks it is a distinct call before promoting. I read the page through WebFetch and a headless-browser render, and the two agreed. The program exists, is annual, and the 2026 round is closed. I could not confirm the 2027 date, the RFA text, duration, indirects, whether BCM-led applications are allowed, or whether the junior-faculty criteria fit a year-7 assistant professor. The finder's claimed Feb 16, 2026 deadline, the July 1 start and the named contact (Charmaine E. Wilson Martin) do not appear on the page. The page lists Yuko Yamamura as program director. No held record matches this mechanism: ctph-pilot-awards is BCM/UH's separate CTSA program, and the BCM Duncan pilot is a different program."
+   },
+   "record": {
+    "id": "uthealth-ccts-pilot-projects-program",
+    "sponsor": "UTHealth CCTS",
+    "sponsor_full": "UTHealth Houston Center for Clinical and Translational Sciences (NCATS CTSA hub)",
+    "program": "CCTS Pilot Projects Program (Collaborative Research Pilot Project Awards, junior faculty / preclinical pilots for investigator-initiated trials)",
+    "url": "https://ww2.uth.edu/ccts/education-training/pilot-projects",
+    "status": "active",
+    "first_seen": "2026-11-10",
+    "last_verified": "2026-11-10",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "institutional",
+    "tier": "early-career",
+    "focus": [
+     "pilot",
+     "translational",
+     "clinical",
+     "iit"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": 50000,
+    "award_text": "Grants of up to $50,000, awarded annually, as pilot funding for clinical and translational research. The page gives no duration or indirect-cost terms.",
+    "duration_years": null,
+    "indirects": "Not stated on the page",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "February (unconfirmed; the 2026 RFA was reported at 2026-02-16 from a search snippet that was not fetched)",
+    "verdict": "needs-check",
+    "flags": [
+     "bcm-not-listed-partner",
+     "next-cycle-not-posted",
+     "rfa-not-linked-on-page",
+     "2026-deadline-passed",
+     "eligibility-undefined-on-page",
+     "contact-differs-from-finder"
+    ],
+    "track_gate": null,
+    "career_cap": "Not stated. The page names \"junior faculty\" for one award type without defining it.",
+    "limited_submission": false,
+    "eligibility": "The page describes three award types: junior faculty pilot awards for independent clinical and translational research, hypothesis-driven preclinical pilot awards that generate preliminary data for investigator-initiated trials, and community engagement pilot awards for community partners teamed with academic investigators. Basic-science studies and studies for which the applicant already has funding are not considered. Proposals with collaborative teams from CCTS institutions are encouraged: UTHealth Houston schools, MD Anderson, UT Tyler, UT RGV, Rice, Texas Tech Health El Paso and Memorial Hermann. BCM is not listed. The page does not say whether a non-partner PI can lead, defines no applicant criteria, and states no bar on clinical duties. The PI is a BCM assistant professor, so eligibility to lead is doubtful and a partner co-lead would likely be needed.",
+    "notes": "This is the UTHealth Houston CTSA hub's annual pilot fund, with awards of up to $50,000 for clinical and translational work. One award type funds hypothesis-driven preclinical pilots that generate preliminary data for investigator-initiated trials. That fits the PI's trial angle and the Houston collaboration angle. The trap is that BCM is not among the listed CCTS institutions, and the page does not say whether an outside PI can lead. BCM's own CTSA hub, the CTPH, already runs a separate pilot program for BCM investigators, so the PI should look there first. The 2026 deadline has passed and no next-round date is posted. The page names no RFA link and no dates, so the earlier Feb 2026 deadline remains an unfetched snippet. Next step: the PI should email the program director (named on the page as Yuko Yamamura, not the contact the finder gave) to ask whether a BCM-led or BCM-co-led team is eligible. The PI should also line up a UTHealth, MD Anderson or Rice co-lead and watch the page for an early-2027 call.",
+    "confidence": "verified",
+    "evidence": "Page text: \"The CCTS Pilot Projects program annually awards grants of up to $50,000 to be used as pilot funding initiatives that support clinical and translational research. These include junior faculty pilot awards for independent clinical and translational research projects, hypothesis-driven preclinical research pilot awards to generate preliminary data for investigator-initiated trials, and community engagement pilot awards...\" It continues: \"Basic-science studies and studies for which the applicant currently has funding will not be considered. Proposals that involve collaborative teams from CCTS institutions/schools (UTHealth Houston schools, UT MD Anderson Cancer Center, UT Tyler Health Science Center, UT Rio Grande Valley, Rice University, Texas Tech Health El Paso, and Memorial Hermann Health System) are encouraged.\" Then: \"The 2026 deadline has passed. Watch this page to participate in the next round of submissions.\" Program Director: Yuko Yamamura, 713-500-2037. The page contains no RFA link and no dates.",
+    "fit": 48
+   }
+  },
+  {
+   "id": "aim-ahead-research-fellowship-program-3",
+   "decision": "reject",
+   "provides": "funding+data",
+   "provenance": {
+    "lens": "federal-adjacent",
+    "found_on": "2026-11-10",
+    "run": "discovery",
+    "finder_summary": "A data-plus-funding route for angle 1 (EHR, ctDNA/MRD and registry AI/ML work) and angle 4 (equity), with cancer outcomes named in the scope, and a mentor route for the PI's trainees if the PI is outside the 10-year window.",
+    "proven": "Four cohorts since September 2022, with awardee distribution maps by hub on the program page; a 'Year 4 Program Awardees and Fellows' announcement on aim-ahead.net. Cohort 4 mentor call: Oct 2025."
+   },
+   "verification": {
+    "real": true,
+    "active": true,
+    "eligible_plausible": false,
+    "duplicate_of": "aim-ahead-research-fellowship-program-2",
+    "reason": "Shares its URL with candidate(s) aim-ahead-research-fellowship, aim-ahead-research-fellowship-program, aim-ahead-research-fellowship-program-2 under a different program name; step 3 checks it is a distinct call before promoting. The program page was fetched and confirms the program exists, the eligibility window, the scope and Cohort 4 status. Dates, award amounts, mentor terms and Cohort 5 could not be confirmed because the funding-opportunity portal requires login. The claimed 2024 dates, Cohort 4 mentor call and $10,000 mentor subaward come from the finder and are unverified here, so confidence is unverified. The PI's degree date is unknown."
+   },
+   "record": {
+    "id": "aim-ahead-research-fellowship-program-3",
+    "sponsor": "AIM-AHEAD",
+    "sponsor_full": "NIH AIM-AHEAD Coordinating Center (AI/ML Consortium to Advance Health Equity and Researcher Diversity), NIH Common Fund OT2",
+    "program": "AIM-AHEAD Research Fellowship Program (fellow track; mentor track also open)",
+    "url": "https://www.aim-ahead.net/programs/research-fellowship-program/",
+    "status": "active",
+    "first_seen": "2026-11-10",
+    "last_verified": "2026-11-10",
+    "retired_on": null,
+    "retired_reason": null,
+    "category": "government",
+    "tier": "early-career",
+    "focus": [
+     "computational",
+     "career-development",
+     "equity"
+    ],
+    "breast_specific": false,
+    "er_her2_fit": "low",
+    "award_usd": null,
+    "award_text": "Fellow stipend not stated on the primary page. The program bundles funding with AIM-AHEAD training, mentoring and data access (OCHIN, MedStar, All of Us, AWS, BioData Catalyst). The mentor subaward (up to $10,000 plus 8% indirects) is not on the primary page and was not verified.",
+    "duration_years": 1,
+    "indirects": "Not stated on the primary page. The finder's claim of 8% indirects on the mentor subaward is unverified.",
+    "loi_deadline": null,
+    "full_deadline": null,
+    "next_deadline": null,
+    "deadline_status": "not-posted",
+    "cycle": "annual",
+    "typical_month": "Spring release (April); applications due about June (2024 pattern, not confirmed for later cohorts)",
+    "verdict": "needs-check",
+    "flags": [
+     "cohort-5-call-not-posted",
+     "ten-year-degree-window-likely-excludes-PI",
+     "mentor-route-unverified",
+     "stipend-not-stated",
+     "funding-opportunity-portal-login-gated",
+     "sibling-of-held-CLINAQ-not-duplicate"
+    ],
+    "track_gate": null,
+    "career_cap": "Within 10 years of completing highest degree",
+    "limited_submission": false,
+    "eligibility": "The page says the program is open to early-career researchers (graduate students, postdocs, junior faculty, and others doing research outside an academic institution) within 10 years of completing their highest degree. Projects apply AI/ML to biomedical, clinical and genomic data and align with AIM-AHEAD North Star III (behavioral health, cardiometabolic health, cancer outcomes). Citizenship and clinical-duty rules are not on the page. The PI's MD completion year is not known, so the 10-year window must be checked; fellowship ended 2019-2020, so the MD was probably earned before about 2016, which likely puts the PI outside the window. Mentor eligibility (MD/PhD, US status) is not on this page.",
+    "notes": "The AIM-AHEAD Research Fellowship is an NIH Common Fund funded program pairing AI/ML training, mentoring and datasets with funding for early-career researchers. The primary page confirms it is on Cohort 4 and gives no Cohort 5 date, stipend or deadline; the funding-opportunity listings sit behind a login. It fits the PI's computational and equity angles, and cancer outcomes are named in the scope. The main trap is the 10-years-from-highest-degree cap: with fellowship completed 2019-2020, the PI's MD is probably more than 10 years old, so the PI should confirm the exact degree date. Cancer is only one of three North Star III areas, so the project needs an explicit cancer-outcomes framing. If the PI is outside the window, the mentor track for a BCM junior fellow may be a route, but its terms were not confirmed on the primary page. The PI should create an AIM-AHEAD portal account or submit a helpdesk ticket to see the Cohort 5 call. Do not treat this as a duplicate of the held CLINAQ fellowship, which is a separate clinician-focused mechanism.",
+    "confidence": "unverified",
+    "evidence": "\"is currently on Cohort 4\" and \"within 10 years of completing their highest degree\" (early-career: graduate students, postdocs, junior faculty, others outside academia); \"aligned with AIM-AHEAD North Star (III)\" covering behavioral health, cardiometabolic health and cancer outcomes; Cohort 1 launched September 2022. Page lists no dates, stipend, indirects or Cohort 5 details. Funding opportunities page redirects to a login.",
+    "fit": 60
    }
   }
  ]
