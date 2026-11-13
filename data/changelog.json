@@ -1,6 +1,32 @@
 {
  "entries": [
   {
+   "date": "2026-11-13",
+   "kind": "update",
+   "summary": "87 records re-verified; CPRIT extended seven FY27 Cycle 2 deadlines from 2026-11-18 to 2026-12-08; 2 deadlines rolled forward; 4 lapsed dates cleared; 4 records added.",
+   "added": 4,
+   "changed": 36,
+   "retired": 0,
+   "details": [
+    "bslmc-macdonald-research-fund: full_deadline 2026-11-09 -> 2027-01-07, next_deadline None -> 2027-01-07; deadline_status closed-projected -> open; confidence unverified -> verified (two independent reads agree)",
+    "nia-gemsstar-r03: full_deadline 2026-11-10 -> 2027-06-16, next_deadline 2026-11-10 -> 2027-06-16; deadline_status open -> open; confidence verified -> verified (two independent reads agree)",
+    "mary-kay-ash-foundation-cancer-research: deadline_status upcoming -> open (application window opened November 1; closes 2027-02-01, date still projected)",
+    "boehringer-ingelheim-iis: confidence unverified -> verified after a successful read of both sponsor pages",
+    "nci-spore-p50-2027-2029, pcori-digital-health-technologies-cycle1-2027: award terms updated from the posted announcements; dates unchanged",
+    "CPRIT FY27 Cycle 2 extended: cprit-cia, cprit-cpra, cprit-ctna, cprit-cfsa, cprit-rtawd, cprit-trec, cprit-texas-regional-training-award-r272-trta full_deadline 2026-11-18 -> 2026-12-08 (CPRIT listing revised 11/12/2026 and the grants platform page agree; the 9/16/26 RFA PDFs still print November 18)",
+    "arpah-active-programs-fit-check: next_deadline 2026-11-10 -> null (lapsed; no new cycle confirmed: the two reads picked different ARPA-H programs (SURPASS 2026-11-30 / 2027-01-22 vs TIGAR 2026-12-08 / 2027-02-05)); deadline_status open -> closed-projected",
+    "nia-beeson-k76-par-27-112: next_deadline 2026-11-10 -> null (lapsed; no new cycle confirmed: one read gives 2027-06-12 from the NOFO, the other only the passed 2026-11-10 on the AFAR page); deadline_status open -> closed-projected",
+    "nci-imat-r33-advanced: next_deadline 2026-11-10 -> null (lapsed; no new cycle confirmed: RFA-CA-27-002 is closed; successor RFA-CA-28-002 is only a forecast (estimated 2027-06-04)); deadline_status open -> closed-projected",
+    "nci-imat-r61-early-stage: next_deadline 2026-11-10 -> null (lapsed; no new cycle confirmed: RFA-CA-27-001 is closed; successor RFA-CA-28-001 is only a forecast (estimated 2027-06-04)); deadline_status open -> closed-projected",
+    "Added from discovery (distinct calls on held records' pages, each re-read this run): nci-r50-clinician-scientist-par-28-063-bcm-internal-loi (BCM internal LOI 2026-11-23; NCI due 2027-02-17), doris-duke-demonstrating-health-solutions-2026 (pre-proposal 2026-11-18), rising-tide-access-award-2027 (LOI 2027-03-01; full 2027-04-30)",
+    "Promoted from candidates: alliance-foundation-special-projects-allocation (page re-read; URL updated to the Alliance's current address)",
+    "Disputed, nothing written: nci-r50-research-specialist (2027-02-17 for PAR-28-063 vs a 2026-11-20 forecast estimate for PAR-27-088)",
+    "Unreadable this run (unchanged): bcm-interim-funding-program, bcm-junior-faculty-seed-award (both URLs return 404; the DLDCCC says internal calls moved to the BCM Awards Hub)",
+    "Discovery: 21 new pending candidates; 4 more finds were repeats of existing candidates (CTPH K12, ASCI YPSA, NCI Formulary, Hope Foundation NCORP pilot) and were recorded as rejected duplicates, with the three older candidates brought up to date; 12 finds were news about held records",
+    "Crawl: 4 date signals were page date stamps or past dates ageing out, not deadline moves"
+   ]
+  },
+  {
    "date": "2026-11-10",
    "kind": "update",
    "summary": "78 records re-verified; no deadline moved; 1 lapsed date cleared; 2 duplicate discovery finds rejected.",

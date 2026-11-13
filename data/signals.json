@@ -1,65 +1,19 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-13",
  "seeded": false,
- "pages_watched": 103,
+ "pages_watched": 102,
  "signals": [
   {
    "kind": "dates_changed",
    "ids": [
-    "natera-signatera-iit-collaboration"
+    "nih-katz-esi-r01-par-25-322"
    ],
-   "url": "https://biopharma.natera.com/",
-   "dates_added": [
-    "2026-10-07"
+   "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-322.html",
+   "dates_added": [],
+   "dates_removed": [
+    "2025-10-28"
    ],
-   "dates_removed": [],
-   "detail": "+1 / -0 dates since 2026-11-07"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "natera-signatera-iit-collaboration"
-   ],
-   "url": "https://biopharma.natera.com/",
-   "lines_added": [
-    "Cancer type GI cancers Furthest phase Phase III EORTC Treat ctDNA Cancer type Breast cancer Furthest phase Phase III Archer (NRG) Cancer type Pan-tumor Fur",
-    "NA monitoring. 6 Explore more Data & Trial Solutions MIIRA™ Real-World Data (RWD) Largest multi-modal RWD platform in early-stage cancer, linking Signatera MRD",
-    "Tumor Tissue-free MRD Rapid and sensitive methylation-based ctDNA assay for metastatic settings and as a reflex from Signatera when tissue is unavailable.",
-    "ZI00018000. * First EU IVDR for solid-tumor, tumor-informed ctDNA MRD. Other tests described have been developed and their performance characteristics dete",
-    "cers Furthest phase Phase III EORTC Treat ctDNA Cancer type Breast cancer Furthest phase Phase III Archer (NRG) Cancer type Pan-tumor Furthest phase Phase I",
-    "design at every phase of development. All GI GI cancers BR Breast cancer GU GU cancers OV Ovarian cancer PT Pan-tumor Trial Phase I Phase II Phase III Appr",
-    "e Breast cancer Furthest phase Phase II SAFE-de Cancer type Breast cancer Furthest phase Phase II SIGNAL-ER 101 Cancer type Breast cancer Furthest phase Pha",
-    "e most comprehensive ecosystem of precision diagnostics and real-world data Molecular Residual Disease Assays Signatera ™ Genome Tumor-informed Ultrasensitive M",
-    "f 523 genes. Reflex liquid CGP to complement tumor-informed ctDNA monitoring. 6 Explore more Data & Trial Solutions MIIRA™ Real-World Data (RWD) Largest mu",
-    "his file. --> Biopharma Solutions MRD-Guided Trial Strategy Real-world Data Studies & Evidence Partner With Us Biopharma Solutions MRD-Guided Trial Strategy Rea",
-    "pe Breast cancer Furthest phase Phase II LEADER Cancer type Breast cancer Furthest phase Phase II DARE Cancer type Breast cancer Furthest phase Phase II SAF",
-    "presented at ESMO View Presentations Launch of AFT-NAVIGATE breast cancer trial Global, randomized, Phase III Trial evaluating Genentech&#39;s oral SERD wit"
-   ],
-   "lines_removed": [
-    "&amp; efficiency A rapid &amp; sensitive methylation-based ctDNA MRD assay for treatment response monitoring in metastatic settings and as a reflex to Sig",
-    ". 2022;167:334-341. Powles T, Kann AG, Castellano D, et al. ctDNA-Guided Adjuvant Atezolizumab in Muscle-Invasive Bladder Cancer N Engl J Med. 2025; 393:23",
-    "BZI00018000. *First EU IVDR for solid-tumor, tumor-informed ctDNA MRD. Other tests described have been developed and their performance characteristics dete",
-    "IRCULATE-NA (NRG-GI008) SAGITTARIUS STELLAR-316 EORTC Treat ctDNA Archer (NRG) MODERN (Alliance) M24-534 EMPIRE (NSABP) DECIPHER TRINITY I-SPY 2 LEADER DAR",
-    "Phase 3 SAGITTARIUS Phase 3 STELLAR-316 Phase 3 EORTC Treat ctDNA Phase 3 Archer (NRG) Phase 3 MODERN (Alliance) Phase 3 M24-534 Phase 2 EMPIRE (NSABP) Pha",
-    "design at every phase of development. All GI GI Cancers BR Breast Cancer GU GU Cancers OV Ovarian Cancer PT Pan-tumor Trial Phase I Phase II Phase III Appr",
-    "imaging Colon 10,11 JAMA Oncology 8.7 mos Median lead time Breast 12,13 Clinical Cancer Research 10.5 mos Median lead time Lung 14,15 Frontiers in Oncology",
-    "re here -&gt; Biopharma Solutions MRD-Guided Trial Strategy Real-World Data Studies &amp; Evidence Partner With Us Biopharma Solutions MRD-Guided Trial Strategy",
-    "rtner With Us Biopharma Solutions MRD-Guided Trial Strategy Real-World Data Studies &amp; Evidence Partner With Us Built for the Future of oncology drug develop",
-    "says, as of May 2026 Kurtz DM, et al. Enhanced detection of minimal residual disease by targeted sequencing of phased variants in circulating tumor DNA. Nat Biotechnol. 2021;"
-   ],
-   "detail": "+16 / -10 RFP-related passages since 2026-11-07"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "ecog-acrin-combomatch-substudy-concept"
-   ],
-   "url": "https://blog.ecog-acrin.org/?p=4294",
-   "lines_added": [
-    "on the Precision Medicine Initiative Now Enrolling: PrE1702 Real-World Data Study for Patients With EGFR-Mutated Non-Small Cell Lung Cancer Not Enrolled in Clin"
-   ],
-   "lines_removed": [],
-   "detail": "+1 / -0 RFP-related passages since 2026-11-07"
+   "detail": "+0 / -1 dates since 2026-09-28"
   },
   {
    "kind": "dates_changed",
@@ -68,12 +22,12 @@
    ],
    "url": "https://investor.myriad.com/news-releases/news-release-detail/25596/",
    "dates_added": [
-    "2026-11-09"
+    "2026-11-12"
    ],
    "dates_removed": [
-    "2026-11-06"
+    "2026-11-09"
    ],
-   "detail": "+1 / -1 dates since 2026-11-07"
+   "detail": "+1 / -1 dates since 2026-11-10"
   },
   {
    "kind": "blocked",
@@ -82,7 +36,7 @@
    ],
    "url": "https://ir.arvinas.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 17 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 18 run(s) in a row."
   },
   {
    "kind": "rfp_changed",
@@ -90,14 +44,62 @@
     "boehringer-ingelheim-iis"
    ],
    "url": "https://pro.boehringer-ingelheim.com/funding/external-research-studies",
-   "lines_added": [
+   "lines_added": [],
+   "lines_removed": [
     "Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Education Grants Submit Proposal Back Global | EN Engli",
     "es, Non-interventional studies, including observational and Real-World Evidence (RWE) studies, Non-Commercial Health Economics and Outcomes Research (HEOR) Exte",
     "glish Global | EN Logo Logo Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Education Grants Submit Prop",
     "ls Back Global | EN English Global | EN Logo Logo Logo Home Funding Opportunities Funding Opportunities Back Funding Opportunities External Research Studies Medical Educat"
    ],
-   "lines_removed": [],
-   "detail": "+4 / -0 RFP-related passages since 2026-11-07"
+   "detail": "+0 / -4 RFP-related passages since 2026-11-10"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "nih-pragmatic-trials-health-care-systems-par-28-010"
+   ],
+   "url": "https://simpler.grants.gov/opportunity/106cd2d3-4fa8-4b20-a519-4eed2b256b3c",
+   "lines_added": [
+    "specified Award min. Not specified Award max. Not specified Funding opportunity number : PAR-28-010 Cost sharing or matching requirement : No Funding instrument type : C",
+    "t dates Forecasted post date : November 24, 2026 Forecasted application due date : February 23, 2027 Forecasted award date : December 1, 2027 Forecasted project star"
+   ],
+   "lines_removed": [
+    "ding -- Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-28-010 Cost sharing or matching requirement : No Funding instrument type : C",
+    "orecasted Estimated Post Date : November 24, 2026 Estimated Application Due Date : February 23, 2027 Estimated Due Date Description : Not available Estimated Award D"
+   ],
+   "detail": "+2 / -2 RFP-related passages since 2026-11-10"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "nci-spore-p50-2027-2029"
+   ],
+   "url": "https://simpler.grants.gov/opportunity/6044773a-6221-44e4-81e9-e61c47d4119a",
+   "lines_added": [
+    "Grants.gov Summary Jump to documents Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications for P50 Research Center",
+    "ards : 10 Award min. Not specified Award max. Not specified Funding opportunity number : PAR-28-022 Cost sharing or matching requirement : No Funding instrument type : G"
+   ],
+   "lines_removed": [
+    "ding 10 Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-28-022 Cost sharing or matching requirement : No Funding instrument type : G",
+    "ov Description Jump to all documents Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) invites applications for P50 Research Center"
+   ],
+   "detail": "+2 / -2 RFP-related passages since 2026-10-15"
+  },
+  {
+   "kind": "rfp_changed",
+   "ids": [
+    "nih-parent-r35-investigator-focused-par-28-037"
+   ],
+   "url": "https://simpler.grants.gov/opportunity/6ca421f6-5577-4c78-a736-cf2c3b6bfe72",
+   "lines_added": [
+    "ortant dates Forecasted post date : May 27, 2027 Forecasted application due date : October 4, 2027 Forecasted award date : July 1, 2028 Forecasted project start date",
+    "specified Award min. Not specified Award max. Not specified Funding opportunity number : PAR-28-037 Cost sharing or matching requirement : No Funding instrument type : G"
+   ],
+   "lines_removed": [
+    "-- Forecasted Estimated Post Date : May 27, 2027 Estimated Application Due Date : October 4, 2027 Estimated Due Date Description : Not available Estimated Award Dat",
+    "ding -- Expected awards $-- Award Minimum $-- Award Maximum Funding opportunity number : PAR-28-037 Cost sharing or matching requirement : No Funding instrument type : G"
+   ],
+   "detail": "+2 / -2 RFP-related passages since 2026-11-10"
   },
   {
    "kind": "dates_changed",
@@ -105,15 +107,14 @@
     "uthealth-tx-apcd-research-data-access"
    ],
    "url": "https://sph.uth.edu/research/centers/center-for-health-care-data/texas-all-payor-claims-database",
-   "dates_added": [
-    "2026-12-01",
-    "2026-12-02",
-    "2026-12-03"
-   ],
+   "dates_added": [],
    "dates_removed": [
-    "2026-11-07"
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-12-02"
    ],
-   "detail": "+3 / -1 dates since 2026-11-07"
+   "detail": "+0 / -4 dates since 2026-11-10"
   },
   {
    "kind": "unreachable",
@@ -122,7 +123,7 @@
    ],
    "url": "https://standuptocancer.org/science/grant-opportunities/",
    "http": 502,
-   "detail": "unreachable (502); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "unreachable (502); a model must read this page. Failed 6 run(s) in a row."
   },
   {
    "kind": "unreachable",
@@ -131,7 +132,7 @@
    ],
    "url": "https://standuptocancer.org/what-we-do/scientific-initiatives/",
    "http": 502,
-   "detail": "unreachable (502); a model must read this page. Failed 5 run(s) in a row."
+   "detail": "unreachable (502); a model must read this page. Failed 6 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -140,91 +141,7 @@
    ],
    "url": "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 46 run(s) in a row."
-  },
-  {
-   "kind": "unreachable",
-   "ids": [
-    "nia-beeson-k76-par-27-112"
-   ],
-   "url": "https://www.afar.org/grants/beeson",
-   "http": 0,
-   "detail": "unreachable (0); a model must read this page. Failed 5 run(s) in a row."
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "conquer-cancer-advanced-clinical-research-award"
-   ],
-   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/advanced-clinical-research-award",
-   "dates_added": [
-    "2026-10-20",
-    "2026-10-28",
-    "2027-01-11",
-    "2027-01-14",
-    "2027-03-11",
-    "2027-07-01",
-    "2030-06-30"
-   ],
-   "dates_removed": [],
-   "detail": "+7 / -0 dates since 2026-11-07"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "conquer-cancer-advanced-clinical-research-award"
-   ],
-   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/advanced-clinical-research-award",
-   "lines_added": [
-    "d in accordance to the requirements and instructions of the Request for Proposals (RFP) . All application materials must be in English and must be submitted through the Ap",
-    "donors. Supporters of Active ACRAs Awarded in Prior Years: Breast Cancer Research Foundation® This list reflects commitments as of October 20, 2026. Key Da",
-    "e Conquer Cancer Advanced Clinical Research Award (ACRA) in Breast Cancer provide s funding to independent mid-career investigators to conduct original brea",
-    "earch Award Advanced Clinical Research Award OPEN Key Dates Application Open: October 28, 2026 Letter of Intent Deadline: January 11, 2027 Application Deadline: March",
-    "ents of $150,000 . Conquer Cancer is awarding two ACRA s in Breast Cancer to the most meritorious application s evaluated for this competition . Application",
-    "line: January 11, 2027 Application Deadline: March 11, 2027 Letter of Intent Notification: January 14, 2027 Award Term: July 1, 2027 - June 30, 2030 Submit your appli",
-    "list reflects commitments as of October 20, 2026. Key Dates Application Open: October 28, 2026 Letter of Intent Deadline: January 11, 2027 Application Deadline: March",
-    "ober 20, 2026. Key Dates Application Open: October 28, 2026 Letter of Intent Deadline: January 11, 2027 Application Deadline: March 11, 2027 Letter of Intent Notifica",
-    "rch Award OPEN Key Dates Application Open: October 28, 2026 Letter of Intent Deadline: January 11, 2027 Application Deadline: March 11, 2027 Letter of Intent Notifica",
-    "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Advanced Clinical Research Award Advanced Clinical Research Award OPEN Key Dates Applic",
-    "to independent mid-career investigators to conduct original breast cancer research not currently funded. The research study must be conducted at an academic"
-   ],
-   "lines_removed": [],
-   "detail": "+11 / -0 RFP-related passages since 2026-11-07"
-  },
-  {
-   "kind": "dates_changed",
-   "ids": [
-    "conquer-cancer-global-oncology-yia"
-   ],
-   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/global-oncology-young-investigator-award",
-   "dates_added": [
-    "2026-07-01",
-    "2026-09-10",
-    "2026-10-20",
-    "2027-01-15",
-    "2027-07-01",
-    "2028-07-01"
-   ],
-   "dates_removed": [],
-   "detail": "+6 / -0 dates since 2026-11-07"
-  },
-  {
-   "kind": "rfp_changed",
-   "ids": [
-    "conquer-cancer-global-oncology-yia"
-   ],
-   "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/global-oncology-young-investigator-award",
-   "lines_added": [
-    "Payments program. Key Dates Application Open: July 1, 2026 Letter of Intent Deadline: September 10, 2026 Application Deadline: January 15, 2027 Award Term: July 1, 2",
-    "ard Global Oncology Young Investigator Award OPEN Key Dates Application Open: July 1, 2026 Letter of Intent Deadline: September 10, 2026 Application Deadline: January",
-    "in accordance with the requirements and instructions of the Request for Proposals (RFP) . All application materials must be in English and must be submitted through the Ap",
-    "r. The GO YIA is a two-step application process requiring a Letter of Intent (LOI) followed by a full proposal. Applicants whose LOI meet the eligibility criteria and",
-    "s Slides Videos Home / Career Development / Grants Awards / Funding Opportunities / Global Oncology Young Investigator Award Global Oncology Young Investigator Award OPEN",
-    "t the Sunshine Act and CMS Open Payments program. Key Dates Application Open: July 1, 2026 Letter of Intent Deadline: September 10, 2026 Application Deadline: January",
-    "tigator Award OPEN Key Dates Application Open: July 1, 2026 Letter of Intent Deadline: September 10, 2026 Application Deadline: January 15, 2027 Award Term: July 1, 2"
-   ],
-   "lines_removed": [],
-   "detail": "+7 / -0 RFP-related passages since 2026-11-07"
+   "detail": "blocked (403); a model must read this page. Failed 47 run(s) in a row."
   },
   {
    "kind": "dates_changed",
@@ -233,12 +150,12 @@
    ],
    "url": "https://www.daiichisankyo-esr.com/",
    "dates_added": [
-    "2026-11-10"
+    "2026-11-13"
    ],
    "dates_removed": [
-    "2026-11-07"
+    "2026-11-10"
    ],
-   "detail": "+1 / -1 dates since 2026-11-07"
+   "detail": "+1 / -1 dates since 2026-11-10"
   },
   {
    "kind": "blocked",
@@ -247,7 +164,7 @@
    ],
    "url": "https://www.grants-contributions.bayer.com/home/investigator-institution-initiated-research/pharmaceuticals-investigator-institution-initiated-research/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 20 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 21 run(s) in a row."
   },
   {
    "kind": "blocked",
@@ -256,41 +173,70 @@
    ],
    "url": "https://www.lillyinvestigatorresearch.com/",
    "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 46 run(s) in a row."
+   "detail": "blocked (403); a model must read this page. Failed 47 run(s) in a row."
   },
   {
-   "kind": "now_readable",
+   "kind": "rfp_changed",
    "ids": [
     "pcori-broad-pragmatic-studies-cycle3-2026"
    ],
    "url": "https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-3-2026",
-   "dates": [
-    "2026-08-04",
-    "2026-08-13",
-    "2026-09-09",
-    "2026-10-14",
-    "2027-01-12"
+   "lines_added": [
+    "ess FAQs General Awardee FAQs Hybrid Studies Invoicing FAQs Letter of Intent FAQs Letters of Support FAQs Merit Review FAQs PCORI Online FAQs Peer Review Budget and D",
+    "ic Studies &amp; PCORnet® 2022 Pilot Initiatives for Select Funding Opportunities Allowable and Unallowable Costs PCORI Connect Quick Guide Research Awards Roles: Responsi"
    ],
-   "detail": "readable again after 1 failed run(s); 5 dates on the page, no baseline to compare."
+   "lines_removed": [],
+   "detail": "+2 / -0 RFP-related passages since 2026-11-10"
   },
   {
-   "kind": "blocked",
+   "kind": "rfp_changed",
+   "ids": [
+    "pcori-improving-methods-cycle3-2026"
+   ],
+   "url": "https://www.pcori.org/funding-opportunities/announcement/improving-methods-conducting-patient-centered-comparative-clinical-effectiveness-research-pcori-funding-announcement-cycle-3-2026",
+   "lines_added": [
+    "ess FAQs General Awardee FAQs Hybrid Studies Invoicing FAQs Letter of Intent FAQs Letters of Support FAQs Merit Review FAQs PCORI Online FAQs Peer Review Budget and D",
+    "ic Studies &amp; PCORnet® 2022 Pilot Initiatives for Select Funding Opportunities Allowable and Unallowable Costs PCORI Connect Quick Guide Research Awards Roles: Responsi"
+   ],
+   "lines_removed": [],
+   "detail": "+2 / -0 RFP-related passages since 2026-11-10"
+  },
+  {
+   "kind": "now_readable",
    "ids": [
     "pfizer-competitive-grants-program",
     "pfizer-atirmociclib-breast-cancer-rfp-2027"
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/competitive-grants",
-   "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 27 run(s) in a row."
+   "dates": [
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-13",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-11-02",
+    "2026-11-17",
+    "2026-11-25",
+    "2026-12-18",
+    "2026-12-21",
+    "2027-01-04",
+    "2027-01-12",
+    "2027-01-14",
+    "2027-01-18",
+    "2027-01-28"
+   ],
+   "detail": "readable again after 27 failed run(s); 17 dates on the page, no baseline to compare."
   },
   {
-   "kind": "blocked",
+   "kind": "now_readable",
    "ids": [
     "pfizer-investigator-sponsored-research"
    ],
    "url": "https://www.pfizer.com/about/programs-policies/grants/investigator-sponsored-research",
-   "http": 403,
-   "detail": "blocked (403); a model must read this page. Failed 25 run(s) in a row."
+   "dates": [],
+   "detail": "readable again after 25 failed run(s); 0 dates on the page, no baseline to compare."
   }
  ]
 }

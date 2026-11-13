@@ -36,8 +36,11 @@ Priority order:
    round-2 dates (LOI 2026-11-04, application 2026-11-18) are confirmed on the CDMRP page
    and Grants.gov. Check `cdmrp.health.mil/funding/bcrp` and Grants.gov.
 5. **CPRIT** every run at `cprit.texas.gov/funding-opportunities`. FY27 Cycle 2
-   academic-research RFAs accept applications 2026-09-16 to 2026-11-18 in the new grants
-   management platform; recruitment RFAs close monthly on the 20th (next 2026-10-20). No
+   academic-research RFAs accept applications 2026-09-16 to 2026-12-08 in the new grants
+   management platform: the listing was revised 2026-11-12 to extend the window from
+   2026-11-18, and the 9/16/26 RFA PDFs still print the old date, so read the listing or the
+   platform's opportunity page, not the PDF alone. Recruitment RFAs close monthly on the 20th
+   (next 2026-11-20). No
    IIRA cycle is posted; the FY2028 IIRA cycle is expected around January 2027 with an April
    deadline.
 
